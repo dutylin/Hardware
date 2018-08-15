@@ -13,3 +13,4 @@ foo.txt
 *.SchDocPreview
 History/
 .DS_Store
+*.DS_Store
