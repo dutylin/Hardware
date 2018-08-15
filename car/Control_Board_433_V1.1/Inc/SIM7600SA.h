@@ -87,6 +87,7 @@ void SIMCOM_Register_Network(void);
 unsigned char Get_Network_Thres(void);
 void Set_Network_status(void);
 void  Server_IP_Config(unsigned char * pbuff);
+void Net_Status_Change(unsigned status_tmp);
 
 
 

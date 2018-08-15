@@ -28,7 +28,7 @@ unsigned char server_command_flag=0;
 
 unsigned char LTE_TX_Buff[buffer_size];
 uint32_t Wr_address=0;
-
+uint32_t heart_beate_cnt;
 extern Uart_Types_2 UsartType2;
 extern Uart_Types_2 UsartType3;
 extern Uart_Types UsartType5;
@@ -190,9 +190,9 @@ unsigned char GetServer_Info_Poll()//服务器下发指令
 				dev_info.gps_time_interval=UsartType5.usartDMA_rxBuf[UsartType5.real_index+HEAD_INDEX_LENGTH+PAYLOAD_LENGTH+CPU_ID_LENGTH+1];
 				//memcpy(&dev_info.rf_dev_sn,&UsartType5.usartDMA_rxBuf[UsartType5.real_index+HEAD_INDEX_LENGTH+PAYLOAD_LENGTH],CPU_ID_LENGTH);
 				//dev_info.rf_time_interval=UsartType5.usartDMA_rxBuf[UsartType5.real_index++HEAD_INDEX_LENGTH+PAYLOAD_LENGTH+CPU_ID_LENGTH+1];
-
+				server_command_flag=1;
 			}
-			else  //query
+			else if(dev_info.function_status==0x10) //query
 			{
 				server_command_flag=2;
 			}
@@ -556,7 +556,6 @@ void LTE_TX_Heart()
 	memcpy(pbuff,device_com_up1.dev_sn,12);
 	memcpy(&pbuff[12],heart,sizeof(heart));
 	Send_Comm(pbuff,20);
-
 }
 
 unsigned char LTE_Heart()
@@ -602,6 +601,49 @@ void PWR_On_Off()
 		}
 
 	}
+}
+
+unsigned char server_command_process()
+{
+    unsigned char res;
+	res=0;
+	if(server_command_flag==1)//get gps position
+	{	
+	  heart_beate_cnt=0;	
+		server_command_flag=0;
+		if(dev_info.gps_time_interval!=0&&dev_info.gps_time_interval>=5)
+		{
+			 Sample_Time_Interval_Setting(GPS_INTERVAL_INDEX,dev_info.gps_time_interval);
+	   		 if(Net_status_flag==SIMCOM_NET_OK)//networ ok
+	    	{
+				if(SIMCOM_Get_QuitTransparent_Staus(2000)==1) //enter into command mode
+		    	{
+					delay_ms(100);
+					Net_Status_Change(SIMCOM_NetOpen_READY);//establish new tcp link
+					res=1;	
+				}
+			}
+		}
+	}
+	else if(server_command_flag==2)
+	{
+		//if(heart_beate_cnt>0)
+			heart_beate_cnt=0;
+		    server_command_flag=0;
+	}
+	else if(server_command_flag==0)
+	{
+		heart_beate_cnt=heart_beate_cnt+1;
+	}
+
+	if(heart_beate_cnt>=20000)//heart beate timeout
+	{
+		Net_Status_Change(SIMCOM_NetOpen_READY);
+        heart_beate_cnt=0;
+	}
+		
+	
+	return res;
 }
 //system run
 void Modue_Run_Process()

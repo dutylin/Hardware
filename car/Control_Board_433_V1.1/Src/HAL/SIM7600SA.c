@@ -625,6 +625,90 @@ void SIMCOM_ReConnect()
 	}
 
 }
+void Net_Status_Change(unsigned status_tmp)
+{
+	switch(status_tmp)
+		{
+		case SIMCOM_NET_NOT:
+		{
+			//if(SIMCOM_Get_InitReady_Staus(1000)==1)
+				NET_STAUS=SIMCOM_NET_NOT;
+		}
+		break;
+		case SIMCOM_READY_YES:
+		{
+			//if( SIMCOM_Get_Echo_Staus(500)==1)
+				NET_STAUS=SIMCOM_READY_YES;
+		}
+		break;
+		case SIMCOM_Echo_OFF:
+		{
+			//if(SIMCOM_Get_NormalMode_Staus(500)==1)
+				NET_STAUS=SIMCOM_Echo_OFF;
+		}
+		break;
+		case SIMCOM_NORMAL_MODE:
+		{
+			//if(SIMCOM_Get_SimCard_Staus(500)==1)
+				NET_STAUS=SIMCOM_NORMAL_MODE;
+		}
+		break;
+	
+		case SIMCOM_SIMCARD_READY:
+		{
+			//if(SIMCOM_Get_Network_Intensity_Staus(500)==1)
+				NET_STAUS=SIMCOM_SIMCARD_READY;
+		}
+		break;
+		case SIMCOM_Network_Intensity_READY:
+		{
+			//if(SIMCOM_Get_GPRS_Register_Staus(200)==1)
+				NET_STAUS=SIMCOM_Network_Intensity_READY;
+		}
+		break;
+		case SIMCOM_GPRS_READY:
+		{
+			//if(SIMCOM_Get_StartGPS_Register_Staus(200)==1)
+				NET_STAUS=SIMCOM_GPRS_READY;
+		}
+		break;
+		case SIMCOM_START_GPS:
+		{
+			//if(SIMCOM_Get_Transparent_Staus(200)==1)
+				NET_STAUS=SIMCOM_START_GPS;
+		}
+		break;
+		case SIMCOM_TRANSPERENT_MODE:
+		{
+			//if(SIMCOM_Get_NetOpen_Staus(200)==1)
+				NET_STAUS=SIMCOM_TRANSPERENT_MODE;
+		}
+		break;
+		case SIMCOM_NetOpen_READY:
+		{
+			//if(SIMCOM_Get_EstablishTCP_Staus(500)==1)
+				NET_STAUS=SIMCOM_NetOpen_READY;
+		}
+		break;
+		case SIMCOM_NET_OK:
+		{
+			//if(SIMCOM_Get_TCP_Staus(40)==1)
+				NET_STAUS=SIMCOM_NET_OK;
+		}
+		break;
+		case SIMCOM_NET_ERROR:
+		{
+			//LET_reset();					//复位重启
+			NET_STAUS=SIMCOM_NET_ERROR;		//状态机复位
+		}
+		break;
+		}
+
+
+
+	
+
+}
 void SIMCOM_Register_Network()
 {
 	SIMCOM_ReConnect();
