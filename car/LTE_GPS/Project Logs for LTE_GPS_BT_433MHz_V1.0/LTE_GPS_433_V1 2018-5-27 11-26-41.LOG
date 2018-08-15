@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=PWR_KEY Pin=C68-1
+Removed Pin From Net: NetName=NetD2_K Pin=D2-K
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=R7-1
+Removed Pin From Net: NetName=PWR_KEY Pin=S1-1
+Removed Pin From Net: NetName=PWR_KEY Pin=S1-1
+Added Component: Designator=U4(SOT23-5(DBV))
+Added Component: Designator=U11(SOT23-5(DBV))
+Added Pin To Net: NetName=NetC68_1 Pin=C68-1
+Added Pin To Net: NetName=PWR_KEY Pin=C68-1
+Added Pin To Net: NetName=GND Pin=C68-2
+Added Pin To Net: NetName=GND Pin=D2-A
+Added Pin To Net: NetName=NetC161_2 Pin=D2-K
+Added Pin To Net: NetName=NetD2_K Pin=D2-K
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R7-1
+Added Pin To Net: NetName=NetQ6_1 Pin=R7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R7-1
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=PWR_KEY Pin=R7-2
+Added Pin To Net: NetName=VCC_5V Pin=R7-2
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R7-2
+Added Pin To Net: NetName=NetC61_2 Pin=S1-1
+Added Pin To Net: NetName=NetC61_2 Pin=S1-1
+Added Pin To Net: NetName=PWR_KEY Pin=S1-1
+Added Pin To Net: NetName=PWR_KEY Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=VCC_5V Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=NetR25_1 Pin=U4-3
+Added Pin To Net: NetName=NetC40_2 Pin=U4-5
+Added Pin To Net: NetName=VCC_5V Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=NetR25_1 Pin=U11-3
+Added Pin To Net: NetName=NetC44_2 Pin=U11-5
+Added Member To Class: ClassName=LTE Member=Component U4 XC6204-30
+Added Member To Class: ClassName=LTE Member=Component U11 XC6204-30

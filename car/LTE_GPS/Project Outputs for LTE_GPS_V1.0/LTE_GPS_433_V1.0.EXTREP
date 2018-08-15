@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: LTE_GPS_433_V1.0.GBR   2018/6/2  19:37:51
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer                               
+.GP1                GND                                     
+.G1                 POWER                                   
+.GBL                Bottom Layer                            
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
+------------------------------------------------------------------------------------------

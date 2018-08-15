@@ -1,0 +1,4 @@
+Added Component: Designator=R118(0603R)
+Added Pin To Net: NetName=NetQ1_2 Pin=R118-1
+Added Pin To Net: NetName=NetR118_2 Pin=R118-2
+Added Member To Class: ClassName=POWER_IN Member=Component R118 0

@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: LTE_GPS_433_V1.1.PcbDoc   2018/6/24  11:06:46
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LTE_GPS_433_V1.TXT
+EIA File   : LTE_GPS_433_V1.1.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          304              50.17 Inch (1274.21 mm)
+T2        12.99mil (0.32995mm)     Round          8                0.75 Inch (19.08 mm)
+T3        19.68mil (0.49987mm)     Round          2                0.20 Inch (5.20 mm)
+T4        20mil (0.508mm)          Round          109              21.85 Inch (554.92 mm)
+T5        25mil (0.635mm)          Round          25               8.59 Inch (218.31 mm)
+T6        30mil (0.762mm)          Round          19               7.09 Inch (180.12 mm)
+T7        35.43mil (0.89992mm)     Round          8                2.65 Inch (67.24 mm)
+T8        39.37mil (1mm)           Round          3                1.37 Inch (34.79 mm)
+T9        47.24mil (1.1999mm)      Round          12               2.82 Inch (71.53 mm)
+T10       51.18mil (1.29997mm)     Round          2                0.30 Inch (7.62 mm)
+T11       86.61mil (2.19989mm)     Round          4                9.65 Inch (245.00 mm)
+T12       19.68mil (0.49987mm)     Round          2         NPTH   0.16 Inch (4.00 mm)
+---------------------------------------------------------------------------
+Totals                                            498              105.59 Inch (2682.00 mm)
+
+Two holes at same point : 1
+-----------------------
+2317,578
+
+Total Processing Time (hh:mm:ss) : 00:00:00

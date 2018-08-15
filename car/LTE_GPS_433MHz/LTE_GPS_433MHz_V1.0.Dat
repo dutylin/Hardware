@@ -1,0 +1,130 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LTE_GPS_433MHz_V1.0.PrjPCB|ReportField=ProjectFullPath~D:\projects\prj\18\车载定位\PCB\LTE_GPS_433MHz\LTE_GPS_433MHz_V1.0.PrjPCB|ReportField=Title~Bill of Materials For Project [LTE_GPS_433MHz_V1.0.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~255|ReportField=ReportTime~16:23:05|ReportField=ReportDate~2018/6/2|ReportField=ReportDateTime~2018/6/2 16:23:05|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/6/2|ReportField=CurrentTime~16:22:33|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\projects\prj\18\车载定位\PCB\LTE_GPS_433MHz\TOP.SchDoc|ReportField=DocumentName~TOP.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/6/2|ReportField=Organization~|ReportField=ProjectName~LTE_GPS_433MHz_V1.0.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~LTE_GPS_433MHz_V1.0.PrjPCB|ReportField=DataSourceFullPath~D:\projects\prj\18\车载定位\PCB\LTE_GPS_433MHz\LTE_GPS_433MHz_V1.0.PrjPCB
+TEST_P|TEST_P|1.8V, 3.3V, 3.8V|TP_High PWR|TEST_P|3
+IPX|MCU|4G, 433MHz, GPS B|ECT8180001581|IPX|3
+LED0|Typical INFRARED GaAs LED|4G LED, 433, BACK, GPS, PWR|LED_DIP_3mm|LED0|5
+LED0|Typical INFRARED GaAs LED|ACPR, CHG, IRQ|0603LED|LED0|3
+Header 2|Header, 2-Pin|Adapter|KF7.62-2P|Header 2|1
+0.1uF/50V|C, Capacitor|C1, C32, C37, C64, C65, C66, C67, C68|0603C|C, Cap|8
+0.1uF/6.3V|C, Capacitor|C10, C38, C42, C51, C52, C53, C54, C55, C56, C62, C161|0603C|C, Cap|11
+100uF/10V|Polarized Capacitor (Axial), Polarized Capacitor (Radial)|C22, C25, C30, C31, C34, C39, C40, C41, C61, C69, C76, C77, C78|1210E|Cap Pol1, Cap Pol2|13
+22uF/10V|Capacitor (Semiconductor SIM Model)|C23|0805C|Cap Semi|1
+100nF/10V|Capacitor (Semiconductor SIM Model)|C24|0603C|Cap Semi|1
+1uF/50V|Capacitor|C26|0603C|Cap|1
+22pF/6.3V|Capacitor|C27, C28, C29|0603C|Cap|3
+10pF|Capacitor|C33|0603C|Cap|1
+33pF|Capacitor|C35, C36|0603C|Cap|2
+1uF||C43|0603C|C|1
+10uF|C|C44, C162|0603C|C|2
+1uF||C45|0402C|C|1
+9.1pF/50V|Capacitor SMD|C46, C97, C98, C99|0402C|Cap|4
+103|Capacitor|C47|0603C|Cap|1
+105|Capacitor|C48|0603C|Cap|1
+2.2uF/6.3V|Capacitor|C49, C50|0603C|Cap|2
+10uF/6.3V|Capacitor|C57|0805C|Cap|1
+10pF/6.3V|Capacitor|C58, C60|0603C|Cap|2
+1uF/6.3V|Capacitor|C59|0603C|Cap|1
+1000pF/100V|C|C63|1206C|C|1
+47pF/16V|Capacitor|C70|0603C|CAP|1
+4700pF/16V|Capacitor|C71|0603C|CAP|1
+68uF/16V|C|C75|1206C|C|1
+1uF/16V|C|C79, C86|0603C|C|2
+33pF/16V|C|C80, C84|0603C|C|2
+680F/16V|C|C81|0603C|C|1
+10pF/16V|C|C82, C88|0603C|C|2
+680pF/16V|C|C87|0603C|C|1
+0.1uF|C, Capacitor|C89, C90, C91, C160|0603C|C, CAP|4
+100pF/50V|Capacitor (Semiconductor SIM Model)|C92|0603C|Cap Semi|1
+100uF/50V|Polarized Capacitor (Radial)|C93|2220C|Cap Pol1|1
+33pF/50V|Capacitor (Semiconductor SIM Model)|C94|0603C|Cap Semi|1
+150pF/50V|Capacitor SMD|C95, C96, C101, C103|0402C|Cap|4
+8.2pF/50V|Capacitor SMD|C100|0402C|Cap|1
+2.2pF/50V|Capacitor SMD|C102|0402C|Cap|1
+3.9pF/50V|Capacitor SMD|C104|0402C|Cap|1
+22uF/16V|C|C105|0805C|C|1
+0.47uF/16V|C|C106|0603C|C|1
+0.1uF/16V|C|C107|0603C|C|1
+TP||CE, FLASH_SCLK, FLASH_SDO, S_RX, S_TX|TPD|TP|5
+SMAJ5.0CA|Default Diode|D1|SMA|Diode|1
+MMSZ5231BT1G|Zener Diode|D2, D12|SOD123|D Zener|2
+TPSMB43A|Schottky Diode|D3|SMB|DIODE S|1
+ESD9M5.0S-DTVS105||D4, D5, D10|SOD923|ESD9M5.0S-DTVS105|3
+ESD9L5|Zener Diode|D6, D7|SOD923|D Zener|2
+RB751V40T1|Default Diode|D8|SOD323|Diode|1
+MBRA340T3G|Schottky Diode|D9, D11|SMa|DIODE S|2
+ESD9B3.3ST5G||D13, D14, D15|SOD923|ESD9M5.0S-DTVS105|3
+3A|Fuse|F1|1812-F|Fuse 1|1
+1A|Fuse|F2|0805R|Fuse 1|1
+|L|FB1|0603R|L_4|1
+GZ2012D800TF||FB5|0805CZ|FB|1
+SMA/142-0711-821|SMA Straight Connector|gps a|SMA END LAUNCH JACK RECEPTACLE SHORT|SMA|1
+220nH/0402HPH-R22XJL|Inductor SMD|L5|0402R|Inductor|1
+51nH/0402HP-51NXJL|Inductor SMD|L6|0402R|Inductor|1
+5.6nH|Inductor|L8|INDC1005AL|Inductor|1
+SRP5030TA-5R6M||L9|SRP5030T|INDUCTOR|1
+IHLP1212BZER2R2M11|Inductor|L10, L11|IHLP-1212BZ|Inductor|2
+30nH/0402HP-30NXJL|Inductor SMD|L12|0402R|Inductor|1
+27nH/0402HP-27NXJL|Inductor SMD|L13|0402R|Inductor|1
+15nH/0402HP-15NXJL|Inductor SMD|L14|0402R|Inductor|1
+22nH/0402HP-22NXJL|Inductor SMD|L15|0402R|Inductor|1
+56nH/0402HP-56NXJL|Inductor SMD|L16|0402R|Inductor|1
+CDRH6D28-150NC|Inductor|L17|CDRH6D23|Inductor|1
+MHDR1X4|Header, 4-Pin|P1, P3|HDR1X4|MHDR1X4|2
+Header 10|Header, 10-Pin|P2|10*2.54MMW|Header 10|1
+FDS9933||Q1|FDS9933|FDS4935|1
+ZXM61P03FTA|ZXM61P03F|Q2, Q5, Q7|SOT23-3|MOSFET-P|3
+Si7370DP||Q3|PowerPAK SO-8|BSC070N1ONS3|1
+20K/1%|Resistor|R1, R7|0603R|Res2|2
+10R/5%|Resistor|R2, R16, R19, R21|0603R|Res2|4
+4.7K|Resistor|R3, R34|0603R|Res2|2
+10K|R, Resistor|R4, R6, R24, R25, R28, R30, R31, R32, R33, R54, R67, R68, R77, R78, R79|0603R|R, Res2|15
+100K/1%|Resistor|R5|0603R|Res2|1
+22R|Resistor|R8, R9, R10, R11|0603R|Res2|4
+30K/1%|Resistor|R12|0603R|Res2|1
+158K/1%|R, Resistor|R13, R27, R66|0603R|R, Res2|3
+1K|Resistor|R14, R15, R29, R35, R36, R37, R38, R39, R70, R73, R74|0603R|Res2|11
+22|Resistor SMD - IEC symbol version|R17, R18|0603R|Resistor|2
+0|R, Resistor|R20, R22, R23, R118|0603R|R, Res2|4
+100K|R, Resistor|R26, R40, R41, R53, R151|0603R|R, Res1|5
+31.6K/1%|R|R42|0603R|R|1
+50K|R|R43|0603R|R|1
+365K|R|R44|0603R|R|1
+88.7K|R|R45|0603R|R|1
+243K/1%|R|R46|0603R|R|1
+16.9K/1%|R|R47|0603R|R|1
+10K/NC|R|R48, R56|0603R|R|2
+665K/1%|R|R49|0603R|R|1
+10K/1%|R|R50, R55, R62, R63|0603R|R|4
+1M|R|R51, R59, R60, R69|0603R|R|4
+100|Resistor|R52|0603R|Res2|1
+90.9K/1%|R|R57, R65|0603R|R|2
+124K/1%|R|R58|0603R|R|1
+715K/1%|R|R61|0603R|R|1
+10.2K/1%|R|R64|0603R|R|1
+0.082/1/4W|Resistor|R71|2010R|Res2|1
+4.7/1%|Resistor|R72|0603R|Res2|1
+19.6K|Resistor|R75|0603R|Res2|1
+22/1/4W|R|R185|1206R|R|1
+SW-PB|Switch|S1|KEY_SMT_4*4|SW-PB|1
+SBatery||SB|MS621FE|SBatery|1
+nano sim||SIM1|Nano SIM|nano sim|1
+MAX3232ESE+||U1|SOIC127P600X265-16N|MAX3232ESE+|1
+SMF05C||U2|SC70-6L|SMF05C|1
+NUF2042XV6T1||U3|SOT563-6|NUF2042XV6T1|1
+SIM7600CE||U5|SIM7600CE|SIM7600CE|1
+TPS54540DDA||U6|SOP127P600X168_HS-8N|LM22676MR-5.0|1
+BGU7005||U9|BGU7005|BGU7005|1
+SAFEA1G58KA0F00R15||U10|SAFEA1G58KA0F00R15|SAFEA1G58KA0F00R15|1
+XC6204-30||U11|SOT23-5(DBV)|XC6204|1
+M25P32-VMW6||U12|SOIC127P790X216-8N|M25P16-VMN6TPBA|1
+STM32F427VIT6||U13|LQFQ100-stm32f103v|STM32F407VGT6|1
+LTC3113IDHD#PBF||U16, U17|QFN50P400X500X80-16N|LTC3113IDHD#PBF|2
+UPG2214TB|PE4259 Peregrine RF Switch|U19|SC70-6|PE4259 RF Switch|1
+Si4463-C2A-GM||U20|QFN50P400X400X80-20N|Si4463|1
+LTC1732-4.2||U21|MSOP-10|LTC1732-4.2|1
+STM32F042F6P6||U22|SOP65P640X265-20N|STM32F042F6P6|1
+LTC4412ES6||U30|TSOT-23|LTC4412|1
+Header 5|Header, 5-Pin|USB|USB-MICRO-5P-2|Header 5|1
+DTC143ZEBTL|NPN Transistor|V1, V2, V3, V4|SOT23-3|NPN|4
+Header 2|Header, 2-Pin|VBAT|2X2.54MM|Header 2|1
+25MHz||Y3|OSCILLATOR-3.2X2.5|XTAL3|1
+TZ1430A||Y4|OSCILLATOR-2.5X2.0|XTAL3|1

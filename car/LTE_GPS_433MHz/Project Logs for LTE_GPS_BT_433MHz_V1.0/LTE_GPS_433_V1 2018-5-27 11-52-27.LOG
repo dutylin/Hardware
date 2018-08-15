@@ -1,0 +1,13 @@
+Added Component: Designator=D1(SMA)
+Added Component: Designator=D4(SMA)
+Added Component: Designator=D5(SMA)
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=VCC_LTE_3.8V Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=LTE_PWR Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D5-1
+Added Pin To Net: NetName=LTE_RST Pin=D5-2
+Added Member To Class: ClassName=LTE Member=Component D1 SMAJ5.0CA
+Added Member To Class: ClassName=LTE Member=Component D4 ESD9M5.0S-DTVS105
+Added Member To Class: ClassName=LTE Member=Component D5 ESD9M5.0S-DTVS105
+Added Member To Class: ClassName=MCU Member=Component T10 TEST_P

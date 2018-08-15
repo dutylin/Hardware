@@ -1,0 +1,151 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: z Microsoft, Microsoft, LIC=W9630-B7R1X-TJL6H-WDMHV-7IGFR-7F5XF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+D:\projects\prj\18\Car Position\code\Hardware\RF_433MHz\cc1121\MDK-ARM\RF_0913_F042F6P6_ID.uvprojx
+Project File Date:  06/29/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'RF_0913_F042F6P6'
+compiling xz_cc1121_init.c...
+..\Src\xz_cc1121_init.c(186): error:  #20: identifier "GPIO_Pin_2" is undefined
+    CC1121_RST_OUT_LOW();
+..\Src\xz_cc1121_init.c(186): warning:  #188-D: enumerated type mixed with another type
+    CC1121_RST_OUT_LOW();
+..\Src\xz_cc1121_init.c(187): warning:  #223-D: function "delay_nms" declared implicitly
+    delay_nms(5);
+..\Src\xz_cc1121_init.c(188): warning:  #188-D: enumerated type mixed with another type
+    CC1121_RST_OUT_HIGH();
+..\Src\xz_cc1121_init.c(199): warning:  #223-D: function "delay_nms" declared implicitly
+     delay_nms(1);
+..\Src\xz_cc1121_init.c(226): warning:  #223-D: function "delay_nms" declared implicitly
+    delay_nms(2);
+..\Src\xz_cc1121_init.c(231): warning:  #223-D: function "asm" declared implicitly
+    asm("nop");
+..\Src\xz_cc1121_init.c(288): warning:  #223-D: function "delay_nms" declared implicitly
+     delay_nms(1);
+..\Src\xz_cc1121_init.c(307): warning:  #223-D: function "asm" declared implicitly
+    asm("nop"); 
+..\Src\xz_cc1121_init.c(320): warning:  #223-D: function "memset" declared implicitly
+      memset(RF_RECEIVE_DATA.rf_receive_data_buff,0,sizeof(RF_RECEIVE_DATA.rf_receive_data_buff));
+..\Src\xz_cc1121_init.c(337): warning:  #223-D: function "asm" declared implicitly
+        asm("nop");
+..\Src\xz_cc1121_init.c: 10 warnings, 1 error
+compiling xz_spi.c...
+..\Src\xz_spi.c(36): error:  #20: identifier "uint8" is undefined
+   uint8 UTIL_SPI_3W_ReadWriteUint8(uint8 data)   //移位顺序为高BIT最先移出
+..\Src\xz_spi.c(36): error:  #20: identifier "uint8" is undefined
+   uint8 UTIL_SPI_3W_ReadWriteUint8(uint8 data)   //移位顺序为高BIT最先移出
+..\Src\xz_spi.c(38): error:  #20: identifier "uint8_least" is undefined
+    uint8_least i;  //这是使用uint8_least,作用是在不同的平台下，以最快的变量类型进行循环运算
+..\Src\xz_spi.c(39): error:  #20: identifier "uint8" is undefined
+    uint8 temp;
+..\Src\xz_spi.c(51): error:  #20: identifier "GPIO_Pin_7" is undefined
+        UTIL_SPI_MOSI_HIGH();             
+..\Src\xz_spi.c(55): error:  #20: identifier "GPIO_Pin_7" is undefined
+        UTIL_SPI_MOSI_LOW();           
+..\Src\xz_spi.c(61): warning:  #223-D: function "asm" declared implicitly
+      UTIL_SPI_SCLK_DELAY() ;
+..\Src\xz_spi.c(69): error:  #20: identifier "GPIO_Pin_5" is undefined
+      UTIL_SPI_SCLK_ACTIVE();                       
+..\Src\xz_spi.c(70): error:  #20: identifier "GPIO_Pin_6" is undefined
+      if(UTIL_SPI_MISO_READ()) 
+..\Src\xz_spi.c(79): warning:  #223-D: function "asm" declared implicitly
+      UTIL_SPI_SCLK_DELAY() ;                
+..\Src\xz_spi.c(254): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_3W_WriteNByte(const uint8 *data,uint8 size)
+..\Src\xz_spi.c(254): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_3W_WriteNByte(const uint8 *data,uint8 size)
+..\Src\xz_spi.c(256): error:  #20: identifier "uint8_least" is undefined
+     for(uint8_least i=0;i<size;i++)
+..\Src\xz_spi.c(271): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_3W_ReadNByte(uint8 *data,uint8 size)
+..\Src\xz_spi.c(271): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_3W_ReadNByte(uint8 *data,uint8 size)
+..\Src\xz_spi.c(273): error:  #20: identifier "uint8_least" is undefined
+     for(uint8_least i=0;i<size;i++)
+..\Src\xz_spi.c(293): error:  #20: identifier "GPIO_Pin_4" is undefined
+    UTIL_SPI_CS_LOW();  
+..\Src\xz_spi.c(309): error:  #20: identifier "GPIO_Pin_4" is undefined
+    UTIL_SPI_CS_HIGH();
+..\Src\xz_spi.c(323): error:  #20: identifier "uint8" is undefined
+   uint8 UTIL_SPI_4W_ReadWriteUint8(uint8 data)
+..\Src\xz_spi.c(323): error:  #20: identifier "uint8" is undefined
+   uint8 UTIL_SPI_4W_ReadWriteUint8(uint8 data)
+..\Src\xz_spi.c(325): error:  #20: identifier "uint8" is undefined
+    uint8 temp;
+..\Src\xz_spi.c(349): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_4W_WriteNByte(const uint8 *data,uint8 size)
+..\Src\xz_spi.c(349): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_4W_WriteNByte(const uint8 *data,uint8 size)
+..\Src\xz_spi.c(351): error:  #20: identifier "uint8_least" is undefined
+     for(uint8_least i=0;i<size;i++)
+..\Src\xz_spi.c(366): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_4W_ReadNByte(uint8 *data,uint8 size)
+..\Src\xz_spi.c(366): error:  #20: identifier "uint8" is undefined
+   void UTIL_SPI_4W_ReadNByte(uint8 *data,uint8 size)
+..\Src\xz_spi.c(368): error:  #20: identifier "uint8_least" is undefined
+     for(uint8_least i=0;i<size;i++)
+..\Src\xz_spi.c(384): error:  #20: identifier "GPIO_Pin_5" is undefined
+    UTIL_SPI_SCLK_INACTIVE();
+..\Src\xz_spi.c(404): error:  #20: identifier "GPIO_Pin_4" is undefined
+    GPIO_InitStruct.Pin =  RF_SPI_NSS|RF_SPI_SCK|RF_SPI_MOSI;
+..\Src\xz_spi.c(404): error:  #20: identifier "GPIO_Pin_5" is undefined
+    GPIO_InitStruct.Pin =  RF_SPI_NSS|RF_SPI_SCK|RF_SPI_MOSI;
+..\Src\xz_spi.c(404): error:  #20: identifier "GPIO_Pin_7" is undefined
+    GPIO_InitStruct.Pin =  RF_SPI_NSS|RF_SPI_SCK|RF_SPI_MOSI;
+..\Src\xz_spi.c(409): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(GPIOA,RF_SPI_NSS|RF_SPI_MOSI,SET); 
+..\Src\xz_spi.c(410): warning:  #188-D: enumerated type mixed with another type
+    HAL_GPIO_WritePin(GPIOA,RF_SPI_SCK,RESET);  
+..\Src\xz_spi.c(414): error:  #20: identifier "GPIO_InitStructure" is undefined
+    GPIO_InitStructure.GPIO_Pin = RF_SPI_MISO;
+..\Src\xz_spi.c: 4 warnings, 30 errors
+".\RF_0913_F042F6P6\RF_0913_F042F6P6.axf" - 31 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.1.4.0.pack
+                Keil.STM32F0xx_DFP.1.4.0
+                STMicroelectronics STM32F0 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_RF_0913_F042F6P6
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

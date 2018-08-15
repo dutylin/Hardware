@@ -1,0 +1,7 @@
+Added Component: Designator=FLASH_SCLK(tpd)
+Added Component: Designator=R7(0603R)
+Added Pin To Net: NetName=FLASH_SCLK Pin=FLASH_SCLK-1
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=GAS_SENSE Pin=R7-2
+Added Member To Class: ClassName=MCU Member=Component FLASH_SCLK TP
+Added Member To Class: ClassName=Interface Member=Component R7 20K/1%

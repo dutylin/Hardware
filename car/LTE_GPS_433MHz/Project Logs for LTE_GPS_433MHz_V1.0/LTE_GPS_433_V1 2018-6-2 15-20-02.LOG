@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=DQ Pin=D5-2
+Removed Member From Class: ClassName=LTE Member=4G LED
+Removed Member From Class: ClassName=RF_433MHz Member=433
+Removed Member From Class: ClassName=RF_433MHz Member=433
+Added Pin To Net: NetName=GND Pin=D5-1
+Added Pin To Net: NetName=DQ Pin=D5-2
+Added Pin To Net: NetName=LTE_RST Pin=D5-2
+Added Member To Class: ClassName=LTE Member=Component 4G IPX
+Added Member To Class: ClassName=RF_433MHz Member=Component 433MHz IPX

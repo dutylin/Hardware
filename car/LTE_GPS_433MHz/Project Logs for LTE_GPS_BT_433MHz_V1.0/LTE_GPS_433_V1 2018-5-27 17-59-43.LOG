@@ -1,0 +1,253 @@
+Removed Pin From Net: NetName=GND Pin=C69-1
+Removed Pin From Net: NetName=NetC69_2 Pin=C69-2
+Removed Pin From Net: NetName=GND Pin=C70-1
+Removed Pin From Net: NetName=NetC70_2 Pin=C70-2
+Removed Pin From Net: NetName=GND Pin=C71-1
+Removed Pin From Net: NetName=NetC71_2 Pin=C71-2
+Removed Pin From Net: NetName=NetC72_1 Pin=C72-1
+Removed Pin From Net: NetName=VCC_OUT Pin=C72-2
+Removed Pin From Net: NetName=VCC_OUT Pin=C73-1
+Removed Pin From Net: NetName=GND Pin=C73-2
+Removed Pin From Net: NetName=VCC_OUT Pin=C74-1
+Removed Pin From Net: NetName=GND Pin=C74-2
+Removed Pin From Net: NetName=NetC84_1 Pin=C85-1
+Removed Pin From Net: NetName=NetC308_1 Pin=C308-1
+Removed Pin From Net: NetName=NetC308_2 Pin=C308-2
+Removed Pin From Net: NetName=GND Pin=D9-1
+Removed Pin From Net: NetName=NetD9_2 Pin=D9-2
+Removed Pin From Net: NetName=NetD9_2 Pin=L9-1
+Removed Pin From Net: NetName=VCC_OUT Pin=L9-2
+Removed Pin From Net: NetName=NetC308_1 Pin=Q3-1
+Removed Pin From Net: NetName=NetC308_1 Pin=Q3-2
+Removed Pin From Net: NetName=NetC308_1 Pin=Q3-3
+Removed Pin From Net: NetName=NetD9_2 Pin=Q4-1
+Removed Pin From Net: NetName=NetD9_2 Pin=Q4-2
+Removed Pin From Net: NetName=NetD9_2 Pin=Q4-3
+Removed Pin From Net: NetName=NetQ4_4 Pin=Q4-4
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-5
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-5
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-5
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-6
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-7
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-8
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-8
+Removed Pin From Net: NetName=NetQ4_5 Pin=Q4-8
+Removed Pin From Net: NetName=NetC308_1 Pin=R42-1
+Removed Pin From Net: NetName=NetR42_2 Pin=R42-2
+Removed Pin From Net: NetName=NetC308_1 Pin=R44-1
+Removed Pin From Net: NetName=NetQ4_5 Pin=R44-2
+Removed Pin From Net: NetName=NetC70_2 Pin=R45-1
+Removed Pin From Net: NetName=NetC71_2 Pin=R45-2
+Removed Pin From Net: NetName=NetC72_1 Pin=R46-1
+Removed Pin From Net: NetName=VCC_OUT Pin=R46-2
+Removed Pin From Net: NetName=NetR47_1 Pin=R47-1
+Removed Pin From Net: NetName=VCC_OUT Pin=R47-2
+Removed Pin From Net: NetName=NetC72_1 Pin=R48-1
+Removed Pin From Net: NetName=GND Pin=R48-2
+Removed Pin From Net: NetName=NetR59_2 Pin=R64-1
+Removed Pin From Net: NetName=NetR68_1 Pin=U6-1
+Removed Pin From Net: NetName=NRST2 Pin=U6-4
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=U6-5
+Removed Pin From Net: NetName=RF_RST Pin=U6-8
+Removed Pin From Net: NetName=RF_IRQ Pin=U6-9
+Removed Pin From Net: NetName=SPI_NSS Pin=U6-10
+Removed Pin From Net: NetName=SPI_SCK Pin=U6-11
+Removed Pin From Net: NetName=SPI_MISO Pin=U6-12
+Removed Pin From Net: NetName=SPI_MOSI Pin=U6-13
+Removed Pin From Net: NetName=NetU6_14 Pin=U6-14
+Removed Pin From Net: NetName=GND Pin=U6-15
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=U6-16
+Removed Pin From Net: NetName=NetU6_17 Pin=U6-17
+Removed Pin From Net: NetName=NetU6_18 Pin=U6-18
+Removed Pin From Net: NetName=MCU_433_SWDIO Pin=U6-19
+Removed Pin From Net: NetName=MCU_433_SWCLK Pin=U6-20
+Removed Pin From Net: NetName=NetU6_14 Pin=U13-7
+Removed Pin From Net: NetName=NetU6_18 Pin=U13-80
+Removed Pin From Net: NetName=NetU6_17 Pin=U13-83
+Removed Pin From Net: NetName=GND Pin=U15-2
+Removed Pin From Net: NetName=GND Pin=U15-3
+Removed Pin From Net: NetName=NetC69_2 Pin=U15-4
+Removed Pin From Net: NetName=NetC72_1 Pin=U15-5
+Removed Pin From Net: NetName=NetC71_2 Pin=U15-6
+Removed Pin From Net: NetName=NetR47_1 Pin=U15-7
+Removed Pin From Net: NetName=NetR42_2 Pin=U15-8
+Removed Pin From Net: NetName=NetC308_2 Pin=U15-9
+Removed Pin From Net: NetName=NetQ4_5 Pin=U15-10
+Removed Pin From Net: NetName=NetC308_1 Pin=U15-11
+Removed Pin From Net: NetName=NetQ4_4 Pin=U15-12
+Removed Pin From Net: NetName=GND Pin=U15-13
+Removed Member From Class: ClassName=POWER_IN Member=C69
+Removed Member From Class: ClassName=POWER_IN Member=C69
+Removed Member From Class: ClassName=POWER_IN Member=C70
+Removed Member From Class: ClassName=POWER_IN Member=C70
+Removed Member From Class: ClassName=POWER_IN Member=C71
+Removed Member From Class: ClassName=POWER_IN Member=C71
+Removed Member From Class: ClassName=POWER_IN Member=C72
+Removed Member From Class: ClassName=POWER_IN Member=C72
+Removed Member From Class: ClassName=POWER_IN Member=C73
+Removed Member From Class: ClassName=POWER_IN Member=C73
+Removed Member From Class: ClassName=POWER_IN Member=C74
+Removed Member From Class: ClassName=POWER_IN Member=C74
+Removed Member From Class: ClassName=POWER_IN Member=C308
+Removed Member From Class: ClassName=POWER_IN Member=C308
+Removed Member From Class: ClassName=POWER_IN Member=D9
+Removed Member From Class: ClassName=POWER_IN Member=D9
+Removed Member From Class: ClassName=POWER_IN Member=D9
+Removed Member From Class: ClassName=POWER_IN Member=D9
+Removed Member From Class: ClassName=POWER_IN Member=L9
+Removed Member From Class: ClassName=POWER_IN Member=L9
+Removed Member From Class: ClassName=POWER_IN Member=L9
+Removed Member From Class: ClassName=POWER_IN Member=Q4
+Removed Member From Class: ClassName=POWER_IN Member=Q4
+Removed Member From Class: ClassName=POWER_IN Member=Q4
+Removed Member From Class: ClassName=POWER_IN Member=R42
+Removed Member From Class: ClassName=POWER_IN Member=R42
+Removed Member From Class: ClassName=POWER_IN Member=R44
+Removed Member From Class: ClassName=POWER_IN Member=R44
+Removed Member From Class: ClassName=POWER_IN Member=R45
+Removed Member From Class: ClassName=POWER_IN Member=R45
+Removed Member From Class: ClassName=POWER_IN Member=R46
+Removed Member From Class: ClassName=POWER_IN Member=R46
+Removed Member From Class: ClassName=POWER_IN Member=R47
+Removed Member From Class: ClassName=POWER_IN Member=R47
+Removed Member From Class: ClassName=POWER_IN Member=R48
+Removed Member From Class: ClassName=POWER_IN Member=R48
+Removed Member From Class: ClassName=POWER_IN Member=U15
+Removed Member From Class: ClassName=POWER_IN Member=U15
+Removed Member From Class: ClassName=POWER_IN Member=U15
+Change Component DesignItemId : Designator=U6 Old DesignItemId=STM32F042F6P6 New DesignItemId=LM22676MR-5.0
+Change Component Footprint: Designator=U6 Old Footprint=SOP65P640X265-20N New Footprint=SOP127P600X168_HS-8N
+Change Component Comment : Designator=R64 Old Comment=10K/NC New Comment=10.2K/1%
+Change Component Comment : Designator=U6 Old Comment=STM32F042F6P6 New Comment=TPS54540DDA
+Added Component: Designator=C?(0603C)
+Added Component: Designator=C?(0603C)
+Added Component: Designator=C?(2220C)
+Added Component: Designator=C?(0603C)
+Added Component: Designator=C?(1206c)
+Added Component: Designator=C?(0603C)
+Added Component: Designator=C?(0603C)
+Added Component: Designator=C?(2220C)
+Added Component: Designator=D?(SMa)
+Added Component: Designator=D?(SMa)
+Added Component: Designator=D?(SMa)
+Added Component: Designator=L?(SRP5030T)
+Added Component: Designator=LED1(0603LED)
+Added Component: Designator=R102(0603R)
+Added Component: Designator=R?(0603R)
+Added Component: Designator=R?(0603R)
+Added Component: Designator=R?(0603R)
+Added Component: Designator=R?(0603R)
+Added Component: Designator=R?(0603R)
+Added Component: Designator=R?(0603R)
+Added Component: Designator=U?(SOP65P640X265-20N)
+Added Component: Designator=U?(SOP127P600X168_HS-8N)
+Added Pin To Net: NetName=VCC_OUT Pin=C85-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=NetC70_2 Pin=C?-1
+Added Pin To Net: NetName=NetC71_2 Pin=C?-1
+Added Pin To Net: NetName=NetC72_1 Pin=C?-1
+Added Pin To Net: NetName=NetC84_1 Pin=C?-1
+Added Pin To Net: NetName=NetC308_1 Pin=C?-1
+Added Pin To Net: NetName=NetC308_2 Pin=C?-1
+Added Pin To Net: NetName=VCC_5V Pin=C?-1
+Added Pin To Net: NetName=VCC_OUT Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=NetD9_2 Pin=C?-2
+Added Pin To Net: NetName=NetQ4_4 Pin=C?-2
+Added Pin To Net: NetName=VCC_5V Pin=C?-2
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=NetC72_1 Pin=D?-2
+Added Pin To Net: NetName=NetC70_2 Pin=L?-1
+Added Pin To Net: NetName=NetC72_1 Pin=L?-1
+Added Pin To Net: NetName=VCC_5V Pin=L?-2
+Added Pin To Net: NetName=VCC_OUT Pin=L?-2
+Added Pin To Net: NetName=NetQ4_5 Pin=LED1-1
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=NetR42_2 Pin=Q3-1
+Added Pin To Net: NetName=NetR42_2 Pin=Q3-2
+Added Pin To Net: NetName=NetR42_2 Pin=Q3-3
+Added Pin To Net: NetName=NetR47_1 Pin=R64-1
+Added Pin To Net: NetName=NetQ4_5 Pin=R102-1
+Added Pin To Net: NetName=VCC_5V Pin=R102-2
+Added Pin To Net: NetName=NetC308_2 Pin=R?-1
+Added Pin To Net: NetName=NetR42_2 Pin=R?-1
+Added Pin To Net: NetName=NetR47_1 Pin=R?-1
+Added Pin To Net: NetName=NetR59_2 Pin=R?-1
+Added Pin To Net: NetName=NetU6_14 Pin=R?-1
+Added Pin To Net: NetName=NetU6_17 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetC308_1 Pin=R?-2
+Added Pin To Net: NetName=NetU6_17 Pin=R?-2
+Added Pin To Net: NetName=VCC_OUT Pin=R?-2
+Added Pin To Net: NetName=NetQ4_4 Pin=U6-1
+Added Pin To Net: NetName=NetR42_2 Pin=U6-2
+Added Pin To Net: NetName=NetU6_17 Pin=U6-3
+Added Pin To Net: NetName=NetU6_14 Pin=U6-4
+Added Pin To Net: NetName=NetR47_1 Pin=U6-5
+Added Pin To Net: NetName=NetC308_2 Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-7
+Added Pin To Net: NetName=NetC72_1 Pin=U6-8
+Added Pin To Net: NetName=GND Pin=U6-9
+Added Pin To Net: NetName=NetD9_2 Pin=U?-1
+Added Pin To Net: NetName=NetR68_1 Pin=U?-1
+Added Pin To Net: NetName=NRST2 Pin=U?-4
+Added Pin To Net: NetName=VCC_5V Pin=U?-4
+Added Pin To Net: NetName=NetU6_18 Pin=U?-5
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=NetC71_2 Pin=U?-7
+Added Pin To Net: NetName=NetC70_2 Pin=U?-8
+Added Pin To Net: NetName=RF_RST Pin=U?-8
+Added Pin To Net: NetName=GND Pin=U?-9
+Added Pin To Net: NetName=RF_IRQ Pin=U?-9
+Change Net Name : Old Net Name=NetC69_2 New Net Name=VCC_IN
+Change Net Name : Old Net Name=NetC70_2 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC71_2 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC72_1 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC308_1 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC308_2 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetQ4_4 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetQ4_5 New Net Name=NetLED1_1
+Change Net Name : Old Net Name=NetR42_2 New Net Name=NetQ3_1
+Change Net Name : Old Net Name=NetR47_1 New Net Name=NetR64_1
+Change Net Name : Old Net Name=NetU6_14 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetU6_17 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetU6_18 New Net Name=ENABLE
+Added Pin To Net: NetName=NetU13_7 Pin=U13-7
+Added Net: Name=NetU13_7
+Added Pin To Net: NetName=NetU13_80 Pin=U13-80
+Added Net: Name=NetU13_80
+Added Pin To Net: NetName=NetU13_83 Pin=U13-83
+Added Net: Name=NetU13_83
+Added Member To Class: ClassName=POWER_IN Member=Component C? 47pF/16V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 4700pF/16V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 100uF/16V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 0.1uF/50V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 47uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 47uF/100V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 0.1uF
+Added Member To Class: ClassName=POWER_IN Member=Component C? 0.01uF/50V
+Added Member To Class: ClassName=POWER_IN Member=Component C? 100uF/16V
+Added Member To Class: ClassName=POWER_IN Member=Component D? MBRA340T3G
+Added Member To Class: ClassName=POWER_IN Member=Component D? MBR360
+Added Member To Class: ClassName=POWER_IN Member=Component D? MBR360
+Added Member To Class: ClassName=POWER_IN Member=Component L? SRP5030TA-5R6M
+Added Member To Class: ClassName=POWER_IN Member=Component L? 22uH/3A/7*7MM
+Added Member To Class: ClassName=POWER_IN Member=Component LED1 5V
+Added Member To Class: ClassName=POWER_IN Member=Component R102 1K
+Added Member To Class: ClassName=POWER_IN Member=Component R? 16.9K/1%
+Added Member To Class: ClassName=POWER_IN Member=Component R? 31.6K/1%
+Added Member To Class: ClassName=POWER_IN Member=Component R? 243K/1%
+Added Member To Class: ClassName=POWER_IN Member=Component R? 88.7K
+Added Member To Class: ClassName=POWER_IN Member=Component R? 365K
+Added Member To Class: ClassName=POWER_IN Member=Component R? 10K/NC
+Added Member To Class: ClassName=POWER_IN Member=Component U6 TPS54540DDA
+Added Member To Class: ClassName=POWER_IN Member=Component U? LM22676MRE-5.0/NOPB

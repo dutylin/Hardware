@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=3G_ANT-1
+Removed Pin From Net: NetName=Net3G_ANT_2 Pin=3G_ANT-2
+Removed Pin From Net: NetName=Net3G_ANT_2 Pin=3G_ANT-2
+Change Component Footprint: Designator=D4 Old Footprint=SMA New Footprint=SOD923
+Change Component Footprint: Designator=D5 Old Footprint=SMA New Footprint=SOD923
+Added Pin To Net: NetName=Net3G_ANT_2 Pin=3G_ANT-1
+Added Pin To Net: NetName=GND Pin=3G_ANT-2
+Added Pin To Net: NetName=GND Pin=3G_ANT-2
+Change Net Name : Old Net Name=Net3G_ANT_2 New Net Name=Net3G_ANT_1

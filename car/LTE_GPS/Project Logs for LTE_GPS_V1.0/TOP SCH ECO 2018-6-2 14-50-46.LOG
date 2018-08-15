@@ -1,0 +1,15 @@
+Remove Pin=NET2-2 From Net=NETLIGHT
+Remove Pin=NET3-2 From Net=LED_PWR
+Remove Pin=NET4-2 From Net=LED_GPS
+Remove Pin=NET5-2 From Net=LED_433MHZ
+Remove Pin=NET6-2 From Net=LED_BACK
+Change Component Comment: Designator=R80 Old Comment=18/1% New Comment=56K/1%
+Change Component Comment: Designator=D5 Old Comment=ESD9B3.3ST5G New Comment=ESD9M5.0S-DTVS105
+Change Component Designator: OldDesignator=3G_ANT NewDesignator=GPS A
+Change Component Designator: OldDesignator=P5 NewDesignator=Adapter
+Change Component Designator: OldDesignator=P6 NewDesignator=VBAT
+Change Component Designator: OldDesignator=T1 NewDesignator=S_RX
+Change Component Designator: OldDesignator=T3 NewDesignator=S_TX
+Change Component Designator: OldDesignator=T4 NewDesignator=CE
+Change Component Designator: OldDesignator=U7 NewDesignator=4G 
+Change Component Designator: OldDesignator=U8 NewDesignator=GPS B

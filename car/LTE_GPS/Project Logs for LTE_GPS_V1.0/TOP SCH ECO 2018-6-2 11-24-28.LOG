@@ -1,0 +1,41 @@
+Remove Pin=U4-4 From Net=NRST2
+Remove Pin=U4-8 From Net=RF_RST
+Remove Pin=U4-10 From Net=SPI_NSS
+Remove Pin=U4-11 From Net=SPI_SCK
+Remove Pin=U4-12 From Net=SPI_MISO
+Remove Pin=U4-13 From Net=SPI_MOSI
+Remove Pin=U4-19 From Net=MCU_433_SWDIO
+Remove Pin=U4-20 From Net=MCU_433_SWCLK
+Remove Pin=U14-2 From Net=RF_RST
+Remove Pin=U14-7 From Net=SPI_MOSI
+Remove Pin=U14-8 From Net=SPI_SCK
+Remove Pin=U14-9 From Net=SPI_MISO
+Remove Pin=U14-10 From Net=RF_IRQ
+Remove Pin=U14-11 From Net=SPI_NSS
+Change Component Footprint: Designator=C24 Old Footprint=0402C New Footprint=0603C
+Change Component Footprint: Designator=C23 Old Footprint=0402C New Footprint=0805C
+Change Component Footprint: Designator=C34 Old Footprint=0402C New Footprint=1210E
+Change Component Footprint: Designator=C39 Old Footprint=0402C New Footprint=1210E
+Change Component Footprint: Designator=C40 Old Footprint=0402C New Footprint=1210E
+Change Component Footprint: Designator=C41 Old Footprint=0402C New Footprint=1210E
+Change Component Footprint: Designator=C61 Old Footprint=0402C New Footprint=1210E
+Change Component Footprint: Designator=U14 Old Footprint=QFN50P500X500X80-32N New Footprint=ECT8180001581
+Change Component Comment: Designator=C24 Old Comment=2.2pF/50V New Comment=100nF/10V
+Change Component Comment: Designator=C34 Old Comment=2.2pF/50V New Comment=100uF/10V
+Change Component Comment: Designator=C39 Old Comment=6.2pF/50V New Comment=100uF/10V
+Change Component Comment: Designator=L5 Old Comment=15nH/0402HP-15NXJL New Comment=220nH/0402HPH-R22XJL
+Change Component Comment: Designator=R12 Old Comment=20K/1% New Comment=30K/1%
+Change Component Comment: Designator=R13 Old Comment=30K/1% New Comment=158K/1%
+Change Component Comment: Designator=C23 Old Comment=39pF/50V New Comment=22uF/10V
+Change Component Comment: Designator=L6 Old Comment=43nH/0402HP-43NXJL New Comment=27nH/0402HP-27NXJL
+Change Component Comment: Designator=C46 Old Comment=47nF/50V New Comment=8.2pF/50V
+Change Component Comment: Designator=C40 Old Comment=47nF/50V New Comment=100uF/10V
+Change Component Comment: Designator=C41 Old Comment=47nF/50V New Comment=100uF/10V
+Change Component Comment: Designator=C61 Old Comment=47nF/50V New Comment=100uF/10V
+Change Component Comment: Designator=R79 Old Comment=56K/1% New Comment=10K
+Change Component Comment: Designator=L12 Old Comment=56nH/0402HPH-R56XJL New Comment=33nH/0402HP-33NXJL
+Change Component Comment: Designator=R7 Old Comment=158K/1% New Comment=20K/1%
+Change Component Comment: Designator=U14 Old Comment=CC1121RHB New Comment=IPX
+Change Pin Designator/Name:  Old Designator=C39-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C40-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C41-1 Old Name=1 New Designator =2 New Name=2

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [LTE_GPS_V1.0.PrjPCB]
+   Generated File[LTE_GPS_433_V1.TXT]
+   Generated File[LTE_GPS_433_V1.1.DRL]
+   Generated File[LTE_GPS_433_V1.1.LDP]
+   Generated File[LTE_GPS_433_V1.1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:06:46 On 2018/6/24

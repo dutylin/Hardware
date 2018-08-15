@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetC93_1 Pin=F1-2
+Removed Member From Class: ClassName=POWER_IN Member=F1
+Added Pin To Net: NetName=NetC93_1 Pin=Adapter-2
+Change Net Name : Old Net Name=NetC93_1 New Net Name=NetAdapter_2

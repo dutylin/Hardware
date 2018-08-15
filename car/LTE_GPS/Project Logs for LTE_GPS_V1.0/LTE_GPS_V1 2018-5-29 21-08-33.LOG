@@ -1,0 +1,15 @@
+Removed Member From Class: ClassName=Interface Member=F1
+Removed Member From Class: ClassName=POWER_IN Member=F2
+Added Component: Designator=R7(0603R)
+Added Component: Designator=R27(0603R)
+Added Pin To Net: NetName=NetC108_1 Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=BATTERY_SUP Pin=R7-1
+Added Pin To Net: NetName=BATTERY_SUP Pin=R27-2
+Added Pin To Net: NetName=BATTERY_SUP Pin=U13-17
+Added Net: Name=BATTERY_SUP
+Added Pin To Net: NetName=MCU_PWR_EN Pin=U13-18
+Added Net: Name=MCU_PWR_EN
+Added Member To Class: ClassName=Interface Member=Component F2 1A
+Added Member To Class: ClassName=POWER_IN Member=Component R7 158K/1%
+Added Member To Class: ClassName=POWER_IN Member=Component R27 158K/1%

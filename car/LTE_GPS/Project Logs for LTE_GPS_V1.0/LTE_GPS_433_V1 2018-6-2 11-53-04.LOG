@@ -1,0 +1,295 @@
+Removed Pin From Net: NetName=NRST2 Pin=C89-1
+Removed Pin From Net: NetName=GND Pin=C89-2
+Removed Pin From Net: NetName=GND Pin=C90-1
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=C90-2
+Removed Pin From Net: NetName=GND Pin=C91-1
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=C91-2
+Removed Pin From Net: NetName=VDD_RF Pin=FB5-1
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=FB5-2
+Removed Pin From Net: NetName=NetQ7_1 Pin=Q7-1
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=Q7-2
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=Q7-3
+Removed Pin From Net: NetName=NetQ7_1 Pin=R79-1
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=R79-2
+Removed Pin From Net: NetName=NetQ7_1 Pin=U13-47
+Removed Pin From Net: NetName=NetU13_52 Pin=U13-52
+Removed Pin From Net: NetName=NetU13_55 Pin=U13-55
+Removed Pin From Net: NetName=NetU13_56 Pin=U13-56
+Removed Pin From Net: NetName=NetC97_2 Pin=U14-1
+Removed Pin From Net: NetName=GND Pin=U14-2
+Removed Pin From Net: NetName=GND Pin=U14-3
+Removed Pin From Net: NetName=NetR68_1 Pin=U22-1
+Removed Pin From Net: NetName=NRST2 Pin=U22-4
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=U22-5
+Removed Pin From Net: NetName=RF_RST Pin=U22-8
+Removed Pin From Net: NetName=RF_IRQ Pin=U22-9
+Removed Pin From Net: NetName=SPI_NSS Pin=U22-10
+Removed Pin From Net: NetName=SPI_SCK Pin=U22-11
+Removed Pin From Net: NetName=SPI_MISO Pin=U22-12
+Removed Pin From Net: NetName=SPI_MOSI Pin=U22-13
+Removed Pin From Net: NetName=NetU13_52 Pin=U22-14
+Removed Pin From Net: NetName=GND Pin=U22-15
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=U22-16
+Removed Pin From Net: NetName=NetU13_56 Pin=U22-17
+Removed Pin From Net: NetName=NetU13_55 Pin=U22-18
+Removed Pin From Net: NetName=MCU_433_SWDIO Pin=U22-19
+Removed Pin From Net: NetName=MCU_433_SWCLK Pin=U22-20
+Removed Member From Class: ClassName=RF_433MHz Member=C69
+Change Component DesignItemId : Designator=C90 Old DesignItemId=C New DesignItemId=Cap
+Change Component DesignItemId : Designator=U14 Old DesignItemId=IPX New DesignItemId=CC1121RHB
+Change Component Footprint: Designator=C89 Old Footprint=0603C New Footprint=0402C
+Change Component Footprint: Designator=C90 Old Footprint=0603C New Footprint=0402C
+Change Component Footprint: Designator=U14 Old Footprint=ECT8180001581 New Footprint=QFN50P500X500X80-32N
+Change Component Comment : Designator=C89 Old Comment=0.1uF New Comment=10nF/50V
+Change Component Comment : Designator=C90 Old Comment=0.1uF New Comment=100pF/50V
+Added Component: Designator=C2(0603C)
+Added Component: Designator=C3(0603C)
+Added Component: Designator=C4(0603C)
+Added Component: Designator=C5(0402C)
+Added Component: Designator=C6(0402C)
+Added Component: Designator=C7(0402C)
+Added Component: Designator=C8(0402C)
+Added Component: Designator=C9(0402C)
+Added Component: Designator=C11(0402C)
+Added Component: Designator=C12(0402C)
+Added Component: Designator=C13(0402C)
+Added Component: Designator=C14(0402C)
+Added Component: Designator=C15(0402C)
+Added Component: Designator=C16(0402C)
+Added Component: Designator=C17(0402C)
+Added Component: Designator=C18(0402C)
+Added Component: Designator=C19(0402C)
+Added Component: Designator=C20(0402C)
+Added Component: Designator=C21(0402C)
+Added Component: Designator=C23(0805C)
+Added Component: Designator=C24(0603C)
+Added Component: Designator=C46(1210E)
+Added Component: Designator=C72(1210E)
+Added Component: Designator=C73(1210E)
+Added Component: Designator=C74(1210E)
+Added Component: Designator=C83(0402C)
+Added Component: Designator=C85(1210E)
+Added Component: Designator=FB2(0805CZ)
+Added Component: Designator=L1(0402R)
+Added Component: Designator=L2(0402R)
+Added Component: Designator=L3(0402R)
+Added Component: Designator=L4(0402R)
+Added Component: Designator=L5(0402R)
+Added Component: Designator=L6(0402R)
+Added Component: Designator=L7(0402R)
+Added Component: Designator=L12(0402R)
+Added Component: Designator=Q4(SOT23-3)
+Added Component: Designator=R76(0603R)
+Added Component: Designator=R80(0603R)
+Added Component: Designator=U4(SOP65P640X265-20N)
+Added Component: Designator=U15(ECT8180001581)
+Added Component: Designator=Y1(OSCILLATOR-2.5X2.0)
+Added Pin To Net: NetName=NRST2 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=C4-2
+Added Pin To Net: NetName=NetC96_2 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=NetC97_2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=NetC98_1 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=VDD_RF Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=VDD_RF Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=NetC99_1 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=VDD_RF Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=VDD_RF Pin=C13-2
+Added Pin To Net: NetName=NetC100_1 Pin=C14-1
+Added Pin To Net: NetName=NetC101_1 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=NetC101_2 Pin=C15-2
+Added Pin To Net: NetName=VDD_RF Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=NetC102_1 Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C17-2
+Added Pin To Net: NetName=NetC102_2 Pin=C18-1
+Added Pin To Net: NetName=NetC103_2 Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=VDD_RF Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=NetC104_2 Pin=C20-2
+Added Pin To Net: NetName=NetL5_2 Pin=C21-1
+Added Pin To Net: NetName=NetQ7_1 Pin=C21-2
+Added Pin To Net: NetName=NetU13_52 Pin=C23-1
+Added Pin To Net: NetName=NetU13_55 Pin=C23-2
+Added Pin To Net: NetName=NetU13_55 Pin=C24-1
+Added Pin To Net: NetName=NetL5_2 Pin=C24-2
+Added Pin To Net: NetName=NetU13_56 Pin=C46-1
+Added Pin To Net: NetName=NetC46_2 Pin=C46-2
+Added Pin To Net: NetName=GND Pin=C72-2
+Added Pin To Net: NetName=NetU13_56 Pin=C72-2
+Added Pin To Net: NetName=GND Pin=C73-2
+Added Pin To Net: NetName=VDD_RF Pin=C73-2
+Added Pin To Net: NetName=GND Pin=C74-2
+Added Pin To Net: NetName=VDD_RF Pin=C74-2
+Added Pin To Net: NetName=GND Pin=C83-1
+Added Pin To Net: NetName=VDD_RF Pin=C83-2
+Added Pin To Net: NetName=VDD_RF Pin=C85-1
+Added Pin To Net: NetName=NetU20_16 Pin=C85-2
+Added Pin To Net: NetName=NetU20_17 Pin=C89-1
+Added Pin To Net: NetName=VDD_RF Pin=C89-2
+Added Pin To Net: NetName=NetU20_17 Pin=C90-1
+Added Pin To Net: NetName=VDD_RF Pin=C90-2
+Added Pin To Net: NetName=VDD_RF Pin=FB2-1
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=FB2-2
+Added Pin To Net: NetName=NetC101_2 Pin=L1-1
+Added Pin To Net: NetName=NetC102_2 Pin=L1-2
+Added Pin To Net: NetName=NetC101_2 Pin=L2-1
+Added Pin To Net: NetName=NetC103_2 Pin=L2-2
+Added Pin To Net: NetName=NetC103_2 Pin=L3-1
+Added Pin To Net: NetName=GND Pin=L3-2
+Added Pin To Net: NetName=NetQ7_1 Pin=L4-1
+Added Pin To Net: NetName=NetC102_2 Pin=L4-2
+Added Pin To Net: NetName=NetU13_56 Pin=L5-1
+Added Pin To Net: NetName=NetL5_2 Pin=L5-2
+Added Pin To Net: NetName=NetC46_2 Pin=L6-1
+Added Pin To Net: NetName=NetU13_56 Pin=L6-2
+Added Pin To Net: NetName=NetL5_2 Pin=L7-1
+Added Pin To Net: NetName=NetU13_55 Pin=L7-2
+Added Pin To Net: NetName=NetU13_52 Pin=L12-1
+Added Pin To Net: NetName=NetU20_16 Pin=L12-2
+Added Pin To Net: NetName=RF_IO3 Pin=Q4-1
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=Q4-2
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=Q4-3
+Added Pin To Net: NetName=RF_IO3 Pin=R76-1
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R76-2
+Added Pin To Net: NetName=RF_IO2 Pin=R79-1
+Added Pin To Net: NetName=GND Pin=R79-2
+Added Pin To Net: NetName=NetU20_16 Pin=R80-1
+Added Pin To Net: NetName=VDD_RF Pin=R80-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=NetR68_1 Pin=U4-1
+Added Pin To Net: NetName=NRST2 Pin=U4-4
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=U4-5
+Added Pin To Net: NetName=RF_RST Pin=U4-8
+Added Pin To Net: NetName=RF_IRQ Pin=U4-9
+Added Pin To Net: NetName=SPI_NSS Pin=U4-10
+Added Pin To Net: NetName=SPI_SCK Pin=U4-11
+Added Pin To Net: NetName=SPI_MISO Pin=U4-12
+Added Pin To Net: NetName=SPI_MOSI Pin=U4-13
+Added Pin To Net: NetName=GND Pin=U4-15
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=U4-16
+Added Pin To Net: NetName=MCU_433_SWDIO Pin=U4-19
+Added Pin To Net: NetName=MCU_433_SWCLK Pin=U4-20
+Added Pin To Net: NetName=RF_IO3 Pin=U13-47
+Added Pin To Net: NetName=VDD_RF Pin=U14-1
+Added Pin To Net: NetName=RF_RST Pin=U14-2
+Added Pin To Net: NetName=VDD_RF Pin=U14-5
+Added Pin To Net: NetName=NetC104_2 Pin=U14-6
+Added Pin To Net: NetName=SPI_MOSI Pin=U14-7
+Added Pin To Net: NetName=SPI_SCK Pin=U14-8
+Added Pin To Net: NetName=SPI_MISO Pin=U14-9
+Added Pin To Net: NetName=RF_IRQ Pin=U14-10
+Added Pin To Net: NetName=SPI_NSS Pin=U14-11
+Added Pin To Net: NetName=VDD_RF Pin=U14-12
+Added Pin To Net: NetName=VDD_RF Pin=U14-13
+Added Pin To Net: NetName=RF_IO2 Pin=U14-14
+Added Pin To Net: NetName=VDD_RF Pin=U14-15
+Added Pin To Net: NetName=NetU13_52 Pin=U14-17
+Added Pin To Net: NetName=NetQ7_1 Pin=U14-18
+Added Pin To Net: NetName=NetC103_2 Pin=U14-19
+Added Pin To Net: NetName=NetC101_2 Pin=U14-20
+Added Pin To Net: NetName=NetC102_1 Pin=U14-21
+Added Pin To Net: NetName=VDD_RF Pin=U14-22
+Added Pin To Net: NetName=NetC100_1 Pin=U14-23
+Added Pin To Net: NetName=NetC101_1 Pin=U14-24
+Added Pin To Net: NetName=VDD_RF Pin=U14-25
+Added Pin To Net: NetName=NetC99_1 Pin=U14-26
+Added Pin To Net: NetName=VDD_RF Pin=U14-27
+Added Pin To Net: NetName=VDD_RF Pin=U14-28
+Added Pin To Net: NetName=NetC98_1 Pin=U14-29
+Added Pin To Net: NetName=NetC97_2 Pin=U14-30
+Added Pin To Net: NetName=NetC96_2 Pin=U14-31
+Added Pin To Net: NetName=GND Pin=U14-33
+Added Pin To Net: NetName=NetC46_2 Pin=U15-1
+Added Pin To Net: NetName=GND Pin=U15-2
+Added Pin To Net: NetName=GND Pin=U15-3
+Added Pin To Net: NetName=NetC97_2 Pin=Y1-1
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Pin To Net: NetName=NetC96_2 Pin=Y1-3
+Added Pin To Net: NetName=GND Pin=Y1-4
+Change Net Name : Old Net Name=NetC96_2 New Net Name=NetC5_1
+Change Net Name : Old Net Name=NetC97_2 New Net Name=NetC6_1
+Change Net Name : Old Net Name=NetC98_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC99_1 New Net Name=NetC11_1
+Change Net Name : Old Net Name=NetC100_1 New Net Name=NetC14_1
+Change Net Name : Old Net Name=NetC101_1 New Net Name=NetC14_2
+Change Net Name : Old Net Name=NetC101_2 New Net Name=NetC15_2
+Change Net Name : Old Net Name=NetC102_1 New Net Name=NetC17_1
+Change Net Name : Old Net Name=NetC102_2 New Net Name=NetC18_1
+Change Net Name : Old Net Name=NetC103_2 New Net Name=NetC18_2
+Change Net Name : Old Net Name=NetC104_2 New Net Name=NetC20_2
+Change Net Name : Old Net Name=NetL5_2 New Net Name=NetC21_1
+Change Net Name : Old Net Name=NetQ7_1 New Net Name=NetC21_2
+Change Net Name : Old Net Name=NetU13_52 New Net Name=NetC23_1
+Change Net Name : Old Net Name=NetU13_55 New Net Name=NetC23_2
+Change Net Name : Old Net Name=NetU13_56 New Net Name=NetC46_1
+Change Net Name : Old Net Name=NetU20_16 New Net Name=NetC85_2
+Change Net Name : Old Net Name=NetU20_17 New Net Name=NetC89_1
+Change Net Name : Old Net Name=RF_IO2 New Net Name=NetR79_1
+Change Net Name : Old Net Name=RF_IO3 New Net Name=NetQ4_1
+Added Pin To Net: NetName=NetU4_14 Pin=U4-14
+Added Pin To Net: NetName=NetU4_14 Pin=U13-52
+Added Net: Name=NetU4_14
+Added Pin To Net: NetName=NetU4_17 Pin=U4-17
+Added Pin To Net: NetName=NetU4_17 Pin=U13-56
+Added Net: Name=NetU4_17
+Added Pin To Net: NetName=NetU4_18 Pin=U4-18
+Added Pin To Net: NetName=NetU4_18 Pin=U13-55
+Added Net: Name=NetU4_18
+Added Member To Class: ClassName=RF_433MHz Member=Component C2 0.1uF
+Added Member To Class: ClassName=RF_433MHz Member=Component C3 0.1uF
+Added Member To Class: ClassName=RF_433MHz Member=Component C4 0.1uF
+Added Member To Class: ClassName=RF_433MHz Member=Component C5 15pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C6 15pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C7 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C8 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C9 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C11 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C12 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C13 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C14 1.8nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C15 5.1pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C16 10nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C17 10nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C18 5.1pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C19 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C20 220nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C21 5.1pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C23 22uF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component C24 100nF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component C46 100uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component C69 100uF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component C72 100uF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component C73 100uF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component C74 100uF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component C83 8.2pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C85 100uF/10V
+Added Member To Class: ClassName=RF_433MHz Member=Component FB2 GZ2012D800TF
+Added Member To Class: ClassName=RF_433MHz Member=Component L1 27nH/0402HP-27NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L2 56nH/0402HP-56NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L3 27nH/0402HP-27NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L4 15nH/0402HP-15NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L5 27nH/0402HP-27NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L6 22nH/0402HP-22NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L7 220nH/0402HPH-R22XJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L12 33nH/0402HP-33NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component Q4 ZXM61P03FTA
+Added Member To Class: ClassName=RF_433MHz Member=Component R76 10K
+Added Member To Class: ClassName=RF_433MHz Member=Component R80 56K/1%
+Added Member To Class: ClassName=RF_433MHz Member=Component U4 STM32F042F6P6
+Added Member To Class: ClassName=RF_433MHz Member=Component U15 IPX
+Added Member To Class: ClassName=RF_433MHz Member=Component Y1 TZ1430A

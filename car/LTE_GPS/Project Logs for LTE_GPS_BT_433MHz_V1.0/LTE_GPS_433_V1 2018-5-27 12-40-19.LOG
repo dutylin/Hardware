@@ -1,0 +1,4 @@
+Added Component: Designator=R7(0603R)
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Member To Class: ClassName=BT Member=Component R7 56K/1%

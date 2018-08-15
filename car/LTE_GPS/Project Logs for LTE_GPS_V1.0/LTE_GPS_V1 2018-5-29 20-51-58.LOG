@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=F2-1
+Removed Pin From Net: NetName=VCC_DEV Pin=F2-2
+Change Component Footprint: Designator=F2 Old Footprint=0805R New Footprint=1812-F
+Change Component Designator: OldDesignator=F2 NewDesignator=F1
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Added Component: Designator=F2(0805R)
+Added Pin To Net: NetName=NetF2_1 Pin=F1-1
+Added Pin To Net: NetName=NetC63_1 Pin=F1-2
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=F2-1
+Added Pin To Net: NetName=VCC_DEV Pin=F2-2
+Change Net Name : Old Net Name=NetF2_1 New Net Name=NetF1_1
+Added Member To Class: ClassName=Interface Member=Component F2 1A
