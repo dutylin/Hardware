@@ -1,0 +1,126 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: F:\work\ZM\Frogs\1代相框\硬件方案\sch&pcb\M3\ELC\V5\ecogtmp0.asc
+*REMARK*  new file: F:\work\ZM\Frogs\1代相框\硬件方案\sch&pcb\M3\ELC\底座\M3_20180109.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2018/3/7 14:51:31
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+<none>                                            ADKEY_IN
+<none>                                            AUDRESET
+<none>                                            BL_EN
+<none>                                            CIF_CLKIN
+<none>                                            CIF_D0
+<none>                                            CIF_D1
+<none>                                            CIF_D2
+<none>                                            CIF_D3
+<none>                                            CIF_D4
+<none>                                            CIF_D5
+<none>                                            CIF_D6
+<none>                                            CIF_D7
+<none>                                            CIF_HREF
+<none>                                            CIF_PDN0
+<none>                                            CIF_PDN1
+<none>                                            CIF_VSYNC
+<none>                                            ES_814_EN
+<none>                                            GSENSOR_INT
+<none>                                            HHREST
+<none>                                            I2S0_BCLK
+<none>                                            I2S0_LRCK_RX
+<none>                                            I2S0_LRCK_TX
+<none>                                            I2S0_MCLK
+<none>                                            I2S0_SDI
+<none>                                            I2S0_SDO0
+<none>                                            LCDC_BL
+<none>                                            LCD_D0
+<none>                                            LCD_D1
+<none>                                            LCD_D2
+<none>                                            LCD_D3
+<none>                                            LCD_D4
+<none>                                            LCD_D5
+<none>                                            LCD_D6
+<none>                                            LCD_D7
+<none>                                            LCD_D8
+<none>                                            LCD_D9
+<none>                                            SENCTR
+<none>                                            SPK_CTL
+<none>                                            TP_INT
+<none>                                            TP_RST
+<none>                                            UART1_RX
+<none>                                            UART1_TX
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+GND                 Q6000.1	U1.1	U1.2	D2.4	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+$$$29216            Q6000.1	
+ADKEY_IN            U1000.U10	
+AUDRESET            U1000.H20	
+BL_EN               U1000.T17	
+CIF_CLKIN           R1700.2	
+CIF_D0              U1000.U17	
+CIF_D1              U1000.V17	
+CIF_D2              U1000.W17	
+CIF_D3              U1000.V16	
+CIF_D4              U1000.T13	
+CIF_D5              U1000.R13	
+CIF_D6              U1000.R14	
+CIF_D7              U1000.T16	
+CIF_HREF            U1000.V18	
+CIF_PDN0            U1000.K18	
+CIF_PDN1            U1000.Y20	
+CIF_VSYNC           U1000.U13	
+ES_814_EN           U1000.W19	
+GND                 CON1.1	CON1.2	
+GSENSOR_INT         U1000.L19	
+HHREST              U1000.C17	
+I2S0_BCLK           U1000.K20	
+I2S0_LRCK_RX        U1000.J19	
+I2S0_LRCK_TX        U1000.H16	
+I2S0_MCLK           U1000.H17	
+I2S0_SDI            U1000.K19	
+I2S0_SDO0           U1000.L20	
+LCDC_BL             U1000.U18	
+LCD_D0              U1000.Y13	
+LCD_D1              U1000.W13	
+LCD_D2              U1000.Y11	
+LCD_D3              U1000.W11	
+LCD_D4              U1000.Y10	
+LCD_D5              U1000.W10	
+LCD_D6              U1000.W8	
+LCD_D7              U1000.Y8	
+LCD_D8              U1000.Y7	
+LCD_D9              U1000.W7	
+MCU_HDMI_TX0_N      U1.2	
+MCU_HDMI_TX0_P      U1.1	
+SENCTR              U1000.D18	
+SPK_CTL             U1000.A20	
+TP_INT              U1000.G19	
+TP_RST              U1000.A19	
+UART1_RX            U1000.H19	
+UART1_TX            U1000.H18	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+NETCLASS    POWER -> POWER
+
+

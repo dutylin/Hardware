@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VCC Pin=USB-1
+Added Component: Designator=F1(0805R)
+Added Pin To Net: NetName=VCC Pin=F1-2
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=USB-1
+Added Net: Name=NetF1_1
+Added Member To Class: ClassName=Interface Member=Component F1 1A

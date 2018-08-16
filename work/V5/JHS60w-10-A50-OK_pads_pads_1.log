@@ -1,0 +1,552 @@
+PADS Layout Translator (Version VX.1.2) 02/08/18 18:09:46
+Copyright (c) 2015 Mentor Graphics Corp. - All rights reserved
+
+------------------------------------------------------------
+Input file: C:\Users\Administrator\Desktop\Imported JHS60w-10-A50-OK.PRJPCB\JHS60w-10-A50-OK_pads.PCBDOC
+File size: 76011 Kb
+File type: Protel_Advanced_PCB
+File version: 5.00
+Output file: .\JHS60w-10-A50-OK_pads_pads_1.pcb
+
+[W] Cannot find the Protel / Altium configuration file 'C:\windows\advpcb99se.ini'. Using Protel / Altium Classic Colors for layers.
+[W] Cannot load the current color map from the PADS Layout configuration file. Using default colors.
+[E] Missing Board Outline. PADS Router will not route without a board outline.
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11797.8, 9420.86) on Bottom Overlay
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11906.6, 9222.76) on Bottom Overlay
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (9303, 8184) on TOP
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (11685, 7235) on TOP
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (8565.89, 8439.11) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10219.7, 8799.94) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10191.5, 8804.73) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8981.6, 8346.66) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8835.36, 8374.22) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8957.43, 8334) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9309.15, 8347.53) on TOP
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (9287.76, 8218.87) on TOP
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (8961.65, 7630.03) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10436, 7637.03) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10380.1, 7659.62) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8997.73, 8781.98) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8790.21, 8744.66) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8979.82, 8874.9) on TOP
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (10992.3, 8918.9) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9746.16, 8396.81) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8916.85, 9395.84) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8772.45, 9413.32) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8776.74, 9769.31) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8952.27, 9768.33) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8956.59, 9681.89) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9014.02, 9562.91) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8985.81, 9674.01) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9013.29, 9646.43) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9510.02, 9767.37) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9348.05, 9769.22) on TOP
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (9849.32, 8176.16) on TOP
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10531.4, 7331.26) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8538.6, 7491.95) on BOTTOM
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (10694.2, 8674.24) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8854.29, 7133.48) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11767.3, 7707.73) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11688.2, 7828.2) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11726.2, 7828.6) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11784.6, 7780.88) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9772.67, 9748.01) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8917.36, 9396.31) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8564.99, 9769.26) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8952.01, 9768.56) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8698.53, 8005.03) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8738, 8009) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8731.39, 8025.95) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10501.2, 8882.33) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10503, 8885.59) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10712.4, 8930.28) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10724.3, 8971.6) on BOTTOM
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (10411.1, 8674.01) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10901.3, 8175.61) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10894.2, 8062.92) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10883.2, 8157.52) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9831.98, 7975) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9852.67, 8096.48) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9845.69, 8018.37) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9845.29, 7985.5) on BOTTOM
+[E] Polygon contours are not expandable. Polygons are translated as 2D lines at (10101.4, 8060.85) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10017.9, 9072.56) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10016.5, 9072.63) on BOTTOM
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9247.51, 9615.45) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8604.63, 8872.33) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10302.3, 8640.86) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9588.63, 8109.4) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9559.39, 8116.03) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9571.56, 8061.93) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9455.16, 8623.16) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10428.1, 8850.04) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10280.7, 8667.97) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10310.4, 8661.07) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10776.5, 9492.34) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10814.2, 9491.73) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9758.02, 7539.83) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10206.3, 7410.27) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10173.4, 7438.54) on INT2
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8595.1, 7791.12) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8354.99, 8428.63) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8829.29, 9374.53) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8586.83, 8159.61) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8595.24, 7769.34) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9558.84, 8639.28) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10279.4, 8772.66) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10299.9, 8774.33) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10305.6, 8772.08) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10476.1, 8764.53) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10277, 8679.41) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10249.1, 8665.8) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9870.82, 8711.71) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11075, 9292.02) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10665.1, 8653.87) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10623.3, 8660.02) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10606.2, 8878.8) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10637.8, 8852.24) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10397.5, 9270.84) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10006.1, 9051.8) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10024, 9369.63) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10594.4, 8878.4) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9460.83, 8660.03) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9160.45, 8543.7) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9833.17, 8979.77) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8863.85, 6995.58) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9304.9, 7610.29) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9193.07, 7019.53) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9113.4, 7023.73) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8940.24, 7182.25) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8757.8, 7585.76) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8783.98, 7566.76) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8725.8, 7994.96) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8706.95, 8025.45) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8850.02, 9160.59) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8883.13, 9193.71) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8901.34, 9207.41) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9346.42, 9765.86) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9509.88, 9767.64) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9594.67, 9767.24) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (12109.5, 7249.25) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10960.8, 7086.77) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10907.3, 7087.94) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9378.3, 7740.45) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9810.43, 7988.34) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9501.77, 8141.45) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8319.53, 8393.27) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8581.57, 9488.09) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10617.2, 8916.02) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10643.2, 8916.01) on VCC
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8853.35, 6995.42) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8230.31, 7774) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8876, 6995.66) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8914.59, 9395) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8710.05, 9397.88) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8678.83, 9427.69) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8581.57, 9488.09) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8807.85, 9352.18) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9026.15, 9769.77) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9508.55, 9769.23) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11524.8, 9765.27) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (12109.2, 7249.49) on GND
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11875.5, 7615.83) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8372, 7981.2) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10939.9, 7263.99) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9060.92, 8666.71) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8581.62, 9395.46) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10648.3, 8691.17) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10659.4, 8763.82) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8917.36, 9396.31) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (8949.59, 9769.99) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11563.8, 9766.2) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10668.8, 9446.71) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10423.4, 9486.47) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9789.17, 9674.5) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9347.78, 9768.99) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (9594.79, 9767.59) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11475.4, 9769.19) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (11524.6, 9764.31) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10513.4, 8825.86) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10509.2, 8679.65) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10486.7, 8679.37) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10395.2, 8742.29) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10461, 8747.84) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10486.5, 8721.7) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10538.3, 8758.17) on INT1
+[E] Cannot translate the following polygon contours. Recreate polygons in PADS Layout. (10491.7, 8868) on INT1
+[W] Renamed symbols with the same pattern: K1_ICT renamed K1_ICT/2
+[W] Renamed symbols with the same device name: K1_ICT renamed K1_ICT/2
+[W] Renamed symbols with the same pattern: K1_ICT renamed K1_ICT/3
+[W] Renamed symbols with the same device name: K1_ICT renamed K1_ICT/3
+[W] Renamed symbols with the same pattern: K1_ICT renamed K1_ICT/4
+[W] Renamed symbols with the same device name: K1_ICT renamed K1_ICT/4
+[W] Renamed symbols with the same pattern: K1_ICT renamed K1_ICT/5
+[W] Renamed symbols with the same device name: K1_ICT renamed K1_ICT/5
+[W] Renamed symbols with the same pattern: FB0805 renamed FB0805/2
+[W] Renamed symbols with the same device name: FB0805 renamed FB0805/2
+[W] Renamed symbols with the same pattern: FB0805 renamed FB0805/3
+[W] Renamed symbols with the same device name: FB0805 renamed FB0805/3
+[W] Renamed symbols with the same pattern: FB0805 renamed FB0805/4
+[W] Renamed symbols with the same device name: FB0805 renamed FB0805/4
+[W] Renamed symbols with the same pattern: FB0805 renamed FB0805/5
+[W] Renamed symbols with the same device name: FB0805 renamed FB0805/5
+[W] Renamed symbols with the same pattern: FB0805 renamed FB0805/6
+[W] Renamed symbols with the same device name: FB0805 renamed FB0805/6
+[W] Renamed symbols with the same pattern: MULTI_SMD_DFN08_SON08 renamed MULTI_SMD_DFN08_SON08/2
+[W] Renamed symbols with the same device name: MULTI_SMD_DFN08_SON08 renamed MULTI_SMD_DFN08_SON08/2
+[W] Renamed symbols with the same pattern: MULTI_SMD_DFN08_SON08 renamed MULTI_SMD_DFN08_SON08/3
+[W] Renamed symbols with the same device name: MULTI_SMD_DFN08_SON08 renamed MULTI_SMD_DFN08_SON08/3
+[W] Renamed symbols with the same pattern: FBGA96_SDDR3 renamed FBGA96_SDDR3/2
+[W] Renamed symbols with the same device name: FBGA96_SDDR3 renamed FBGA96_SDDR3/2
+[W] Renamed symbols with the same pattern: FBGA96_SDDR3 renamed FBGA96_SDDR3/3
+[W] Renamed symbols with the same device name: FBGA96_SDDR3 renamed FBGA96_SDDR3/3
+[W] Renamed symbols with the same pattern: FBGA96_SDDR3 renamed FBGA96_SDDR3/4
+[W] Renamed symbols with the same device name: FBGA96_SDDR3 renamed FBGA96_SDDR3/4
+[W] Renamed symbols with the same pattern: SMD_2X2_2_0_ACES renamed SMD_2X2_2_0_ACES/2
+[W] Renamed symbols with the same device name: SMD_2X2_2_0_ACES renamed SMD_2X2_2_0_ACES/2
+[W] Renamed symbols with the same pattern: HDDPWR1X4_2_0 renamed HDDPWR1X4_2_0/2
+[W] Renamed symbols with the same device name: HDDPWR1X4_2_0 renamed HDDPWR1X4_2_0/2
+[W] Renamed symbols with the same pattern: HDDPWR1X4_2_0 renamed HDDPWR1X4_2_0/3
+[W] Renamed symbols with the same device name: HDDPWR1X4_2_0 renamed HDDPWR1X4_2_0/3
+[W] Renamed symbols with the same pattern: TSLP10_P050_025X010 renamed TSLP10_P050_025X010/2
+[W] Renamed symbols with the same device name: TSLP10_P050_025X010 renamed TSLP10_P050_025X010/2
+[W] Renamed symbols with the same pattern: TSLP10_P050_025X010 renamed TSLP10_P050_025X010/3
+[W] Renamed symbols with the same device name: TSLP10_P050_025X010 renamed TSLP10_P050_025X010/3
+[W] Renamed symbols with the same pattern: TSLP10_P050_025X010 renamed TSLP10_P050_025X010/4
+[W] Renamed symbols with the same device name: TSLP10_P050_025X010 renamed TSLP10_P050_025X010/4
+[W] Renamed symbols with the same pattern: HCMC0805-900MFS renamed HCMC0805-900MFS/2
+[W] Renamed symbols with the same device name: HCMC0805-900MFS renamed HCMC0805-900MFS/2
+[W] Renamed symbols with the same pattern: HCMC0805-900MFS renamed HCMC0805-900MFS/3
+[W] Renamed symbols with the same device name: HCMC0805-900MFS renamed HCMC0805-900MFS/3
+[W] Renamed symbols with the same pattern: HCMC0805-900MFS renamed HCMC0805-900MFS/4
+[W] Renamed symbols with the same device name: HCMC0805-900MFS renamed HCMC0805-900MFS/4
+[W] Renamed symbols with the same pattern: SMD3225 renamed SMD3225/2
+[W] Renamed symbols with the same device name: SMD3225 renamed SMD3225/2
+[W] Renamed symbols with the same pattern: SMD3225 renamed SMD3225/3
+[W] Renamed symbols with the same device name: SMD3225 renamed SMD3225/3
+[W] Renamed symbols with the same pattern: SOD-323 renamed SOD-323/2
+[W] Renamed symbols with the same device name: SOD-323 renamed SOD-323/2
+[W] Renamed symbols with the same pattern: TP30 renamed TP30/2
+[W] Renamed symbols with the same device name: TP30 renamed TP30/2
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/2
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/2
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/3
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/3
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/4
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/4
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/5
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/5
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/6
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/6
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/7
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/7
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/8
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/8
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/9
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/9
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/10
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/10
+[W] Renamed symbols with the same pattern: SOT-363 renamed SOT-363/11
+[W] Renamed symbols with the same device name: SOT-363 renamed SOT-363/11
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/2
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/2
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/3
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/3
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/4
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/4
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/5
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/5
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/6
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/6
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/7
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/7
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/8
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/8
+[W] Renamed symbols with the same pattern: SOT23_123 renamed SOT23_123/9
+[W] Renamed symbols with the same device name: SOT23_123 renamed SOT23_123/9
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/2
+[W] Renamed symbols with the same device name: R0402 renamed R0402/2
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/3
+[W] Renamed symbols with the same device name: R0402 renamed R0402/3
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/4
+[W] Renamed symbols with the same device name: R0402 renamed R0402/4
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/5
+[W] Renamed symbols with the same device name: R0402 renamed R0402/5
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/6
+[W] Renamed symbols with the same device name: R0402 renamed R0402/6
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/7
+[W] Renamed symbols with the same device name: R0402 renamed R0402/7
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/8
+[W] Renamed symbols with the same device name: R0402 renamed R0402/8
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/9
+[W] Renamed symbols with the same device name: R0402 renamed R0402/9
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/10
+[W] Renamed symbols with the same device name: R0402 renamed R0402/10
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/11
+[W] Renamed symbols with the same device name: R0402 renamed R0402/11
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/12
+[W] Renamed symbols with the same device name: R0402 renamed R0402/12
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/13
+[W] Renamed symbols with the same device name: R0402 renamed R0402/13
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/14
+[W] Renamed symbols with the same device name: R0402 renamed R0402/14
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/15
+[W] Renamed symbols with the same device name: R0402 renamed R0402/15
+[W] Renamed symbols with the same pattern: R0402 renamed R0402/16
+[W] Renamed symbols with the same device name: R0402 renamed R0402/16
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/2
+[W] Renamed symbols with the same device name: R0603 renamed R0603/2
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/3
+[W] Renamed symbols with the same device name: R0603 renamed R0603/3
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/4
+[W] Renamed symbols with the same device name: R0603 renamed R0603/4
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/5
+[W] Renamed symbols with the same device name: R0603 renamed R0603/5
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/6
+[W] Renamed symbols with the same device name: R0603 renamed R0603/6
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/7
+[W] Renamed symbols with the same device name: R0603 renamed R0603/7
+[W] Renamed symbols with the same pattern: R0603 renamed R0603/8
+[W] Renamed symbols with the same device name: R0603 renamed R0603/8
+[W] Renamed symbols with the same pattern: LED0603 renamed LED0603/2
+[W] Renamed symbols with the same device name: LED0603 renamed LED0603/2
+[W] Renamed symbols with the same pattern: R0805 renamed R0805/2
+[W] Renamed symbols with the same device name: R0805 renamed R0805/2
+[W] Renamed symbols with the same pattern: R0805 renamed R0805/3
+[W] Renamed symbols with the same device name: R0805 renamed R0805/3
+[W] Renamed symbols with the same pattern: R0805 renamed R0805/4
+[W] Renamed symbols with the same device name: R0805 renamed R0805/4
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/2
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/2
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/3
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/3
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/4
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/4
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/5
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/5
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/6
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/6
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/7
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/7
+[W] Renamed symbols with the same pattern: FB0603 renamed FB0603/8
+[W] Renamed symbols with the same device name: FB0603 renamed FB0603/8
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/2
+[W] Renamed symbols with the same device name: C0402 renamed C0402/2
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/3
+[W] Renamed symbols with the same device name: C0402 renamed C0402/3
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/4
+[W] Renamed symbols with the same device name: C0402 renamed C0402/4
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/5
+[W] Renamed symbols with the same device name: C0402 renamed C0402/5
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/6
+[W] Renamed symbols with the same device name: C0402 renamed C0402/6
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/7
+[W] Renamed symbols with the same device name: C0402 renamed C0402/7
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/8
+[W] Renamed symbols with the same device name: C0402 renamed C0402/8
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/9
+[W] Renamed symbols with the same device name: C0402 renamed C0402/9
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/10
+[W] Renamed symbols with the same device name: C0402 renamed C0402/10
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/11
+[W] Renamed symbols with the same device name: C0402 renamed C0402/11
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/12
+[W] Renamed symbols with the same device name: C0402 renamed C0402/12
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/13
+[W] Renamed symbols with the same device name: C0402 renamed C0402/13
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/14
+[W] Renamed symbols with the same device name: C0402 renamed C0402/14
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/15
+[W] Renamed symbols with the same device name: C0402 renamed C0402/15
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/16
+[W] Renamed symbols with the same device name: C0402 renamed C0402/16
+[W] Renamed symbols with the same pattern: C0402 renamed C0402/17
+[W] Renamed symbols with the same device name: C0402 renamed C0402/17
+[W] Renamed symbols with the same pattern: C0603 renamed C0603/2
+[W] Renamed symbols with the same device name: C0603 renamed C0603/2
+[W] Renamed symbols with the same pattern: C0603 renamed C0603/3
+[W] Renamed symbols with the same device name: C0603 renamed C0603/3
+[W] Renamed symbols with the same pattern: C0603 renamed C0603/4
+[W] Renamed symbols with the same device name: C0603 renamed C0603/4
+[W] Renamed symbols with the same pattern: C0603 renamed C0603/5
+[W] Renamed symbols with the same device name: C0603 renamed C0603/5
+[W] Renamed symbols with the same pattern: C0603 renamed C0603/6
+[W] Renamed symbols with the same device name: C0603 renamed C0603/6
+[W] Renamed symbols with the same pattern: C0603 renamed C0603/7
+[W] Renamed symbols with the same device name: C0603 renamed C0603/7
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/2
+[W] Renamed symbols with the same device name: C0805 renamed C0805/2
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/3
+[W] Renamed symbols with the same device name: C0805 renamed C0805/3
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/4
+[W] Renamed symbols with the same device name: C0805 renamed C0805/4
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/5
+[W] Renamed symbols with the same device name: C0805 renamed C0805/5
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/6
+[W] Renamed symbols with the same device name: C0805 renamed C0805/6
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/7
+[W] Renamed symbols with the same device name: C0805 renamed C0805/7
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/8
+[W] Renamed symbols with the same device name: C0805 renamed C0805/8
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/9
+[W] Renamed symbols with the same device name: C0805 renamed C0805/9
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/10
+[W] Renamed symbols with the same device name: C0805 renamed C0805/10
+[W] Renamed symbols with the same pattern: C0805 renamed C0805/11
+[W] Renamed symbols with the same device name: C0805 renamed C0805/11
+[W] Renamed symbols with the same pattern: IC8-EPSOIC renamed IC8-EPSOIC/2
+[W] Renamed symbols with the same device name: IC8-EPSOIC renamed IC8-EPSOIC/2
+[W] Renamed symbols with the same pattern: MC-146 renamed MC-146/2
+[W] Renamed symbols with the same device name: MC-146 renamed MC-146/2
+[W] Renamed symbols with the same pattern: CMLW4030 renamed CMLW4030/2
+[W] Renamed symbols with the same device name: CMLW4030 renamed CMLW4030/2
+[W] Renamed symbols with the same pattern: CMLW4030 renamed CMLW4030/3
+[W] Renamed symbols with the same device name: CMLW4030 renamed CMLW4030/3
+[W] Renamed symbols with the same pattern: 8P4R_0402 renamed 8P4R_0402/2
+[W] Renamed symbols with the same device name: 8P4R_0402 renamed 8P4R_0402/2
+[W] Renamed symbols with the same pattern: SOP8-1_27_9 renamed SOP8-1_27_9/2
+[W] Renamed symbols with the same device name: SOP8-1_27_9 renamed SOP8-1_27_9/2
+[W] Renamed symbols with the same pattern: FUSE1812 renamed FUSE1812/2
+[W] Renamed symbols with the same device name: FUSE1812 renamed FUSE1812/2
+[W] Renamed symbols with the same pattern: CAP_SMD_7343 renamed CAP_SMD_7343/2
+[W] Renamed symbols with the same device name: CAP_SMD_7343 renamed CAP_SMD_7343/2
+[W] Renamed symbols with the same pattern: CAP_SMD_7343 renamed CAP_SMD_7343/3
+[W] Renamed symbols with the same device name: CAP_SMD_7343 renamed CAP_SMD_7343/3
+[W] Renamed symbols with the same pattern: WDFN8_3_3X3_3_0_65 renamed WDFN8_3_3X3_3_0_65/2
+[W] Renamed symbols with the same device name: WDFN8_3_3X3_3_0_65 renamed WDFN8_3_3X3_3_0_65/2
+[W] Broken traces found and ignored. Broken traces found at (9282, 8208)
+[W] Overlapping pads/vias found at (9610, 8965)
+[W] Overlapping pads/vias found at (9610, 8925)
+[W] Overlapping pads/vias found at (9653.68, 9468.33)
+[W] Overlapping pads/vias found at (9653.68, 9244.71)
+[W] Overlapping pads/vias found at (9653.68, 9212.03)
+[W] Overlapping pads/vias found at (9653.68, 9435.65)
+[W] Overlapping pads/vias found at (9136.36, 9468.33)
+[W] Overlapping pads/vias found at (9136.36, 9244.71)
+[W] Overlapping pads/vias found at (9136.36, 9212.03)
+[W] Overlapping pads/vias found at (9136.36, 9435.65)
+[W] Broken traces found and ignored. Broken traces found at (8710, 8060)
+[W] Overlapping pads/vias found at (11655, 9065)
+[W] Overlapping pads/vias found at (11655, 9035)
+[W] Overlapping pads/vias found at (11655, 8980)
+[W] Overlapping pads/vias found at (11785, 8775)
+[W] Overlapping pads/vias found at (11685, 8775)
+[W] Overlapping pads/vias found at (11825, 8775)
+[W] Overlapping pads/vias found at (11725, 8775)
+[W] Broken traces found and ignored. Broken traces found at (11975, 7690)
+[W] Broken traces found and ignored. Broken traces found at (11848, 8027)
+[W] Broken traces found and ignored. Broken traces found at (8935, 8407)
+[W] Broken traces found and ignored. Broken traces found at (10895, 7170)
+[W] Overlapping pads/vias found at (10395, 9655)
+[W] Overlapping pads/vias found at (10515, 9655)
+[W] Overlapping pads/vias found at (10121.4, 9582.58)
+[W] Overlapping pads/vias found at (10121.4, 9622.58)
+[W] Overlapping pads/vias found at (10121.4, 9487.58)
+[W] Broken traces found and ignored. Broken traces found at (11730, 7800)
+[W] Broken traces found and ignored. Broken traces found at (9885, 7360)
+[W] Broken traces found and ignored. Broken traces found at (8685, 8775)
+[W] Overlapping pads/vias found at (10121.4, 9447.58)
+[W] Overlapping pads/vias found at (11825, 8735)
+[W] Overlapping pads/vias found at (9610, 9010)
+[W] Overlapping pads/vias found at (9610, 9050)
+[W] Overlapping pads/vias found at (11685, 8735)
+[W] Overlapping pads/vias found at (11785, 8735)
+[W] Overlapping pads/vias found at (11725, 8735)
+[W] Broken traces found and ignored. Broken traces found at (8825.5, 9305.5)
+[W] Overlapping pads/vias found at (10550, 9615)
+[W] Overlapping pads/vias found at (10515, 9615)
+[W] Overlapping pads/vias found at (10161.4, 9447.58)
+[W] Overlapping pads/vias found at (11330, 8587.52)
+[W] Overlapping pads/vias found at (11330, 8611.1)
+[W] Overlapping pads/vias found at (10161.4, 9487.58)
+[W] Overlapping pads/vias found at (11180, 8902.48)
+[W] Renamed incorrect net name: VREF_2.5VA renamed VREF_2_5VA
+[W] Overlapping pads/vias found at (11230, 8902.48)
+[W] Broken traces found and ignored. Broken traces found at (8986.15, 8334.26)
+[W] Renamed incorrect net name: +3.3V renamed +3_3V
+[W] Broken traces found and ignored. Broken traces found at (9175, 7745)
+[W] Broken traces found and ignored. Broken traces found at (8960, 7635)
+[W] Overlapping pads/vias found at (10161.4, 9622.58)
+[W] Renamed incorrect net name: +3.3VDUAL renamed +3_3VDUAL
+[W] Broken traces found and ignored. Broken traces found at (11665, 7970)
+[W] Broken traces found and ignored. Broken traces found at (11423, 8093)
+[W] Overlapping pads/vias found at (10360, 9615)
+[W] Overlapping pads/vias found at (10395, 9615)
+[W] Overlapping pads/vias found at (10161.4, 9582.58)
+[W] Broken traces found and ignored. Broken traces found at (8643.11, 9498.74)
+[W] Broken traces found and ignored. Broken traces found at (8576.11, 9384.74)
+[W] Broken traces found and ignored. Broken traces found at (8410, 9120)
+[W] Overlapping pads/vias found at (10271.2, 9290)
+[W] Overlapping pads/vias found at (10273.7, 9292.4)
+[W] Broken traces found and ignored. Broken traces found at (10185, 9265)
+[W] Broken traces found and ignored. Broken traces found at (8945, 7295)
+[W] Broken traces found and ignored. Broken traces found at (11864.2, 9534.47)
+[W] Broken traces found and ignored. Broken traces found at (11864.2, 9450.57)
+[W] Broken traces found and ignored. Broken traces found at (11780.3, 9534.47)
+[W] Broken traces found and ignored. Broken traces found at (11780.3, 9450.57)
+[W] Broken traces found and ignored. Broken traces found at (11218.5, 9534.47)
+[W] Broken traces found and ignored. Broken traces found at (11218.5, 9450.57)
+[W] Broken traces found and ignored. Broken traces found at (11134.6, 9534.47)
+[W] Broken traces found and ignored. Broken traces found at (11134.6, 9450.57)
+[W] Renamed incorrect net name: +3.3VDUAL_LAN renamed +3_3VDUAL_LAN
+[W] Overlapping pads/vias found at (9650, 8925)
+[W] Overlapping pads/vias found at (11603.6, 8337.36)
+[W] Overlapping pads/vias found at (11608.6, 8349.86)
+[W] Overlapping pads/vias found at (9650, 8965)
+[W] Overlapping pads/vias found at (11603.6, 8267.36)
+[W] Overlapping pads/vias found at (11608.6, 8254.86)
+[W] Overlapping pads/vias found at (9650, 9010)
+[W] Overlapping pads/vias found at (9650, 9050)
+[W] Overlapping pads/vias found at (11280, 8587.52)
+[W] Overlapping pads/vias found at (11280, 8611.1)
+[W] Overlapping pads/vias found at (11230, 8587.52)
+[W] Overlapping pads/vias found at (11230, 8611.1)
+[W] Overlapping pads/vias found at (11280, 8902.48)
+[W] Broken traces found and ignored. Broken traces found at (9450, 8075)
+[W] Overlapping pads/vias found at (11180, 8587.52)
+[W] Overlapping pads/vias found at (11180, 8611.1)
+[W] Broken traces found and ignored. Broken traces found at (10935.2, 7100.17)
+[W] Broken traces found and ignored. Broken traces found at (10935.2, 7020.17)
+[W] Broken traces found and ignored. Broken traces found at (9586.18, 9722.91)
+[W] Broken traces found and ignored. Broken traces found at (9518.54, 9722.91)
+[W] Broken traces found and ignored. Broken traces found at (9431.02, 9330.53)
+[W] Broken traces found and ignored. Broken traces found at (9431.02, 9204.55)
+[W] Broken traces found and ignored. Broken traces found at (9395.02, 9366.53)
+[W] Broken traces found and ignored. Broken traces found at (9395.02, 9294.53)
+[W] Broken traces found and ignored. Broken traces found at (9395.02, 9240.55)
+[W] Broken traces found and ignored. Broken traces found at (9395.02, 9168.55)
+[W] Broken traces found and ignored. Broken traces found at (9359.02, 9330.53)
+[W] Broken traces found and ignored. Broken traces found at (9359.02, 9204.55)
+[W] Broken traces found and ignored. Broken traces found at (9338.14, 9722.91)
+[W] Broken traces found and ignored. Broken traces found at (9293.22, 9389.59)
+[W] Broken traces found and ignored. Broken traces found at (9284.68, 9291.06)
+[W] Broken traces found and ignored. Broken traces found at (9284.68, 9236.14)
+[W] Broken traces found and ignored. Broken traces found at (9270.5, 9722.91)
+[W] Broken traces found and ignored. Broken traces found at (9257.22, 9425.59)
+[W] Broken traces found and ignored. Broken traces found at (9009.18, 9729.14)
+[W] Broken traces found and ignored. Broken traces found at (8979.68, 9672.14)
+[W] Broken traces found and ignored. Broken traces found at (8977.75, 9441.74)
+[W] Broken traces found and ignored. Broken traces found at (8950.18, 9729.14)
+[W] Broken traces found and ignored. Broken traces found at (8944.25, 9498.74)
+[W] Broken traces found and ignored. Broken traces found at (8910.75, 9441.74)
+[W] Broken traces found and ignored. Broken traces found at (8862.84, 9725.82)
+[W] Broken traces found and ignored. Broken traces found at (8862.84, 9637.39)
+[W] Broken traces found and ignored. Broken traces found at (8862.84, 9538.65)
+[W] Broken traces found and ignored. Broken traces found at (8819.37, 9676.45)
+[W] Broken traces found and ignored. Broken traces found at (8769.09, 9441.74)
+[W] Broken traces found and ignored. Broken traces found at (8748.34, 9538.65)
+[W] Broken traces found and ignored. Broken traces found at (8735.59, 9498.74)
+[W] Broken traces found and ignored. Broken traces found at (8702.09, 9441.74)
+[W] Broken traces found and ignored. Broken traces found at (8623.36, 9729.14)
+[W] Broken traces found and ignored. Broken traces found at (8593.86, 9672.14)
+[W] Broken traces found and ignored. Broken traces found at (8564.36, 9729.14)
+[W] Broken traces found and ignored. Broken traces found at (10919.8, 7954.84)
+[W] Broken traces found and ignored. Broken traces found at (8595, 8970)
+[W] Overlapping pads/vias found at (10360, 9655)
+[W] Overlapping pads/vias found at (10550, 9655)
+[W] Overlapping pads/vias found at (11330, 8902.48)
+[W] Broken traces found and ignored. Broken traces found at (10700, 9425)
+[W] The following Protel rules cannot be mapped to PADS Layout rules: PlaneConnect
+
+164 error(s), 375 warning(s) and 0 note(s) found
+Finished on 02/08/18 at 18:10:23

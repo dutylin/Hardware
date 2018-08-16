@@ -1,0 +1,4 @@
+错误:门 A 封装 INAND_1 具有 31 个端点，但门定义包含 164 个管脚。
+警告:管脚编号 H2 未在 PCB 封装 BGA169_0_5PIC_12X16MM_FLASH 中定义。
+警告:管脚编号 H6 未在 PCB 封装 BGA169_0_5PIC_12X16MM_FLASH 中定义。
+警告:管脚编号 K5 未在 PCB 封装 BGA169_0_5PIC_12X16MM_FLASH 中定义。

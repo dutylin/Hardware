@@ -1,0 +1,204 @@
+PCB Net List Errors Report - lock_ZM_V1.0_20180731.sch - Wed Aug 15 11:08:50 2018
+----------------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net $$$22201 has less than two pins in PCB net list file.
+Net $$$22203 has less than two pins in PCB net list file.
+Net $$$22205 has less than two pins in PCB net list file.
+Net $$$22207 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+$$$22201
+WIFI         X11990 Y7710 
+
+$$$22203
+WIFI         X12090 Y7710 
+
+$$$22205
+WIFI         X12190 Y7710 
+
+$$$22207
+WIFI         X12290 Y7710 
+
+BZ-
+POWER        X10790 Y10290
+
+LED_CTRL
+WIFI         X13060 Y8510 
+
+LED_K2
+WIFI         X13690 Y8910 
+
+LED_K3
+WIFI         X13690 Y9110 
+
+MCU_RXD
+WIFI         X13870 Y9310 
+
+MCU_TXD
+WIFI         X13870 Y9510 
+
+MOTOR_N
+INTERFACE    X6050  Y13830
+
+MOTOR_P
+INTERFACE    X6050  Y13730
+
+Dangling Connections with a Net Name
+
+BATTERY
+WIFI         X10590 Y9310 
+WIFI         X8180  Y9060 
+
+BZ-
+INTERFACE    X6050  Y13530
+
+GND
+INTERFACE    X8430  Y13730
+INTERFACE    X8310  Y12210
+
+LED_CTRL
+INTERFACE    X9800  Y13770
+
+LED_K1
+WIFI         X10590 Y8910 
+
+LED_K3
+INTERFACE    X7470  Y13830
+
+MCU_RXD
+INTERFACE    X8300  Y12410
+
+MCU_TXD
+INTERFACE    X8310  Y12310
+
+MOT_DN
+WIFI         X10590 Y8510 
+MOTOR_DRIVER X8200  Y11700
+
+MOT_DP
+WIFI         X10590 Y8310 
+MOTOR_DRIVER X8200  Y11500
+
+MOTOR_N
+MOTOR_DRIVER X11300 Y11300
+
+MOTOR_P
+MOTOR_DRIVER X11300 Y11700
+
+SIGNAL_RX
+WIFI         X11790 Y6190 
+INTERFACE    X11550 Y12060
+
+SIGNAL_TX
+WIFI         X11890 Y6190 
+INTERFACE    X11560 Y12260
+
+SPEAKER
+WIFI         X10590 Y8710 
+POWER        X8970  Y9880 
+
+Power or Ground Symbols used with wrong Net Name
+
+AGND
+MOTOR_DRIVER X9600  Y11300 - Ground Symbol used for net: GND
+MOTOR_DRIVER X9100  Y9000  - Ground Symbol used for net: GND
+MOTOR_DRIVER X10950 Y10200 - Ground Symbol used for net: GND
+MOTOR_DRIVER X10900 Y12600 - Ground Symbol used for net: GND
+MOTOR_DRIVER X11400 Y9700  - Ground Symbol used for net: GND
+
+VCC
+POWER        X8540  Y12020 - Power  Symbol used for net: +5V
+INTERFACE    X5960  Y13430 - Power  Symbol used for net: +5V
+INTERFACE    X6440  Y12430 - Power  Symbol used for net: +5V
+MOTOR_DRIVER X9600  Y11100 - Power  Symbol used for net: +5V
+MOTOR_DRIVER X9100  Y10300 - Power  Symbol used for net: +5V
+
+VCC_3.3V
+WIFI         X10090 Y10410 - Power  Symbol used for net: +5V
+WIFI         X10890 Y8110  - Power  Symbol used for net: +5V
+WIFI         X10690 Y9110  - Power  Symbol used for net: +5V
+POWER        X11950 Y12020 - Power  Symbol used for net: +5V
+INTERFACE    X10830 Y13650 - Power  Symbol used for net: +5V
+INTERFACE    X7400  Y13530 - Power  Symbol used for net: +5V
+INTERFACE    X11410 Y12360 - Power  Symbol used for net: +5V
+INTERFACE    X10680 Y12620 - Power  Symbol used for net: +5V
+
+VCC_IN
+WIFI         X7360  Y9970  - Power  Symbol used for net: +5V
+POWER        X9460  Y12250 - Power  Symbol used for net: +5V
+INTERFACE    X5930  Y13630 - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+BATTERY
+WIFI         X11390 Y9310  - Pin: U1.2
+WIFI         X7360  Y8920  - Pin: R14.1
+
+BZ-
+POWER        X10790 Y10080 - Pin: Q1.3
+INTERFACE    X6460  Y13530 - Pin: J2.4
+
+GND
+INTERFACE    X8840  Y13730 - Pin: J1.2
+INTERFACE    X8730  Y12210 - Pin: J4.3
+
+LED_CTRL
+WIFI         X12690 Y8510  - Pin: U1.11
+INTERFACE    X10340 Y13770 - Pin: R10.1
+
+LED_K1
+WIFI         X11390 Y8910  - Pin: U1.4
+INTERFACE    X8220  Y13530 - Pin: R16.2
+
+LED_K2
+WIFI         X12690 Y8910  - Pin: U1.13
+INTERFACE    X8200  Y13630 - Pin: R15.2
+
+LED_K3
+WIFI         X12690 Y9110  - Pin: U1.14
+INTERFACE    X7870  Y13830 - Pin: R9.1
+
+MCU_RXD
+WIFI         X13390 Y9310  - Pin: R4.2
+INTERFACE    X8730  Y12410 - Pin: J4.1
+
+MCU_TXD
+WIFI         X13390 Y9510  - Pin: R3.2
+INTERFACE    X8730  Y12310 - Pin: J4.2
+
+MOT_DN
+WIFI         X11390 Y8510  - Pin: U1.6
+MOTOR_DRIVER X8800  Y11700 - Pin: R6.1
+
+MOT_DP
+WIFI         X11390 Y8310  - Pin: U1.7
+MOTOR_DRIVER X8800  Y11500 - Pin: R7.1
+
+MOTOR_N
+INTERFACE    X6460  Y13830 - Pin: J2.1
+MOTOR_DRIVER X10950 Y10960 - Pin: C4.1
+
+MOTOR_P
+INTERFACE    X6460  Y13730 - Pin: J2.2
+MOTOR_DRIVER X10900 Y11990 - Pin: C6.2
+
+SIGNAL_RX
+WIFI         X11790 Y6710  - Pin: R17.1
+INTERFACE    X12170 Y12060 - Pin: J5.4
+
+SIGNAL_TX
+WIFI         X11890 Y6720  - Pin: R18.1
+INTERFACE    X12170 Y12260 - Pin: J5.2
+
+SPEAKER
+WIFI         X11390 Y8710  - Pin: U1.5
+POWER        X9450  Y9880  - Pin: R11.1

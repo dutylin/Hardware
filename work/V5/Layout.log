@@ -1,0 +1,64 @@
+PADS Layout ECO Generator (Version 6.4v) 2018/3/7 14:58:03
+Copyright (c) 2003 - 2008 Mentor Graphics Corp. - All rights reserved
+Command line arguments:  -d F:\work\ZM\Frogs\1代相框\硬件方案\sch&pcb\M3\ELC\V5\Layout.rep -e F:\work\ZM\Frogs\1代相框\硬件方案\sch&pcb\M3\ELC\V5\Layout.log -r pa -f -a PCB,PART,NET,PIN
+15 msec
+0 msec
+Reading the OLD DESIGN
+WARNING: Signal GND has 0 pins
+WARNING: Signal $$$29216 has 1 pins
+WARNING: Signal $$$16571 has 1 pins
+There are 317 parts in the design
+There are 209 signals in the design
+There are 1208 pins in the design
+109 msec
+Reading the NEW DESIGN
+WARNING: Signal UART1_RX has 1 pins
+WARNING: Signal UART1_TX has 1 pins
+WARNING: Signal I2S0_SDI has 1 pins
+WARNING: Signal ES_814_EN has 1 pins
+WARNING: Signal I2S0_LRCK_RX has 1 pins
+WARNING: Signal I2S0_BCLK has 1 pins
+WARNING: Signal I2S0_SDO0 has 1 pins
+WARNING: Signal I2S0_LRCK_TX has 1 pins
+WARNING: Signal I2S0_MCLK has 1 pins
+WARNING: Signal AUDRESET has 1 pins
+WARNING: Signal SENCTR has 1 pins
+WARNING: Signal ADKEY_IN has 1 pins
+WARNING: Signal GSENSOR_INT has 1 pins
+WARNING: Signal LCD_D0 has 1 pins
+WARNING: Signal LCD_D1 has 1 pins
+WARNING: Signal LCD_D2 has 1 pins
+WARNING: Signal LCD_D3 has 1 pins
+WARNING: Signal LCD_D4 has 1 pins
+WARNING: Signal LCD_D5 has 1 pins
+WARNING: Signal LCD_D6 has 1 pins
+WARNING: Signal LCD_D7 has 1 pins
+WARNING: Signal LCD_D8 has 1 pins
+WARNING: Signal LCD_D9 has 1 pins
+WARNING: Signal CIF_PDN0 has 1 pins
+WARNING: Signal CIF_PDN1 has 1 pins
+WARNING: Signal CIF_VSYNC has 1 pins
+WARNING: Signal CIF_HREF has 1 pins
+WARNING: Signal CIF_D0 has 1 pins
+WARNING: Signal CIF_D1 has 1 pins
+WARNING: Signal CIF_D2 has 1 pins
+WARNING: Signal CIF_D3 has 1 pins
+WARNING: Signal CIF_D4 has 1 pins
+WARNING: Signal CIF_D5 has 1 pins
+WARNING: Signal CIF_D6 has 1 pins
+WARNING: Signal CIF_D7 has 1 pins
+WARNING: Signal CIF_CLKIN has 1 pins
+WARNING: Signal LCDC_BL has 1 pins
+WARNING: Signal TP_INT has 1 pins
+WARNING: Signal TP_RST has 1 pins
+WARNING: Signal BL_EN has 1 pins
+WARNING: Signal SPK_CTL has 1 pins
+WARNING: Signal HHREST has 1 pins
+There are 349 parts in the design
+There are 273 signals in the design
+There are 1371 pins in the design
+0 msec
+Final cost=5233
+Partitioning - 16 msec
+Final Matching - 62 msec
+ERROR: Could not open file "F:\work\ZM\Frogs\1代相框\硬件方案\sch&pcb\M3\ELC\底座\R19-V1.1-20180126.eco"

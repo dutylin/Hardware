@@ -1,0 +1,6 @@
+Added Component: Designator=P3(4¡Á1.5mmSMT_NOPad)
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=VCC Pin=P3-2
+Added Pin To Net: NetName=NetP3_3 Pin=P3-3
+Added Pin To Net: NetName=NetP3_4 Pin=P3-4
+Added Member To Class: ClassName=Interface Member=Component P3 Header 4

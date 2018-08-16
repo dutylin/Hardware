@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=COM0_TX Pin=P1-3
+Removed Pin From Net: NetName=COM0_RX Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P2-0
+Removed Pin From Net: NetName=GND Pin=P2-0
+Removed Pin From Net: NetName=GND Pin=P6-0
+Removed Pin From Net: NetName=GND Pin=P6-0
+Removed Pin From Net: NetName=GND Pin=USB-6
+Removed Pin From Net: NetName=GND Pin=USB-9
+Change Component Comment : Designator=C1 Old Comment=3pF/50V New Comment=3pF/50V/NC
+Change Component Comment : Designator=C2 Old Comment=3pF/50V New Comment=3pF/50V/NC
+Added Pin To Net: NetName=COM0_RX Pin=P1-3
+Added Pin To Net: NetName=COM0_TX Pin=P1-4
