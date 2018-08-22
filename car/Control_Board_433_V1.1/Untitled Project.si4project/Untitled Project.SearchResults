@@ -1,4 +1,0 @@
----- SIMCOM_Reconnect_status Matches (3 in 3 files) ----
-Module_Ctrl.c (z:\os\others\others\hardware\control_board_433_v1.1\src\hal):	//  SIMCOM_Reconnect_status();                  //重新链接服务器，如果退出透传时间短，可能不需要该操作
-SIM7600SA.c (z:\os\others\others\hardware\control_board_433_v1.1\src\hal):void SIMCOM_Reconnect_status()
-SIM7600SA.h (z:\os\others\others\hardware\control_board_433_v1.1\inc):void SIMCOM_Reconnect_status(void);

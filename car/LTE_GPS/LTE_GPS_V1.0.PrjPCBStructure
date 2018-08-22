@@ -1,7 +1,0 @@
-Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=U_Interface|SchDesignator=U_Interface|FileName=Interface.SchDoc|SymbolType=Normal|RawFileName=Interface.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
-Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=U_LTE|SchDesignator=U_LTE|FileName=LTE.SchDoc|SymbolType=Normal|RawFileName=LTE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
-Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=U_MCU|SchDesignator=U_MCU|FileName=MCU.SchDoc|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
-Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=U_POWER_IN|SchDesignator=U_POWER_IN|FileName=POWER_IN.SchDoc|SymbolType=Normal|RawFileName=POWER_IN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
-Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=U_RF_433MHz|SchDesignator=U_RF_433MHz|FileName=RF_433MHz.SchDoc|SymbolType=Normal|RawFileName=RF_433MHz.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
-Record=SubProject|ProjectPath=FB
-Record=TopLevelDocument|FileName=TOP.SchDoc

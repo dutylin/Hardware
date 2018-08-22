@@ -1,1 +1,0 @@
-rf_0913_f042f6p6_id\startup_stm32f030x6.o: startup_stm32f030x6.s

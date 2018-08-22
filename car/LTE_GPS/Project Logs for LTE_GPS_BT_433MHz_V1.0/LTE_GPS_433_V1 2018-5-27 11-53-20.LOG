@@ -1,5 +1,0 @@
-Added Component: Designator=D8(SOD323)
-Added Component: Designator=D9(SMC)
-Added Pin To Net: NetName=GND Pin=D9-1
-Added Member To Class: ClassName=MCU Member=Component D8 RB751V40T1
-Added Member To Class: ClassName=POWER_IN Member=Component D9 SS54

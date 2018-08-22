@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=VCC_5V Pin=C43-2
-Removed Pin From Net: NetName=VCC_5V Pin=U11-1
-Added Pin To Net: NetName=VCC_MCU_3.3V Pin=C43-2
-Added Pin To Net: NetName=VCC_MCU_3.3V Pin=U11-1

@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=Adapter-1
-Removed Pin From Net: NetName=NetAdapter_2 Pin=Adapter-2
-Added Pin To Net: NetName=NetAdapter_2 Pin=Adapter-1
-Added Pin To Net: NetName=GND Pin=Adapter-2
-Change Net Name : Old Net Name=NetAdapter_2 New Net Name=NetAdapter_1

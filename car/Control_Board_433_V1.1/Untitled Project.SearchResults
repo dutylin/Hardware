@@ -1,8 +1,0 @@
----- SIMCOM_GetGPS_Info Matches (7 in 3 files) ----
-Module_Ctrl.c (src\hal):				SIMCOM_GetGPS_Info(&UsartType5.usartDMA_rxBuf[UsartType5.real_index],&GPS1,1,10);//get gps position
-Module_Ctrl.c (src\hal):				if(SIMCOM_GetGPS_Info(&UsartType5.usartDMA_rxBuf[UsartType5.real_index],&GPS1,1,10))
-Module_Ctrl.c (src\hal):				if(SIMCOM_GetGPS_Info(&UsartType5.usartDMA_rxBuf[UsartType5.real_index],&GPS1,1,10))//get gps position
-Module_Ctrl.c (src\hal):				if(SIMCOM_GetGPS_Info(&UsartType5.usartDMA_rxBuf[UsartType5.real_index],&GPS1,1,10))
-Module_Ctrl.c (src\hal):					if(SIMCOM_GetGPS_Info(&UsartType5.usartDMA_rxBuf[UsartType5.real_index],&GPS1,1,10))//get gps position
-SIM7600SA.c (src\hal):unsigned char  SIMCOM_GetGPS_Info(unsigned char * buff,GPS_INFO *gps,unsigned char gps_format,unsigned int waittime)
-SIM7600SA.h (inc):unsigned char  SIMCOM_GetGPS_Info(unsigned char * buff,GPS_INFO *gps,unsigned char gps_format,unsigned int waittime);

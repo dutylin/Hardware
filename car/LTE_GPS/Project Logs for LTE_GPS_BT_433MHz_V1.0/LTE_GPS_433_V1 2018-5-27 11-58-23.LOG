@@ -1,4 +1,0 @@
-Added Component: Designator=D8(SOD323)
-Added Pin To Net: NetName=VCC_MCU_3.3V Pin=D8-1
-Added Pin To Net: NetName=NetD8_2 Pin=D8-2
-Added Member To Class: ClassName=MCU Member=Component D8 RB751V40T1

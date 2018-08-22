@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=Net4G_1 Pin=4G-1
-Removed Pin From Net: NetName=GND Pin=4G-2
-Change Component Comment : Designator=1 Old Comment=LED0 New Comment=4G

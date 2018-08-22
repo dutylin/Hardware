@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=DQ Pin=U13-26
-Added Component: Designator=R52(0603R)
-Added Pin To Net: NetName=DQ Pin=R52-2
-Added Pin To Net: NetName=NetR52_1 Pin=R52-1
-Added Pin To Net: NetName=NetR52_1 Pin=U13-26
-Added Net: Name=NetR52_1
-Added Member To Class: ClassName=MCU Member=Component R52 100

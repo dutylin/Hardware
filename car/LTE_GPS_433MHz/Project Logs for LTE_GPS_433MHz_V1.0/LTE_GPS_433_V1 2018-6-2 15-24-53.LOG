@@ -1,4 +1,0 @@
-Added Component: Designator=D10(SOD923)
-Added Pin To Net: NetName=GND Pin=D10-1
-Added Pin To Net: NetName=LTE_RST Pin=D10-2
-Added Member To Class: ClassName=Interface Member=Component D5 ESD9M5.0S-DTVS105

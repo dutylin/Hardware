@@ -1,3 +1,0 @@
-Added Component: Designator=D11(SMB)
-Added Pin To Net: NetName=VCC_OUT Pin=D11-1
-Added Member To Class: ClassName=POWER_IN Member=Component D11 MBRS130LT3

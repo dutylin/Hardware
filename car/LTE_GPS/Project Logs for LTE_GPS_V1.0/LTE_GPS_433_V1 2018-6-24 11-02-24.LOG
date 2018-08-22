@@ -1,7 +1,0 @@
-Removed Member From Class: ClassName=LTE Member=4G
-Added Pin To Net: NetName=Net1_1 Pin=4G-1
-Added Pin To Net: NetName=Net4G_1 Pin=4G-1
-Added Pin To Net: NetName=GND Pin=4G-2
-Added Pin To Net: NetName=NETLIGHT Pin=4G-2
-Change Net Name : Old Net Name=Net1_1 New Net Name=Net4G_1
-Added Member To Class: ClassName=MCU Member=Component 4G LED0

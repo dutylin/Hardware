@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=MOTO_SENSE Pin=P2-8
-Removed Pin From Net: NetName=MOTO_SENSE Pin=R5-2
-Added Pin To Net: NetName=NetP2_8 Pin=P2-8
-Added Pin To Net: NetName=NetP2_8 Pin=R5-2
-Added Net: Name=NetP2_8
