@@ -1,0 +1,3 @@
+Added Component: Designator=E1(AN2051)
+Added Pin To Net: NetName=NetE1_1 Pin=E1-1
+Added Member To Class: ClassName=BT Member=Component E1 Antenna

@@ -1,0 +1,143 @@
+Removed Pin From Net: NetName=NetC63_1 Pin=C63-1
+Removed Pin From Net: NetName=GND Pin=C63-2
+Removed Pin From Net: NetName=NetC71_1 Pin=C71-1
+Removed Pin From Net: NetName=GND Pin=C71-2
+Removed Pin From Net: NetName=NetC93_1 Pin=C93-1
+Removed Pin From Net: NetName=CHRG Pin=CHG-2
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=P1-1
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=P3-1
+Removed Pin From Net: NetName=NetQ2_1 Pin=Q2-1
+Removed Pin From Net: NetName=USB_VBUS Pin=Q2-3
+Removed Pin From Net: NetName=NetQ3_1 Pin=Q3-1
+Removed Pin From Net: NetName=NetQ3_1 Pin=Q3-2
+Removed Pin From Net: NetName=NetQ3_1 Pin=Q3-3
+Removed Pin From Net: NetName=NetQ3_4 Pin=Q3-4
+Removed Pin From Net: NetName=NetR17_1 Pin=R17-1
+Removed Pin From Net: NetName=NetR17_2 Pin=R17-2
+Removed Pin From Net: NetName=NetQ3_4 Pin=R41-1
+Removed Pin From Net: NetName=NetC63_1 Pin=R41-2
+Removed Pin From Net: NetName=NetQ3_4 Pin=R43-1
+Removed Pin From Net: NetName=GND Pin=R43-2
+Removed Pin From Net: NetName=NetQ3_1 Pin=R44-1
+Removed Pin From Net: NetName=NetR44_2 Pin=R45-1
+Removed Pin From Net: NetName=GND Pin=R45-2
+Removed Pin From Net: NetName=GND Pin=R46-2
+Removed Pin From Net: NetName=NetC70_1 Pin=R47-1
+Removed Pin From Net: NetName=NetC71_1 Pin=R47-2
+Removed Pin From Net: NetName=LTE_PWR_EN Pin=R54-1
+Removed Pin From Net: NetName=GND Pin=R54-2
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=R73-1
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=R74-1
+Removed Pin From Net: NetName=NetQ2_1 Pin=R77-1
+Removed Pin From Net: NetName=NetC93_1 Pin=R185-1
+Removed Pin From Net: NetName=NetC63_1 Pin=R185-2
+Removed Pin From Net: NetName=USB_D_N Pin=U3-4
+Removed Pin From Net: NetName=USB_D_P Pin=U3-6
+Removed Pin From Net: NetName=NetC37_2 Pin=U6-1
+Removed Pin From Net: NetName=NetQ3_1 Pin=U6-2
+Removed Pin From Net: NetName=NetR44_2 Pin=U6-3
+Removed Pin From Net: NetName=NetR42_1 Pin=U6-5
+Removed Pin From Net: NetName=NetC70_1 Pin=U6-6
+Removed Pin From Net: NetName=GND Pin=U6-7
+Removed Pin From Net: NetName=NetC37_1 Pin=U6-8
+Removed Pin From Net: NetName=GND Pin=U6-9
+Removed Pin From Net: NetName=GND Pin=U21-2
+Removed Pin From Net: NetName=CHRG Pin=U21-3
+Removed Pin From Net: NetName=NetR17_1 Pin=USB-3
+Removed Pin From Net: NetName=NetR28_1 Pin=V3-2
+Removed Pin From Net: NetName=LTE_RXD Pin=V3-3
+Removed Member From Class: ClassName=POWER_IN Member=C63
+Removed Member From Class: ClassName=POWER_IN Member=C63
+Removed Member From Class: ClassName=POWER_IN Member=C71
+Removed Member From Class: ClassName=POWER_IN Member=C71
+Removed Member From Class: ClassName=POWER_IN Member=C71
+Removed Member From Class: ClassName=Interface Member=Q2
+Removed Member From Class: ClassName=Interface Member=Q2
+Removed Member From Class: ClassName=Interface Member=Q2
+Removed Member From Class: ClassName=POWER_IN Member=R41
+Removed Member From Class: ClassName=POWER_IN Member=R41
+Removed Member From Class: ClassName=POWER_IN Member=R43
+Removed Member From Class: ClassName=POWER_IN Member=R43
+Removed Member From Class: ClassName=POWER_IN Member=R45
+Removed Member From Class: ClassName=POWER_IN Member=R45
+Removed Member From Class: ClassName=POWER_IN Member=R45
+Removed Member From Class: ClassName=POWER_IN Member=R46
+Removed Member From Class: ClassName=POWER_IN Member=R46
+Removed Member From Class: ClassName=POWER_IN Member=R46
+Removed Member From Class: ClassName=POWER_IN Member=R47
+Removed Member From Class: ClassName=POWER_IN Member=R47
+Removed Member From Class: ClassName=Interface Member=R77
+Removed Member From Class: ClassName=Interface Member=R77
+Removed Member From Class: ClassName=POWER_IN Member=R185
+Removed Member From Class: ClassName=POWER_IN Member=R185
+Removed Member From Class: ClassName=POWER_IN Member=U6
+Removed Member From Class: ClassName=POWER_IN Member=U6
+Change Component DesignItemId : Designator=R17 Old DesignItemId=Resistor New DesignItemId=Res2
+Change Component DesignItemId : Designator=R18 Old DesignItemId=Resistor New DesignItemId=Res2
+Change Component Footprint: Designator=V1 Old Footprint=SOT23-3 New Footprint=SC-89
+Change Component Footprint: Designator=V2 Old Footprint=SOT23-3 New Footprint=SC-89
+Change Component Footprint: Designator=V3 Old Footprint=SOT23-3 New Footprint=SC-89
+Change Component Footprint: Designator=V4 Old Footprint=SOT23-3 New Footprint=SC-89
+Change Component Comment : Designator=R64 Old Comment=10.2K/1% New Comment=17.8K/1%
+Change Component Comment : Designator=R17 Old Comment=22 New Comment=22R
+Change Component Comment : Designator=R18 Old Comment=22 New Comment=22R
+Change Component Comment : Designator=R42 Old Comment=31.6K/1% New Comment=100K/1%
+Change Component Comment : Designator=C70 Old Comment=47pF/16V New Comment=22nF/16V
+Change Component Comment : Designator=R44 Old Comment=365K New Comment=84.5K
+Change Component Comment : Designator=V1 Old Comment=DTC143ZEBTL New Comment=SI2306
+Change Component Comment : Designator=V2 Old Comment=DTC143ZEBTL New Comment=SI2306
+Change Component Comment : Designator=V3 Old Comment=DTC143ZEBTL New Comment=SI2306
+Change Component Comment : Designator=V4 Old Comment=DTC143ZEBTL New Comment=SI2306
+Change Component Comment : Designator=D9 Old Comment=MBRA340T3G New Comment=SS54
+Change Component Description : Designator=R17 Old Description=Resistor SMD - IEC symbol version New Description=Resistor
+Change Component Description : Designator=R18 Old Description=Resistor SMD - IEC symbol version New Description=Resistor
+Change Component Library : Designator=R17 Old Library=SX1276_e266v02a.SchLib New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=R18 Old Library=SX1276_e266v02a.SchLib New Library=Miscellaneous Devices.IntLib
+Added Component: Designator=C2(2220C)
+Added Component: Designator=U4(SOP127P600X168_HS-8N)
+Added Pin To Net: NetName=NetC71_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=NetC63_1 Pin=C93-1
+Added Pin To Net: NetName=NetC93_1 Pin=CHG-2
+Added Pin To Net: NetName=NetQ3_1 Pin=P1-1
+Added Pin To Net: NetName=NetQ3_4 Pin=P3-1
+Added Pin To Net: NetName=NetC71_1 Pin=Q3-1
+Added Pin To Net: NetName=NetC71_1 Pin=Q3-2
+Added Pin To Net: NetName=NetC71_1 Pin=Q3-3
+Added Pin To Net: NetName=GND Pin=Q3-4
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R17-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R17-2
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R18-1
+Added Pin To Net: NetName=NetQ3_4 Pin=R18-2
+Added Pin To Net: NetName=GND Pin=R44-1
+Added Pin To Net: NetName=POWER Pin=R54-1
+Added Pin To Net: NetName=LTE_PWR_EN Pin=R54-2
+Added Pin To Net: NetName=VCC_OUT Pin=R73-1
+Added Pin To Net: NetName=VCC_OUT Pin=R74-1
+Added Pin To Net: NetName=NetR17_1 Pin=U3-1
+Added Pin To Net: NetName=USB_D_P Pin=U3-4
+Added Pin To Net: NetName=USB_D_N Pin=U3-6
+Added Pin To Net: NetName=NetC37_2 Pin=U4-1
+Added Pin To Net: NetName=NetC71_1 Pin=U4-2
+Added Pin To Net: NetName=NetR44_2 Pin=U4-4
+Added Pin To Net: NetName=NetR42_1 Pin=U4-5
+Added Pin To Net: NetName=NetC70_1 Pin=U4-6
+Added Pin To Net: NetName=GND Pin=U4-7
+Added Pin To Net: NetName=NetC37_1 Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Pin To Net: NetName=VCC_OUT Pin=U21-2
+Added Pin To Net: NetName=NetC93_1 Pin=U21-3
+Added Pin To Net: NetName=NetR17_1 Pin=USB-2
+Added Pin To Net: NetName=NetR17_2 Pin=USB-3
+Added Pin To Net: NetName=LTE_RXD Pin=V3-2
+Added Pin To Net: NetName=NetR28_1 Pin=V3-3
+Change Net Name : Old Net Name=NetC63_1 New Net Name=NetC93_1
+Change Net Name : Old Net Name=NetC71_1 New Net Name=NetC2_1
+Change Net Name : Old Net Name=NetC93_1 New Net Name=NetCHG_2
+Change Net Name : Old Net Name=NetQ2_1 New Net Name=NetU13_79
+Change Net Name : Old Net Name=NetQ3_1 New Net Name=NetP1_1
+Change Net Name : Old Net Name=NetQ3_4 New Net Name=NetP3_1
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetU3_1
+Change Net Name : Old Net Name=NetR17_2 New Net Name=NetU3_3
+Added Member To Class: ClassName=POWER_IN Member=Component C2 100uF/50V
+Added Member To Class: ClassName=POWER_IN Member=Component U4 LMR14050SDDA

@@ -1,0 +1,6 @@
+Added Component: Designator=T1(TPD)
+Added Component: Designator=T3(TPD)
+Added Component: Designator=T4(TPD)
+Added Member To Class: ClassName=LTE Member=Component T1 TP
+Added Member To Class: ClassName=LTE Member=Component T3 TP
+Added Member To Class: ClassName=LTE Member=Component T4 TP

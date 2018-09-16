@@ -1,0 +1,11 @@
+---- CRC16L_POLY Matches (10 in 2 files) ----
+Hac_crc16l.c (inc)://CRC16L_POLY=0x1021
+Hac_crc16l.c (inc):#define CRC16L_POLY              0x1021U
+Hac_crc16l.c (inc):#define CRC16L_DIS_POLY          ((CRC16L_POLY>>1)|CRC16L_FIRST_BIT_MASK)
+Hac_crc16l.c (inc):crc_in ^=  CRC16L_POLY;
+Hac_crc16l.c (inc):            crc_in ^=  CRC16L_POLY;
+Hac_crc16l.c (src)://CRC16L_POLY=0x1021
+Hac_crc16l.c (src):#define CRC16L_POLY              0x1021U
+Hac_crc16l.c (src):#define CRC16L_DIS_POLY          ((CRC16L_POLY>>1)|CRC16L_FIRST_BIT_MASK)
+Hac_crc16l.c (src):crc_in ^=  CRC16L_POLY;
+Hac_crc16l.c (src):            crc_in ^=  CRC16L_POLY;

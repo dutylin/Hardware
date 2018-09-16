@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=VCC_OUT Pin=C69-1
+Removed Pin From Net: NetName=NetC72_1 Pin=C72-1
+Removed Pin From Net: NetName=GND Pin=C72-2
+Removed Pin From Net: NetName=POWER Pin=C83-1
+Removed Pin From Net: NetName=GND Pin=C83-2
+Removed Pin From Net: NetName=VCC_OUT Pin=C85-1
+Removed Pin From Net: NetName=GND Pin=C85-2
+Removed Pin From Net: NetName=NetC108_1 Pin=C108-1
+Removed Pin From Net: NetName=GND Pin=C108-2
+Removed Pin From Net: NetName=NetC108_1 Pin=C109-1
+Removed Pin From Net: NetName=GND Pin=C109-2
+Removed Pin From Net: NetName=NetC108_1 Pin=C161-2
+Removed Pin From Net: NetName=NetC108_1 Pin=D12-K
+Removed Pin From Net: NetName=NetC108_1 Pin=L17-1
+Removed Pin From Net: NetName=NetC108_1 Pin=P6-2
+Removed Pin From Net: NetName=NetC108_1 Pin=Q1-5
+Removed Pin From Net: NetName=NetC108_1 Pin=U30-1
+Removed Member From Class: ClassName=POWER_IN Member=C72
+Removed Member From Class: ClassName=POWER_IN Member=C72
+Removed Member From Class: ClassName=POWER_IN Member=C83
+Removed Member From Class: ClassName=POWER_IN Member=C83
+Removed Member From Class: ClassName=POWER_IN Member=C85
+Removed Member From Class: ClassName=POWER_IN Member=C85
+Removed Member From Class: ClassName=POWER_IN Member=C85
+Removed Member From Class: ClassName=POWER_IN Member=C108
+Removed Member From Class: ClassName=POWER_IN Member=C108
+Removed Member From Class: ClassName=POWER_IN Member=C109
+Removed Member From Class: ClassName=POWER_IN Member=C109
+Removed Member From Class: ClassName=LTE Member=R23
+Removed Member From Class: ClassName=LTE Member=R23
+Added Component: Designator=C34(1210E)
+Added Component: Designator=C39(1210E)
+Added Component: Designator=C40(1210E)
+Added Component: Designator=C41(1210E)
+Added Component: Designator=C61(1210E)
+Added Component: Designator=R27(0603R)
+Added Component: Designator=R34(0603R)
+Added Pin To Net: NetName=VCC_OUT Pin=C34-1
+Added Pin To Net: NetName=GND Pin=C34-2
+Added Pin To Net: NetName=NetC72_1 Pin=C39-1
+Added Pin To Net: NetName=GND Pin=C39-2
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=VCC_OUT Pin=C61-1
+Added Pin To Net: NetName=GND Pin=C61-2
+Added Pin To Net: NetName=POWER Pin=C69-1
+Added Pin To Net: NetName=NetC108_1 Pin=R27-1
+Added Pin To Net: NetName=GND Pin=R34-1
+Added Pin To Net: NetName=NetC108_1 Pin=R34-2
+Added Pin To Net: NetName=NetC108_1 Pin=U13-17
+Change Net Name : Old Net Name=NetC72_1 New Net Name=NetC39_1
+Change Net Name : Old Net Name=NetC108_1 New Net Name=BATTERY_SUP
+Added Pin To Net: NetName=NetC40_1 Pin=C40-1
+Added Pin To Net: NetName=NetC40_1 Pin=C41-1
+Added Pin To Net: NetName=NetC40_1 Pin=C161-2
+Added Pin To Net: NetName=NetC40_1 Pin=D12-K
+Added Pin To Net: NetName=NetC40_1 Pin=L17-1
+Added Pin To Net: NetName=NetC40_1 Pin=P6-2
+Added Pin To Net: NetName=NetC40_1 Pin=Q1-5
+Added Pin To Net: NetName=NetC40_1 Pin=R27-2
+Added Pin To Net: NetName=NetC40_1 Pin=U30-1
+Added Net: Name=NetC40_1
+Added Member To Class: ClassName=POWER_IN Member=Component C34 100uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component C39 100uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component C40 100uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component C41 100uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component C61 100uF/10V
+Added Member To Class: ClassName=POWER_IN Member=Component R27 158K/1%
+Added Member To Class: ClassName=POWER_IN Member=Component R34 158K/1%

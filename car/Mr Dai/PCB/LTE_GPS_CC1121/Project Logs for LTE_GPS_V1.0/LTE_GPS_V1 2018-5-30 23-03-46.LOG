@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=NetU13_7 Pin=U13-7
+Removed Pin From Net: NetName=NetU13_25 Pin=U13-25
+Removed Pin From Net: NetName=NetU13_26 Pin=U13-26
+Removed Pin From Net: NetName=DQ Pin=U13-34
+Removed Pin From Net: NetName=LED_433MHZ Pin=U13-35
+Removed Pin From Net: NetName=LED_GPS Pin=U13-36
+Removed Pin From Net: NetName=LED_PWR Pin=U13-48
+Removed Pin From Net: NetName=NetR118_2 Pin=U13-51
+Removed Pin From Net: NetName=NetR28_1 Pin=U13-55
+Removed Pin From Net: NetName=NetR24_2 Pin=U13-56
+Removed Pin From Net: NetName=LTE_PWR_EN Pin=U13-65
+Removed Pin From Net: NetName=NetR25_1 Pin=U13-67
+Removed Pin From Net: NetName=LED_BACK Pin=U13-77
+Removed Pin From Net: NetName=CHRG Pin=U13-78
+Removed Pin From Net: NetName=NetU13_80 Pin=U13-80
+Removed Pin From Net: NetName=NetU13_83 Pin=U13-83
+Removed Pin From Net: NetName=NetU13_25 Pin=V2-1
+Removed Pin From Net: NetName=NetU13_26 Pin=V4-1
+Added Pin To Net: NetName=NetR118_2 Pin=U13-1
+Added Pin To Net: NetName=LTE_PWR_EN Pin=U13-16
+Added Pin To Net: NetName=DQ Pin=U13-26
+Added Pin To Net: NetName=CHRG Pin=U13-39
+Added Pin To Net: NetName=LED_BACK Pin=U13-48
+Added Pin To Net: NetName=NetU13_7 Pin=U13-52
+Added Pin To Net: NetName=NetU13_25 Pin=U13-55
+Added Pin To Net: NetName=NetU13_26 Pin=U13-56
+Added Pin To Net: NetName=LED_PWR Pin=U13-57
+Added Pin To Net: NetName=LED_GPS Pin=U13-58
+Added Pin To Net: NetName=LED_433MHZ Pin=U13-59
+Added Pin To Net: NetName=NetR25_1 Pin=U13-63
+Added Pin To Net: NetName=NetU13_80 Pin=U13-77
+Added Pin To Net: NetName=NetU13_83 Pin=U13-78
+Added Pin To Net: NetName=NetR28_1 Pin=U13-80
+Added Pin To Net: NetName=NetR24_2 Pin=U13-83
+Added Pin To Net: NetName=NetU13_80 Pin=V2-1
+Added Pin To Net: NetName=NetU13_83 Pin=V4-1
+Change Net Name : Old Net Name=NetU13_7 New Net Name=NetU13_52
+Change Net Name : Old Net Name=NetU13_25 New Net Name=NetU13_55
+Change Net Name : Old Net Name=NetU13_26 New Net Name=NetU13_56
+Change Net Name : Old Net Name=NetU13_80 New Net Name=NetU13_77
+Change Net Name : Old Net Name=NetU13_83 New Net Name=NetU13_78

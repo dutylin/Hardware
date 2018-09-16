@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=LED_433MHZ Pin=433MHz-2
+Removed Pin From Net: NetName=Net433MHz_1 Pin=C21-2
+Removed Pin From Net: NetName=Net433MHz_1 Pin=L7-1
+Removed Member From Class: ClassName=RF_433MHz Member=433
+Added Pin To Net: NetName=Net433MHz_1 Pin=433-1
+Added Pin To Net: NetName=GND Pin=433MHz-2
+Added Pin To Net: NetName=Net433MHz_1 Pin=C21-2
+Added Pin To Net: NetName=Net433MHz_1 Pin=L7-1
+Added Pin To Net: NetName=Net433MHz_1 Pin=R38-2
+Change Net Name : Old Net Name=Net433MHz_1 New Net Name=Net433_1
+Added Member To Class: ClassName=RF_433MHz Member=Component 433MHz IPX
+Added Member To Class: ClassName=MCU Member=Component 433 LED0
