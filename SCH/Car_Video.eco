@@ -1,0 +1,27 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: F:\projects\18\Æû³µÑù°å\Hardware\SCH\Car_Video_V1.1.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2018/9/15 20:22:40
+*NET*
+*SIGNAL*  $$$8366
+J1.6
+*SIGNAL*  AGND
+U11.7
+*SIGNAL*  GND
+J6.3  J5.3  J2.3  J6.4  J5.4  J2.4
+*SIGNAL*  PWR_EN
+U1.25
+
+*REMARK*  Deleted pins: 0,  Added pins: 9
+*END*
+*PADS-ECO-V10.0-METRIC*
+
+*REMARK* -- Car_Video.pcb -- Sat Sep 15 20:31:44 2018
+
+
+*DELPIN*
+T20.1    SD
+
+*DELPART*
+T20 TEST
+*END*

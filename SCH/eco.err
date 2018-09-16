@@ -1,0 +1,11 @@
+** ECO In Report **
+
+Sat Sep 15 20:22:49 2018
+
+Input  File : F:\projects\18\Æû³µÑù°å\Hardware\SCH\Car_Video.eco
+Current Job : Car_Video.pcb
+
+
+* Warning: deleting single-pin signal $$$8366
+* Warning: deleting single-pin signal AGND
+* Warning: deleting single-pin signal PWR_EN

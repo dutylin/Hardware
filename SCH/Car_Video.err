@@ -1,0 +1,692 @@
+PCB Net List Errors Report - Car_Video.sch - Wed Sep 05 22:43:28 2018
+----------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net $$$8366 has less than two pins in PCB net list file.
+Net $$$8623 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+$$$8366
+MCU          X16860 Y4730 
+
+$$$8623
+INTERFACE    X7850  Y7040 
+
+B0
+DISPLAY      X5560  Y14670
+
+B1
+DISPLAY      X5400  Y14670
+
+B2
+DISPLAY      X5240  Y14670
+
+B3
+DISPLAY      X4920  Y14670
+
+B4
+DISPLAY      X4760  Y14670
+
+CAN_STBY
+INTERFACE    X14280 Y13010
+
+G0
+DISPLAY      X7320  Y14670
+
+G1
+DISPLAY      X7000  Y14670
+
+G2
+DISPLAY      X6840  Y14670
+
+G3
+DISPLAY      X6520  Y14670
+
+G4
+DISPLAY      X6360  Y14670
+
+G5
+DISPLAY      X6200  Y14670
+
+LCD_PWR
+MCU          X12190 Y14220
+
+M_STBY
+MCU          X17310 Y10070
+
+MODE1
+MCU          X10910 Y14280
+INTERFACE    X4780  Y7940 
+
+MODE2
+MCU          X11230 Y14290
+INTERFACE    X4920  Y7940 
+
+MODE3
+MCU          X16250 Y12230
+
+MODE4
+MCU          X16250 Y11910
+
+MSCLKO
+DISPLAY      X11980 Y12150
+
+MSIO0
+DISPLAY      X16650 Y4410 
+
+MSIO1
+DISPLAY      X16650 Y4170 
+
+MSIO2
+DISPLAY      X16650 Y3930 
+
+OUTA1
+INTERFACE    X7600  Y4400 
+
+OUTA2
+INTERFACE    X7600  Y4300 
+
+OUTB1
+INTERFACE    X6400  Y6900 
+INTERFACE    X7600  Y4200 
+
+OUTB2
+INTERFACE    X7600  Y4100 
+
+PGC2
+MCU          X16520 Y9110 
+
+PGD1
+MCU          X16520 Y9430 
+
+PWR_EN
+MCU          X16530 Y9750 
+POWER        X19570 Y7550 
+
+R0
+DISPLAY      X10170 Y13340
+
+R1
+DISPLAY      X10170 Y13500
+
+R2
+DISPLAY      X8600  Y14670
+
+R3
+DISPLAY      X8280  Y14670
+
+R4
+DISPLAY      X8120  Y14670
+
+R5
+DISPLAY      X7960  Y14670
+
+RST
+MCU          X10660 Y5030 
+
+SPI1_SCK
+MCU          X12830 Y14250
+
+SPI1_SDI
+MCU          X13150 Y14210
+
+SPI1_SDO
+MCU          X13470 Y14190
+
+Dangling Connections with a Net Name
+
+B0
+DISPLAY      X20380 Y11650
+
+B1
+DISPLAY      X20380 Y11770
+
+B2
+DISPLAY      X20380 Y11890
+
+B3
+DISPLAY      X20380 Y12010
+
+B4
+DISPLAY      X20380 Y12130
+
+B5
+DISPLAY      X20380 Y12250
+DISPLAY      X3510  Y13580
+
+BUSY
+MCU          X10890 Y7080 
+DISPLAY      X7080  Y8700 
+
+CAN_RXD
+MCU          X7810  Y11130
+
+CAN_STBY
+MCU          X8060  Y9530 
+
+CAN_TXD
+MCU          X7800  Y10810
+INTERFACE    X12370 Y13010
+
+D_RST_N
+MCU          X11210 Y7080 
+DISPLAY      X3210  Y11020
+
+DE
+DISPLAY      X3300  Y11660
+
+G0
+DISPLAY      X20380 Y12490
+
+G1
+DISPLAY      X20380 Y12610
+
+G2
+DISPLAY      X20380 Y12730
+
+G3
+DISPLAY      X20380 Y12850
+
+G4
+DISPLAY      X20380 Y12970
+
+G5
+DISPLAY      X20380 Y13090
+
+HS
+DISPLAY      X3330  Y12780
+
+INT_N
+MCU          X10570 Y7080 
+DISPLAY      X7240  Y8700 
+
+LCD_PWR
+DISPLAY      X3350  Y2720 
+
+LED_DIM
+MCU          X8110  Y9850 
+INTERFACE    X18280 Y6480 
+
+LED_EN
+MCU          X13450 Y6990 
+INTERFACE    X18270 Y6330 
+
+LIN
+INTERFACE    X7060  Y12590
+INTERFACE    X9290  Y12880
+
+LIN_CS
+MCU          X7790  Y12090
+INTERFACE    X4410  Y12730
+
+LIN_RXD
+MCU          X7800  Y11770
+
+LIN_TXD
+MCU          X7810  Y11450
+
+M_EN
+MCU          X8050  Y9210 
+MCU          X17310 Y10390
+INTERFACE    X11150 Y7360 
+
+M_STBY
+MCU          X8050  Y8890 
+INTERFACE    X9650  Y7360 
+
+MODE3
+INTERFACE    X3580  Y7020 
+
+MODE4
+INTERFACE    X3570  Y7160 
+
+MSCS0_N
+DISPLAY      X11850 Y10780
+
+MSIO0
+DISPLAY      X11960 Y11260
+
+MSIO1
+DISPLAY      X11960 Y11420
+
+MSIO2
+DISPLAY      X11960 Y11740
+
+MSIO3
+DISPLAY      X11960 Y11900
+DISPLAY      X14670 Y3930 
+
+OUTA1
+INTERFACE    X3580  Y6880 
+
+OUTA2
+INTERFACE    X4780  Y5860 
+
+OUTB2
+INTERFACE    X5200  Y5860 
+
+PCLK
+DISPLAY      X3410  Y12300
+
+PGC2
+MCU          X16860 Y4830 
+
+PGD1
+MCU          X16860 Y4930 
+
+R0
+DISPLAY      X20380 Y13330
+
+R1
+DISPLAY      X20380 Y13450
+
+R2
+DISPLAY      X20380 Y13570
+
+R3
+DISPLAY      X20380 Y13690
+
+R4
+DISPLAY      X20380 Y13810
+
+R5
+DISPLAY      X20380 Y13930
+
+RST
+MCU          X12170 Y7000 
+MCU          X16860 Y5230 
+
+SD
+MCU          X10250 Y7100 
+DISPLAY      X20380 Y14290
+
+SPI1_CS
+MCU          X13130 Y7000 
+DISPLAY      X7560  Y8700 
+
+SPI1_SCK
+DISPLAY      X7720  Y8700 
+
+SPI1_SDI
+DISPLAY      X6920  Y8700 
+
+SPI1_SDO
+DISPLAY      X7880  Y8700 
+
+VCC_3.3V2
+DISPLAY      X7630  Y8100 
+
+VS
+DISPLAY      X3300  Y12940
+
+XRES
+DISPLAY      X20370 Y14170
+
+Power or Ground Symbols used with wrong Net Name
+
+AGND
+INTERFACE    X5060  Y5690  - Ground Symbol used for net: GND
+INTERFACE    X3440  Y6130  - Ground Symbol used for net: GND
+INTERFACE    X6390  Y6010  - Ground Symbol used for net: GND
+INTERFACE    X4790  Y3500  - Ground Symbol used for net: GND
+INTERFACE    X4050  Y3540  - Ground Symbol used for net: GND
+INTERFACE    X6210  Y8410  - Ground Symbol used for net: GND
+INTERFACE    X6660  Y6580  - Ground Symbol used for net: GND
+INTERFACE    X13650 Y6590  - Ground Symbol used for net: GND
+INTERFACE    X18880 Y6820  - Ground Symbol used for net: GND
+INTERFACE    X15490 Y6670  - Ground Symbol used for net: GND
+INTERFACE    X16810 Y7220  - Ground Symbol used for net: GND
+
+AVCC_3.3V
+MCU          X11850 Y7160  - Power  Symbol used for net: +5V
+MCU          X12780 Y4990  - Power  Symbol used for net: +5V
+
+EARTH
+POWER        X7590  Y8670  - Ground Symbol used for net: GND
+
+VBAT
+POWER        X9770  Y11320 - Power  Symbol used for net: +5V
+POWER        X3990  Y8480  - Power  Symbol used for net: +5V
+
+VBAT_IN
+POWER        X7800  Y11530 - Power  Symbol used for net: +5V
+POWER        X8710  Y8480  - Power  Symbol used for net: +5V
+POWER        X20500 Y7710  - Power  Symbol used for net: +5V
+POWER        X15590 Y12520 - Power  Symbol used for net: +5V
+INTERFACE    X6510  Y13860 - Power  Symbol used for net: +5V
+INTERFACE    X13650 Y7460  - Power  Symbol used for net: +5V
+
+VCC3.3V2
+POWER        X16150 Y7550  - Power  Symbol used for net: +5V
+POWER        X20040 Y8000  - Power  Symbol used for net: +5V
+POWER        X18900 Y6450  - Power  Symbol used for net: +5V
+DISPLAY      X15750 Y4850  - Power  Symbol used for net: +5V
+DISPLAY      X17350 Y4510  - Power  Symbol used for net: +5V
+DISPLAY      X14280 Y5280  - Power  Symbol used for net: +5V
+
+VCC_1.8V
+DISPLAY      X3550  Y9900  - Power  Symbol used for net: +5V
+DISPLAY      X3520  Y12140 - Power  Symbol used for net: +5V
+DISPLAY      X7160  Y14610 - Power  Symbol used for net: +5V
+DISPLAY      X10430 Y11580 - Power  Symbol used for net: +5V
+DISPLAY      X10430 Y9820  - Power  Symbol used for net: +5V
+DISPLAY      X6090  Y4380  - Power  Symbol used for net: +5V
+DISPLAY      X6950  Y4380  - Power  Symbol used for net: +5V
+DISPLAY      X7660  Y4400  - Power  Symbol used for net: +5V
+
+VCC_3.3V
+MCU          X9160  Y5700  - Power  Symbol used for net: +5V
+MCU          X16110 Y10710 - Power  Symbol used for net: +5V
+MCU          X11550 Y14150 - Power  Symbol used for net: +5V
+MCU          X13420 Y4930  - Power  Symbol used for net: +5V
+MCU          X14230 Y4930  - Power  Symbol used for net: +5V
+MCU          X15050 Y5010  - Power  Symbol used for net: +5V
+MCU          X11700 Y5010  - Power  Symbol used for net: +5V
+MCU          X16760 Y5130  - Power  Symbol used for net: +5V
+POWER        X3450  Y11160 - Power  Symbol used for net: +5V
+POWER        X7340  Y11610 - Power  Symbol used for net: +5V
+POWER        X12060 Y11360 - Power  Symbol used for net: +5V
+POWER        X9310  Y8490  - Power  Symbol used for net: +5V
+INTERFACE    X13710 Y12590 - Power  Symbol used for net: +5V
+INTERFACE    X12380 Y11570 - Power  Symbol used for net: +5V
+INTERFACE    X8050  Y13010 - Power  Symbol used for net: +5V
+INTERFACE    X17080 Y5330  - Power  Symbol used for net: +5V
+
+VCC_3.3V2
+DISPLAY      X3200  Y4370  - Power  Symbol used for net: +5V
+DISPLAY      X3570  Y11500 - Power  Symbol used for net: +5V
+DISPLAY      X3570  Y13260 - Power  Symbol used for net: +5V
+DISPLAY      X5880  Y14610 - Power  Symbol used for net: +5V
+DISPLAY      X7640  Y14610 - Power  Symbol used for net: +5V
+DISPLAY      X10110 Y12060 - Power  Symbol used for net: +5V
+DISPLAY      X10110 Y11100 - Power  Symbol used for net: +5V
+DISPLAY      X10110 Y10140 - Power  Symbol used for net: +5V
+DISPLAY      X8520  Y8790  - Power  Symbol used for net: +5V
+DISPLAY      X9260  Y4480  - Power  Symbol used for net: +5V
+DISPLAY      X11120 Y9100  - Power  Symbol used for net: +5V
+DISPLAY      X2190  Y10890 - Power  Symbol used for net: +5V
+DISPLAY      X4840  Y9000  - Power  Symbol used for net: +5V
+DISPLAY      X10620 Y13180 - Power  Symbol used for net: +5V
+
+VCC_LCD_3.3V
+DISPLAY      X20560 Y10450 - Power  Symbol used for net: +5V
+DISPLAY      X20560 Y10210 - Power  Symbol used for net: +5V
+DISPLAY      X4650  Y4370  - Power  Symbol used for net: +5V
+DISPLAY      X20560 Y9970  - Power  Symbol used for net: +5V
+DISPLAY      X20560 Y9730  - Power  Symbol used for net: +5V
+DISPLAY      X20570 Y9250  - Power  Symbol used for net: +5V
+DISPLAY      X19320 Y15210 - Power  Symbol used for net: +5V
+DISPLAY      X20570 Y9490  - Power  Symbol used for net: +5V
+
+VCC_M5V
+POWER        X20450 Y12390 - Power  Symbol used for net: +5V
+INTERFACE    X12520 Y12730 - Power  Symbol used for net: +5V
+INTERFACE    X13360 Y11530 - Power  Symbol used for net: +5V
+INTERFACE    X4920  Y5350  - Power  Symbol used for net: +5V
+INTERFACE    X4790  Y4310  - Power  Symbol used for net: +5V
+INTERFACE    X4050  Y4300  - Power  Symbol used for net: +5V
+INTERFACE    X8870  Y8040  - Power  Symbol used for net: +5V
+INTERFACE    X10370 Y8040  - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+B0
+DISPLAY      X21210 Y11650 - Pin: J7.29
+DISPLAY      X5560  Y14140 - Pin: U12.95
+
+B1
+DISPLAY      X21210 Y11770 - Pin: J7.28
+DISPLAY      X5400  Y14140 - Pin: U12.96
+
+B2
+DISPLAY      X21210 Y11890 - Pin: J7.27
+DISPLAY      X5240  Y14140 - Pin: U12.97
+
+B3
+DISPLAY      X21210 Y12010 - Pin: J7.26
+DISPLAY      X4920  Y14140 - Pin: U12.99
+
+B4
+DISPLAY      X21210 Y12130 - Pin: J7.25
+DISPLAY      X4760  Y14140 - Pin: U12.100
+
+B5
+DISPLAY      X21210 Y12250 - Pin: J7.24
+DISPLAY      X4040  Y13580 - Pin: U12.1
+
+BUSY
+MCU          X10890 Y7550  - Pin: U1.14
+DISPLAY      X7080  Y9260  - Pin: U12.40
+
+CAN_RXD
+MCU          X8650  Y11130 - Pin: U1.4
+INTERFACE    X12370 Y12590 - Pin: T15.1
+
+CAN_STBY
+MCU          X8650  Y9530  - Pin: U1.9
+INTERFACE    X13620 Y13010 - Pin: U5.8
+
+CAN_TXD
+MCU          X8650  Y10810 - Pin: U1.5
+INTERFACE    X12720 Y13010 - Pin: U5.1
+
+D_RST_N
+MCU          X11210 Y7550  - Pin: U1.15
+DISPLAY      X4040  Y11020 - Pin: U12.17
+
+DE
+DISPLAY      X21210 Y11170 - Pin: J7.33
+DISPLAY      X4040  Y11660 - Pin: U12.13
+
+G0
+DISPLAY      X21210 Y12490 - Pin: J7.22
+DISPLAY      X7320  Y14140 - Pin: U12.84
+
+G1
+DISPLAY      X21210 Y12610 - Pin: J7.21
+DISPLAY      X7000  Y14140 - Pin: U12.86
+
+G2
+DISPLAY      X21210 Y12730 - Pin: J7.20
+DISPLAY      X6840  Y14140 - Pin: U12.87
+
+G3
+DISPLAY      X21210 Y12850 - Pin: J7.19
+DISPLAY      X6520  Y14140 - Pin: U12.89
+
+G4
+DISPLAY      X21210 Y12970 - Pin: J7.18
+DISPLAY      X6360  Y14140 - Pin: U12.90
+
+G5
+DISPLAY      X21210 Y13090 - Pin: J7.17
+DISPLAY      X6200  Y14140 - Pin: U12.91
+
+HS
+DISPLAY      X20360 Y10930 - Pin: T28.1
+DISPLAY      X4040  Y12780 - Pin: U12.6
+
+INT_N
+MCU          X10570 Y7550  - Pin: U1.13
+DISPLAY      X7240  Y9260  - Pin: U12.41
+
+LCD_PWR
+MCU          X12190 Y13670 - Pin: U1.38
+DISPLAY      X3850  Y2810  - Pin: R34.1
+
+LED_DIM
+MCU          X8650  Y9850  - Pin: U1.8
+INTERFACE    X17080 Y6050  - Pin: R31.1
+
+LED_EN
+MCU          X13450 Y7550  - Pin: U1.22
+INTERFACE    X17490 Y6070  - Pin: R32.1
+
+LIN
+INTERFACE    X6510  Y12660 - Pin: R6.1
+INTERFACE    X9690  Y12880 - Pin: J5.1
+
+LIN_CS
+MCU          X8650  Y12090 - Pin: U1.1
+INTERFACE    X4780  Y12730 - Pin: U4.2
+
+LIN_RXD
+MCU          X8650  Y11770 - Pin: U1.2
+INTERFACE    X4410  Y12870 - Pin: T16.1
+
+LIN_TXD
+MCU          X8650  Y11450 - Pin: U1.3
+INTERFACE    X4400  Y12450 - Pin: T17.1
+
+M_EN
+MCU          X8650  Y9210  - Pin: U1.10
+MCU          X16940 Y10390 - Pin: R25.2
+INTERFACE    X5200  Y7940  - Pin: T23.1
+INTERFACE    X10370 Y7350  - Pin: C40.2
+
+M_STBY
+MCU          X16890 Y10070 - Pin: R26.2
+MCU          X8650  Y8890  - Pin: U1.11
+INTERFACE    X5060  Y7940  - Pin: T24.1
+INTERFACE    X8870  Y7310  - Pin: C39.2
+
+MODE1
+MCU          X10910 Y13670 - Pin: U1.42
+INTERFACE    X4780  Y7640  - Pin: U9.16
+
+MODE2
+MCU          X11230 Y13670 - Pin: U1.41
+INTERFACE    X4920  Y7640  - Pin: U9.15
+
+MODE3
+MCU          X15550 Y12230 - Pin: U1.33
+INTERFACE    X4120  Y7020  - Pin: U9.2
+
+MODE4
+MCU          X15550 Y11910 - Pin: U1.32
+INTERFACE    X4120  Y7160  - Pin: U9.1
+
+MSCLKO
+DISPLAY      X11470 Y12150 - Pin: R41.1
+DISPLAY      X15230 Y4170  - Pin: U13.16
+
+MSCS0_N
+DISPLAY      X10720 Y10780 - Pin: R46.1
+DISPLAY      X14280 Y4520  - Pin: R47.1
+
+MSIO0
+DISPLAY      X10720 Y11260 - Pin: R45.1
+DISPLAY      X16250 Y4410  - Pin: U13.15
+
+MSIO1
+DISPLAY      X10720 Y11420 - Pin: R44.1
+DISPLAY      X16250 Y4170  - Pin: U13.8
+
+MSIO2
+DISPLAY      X10720 Y11740 - Pin: R43.1
+DISPLAY      X16250 Y3930  - Pin: U13.9
+
+MSIO3
+DISPLAY      X10720 Y11900 - Pin: R42.1
+DISPLAY      X15230 Y3930  - Pin: U13.1
+
+OUTA1
+INTERFACE    X4120  Y6880  - Pin: U9.3
+INTERFACE    X7250  Y4400  - Pin: J4.1
+
+OUTA2
+INTERFACE    X4780  Y6200  - Pin: U9.5
+INTERFACE    X7250  Y4300  - Pin: J4.2
+
+OUTB1
+INTERFACE    X5940  Y6900  - Pin: U9.10
+INTERFACE    X7250  Y4200  - Pin: J4.3
+
+OUTB2
+INTERFACE    X5200  Y6200  - Pin: U9.8
+INTERFACE    X7250  Y4100  - Pin: J4.4
+
+PCLK
+DISPLAY      X21210 Y11410 - Pin: J7.31
+DISPLAY      X4040  Y12300 - Pin: U12.9
+
+PGC2
+MCU          X17250 Y4830  - Pin: J1.5
+MCU          X15550 Y9110  - Pin: U1.23
+
+PGD1
+MCU          X17250 Y4930  - Pin: J1.4
+MCU          X15550 Y9430  - Pin: U1.24
+
+PWR_EN
+MCU          X15550 Y9750  - Pin: U1.25
+POWER        X19070 Y7550  - Pin: R60.1
+
+R0
+DISPLAY      X21210 Y13330 - Pin: J7.15
+DISPLAY      X9640  Y13340 - Pin: U12.74
+
+R1
+DISPLAY      X21210 Y13450 - Pin: J7.14
+DISPLAY      X9640  Y13500 - Pin: U12.75
+
+R2
+DISPLAY      X21210 Y13570 - Pin: J7.13
+DISPLAY      X8600  Y14140 - Pin: U12.76
+
+R3
+DISPLAY      X21210 Y13690 - Pin: J7.12
+DISPLAY      X8280  Y14140 - Pin: U12.78
+
+R4
+DISPLAY      X21210 Y13810 - Pin: J7.11
+DISPLAY      X8120  Y14140 - Pin: U12.79
+
+R5
+DISPLAY      X21210 Y13930 - Pin: J7.10
+DISPLAY      X7960  Y14140 - Pin: U12.80
+
+RST
+MCU          X12170 Y7550  - Pin: U1.18
+MCU          X10100 Y5030  - Pin: R2.2
+MCU          X17250 Y5230  - Pin: J1.1
+
+SD
+MCU          X12510 Y14230 - Pin: T20.1
+MCU          X10250 Y7550  - Pin: U1.12
+DISPLAY      X21210 Y14290 - Pin: J7.7
+
+SPI1_CS
+MCU          X13130 Y7550  - Pin: U1.21
+DISPLAY      X7560  Y9260  - Pin: U12.43
+
+SPI1_SCK
+MCU          X12830 Y13670 - Pin: U1.36
+DISPLAY      X7720  Y9260  - Pin: U12.44
+
+SPI1_SDI
+MCU          X13150 Y13670 - Pin: U1.35
+DISPLAY      X6920  Y9260  - Pin: U12.39
+
+SPI1_SDO
+MCU          X13470 Y13670 - Pin: U1.34
+DISPLAY      X7880  Y9260  - Pin: U12.45
+
+VCC_3.3V2
+DISPLAY      X6910  Y8020  - Pin: C54.2
+
+VS
+DISPLAY      X20370 Y10690 - Pin: T29.1
+DISPLAY      X4040  Y12940 - Pin: U12.5
+
+XRES
+MCU          X10590 Y14260 - Pin: T21.1
+DISPLAY      X21210 Y14170 - Pin: J7.8
