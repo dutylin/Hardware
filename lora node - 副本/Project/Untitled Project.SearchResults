@@ -1,0 +1,6 @@
+---- rtc_flag Matches (5 in 2 files) ----
+Main.c (stm8l15x_stdperiph_template):extern   u8 rtc_flag;
+Main.c (stm8l15x_stdperiph_template):   // if(rtc_flag)
+Main.c (stm8l15x_stdperiph_template):      rtc_flag=0;
+Stm8l15x_it.c (stm8l15x_stdperiph_template):u8 rtc_flag;
+Stm8l15x_it.c (stm8l15x_stdperiph_template):    rtc_flag=1;
