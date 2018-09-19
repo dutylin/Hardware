@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"lte\startup_stm32f103xe.o"
+"lte\system_stm32f1xx.o"
+"lte\stm32f1xx_hal.o"
+"lte\stm32f1xx_hal_rcc_ex.o"
+"lte\stm32f1xx_hal_gpio.o"
+"lte\stm32f1xx_hal_dma.o"
+"lte\stm32f1xx_hal_flash_ex.o"
+"lte\stm32f1xx_hal_rcc.o"
+"lte\stm32f1xx_hal_gpio_ex.o"
+"lte\stm32f1xx_hal_pwr.o"
+"lte\stm32f1xx_hal_flash.o"
+"lte\stm32f1xx_hal_tim_ex.o"
+"lte\stm32f1xx_hal_tim.o"
+"lte\stm32f1xx_hal_uart.o"
+"lte\stm32f1xx_hal_cortex.o"
+"lte\main.o"
+"lte\stm32f1xx_it.o"
+"lte\stm32f1xx_hal_msp.o"
+"lte\bsp.o"
+"lte\lte_hal.o"
+"lte\systick_timer.o"
+"lte\rf_process.o"
+"lte\crc.o"
+--library_type=microlib --strict --scatter "lte\lte.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lte.map" -o lte\lte.axf
