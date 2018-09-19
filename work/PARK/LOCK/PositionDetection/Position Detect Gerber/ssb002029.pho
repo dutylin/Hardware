@@ -1,0 +1,99 @@
+*
+*
+G04 PADS VX.1.2 Build Number: 698008 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "PositionDecion_ZM_V1.0_"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD011C,0.005*%
+%ADD016C,0.01*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name PositionDecion_ZM_V1.0_ - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name PositionDecion_ZM_V1.0_ - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name PositionDecion_ZM_V1.0_ - circuitry*
+%LPD*%
+*
+G54D10*
+G54D11*
+G01X511625Y444809D02*
+X509625D01*
+X509250Y444718*
+X509125Y444627*
+X509000Y444445*
+Y444264*
+X509125Y444082*
+X509250Y443991*
+X509625Y443900*
+X509875*
+X511125Y445627D02*
+X511250Y445809D01*
+X511625Y446082*
+X509000*
+G54D16*
+X523843Y392594D02*
+Y441806D01*
+X500614*
+Y392594*
+X523843*
+X523600Y414200D02*
+Y420000D01*
+X522000*
+Y414200*
+X523600*
+X0Y0D02*
+M02*

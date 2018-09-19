@@ -1,0 +1,4 @@
+Added Component: Designator=D5(SOD323)
+Added Pin To Net: NetName=GND Pin=D5-A
+Added Pin To Net: NetName=VCC Pin=D5-K
+Added Member To Class: ClassName=Interface Member=Component D5 PESD5V

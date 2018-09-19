@@ -1,0 +1,22 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: Z:\admin\Documents\ZM\Frogs\Design\M3\sch&pcb\PARK\LOCK\LOCK_BASE\lock_ZM_V1.0_20180731.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2018/8/15 11:14:28
+*PART*
+D2  DIODE@SMA
+*NET*
+*SIGNAL*  $$$22201
+U1.19
+*SIGNAL*  $$$22203
+U1.20
+*SIGNAL*  $$$22205
+U1.21
+*SIGNAL*  $$$22207
+U1.22
+*SIGNAL*  VCC
+D2.1
+*SIGNAL*  VCC_IN
+D2.2
+
+*REMARK*  Deleted pins: 0,  Added pins: 6
+*END*

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=P3-1
+Removed Pin From Net: NetName=VCC Pin=P3-2
+Removed Pin From Net: NetName=TXD_USB Pin=R5-2
+Removed Pin From Net: NetName=RXD_USB Pin=R24-2
+Removed Member From Class: ClassName=Interface Member=P3
+Removed Member From Class: ClassName=Interface Member=P3
+Removed Member From Class: ClassName=Interface Member=P3
+Removed Member From Class: ClassName=Interface Member=R5
+Removed Member From Class: ClassName=Interface Member=R5
+Removed Member From Class: ClassName=Interface Member=R24
+Removed Member From Class: ClassName=Interface Member=R24

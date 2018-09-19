@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=NetU3_1 New Net Name=DIN_N
+Change Net Name : Old Net Name=NetU3_3 New Net Name=DIN_P
+Added Differential Pair: Name=DIN

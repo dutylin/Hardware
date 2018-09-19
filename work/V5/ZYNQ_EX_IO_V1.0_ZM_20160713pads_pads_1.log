@@ -1,0 +1,103 @@
+PADS Layout Translator (Version VX.1.2) 02/08/18 16:09:23
+Copyright (c) 2015 Mentor Graphics Corp. - All rights reserved
+
+------------------------------------------------------------
+Input file: C:\Users\Administrator\Desktop\ZYNQ_EX_IO_V1.0_ZM_20160713pads.PcbDoc
+File size: 1999 Kb
+File type: Protel_Advanced_PCB
+File version: 5.00
+Output file: .\ZYNQ_EX_IO_V1.0_ZM_20160713pads_pads_1.pcb
+
+[W] Cannot find the Protel / Altium configuration file 'C:\windows\advpcb99se.ini'. Using Protel / Altium Classic Colors for layers.
+[W] Cannot load the current color map from the PADS Layout configuration file. Using default colors.
+[E] Missing Board Outline. PADS Router will not route without a board outline.
+[I] Renamed device name to uppercase letters: Res2 renamed RES2
+[I] Renamed device name to uppercase letters: Cap renamed CAP
+[I] Renamed device name to uppercase letters: Inductor renamed INDUCTOR
+[W] Renamed symbols with the same device name: RES2 renamed RES2/2
+[W] Renamed symbols with the same device name: CAP renamed CAP/2
+[I] Renamed device name to uppercase letters: Resistor renamed RESISTOR
+[W] Renamed symbols with the same device name: RESISTOR renamed RESISTOR/2
+[I] Renamed device name to uppercase letters: Res1 renamed RES1
+[I] Renamed pattern name to uppercase letters: Hearder2 17X2 renamed HEARDER2 17X2
+[W] Renamed incorrect decal name: HEARDER2 17X2 renamed HEARDER2_17X2
+[I] Renamed device name to uppercase letters: Header 17X2 renamed HEADER 17X2
+[W] Renamed incorrect device name: HEADER 17X2 renamed HEADER_17X2
+[I] Renamed device name to uppercase letters: Header 7 renamed HEADER 7
+[W] Renamed incorrect device name: HEADER 7 renamed HEADER_7
+[I] Renamed device name to uppercase letters: Header 3H renamed HEADER 3H
+[W] Renamed incorrect device name: HEADER 3H renamed HEADER_3H
+[I] Renamed device name to uppercase letters: Fuse 1 renamed FUSE 1
+[W] Renamed incorrect device name: FUSE 1 renamed FUSE_1
+[I] Renamed device name to uppercase letters: D Schottky renamed D SCHOTTKY
+[W] Renamed incorrect device name: D SCHOTTKY renamed D_SCHOTTKY
+[I] Renamed pattern name to uppercase letters: sod323 renamed SOD323
+[I] Renamed device name to uppercase letters: Diode renamed DIODE
+[W] Renamed symbols with the same device name: CAP renamed CAP/3
+[I] Renamed pattern name to uppercase letters: Hearder2 30 renamed HEARDER2 30
+[W] Renamed incorrect decal name: HEARDER2 30 renamed HEARDER2_30
+[I] Renamed component name to uppercase letters: Designator11 renamed DESIGNATOR11
+[I] Renamed component name to uppercase letters: Designator12 renamed DESIGNATOR12
+[I] Renamed net name to uppercase letters: NetC34_2 renamed NETC34_2
+[I] Renamed net name to uppercase letters: NetR79_1 renamed NETR79_1
+[I] Renamed net name to uppercase letters: NetR78_1 renamed NETR78_1
+[I] Renamed net name to uppercase letters: NetR77_1 renamed NETR77_1
+[I] Renamed net name to uppercase letters: NetR76_1 renamed NETR76_1
+[I] Renamed net name to uppercase letters: NetR75_1 renamed NETR75_1
+[I] Renamed net name to uppercase letters: NetR74_1 renamed NETR74_1
+[I] Renamed net name to uppercase letters: NetR73_1 renamed NETR73_1
+[I] Renamed net name to uppercase letters: NetR72_1 renamed NETR72_1
+[I] Renamed net name to uppercase letters: NetR68_1 renamed NETR68_1
+[I] Renamed net name to uppercase letters: NetR67_1 renamed NETR67_1
+[I] Renamed net name to uppercase letters: NetR66_1 renamed NETR66_1
+[I] Renamed net name to uppercase letters: NetR65_1 renamed NETR65_1
+[I] Renamed net name to uppercase letters: NetR64_1 renamed NETR64_1
+[I] Renamed net name to uppercase letters: NetR63_1 renamed NETR63_1
+[I] Renamed net name to uppercase letters: NetR61_2 renamed NETR61_2
+[I] Renamed net name to uppercase letters: NetR60_1 renamed NETR60_1
+[I] Renamed net name to uppercase letters: NetR59_1 renamed NETR59_1
+[I] Renamed net name to uppercase letters: NetR56_1 renamed NETR56_1
+[I] Renamed net name to uppercase letters: NetR55_1 renamed NETR55_1
+[I] Renamed net name to uppercase letters: NetR49_1 renamed NETR49_1
+[I] Renamed net name to uppercase letters: NetR48_1 renamed NETR48_1
+[I] Renamed net name to uppercase letters: NetR47_1 renamed NETR47_1
+[I] Renamed net name to uppercase letters: NetR46_1 renamed NETR46_1
+[I] Renamed net name to uppercase letters: NetR44_1 renamed NETR44_1
+[I] Renamed net name to uppercase letters: NetR43_1 renamed NETR43_1
+[I] Renamed net name to uppercase letters: NetR42_1 renamed NETR42_1
+[I] Renamed net name to uppercase letters: NetR41_1 renamed NETR41_1
+[I] Renamed net name to uppercase letters: NetR40_1 renamed NETR40_1
+[I] Renamed net name to uppercase letters: NetR39_1 renamed NETR39_1
+[I] Renamed net name to uppercase letters: NetR37_1 renamed NETR37_1
+[I] Renamed net name to uppercase letters: NetR36_1 renamed NETR36_1
+[I] Renamed net name to uppercase letters: NetC32_2 renamed NETC32_2
+[I] Renamed net name to uppercase letters: NetR26_1 renamed NETR26_1
+[I] Renamed net name to uppercase letters: NetR25_1 renamed NETR25_1
+[I] Renamed net name to uppercase letters: NetR24_1 renamed NETR24_1
+[I] Renamed net name to uppercase letters: NetR23_1 renamed NETR23_1
+[I] Renamed net name to uppercase letters: NetR13_2 renamed NETR13_2
+[I] Renamed net name to uppercase letters: NetP16_3 renamed NETP16_3
+[I] Renamed net name to uppercase letters: NetP16_2 renamed NETP16_2
+[I] Renamed net name to uppercase letters: NetD1_A renamed NETD1_A
+[I] Renamed net name to uppercase letters: NetC67_2 renamed NETC67_2
+[I] Renamed net name to uppercase letters: NetC66_1 renamed NETC66_1
+[I] Renamed net name to uppercase letters: NetC65_2 renamed NETC65_2
+[I] Renamed net name to uppercase letters: NetC65_1 renamed NETC65_1
+[I] Renamed net name to uppercase letters: NetC64_2 renamed NETC64_2
+[I] Renamed net name to uppercase letters: NetC64_1 renamed NETC64_1
+[I] Renamed net name to uppercase letters: NetC28_2 renamed NETC28_2
+[I] Renamed net name to uppercase letters: NetC19_2 renamed NETC19_2
+[I] Renamed net name to uppercase letters: NetC16_2 renamed NETC16_2
+[I] Renamed net name to uppercase letters: NetC4_2 renamed NETC4_2
+[I] Renamed net name to uppercase letters: NetC3_1 renamed NETC3_1
+[I] Renamed net name to uppercase letters: NetC2_2 renamed NETC2_2
+[I] Renamed net name to uppercase letters: NetC2_1 renamed NETC2_1
+[I] Renamed net name to uppercase letters: NetC1_2 renamed NETC1_2
+[I] Renamed net name to uppercase letters: NetC1_1 renamed NETC1_1
+[W] The following Protel rules cannot be mapped to PADS Layout rules: PlaneConnect
+[I] Diff Pair width is not available - using (Altium default) 15 mil width for the following diff pairs: CAN1_P & CAN1_N
+[I] Diff Pair width is not available - using (Altium default) 15 mil width for the following diff pairs: CAN0_P & CAN0_N
+[I] Diff Pair width is not available - using (Altium default) 15 mil width for the following diff pairs: D_P & D_N
+
+1 error(s), 14 warning(s) and 75 note(s) found
+Finished on 02/08/18 at 16:09:24

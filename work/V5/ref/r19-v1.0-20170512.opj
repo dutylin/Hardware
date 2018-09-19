@@ -1,0 +1,48 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\r19-v1.0-20170512.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\r19-v1.0-20170512.dsn")
+      (Path "Design Resources" ".\r19-v1.0-20170512.dsn" "RK3128_REF")
+      (Select "Design Resources" ".\r19-v1.0-20170512.dsn" "RK3128_REF"
+         "81.Zigbee"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 319 0 896"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 2191 50 779")
+        (Scroll "852 412")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path
+         "F:\WORK\ZM\FROGS\1代相框\硬件方案\SCH&PCB\M3\ELC\V5\R19-V1.0-20170512.DSN")
+      (Schematic "RK3128_REF")
+      (Page "60.WIFI/ap6212"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 2220 75 808")
+        (Scroll "2590 915")
+        (Zoom "500")
+        (Occurrence "/"))
+      (Path
+         "F:\WORK\ZM\FROGS\1代相框\硬件方案\SCH&PCB\M3\ELC\V5\R19-V1.0-20170512.DSN")
+      (Schematic "RK3128_REF")
+      (Page "81.Zigbee")))
+  (PartMRUSelector))

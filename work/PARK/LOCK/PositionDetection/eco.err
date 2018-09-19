@@ -1,0 +1,55 @@
+** 报告中的 ECO **
+
+Thu Aug 02 10:11:45 2018
+
+输入文件: Z:\admin\Documents\ZM\Frogs\Design\1代相框\硬件方案\sch&pcb\PARK\PositionDetection\PositionDecion_ZM_V1.0_20180801.eco
+当前作业: PositionDecion_ZM_V1.0_20180801.pcb
+
+
+
+行 6，段 *DELPIN*
+J1.1  LED_K3
+* 找不到元件名称 J1
+
+行 7，段 *DELPIN*
+J1.2  GND
+* 找不到元件名称 J1
+
+行 8，段 *DELPIN*
+J1.3  LED_K2
+* 找不到元件名称 J1
+
+行 9，段 *DELPIN*
+J1.4  LED_K1
+* 找不到元件名称 J1
+
+行 10，段 *DELPIN*
+Q1.1  LED_K3
+* 找不到元件名称 Q1
+
+行 11，段 *DELPIN*
+Q2.1  LED_K2
+* 找不到元件名称 Q2
+
+行 12，段 *DELPIN*
+Q4.1  LED_K1
+* 找不到元件名称 Q4
+
+行 15，段 *NET*
+J1.3
+* 找不到元件名称 J1
+
+行 17，段 *NET*
+Q4.1  J1.1
+* 找不到元件名称 Q4
+* 找不到元件名称 J1
+
+行 19，段 *NET*
+Q2.1  J1.2
+* 找不到元件名称 Q2
+* 找不到元件名称 J1
+
+行 21，段 *NET*
+Q1.1  J1.4
+* 找不到元件名称 Q1
+* 找不到元件名称 J1

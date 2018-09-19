@@ -1,0 +1,10 @@
+Allegro(R) to PADS Layout Translator (Version VX.1.2) 02/09/18 16:24:32
+Copyright (c) 2015 Mentor Graphics Corp. - All rights reserved
+
+------------------------------------------------------------
+Input folder: C:\Users\Administrator\Desktop\Imported JHS60w-10-A50-OK.PRJPCB\Allegro\JHS60w-10-A50-OK.brd
+Output folder: JHS60w-10-A50-OK_pads.pcb 
+
+[I] Preparing data...
+[F] Allegro design is not prepared for translation. Stopping. Please see Migrating Cadence Allegro Designs for data preparation in Allegro to PADS Layout Translator User's Guide.
+[I] Completed

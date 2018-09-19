@@ -1,0 +1,27 @@
+
+读取文件 --  C:\Users\Administrator\Desktop\Imported JHS60w-10-A50-OK.PRJPCB\DIGITAL SIGNAGE(AIO)_0208.asc
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_0_CLK
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_0_RXD
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_0_FS
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_0_TXD
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_2_CLK
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_2_RXD
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_2_FS
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_2_TXD
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 ISH_GPIO0
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2C0_SCL_WIFI
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 I2S_MCLK
+**CONNECTION* ascii 数据格式不正确，网络必须包含一个以上管脚。信号 AGND
+警告:正在删除信号 I2S_0_CLK
+警告:正在删除信号 I2S_0_RXD
+警告:正在删除信号 I2S_0_FS
+警告:正在删除信号 I2S_0_TXD
+警告:正在删除信号 I2S_2_CLK
+警告:正在删除信号 I2S_2_RXD
+警告:正在删除信号 I2S_2_FS
+警告:正在删除信号 I2S_2_TXD
+警告:正在删除信号 ISH_GPIO0
+警告:正在删除信号 I2C0_SCL_WIFI
+警告:正在删除信号 I2S_MCLK
+警告:正在删除信号 AGND
+**发现输入警告**

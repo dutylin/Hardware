@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=USB-6
+Removed Pin From Net: NetName=GND Pin=USB-9
+Added Component: Designator=D1(0603LED)
+Added Component: Designator=D2(0603LED)
+Added Component: Designator=R1(0402R)
+Added Component: Designator=R2(0402R)
+Added Pin To Net: NetName=CP_TXD Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Pin To Net: NetName=VCC Pin=R2-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R1-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R2-2
+Added Net: Name=NetD2_1
+Added Member To Class: ClassName=USB Member=Component D1 LED0
+Added Member To Class: ClassName=Interface Member=Component D2 LED0
+Added Member To Class: ClassName=USB Member=Component R1 1K
+Added Member To Class: ClassName=Interface Member=Component R2 1K
