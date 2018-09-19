@@ -1,0 +1,139 @@
+Removed Pin From Net: NetName=Net4G LED_1 Pin=4G LED-1
+Removed Pin From Net: NetName=NETLIGHT Pin=4G LED-2
+Removed Pin From Net: NetName=NetAdapter_1 Pin=Adapter-1
+Removed Pin From Net: NetName=NetC2_1 Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=NetC2_1 Pin=Q3-1
+Removed Pin From Net: NetName=NetC2_1 Pin=Q3-2
+Removed Pin From Net: NetName=NetC2_1 Pin=Q3-3
+Removed Pin From Net: NetName=Net4G LED_1 Pin=R35-2
+Removed Pin From Net: NetName=NetC37_2 Pin=U4-1
+Removed Pin From Net: NetName=NetC2_1 Pin=U4-2
+Removed Pin From Net: NetName=NetR44_2 Pin=U4-4
+Removed Pin From Net: NetName=NetR42_1 Pin=U4-5
+Removed Pin From Net: NetName=NetC70_1 Pin=U4-6
+Removed Pin From Net: NetName=GND Pin=U4-7
+Removed Pin From Net: NetName=NetC37_1 Pin=U4-8
+Removed Pin From Net: NetName=GND Pin=U4-9
+Removed Pin From Net: NetName=NetR68_1 Pin=U4_1-1
+Removed Pin From Net: NetName=NRST2 Pin=U4_1-4
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=U4_1-5
+Removed Pin From Net: NetName=RF_RST Pin=U4_1-8
+Removed Pin From Net: NetName=RF_IRQ Pin=U4_1-9
+Removed Pin From Net: NetName=SPI_NSS Pin=U4_1-10
+Removed Pin From Net: NetName=SPI_SCK Pin=U4_1-11
+Removed Pin From Net: NetName=SPI_MISO Pin=U4_1-12
+Removed Pin From Net: NetName=SPI_MOSI Pin=U4_1-13
+Removed Pin From Net: NetName=NetU4_14 Pin=U4_1-14
+Removed Pin From Net: NetName=GND Pin=U4_1-15
+Removed Pin From Net: NetName=VCC_MCU2_3.3V Pin=U4_1-16
+Removed Pin From Net: NetName=NetU4_17 Pin=U4_1-17
+Removed Pin From Net: NetName=NetU4_18 Pin=U4_1-18
+Removed Pin From Net: NetName=MCU_433_SWDIO Pin=U4_1-19
+Removed Pin From Net: NetName=MCU_433_SWCLK Pin=U4_1-20
+Removed Member From Class: ClassName=MCU Member=4G LED
+Removed Member From Class: ClassName=POWER_IN Member=C2
+Removed Member From Class: ClassName=POWER_IN Member=U4
+Change Component DesignItemId : Designator=U4 Old DesignItemId=LMR14050SDDA New DesignItemId=STM32F042F6P6
+Change Component Footprint: Designator=U4 Old Footprint=SOP127P600X168_HS-8N New Footprint=SOP65P640X265-20N
+Change Component Comment : Designator=BACK Old Comment=LED0 New Comment=BACK
+Change Component Comment : Designator=U4 Old Comment=LMR14050SDDA New Comment=STM32F042F6P6
+Change Component Designator: OldDesignator=C2_1 NewDesignator=C2
+Change Component Designator: OldDesignator=D10 NewDesignator=D16
+Added Component: Designator=1(LED_DIP_3mm)
+Added Component: Designator=C32(0603C)
+Added Component: Designator=C63(2220C)
+Added Component: Designator=F1(1812-F)
+Added Component: Designator=R18(0603R)
+Added Component: Designator=U6(SOP127P600X168_HS-8N)
+Added Pin To Net: NetName=NetC46_2 Pin=1-1
+Added Pin To Net: NetName=NETLIGHT Pin=1-2
+Added Pin To Net: NetName=NetC99_1 Pin=Adapter-1
+Added Pin To Net: NetName=VCC_LTE_3.8V Pin=C32-1
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=Net4G LED_1 Pin=C63-1
+Added Pin To Net: NetName=GND Pin=C63-2
+Added Pin To Net: NetName=NetC99_1 Pin=F1-1
+Added Pin To Net: NetName=NetAdapter_1 Pin=F1-2
+Added Pin To Net: NetName=Net4G LED_1 Pin=Q3-1
+Added Pin To Net: NetName=Net4G LED_1 Pin=Q3-2
+Added Pin To Net: NetName=Net4G LED_1 Pin=Q3-3
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R18-1
+Added Pin To Net: NetName=NetP3_1 Pin=R18-2
+Added Pin To Net: NetName=NetC46_2 Pin=R35-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=NetR68_1 Pin=U4-1
+Added Pin To Net: NetName=NRST2 Pin=U4-4
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=U4-5
+Added Pin To Net: NetName=RF_RST Pin=U4-8
+Added Pin To Net: NetName=RF_IRQ Pin=U4-9
+Added Pin To Net: NetName=SPI_NSS Pin=U4-10
+Added Pin To Net: NetName=SPI_SCK Pin=U4-11
+Added Pin To Net: NetName=SPI_MISO Pin=U4-12
+Added Pin To Net: NetName=SPI_MOSI Pin=U4-13
+Added Pin To Net: NetName=NetU4_14 Pin=U4-14
+Added Pin To Net: NetName=GND Pin=U4-15
+Added Pin To Net: NetName=VCC_MCU2_3.3V Pin=U4-16
+Added Pin To Net: NetName=NetU4_17 Pin=U4-17
+Added Pin To Net: NetName=NetU4_18 Pin=U4-18
+Added Pin To Net: NetName=MCU_433_SWDIO Pin=U4-19
+Added Pin To Net: NetName=MCU_433_SWCLK Pin=U4-20
+Added Pin To Net: NetName=NetC37_2 Pin=U6-1
+Added Pin To Net: NetName=Net4G LED_1 Pin=U6-2
+Added Pin To Net: NetName=NetR44_2 Pin=U6-4
+Added Pin To Net: NetName=NetR42_1 Pin=U6-5
+Added Pin To Net: NetName=NetC70_1 Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-7
+Added Pin To Net: NetName=NetC37_1 Pin=U6-8
+Added Pin To Net: NetName=GND Pin=U6-9
+Added Pin To Net: NetName=NetC96_2 Pin=U13-23
+Added Pin To Net: NetName=NetC98_1 Pin=U13-24
+Added Pin To Net: NetName=NetU4_14 Pin=U13-52
+Added Pin To Net: NetName=NetU4_18 Pin=U13-55
+Added Pin To Net: NetName=NetU4_17 Pin=U13-56
+Change Net Name : Old Net Name=Net4G LED_1 New Net Name=NetC63_1
+Change Net Name : Old Net Name=NetAdapter_1 New Net Name=NetC93_1
+Change Net Name : Old Net Name=NetC46_2 New Net Name=Net1_1
+Change Net Name : Old Net Name=NetC96_2 New Net Name=NetU13_23
+Change Net Name : Old Net Name=NetC98_1 New Net Name=NetU13_24
+Change Net Name : Old Net Name=NetC99_1 New Net Name=NetAdapter_1
+Added Member To Class: ClassName=MCU Member=Component 1 LED0
+Added Member To Class: ClassName=RF_433MHz Member=Component C2 15pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C3 15pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C4 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C5 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C6 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C7 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C8 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C9 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C11 1.8nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C12 5.1pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C13 10nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C14 10nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C15 5.1pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C16 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C17 220nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C18 5.1pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C19 39pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C20 2.2pF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C21 2.2pF/50V
+Added Member To Class: ClassName=LTE Member=Component C32 0.1uF/50V
+Added Member To Class: ClassName=POWER_IN Member=Component C63 100uF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C72 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C73 47nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C74 10nF/50V
+Added Member To Class: ClassName=RF_433MHz Member=Component C83 100pF/50V
+Added Member To Class: ClassName=POWER_IN Member=Component F1 3A
+Added Member To Class: ClassName=RF_433MHz Member=Component L1 27nH/0402HP-27NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L2 56nH/0402HP-56NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L3 27nH/0402HP-27NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L4 15nH/0402HP-15NXJL
+Added Member To Class: ClassName=RF_433MHz Member=Component L7 22nH/0402HP-22NXJL
+Added Member To Class: ClassName=Interface Member=Component R18 22R
+Added Member To Class: ClassName=RF_433MHz Member=Component R76 10K
+Added Member To Class: ClassName=RF_433MHz Member=Component R80 56K/1%
+Added Member To Class: ClassName=RF_433MHz Member=Component U4 STM32F042F6P6
+Added Member To Class: ClassName=POWER_IN Member=Component U6 LMR14050SDDA
+Added Member To Class: ClassName=RF_433MHz Member=Component U14 CC1121RHB
+Added Member To Class: ClassName=RF_433MHz Member=Component Y1 TZ1430A

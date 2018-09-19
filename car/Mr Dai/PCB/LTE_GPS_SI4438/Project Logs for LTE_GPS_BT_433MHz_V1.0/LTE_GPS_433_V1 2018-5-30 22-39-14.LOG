@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LED_PWR Pin=U13-48
+Removed Pin From Net: NetName=LED_BACK Pin=U13-57
+Added Pin To Net: NetName=LED_BACK Pin=U13-48
+Added Pin To Net: NetName=LED_PWR Pin=U13-57

@@ -1,0 +1,29 @@
+---- CC1121_SPI_3W_WriteUint8 Matches (6 in 2 files) ----
+Si4463.c (src):467
+		CC1121_SPI_3W_WriteUint8(addr|0x80);
+		value=spi_byte(0xff);
+	}
+Xz_cc1121_init.c (src):84
+  CC1121_SPI_3W_WriteUint8(addr);   
+  CC1121_SPI_3W_WriteUint8(value);  
+  
+  CC1121_SPI_CS_End();
+Xz_cc1121_init.c (src):102
+  CC1121_SPI_3W_WriteUint8(CC1121_WriteExtend_Addr); 
+  CC1121_SPI_3W_WriteUint8(addr);   
+  CC1121_SPI_3W_WriteUint8(value);  
+  
+  CC1121_SPI_CS_End();
+Xz_cc1121_init.c (src):121
+  st=CC1121_SPI_3W_WriteUint8(cmd);  
+  
+  CC1121_SPI_CS_End();
+Xz_cc1121_init.c (src):169
+    CC1121_SPI_3W_WriteUint8(CC1121_ReadExtend_Addr); 
+    CC1121_SPI_3W_WriteUint8(addr);   
+    value =CC1121_SPI_3W_ReadUint8(); 
+    
+Xz_cc1121_init.c (src):176
+    CC1121_SPI_3W_WriteUint8(addr|0x80);
+    value =CC1121_SPI_3W_ReadUint8(); 
+  } 

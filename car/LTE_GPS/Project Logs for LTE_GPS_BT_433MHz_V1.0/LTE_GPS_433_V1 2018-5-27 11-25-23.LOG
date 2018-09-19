@@ -1,0 +1,98 @@
+Removed Pin From Net: NetName=PWR_KEY Pin=C68-1
+Removed Pin From Net: NetName=NetD2_K Pin=D2-K
+Removed Pin From Net: NetName=VCC_MCU_3.3V Pin=R7-1
+Removed Pin From Net: NetName=PWR_KEY Pin=S1-1
+Removed Pin From Net: NetName=PWR_KEY Pin=S1-1
+Added Component: Designator=U15(QFN50P300X400X80-12N)
+Added Component: Designator=U16(QFN50P400X500X80-16N)
+Added Component: Designator=U17(QFN50P400X500X80-16N)
+Added Component: Designator=U21(MSOP-10)
+Added Component: Designator=U30(TSOT-23)
+Added Pin To Net: NetName=NetC68_1 Pin=C68-1
+Added Pin To Net: NetName=PWR_KEY Pin=C68-1
+Added Pin To Net: NetName=GND Pin=C68-2
+Added Pin To Net: NetName=GND Pin=D2-A
+Added Pin To Net: NetName=NetC161_2 Pin=D2-K
+Added Pin To Net: NetName=NetD2_K Pin=D2-K
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R7-1
+Added Pin To Net: NetName=NetQ6_1 Pin=R7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R7-1
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=PWR_KEY Pin=R7-2
+Added Pin To Net: NetName=VCC_5V Pin=R7-2
+Added Pin To Net: NetName=VCC_MCU_3.3V Pin=R7-2
+Added Pin To Net: NetName=NetC61_2 Pin=S1-1
+Added Pin To Net: NetName=NetC61_2 Pin=S1-1
+Added Pin To Net: NetName=PWR_KEY Pin=S1-1
+Added Pin To Net: NetName=PWR_KEY Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=U15-2
+Added Pin To Net: NetName=GND Pin=U15-3
+Added Pin To Net: NetName=NetC69_2 Pin=U15-4
+Added Pin To Net: NetName=NetC72_1 Pin=U15-5
+Added Pin To Net: NetName=NetC71_2 Pin=U15-6
+Added Pin To Net: NetName=NetR47_1 Pin=U15-7
+Added Pin To Net: NetName=NetR42_2 Pin=U15-8
+Added Pin To Net: NetName=NetC308_2 Pin=U15-9
+Added Pin To Net: NetName=NetQ4_5 Pin=U15-10
+Added Pin To Net: NetName=NetC308_1 Pin=U15-11
+Added Pin To Net: NetName=NetQ4_4 Pin=U15-12
+Added Pin To Net: NetName=GND Pin=U15-13
+Added Pin To Net: NetName=NetC76_1 Pin=U16-1
+Added Pin To Net: NetName=NetC76_1 Pin=U16-2
+Added Pin To Net: NetName=POWER Pin=U16-3
+Added Pin To Net: NetName=POWER Pin=U16-4
+Added Pin To Net: NetName=POWER Pin=U16-5
+Added Pin To Net: NetName=GND Pin=U16-6
+Added Pin To Net: NetName=NetR51_2 Pin=U16-7
+Added Pin To Net: NetName=NetR57_1 Pin=U16-8
+Added Pin To Net: NetName=NetC82_1 Pin=U16-9
+Added Pin To Net: NetName=NetC81_2 Pin=U16-10
+Added Pin To Net: NetName=LTE_PWR_EN Pin=U16-11
+Added Pin To Net: NetName=NetL10_2 Pin=U16-12
+Added Pin To Net: NetName=NetL10_2 Pin=U16-13
+Added Pin To Net: NetName=NetL10_2 Pin=U16-14
+Added Pin To Net: NetName=NetL10_1 Pin=U16-15
+Added Pin To Net: NetName=NetL10_1 Pin=U16-16
+Added Pin To Net: NetName=GND Pin=U16-17
+Added Pin To Net: NetName=NetC84_1 Pin=U17-1
+Added Pin To Net: NetName=NetC84_1 Pin=U17-2
+Added Pin To Net: NetName=POWER Pin=U17-3
+Added Pin To Net: NetName=POWER Pin=U17-4
+Added Pin To Net: NetName=POWER Pin=U17-5
+Added Pin To Net: NetName=GND Pin=U17-6
+Added Pin To Net: NetName=NetR59_2 Pin=U17-7
+Added Pin To Net: NetName=NetR65_1 Pin=U17-8
+Added Pin To Net: NetName=NetC88_1 Pin=U17-9
+Added Pin To Net: NetName=NetC87_2 Pin=U17-10
+Added Pin To Net: NetName=NetR60_2 Pin=U17-11
+Added Pin To Net: NetName=NetL11_2 Pin=U17-12
+Added Pin To Net: NetName=NetL11_2 Pin=U17-13
+Added Pin To Net: NetName=NetL11_2 Pin=U17-14
+Added Pin To Net: NetName=NetL11_1 Pin=U17-15
+Added Pin To Net: NetName=NetL11_1 Pin=U17-16
+Added Pin To Net: NetName=GND Pin=U17-17
+Added Pin To Net: NetName=NetC108_1 Pin=U21-1
+Added Pin To Net: NetName=GND Pin=U21-2
+Added Pin To Net: NetName=CHRG Pin=U21-3
+Added Pin To Net: NetName=NetC107_2 Pin=U21-4
+Added Pin To Net: NetName=GND Pin=U21-5
+Added Pin To Net: NetName=NetR75_2 Pin=U21-6
+Added Pin To Net: NetName=NetQ5_1 Pin=U21-7
+Added Pin To Net: NetName=VCC_OUT Pin=U21-8
+Added Pin To Net: NetName=NetC106_1 Pin=U21-9
+Added Pin To Net: NetName=NetNET8_2 Pin=U21-10
+Added Pin To Net: NetName=NetC161_2 Pin=U30-1
+Added Pin To Net: NetName=GND Pin=U30-2
+Added Pin To Net: NetName=GND Pin=U30-3
+Added Pin To Net: NetName=NetQ1_2 Pin=U30-4
+Added Pin To Net: NetName=NetQ1_4 Pin=U30-5
+Added Pin To Net: NetName=POWER Pin=U30-6
+Added Member To Class: ClassName=POWER_IN Member=Component U15 LTC3864EDE#PBF
+Added Member To Class: ClassName=POWER_IN Member=Component U16 LTC3113IDHD#PBF
+Added Member To Class: ClassName=POWER_IN Member=Component U17 LTC3113IDHD#PBF
+Added Member To Class: ClassName=POWER_IN Member=Component U21 LTC1732-4.2
+Added Member To Class: ClassName=POWER_IN Member=Component U30 LTC4412ES6

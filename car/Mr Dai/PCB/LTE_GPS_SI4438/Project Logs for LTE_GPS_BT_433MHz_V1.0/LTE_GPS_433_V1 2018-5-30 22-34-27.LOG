@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LED_433MHZ Pin=U13-35
+Removed Pin From Net: NetName=LED_GPS Pin=U13-36
+Removed Pin From Net: NetName=LED_BACK Pin=U13-77
+Added Pin To Net: NetName=LED_BACK Pin=U13-57
+Added Pin To Net: NetName=LED_433MHZ Pin=U13-58
+Added Pin To Net: NetName=LED_GPS Pin=U13-59

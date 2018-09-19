@@ -1,0 +1,30 @@
+﻿
+#.txt的文件.
+foo.txt
+# 忽略所有生成的 html文件,
+*.html
+# foo.html是手工维护的，所以例外.
+!foo.html
+# 忽略所有.o和 .a文件.
+*.[oa]
+*.gitswp
+*.ds_store
+*.PcbDocPreview
+*.SchDocPreview
+History/
+.DS_Store
+*.DS_Store
+
+*.IAB
+*.IAD
+*.IMD
+*.PFI
+*.PO
+*.PRI
+*.PS
+*.SearchResults
+*.WK3
+*..bak
+*.uvoptx
+*.lst
+
