@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\projects\18\Lora\code\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" --backend -f "F:\projects\18\Lora\code\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\projects\18\Lora\git\Hardware\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" --backend -f "F:\projects\18\Lora\git\Hardware\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\projects\18\Lora\code\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" "--debug_file=%~1" --backend -f "F:\projects\18\Lora\code\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\projects\18\Lora\git\Hardware\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" "--debug_file=%~1" --backend -f "F:\projects\18\Lora\git\Hardware\lora node\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
 
 @echo off 
 :end
