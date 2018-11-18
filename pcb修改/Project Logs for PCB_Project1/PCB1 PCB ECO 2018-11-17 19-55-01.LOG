@@ -1,0 +1,6 @@
+Added Component: Designator=R24(0402R)
+Added Pin To Net: NetName=GND Pin=R24-1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR24_2 Pin=U2-44
+Added Net: Name=NetR24_2
+Added Member To Class: ClassName=mcu Member=Component R24 100K

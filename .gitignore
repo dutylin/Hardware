@@ -10,4 +10,8 @@
 *.WK3
 *.o
 /Obj
-
+*.PcbDocPreview
+*.PrjPCBStructure
+*.SchDocPreview
+/History
+/Project Logs*
