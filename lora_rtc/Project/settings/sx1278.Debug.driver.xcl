@@ -1,0 +1,19 @@
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\config\ddf\iostm8l151g6.ddf" 
+
+"-d" 
+
+"stlink" 
+
+"--mcuname" 
+
+"STM8L151G6" 
+
+"--log_file" 
+
+"Z:\OS\code\PARK\lora_rtc\Project\cspycomm.log" 
+
+
+
+

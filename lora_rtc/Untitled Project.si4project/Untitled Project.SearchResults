@@ -1,0 +1,2 @@
+---- IS_FLASH_POWER Matches (1 in 1 files) ----
+LowPower_ModeConfig in main.c (App) :   IS_FLASH_POWER(Power)
