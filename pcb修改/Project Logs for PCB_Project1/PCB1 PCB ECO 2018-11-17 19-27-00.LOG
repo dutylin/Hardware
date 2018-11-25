@@ -1,5 +1,0 @@
-Change Component DesignItemId : Designator=C12 Old DesignItemId=Cap Pol1 New DesignItemId=Cap
-Change Component DesignItemId : Designator=C14 Old DesignItemId=Cap Pol1 New DesignItemId=Cap
-Change Component Footprint: Designator=C12 Old Footprint=1210C New Footprint=1206C
-Change Component Footprint: Designator=C14 Old Footprint=1210C New Footprint=1206C
-Change Component Footprint: Designator=C15 Old Footprint=1210C New Footprint=1206C

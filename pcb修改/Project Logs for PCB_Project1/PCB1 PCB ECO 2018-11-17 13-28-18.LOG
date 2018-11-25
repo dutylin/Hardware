@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetR13_1 Pin=R13-2
-Change Component Comment : Designator=R13 Old Comment=10K New Comment=20K
-Change Component Designator: OldDesignator=R13 NewDesignator=R7
-Added Component: Designator=R13(0402R)
-Added Pin To Net: NetName=GND Pin=R7-2
-Added Pin To Net: NetName=BATTERY Pin=R13-1
-Added Pin To Net: NetName=NetR13_1 Pin=R13-2
-Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR7_1
-Added Member To Class: ClassName=mcu Member=Component R13 10K
