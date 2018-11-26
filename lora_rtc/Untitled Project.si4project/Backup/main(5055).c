@@ -540,8 +540,8 @@ void LowPower_ModeConfig()
   
   
   
-  GPIO_Init( GPIOA, GPIO_Pin_All,  GPIO_Mode_In_PU_No_IT );
-  GPIO_Init( GPIOB, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );
+  GPIO_Init( GPIOA, GPIO_Pin_All,  GPIO_Mode_Out_PP_Low_Slow );
+  GPIO_Init( GPIOB, GPIO_Pin_All, GPIO_Mode_Out_PP_Low_Slow );
   GPIO_Init( GPIOC, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );//
   GPIO_Init( GPIOD, GPIO_Pin_All,  GPIO_Mode_In_PU_No_IT );
   

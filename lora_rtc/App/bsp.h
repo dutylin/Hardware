@@ -30,8 +30,14 @@
 //#endif 
 
 
-#define PORT_KEY        GPIOC
-#define PIN_KEY         GPIO_Pin_1
+#define LORA_AUX_PORT       GPIOB
+#define LORA_AUX            GPIO_Pin_0
+
+#define LORA_M0_PORT       GPIOB
+#define LORA_M0            GPIO_Pin_2
+
+#define LORA_M1_PORT       GPIOB
+#define LORA_M1            GPIO_Pin_1
 
 // LED操作函数，(ON)打开, (OFF)关闭，(TOG)翻转
 #define LED_ON()        GPIO_ResetBits(PORT_LED, PIN_LED)

@@ -21,9 +21,9 @@ void SystemClock_Init(void)
      //切换到外部时钟,并等待时钟却换成功
 #else
 		//CLK_HSICmd(ENABLE);
-		CLK_LSICmd(ENABLE);
+		CLK_HSICmd(ENABLE);
 
-		CLK_SYSCLKSourceConfig(CLK_SYSCLKSource_LSI);
+		CLK_SYSCLKSourceConfig(CLK_SYSCLKSource_HSI);
 	  	CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1); 
 	
 #endif   

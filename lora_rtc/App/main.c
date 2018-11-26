@@ -36,77 +36,74 @@ void LowPower_ModeConfig(void);
 void HardwareInit(void);
 void DelayMs(INT8U x)
 {
-  unsigned int i;
-  i=1000;
-  for(;x>0;x--)  
-    for(i=1000;i>0;i--)
-      ;
+unsigned int i;
+i=1000;
+for(;x>0;x--)  
+for(i=1000;i>0;i--)
+;
 }
 
 void USART_SendStr(unsigned char *Str) 
 {
-  while(*Str!=0)
-  {
-    USART_SendData8(USART1, *Str);
-    while(!USART_GetFlagStatus (USART1, USART_FLAG_TXE));
-    Str++;
+while(*Str!=0)
+{
+USART_SendData8(USART1, *Str);
+while(!USART_GetFlagStatus (USART1, USART_FLAG_TXE));
+Str++;
   }
 }
 
 void LED_Init(void)
-{
-  GPIO_Init(GPIOD, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Fast);
+  {
+GPIO_Init(GPIOD, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Fast);
 }
 
 void delay_ms(u16 num)//不是很精确
 {
-  u16 i = 0;
-  while(num--)
-  {
-    for (i=0; i<1266; i++);
-  }
+u16 i = 0;
+while(num--)
+{
+  for (i=0; i<1266; i++);
+}
 }
 
 void GPIO_Initial(void)
 {
-  
-  GPIO_Init( GPIOA, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );
-  GPIO_Init( GPIOB, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );
-  GPIO_Init( GPIOC, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );
-  GPIO_Init( GPIOD, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );
-  
-  /* 配置SX127X相关控制引脚NSS(PB4), RST(PA3), TX_CTRL(PB3), RX_CTRL(PB2), OSEN(PA2)*/
-  GPIO_Init(PORT_LED, PIN_LED, GPIO_Mode_Out_PP_High_Slow);
-  GPIO_SetBits(PORT_LED, PIN_LED);
-  
-  GPIO_Init(PORT_SX127X_CSN, PIN_SX127X_CSN, GPIO_Mode_Out_PP_High_Slow);
-  GPIO_SetBits(PORT_SX127X_CSN, PIN_SX127X_CSN);
-  
-  GPIO_Init(PORT_SX127X_RST, PIN_SX127X_RST, GPIO_Mode_Out_PP_High_Slow);
-  GPIO_SetBits(PORT_SX127X_RST, PIN_SX127X_RST);
-  
-  GPIO_Init(PORT_SX127X_TX_CTRL, PIN_SX127X_TX_CTRL, GPIO_Mode_Out_PP_Low_Slow);
-  GPIO_ResetBits(PORT_SX127X_TX_CTRL, PIN_SX127X_TX_CTRL);
-  
-  GPIO_Init(PORT_SX127X_RX_CTRL, PIN_SX127X_RX_CTRL, GPIO_Mode_Out_PP_High_Slow);
-  GPIO_SetBits(PORT_SX127X_RX_CTRL, PIN_SX127X_RX_CTRL);
-  
-  /*SX1276数据接收外部中断*/
-  //GPIO_Init(GPIOD, GPIO_Pin_1, GPIO_Mode_In_FL_IT);
-  //EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Rising);
-  
-  /*SX1276数据接收外部中断*/
-  
-  // dio0
-  GPIO_Init(PORT_SX127X_DIO0, PIN_SX127X_DIO0, GPIO_Mode_In_FL_IT);
-  EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Rising);
-  //dio3
-  
-  
-  // GPIO_Init(PORT_SX127X_DIO0, PIN_SX127X_DIO0, GPIO_Mode_In_FL_IT);
-  //EXTI_SetPinSensitivity(EXTI_Pin_0, EXTI_Trigger_Rising);
-  //  EXTI_SetHalfPortSelection(EXTI_HalfPort_D_LSB, ENABLE);
-  
+
+
+
+/* 配置SX127X相关控制引脚NSS(PB4), RST(PA3), TX_CTRL(PB3), RX_CTRL(PB2), OSEN(PA2)*/
+    GPIO_Init(PORT_LED, PIN_LED, GPIO_Mode_Out_PP_High_Slow);
+    GPIO_SetBits(PORT_LED, PIN_LED);
+    
+    GPIO_Init(PORT_SX127X_CSN, PIN_SX127X_CSN, GPIO_Mode_Out_PP_High_Slow);
+    GPIO_SetBits(PORT_SX127X_CSN, PIN_SX127X_CSN);
+    
+    GPIO_Init(PORT_SX127X_RST, PIN_SX127X_RST, GPIO_Mode_Out_PP_High_Slow);
+    GPIO_SetBits(PORT_SX127X_RST, PIN_SX127X_RST);
+    
+    GPIO_Init(PORT_SX127X_TX_CTRL, PIN_SX127X_TX_CTRL, GPIO_Mode_Out_PP_Low_Slow);
+    GPIO_ResetBits(PORT_SX127X_TX_CTRL, PIN_SX127X_TX_CTRL);
+    
+    GPIO_Init(PORT_SX127X_RX_CTRL, PIN_SX127X_RX_CTRL, GPIO_Mode_Out_PP_High_Slow);
+    GPIO_SetBits(PORT_SX127X_RX_CTRL, PIN_SX127X_RX_CTRL);
+    
+    /*SX1276数据接收外部中断*/
+    //GPIO_Init(GPIOD, GPIO_Pin_1, GPIO_Mode_In_FL_IT);
+    //EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Rising);
+    
+    /*SX1276数据接收外部中断*/
+    
+    // dio0
+    GPIO_Init(PORT_SX127X_DIO0, PIN_SX127X_DIO0, GPIO_Mode_In_FL_IT);
+    EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Rising);
+    //dio3
+    
+    
+    // GPIO_Init(PORT_SX127X_DIO0, PIN_SX127X_DIO0, GPIO_Mode_In_FL_IT);
+    //EXTI_SetPinSensitivity(EXTI_Pin_0, EXTI_Trigger_Rising);
+    //  EXTI_SetHalfPortSelection(EXTI_HalfPort_D_LSB, ENABLE);
+    
 }
 
 void SPI_Initial(void)
@@ -411,7 +408,7 @@ void lora_rx_process()
 u8 start_rx_flag;
 u8 rx_timeout_status;
 u8 loop;
-u8 wake_up_period=190;
+u8 wake_up_period=19;//19------>500ms
 uint32_t receive_timeout;
 
 
@@ -426,7 +423,7 @@ void PowerSavingMode_setting()
       {
         LED_TOG();
         RtcWakeUp = 2;
-        // HardwareInit(); 
+        HardwareInit(); 
         SX1276_SetPreambleSize(65530);//preamble 
         SX1276_CADMode();
         receive_timeout=0;     
@@ -468,7 +465,7 @@ void PowerSavingMode_setting()
             SX1276_PowerDown();
             start_rx_flag = 0;
             lora_mode_satus = 0;
-            loop=0;
+            
           }          
           // lora_mode_satus = 0;
           
@@ -480,26 +477,24 @@ void PowerSavingMode_setting()
         
         
         
-        //RTC_WakeUpCmd(ENABLE);
+        
         SX1276_LoRa_SetMode( LORA_MODE_SLEEP );
         SX1276_PowerDown();
         
-        PWR_FastWakeUpCmd(ENABLE);
-        PWR_UltraLowPowerCmd(ENABLE);
-        halt();
+        //  PWR_FastWakeUpCmd(ENABLE);
+        //  PWR_UltraLowPowerCmd(ENABLE);
+        // halt();
         start_rx_flag = 0;
         lora_mode_satus = 0;
         loop=0;
       }
-      // receive_timeout = 0;
-      //  start_rx_flag = 0;
-      // lora_mode_satus = 0;
-      //SX1276_LoRa_SetMode( LORA_MODE_SLEEP );
-      // RTC_WakeUpCmd(ENABLE);
-      PWR_FastWakeUpCmd(ENABLE);
-      PWR_UltraLowPowerCmd(ENABLE);
-      LowPower_ModeConfig();
-      halt();
+      if(RtcWakeUp==1)
+        SX1276_LoRa_SetMode( LORA_MODE_SLEEP );
+      RTC_WakeUpCmd(ENABLE);
+      // PWR_FastWakeUpCmd(ENABLE);
+      // PWR_UltraLowPowerCmd(ENABLE);
+      // LowPower_ModeConfig();
+      // halt();
     }
     
   } 
@@ -517,130 +512,171 @@ void PowerSavingMode_setting()
   }
   
 }
-void GPIO_LowPower_Config(void)
+//拉低管脚
+void EnterStopMode(void) 
 {
-
-/* Port A in output push-pull 0 */
-  GPIO_Init(GPIOA,GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_4|GPIO_Pin_5|GPIO_Pin_6|GPIO_Pin_7 ,GPIO_Mode_Out_PP_Low_Slow);
-	
-/* Port B in output push-pull 0 */
-  GPIO_Init(GPIOB, GPIO_Pin_All, GPIO_Mode_Out_PP_Low_Slow);
-
-/* Port C in output push-pull 0 except Button pins */
-  GPIO_Init(GPIOC, GPIO_Pin_0|GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_5|GPIO_Pin_6, GPIO_Mode_Out_PP_Low_Slow);
-
-/* Port D in output push-pull 0 */
-  GPIO_Init(GPIOD, GPIO_Pin_All, GPIO_Mode_Out_PP_Low_Slow);
-
-/* Port E in output push-pull 0 */
-  GPIO_Init(GPIOE, GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_5, GPIO_Mode_Out_PP_Low_Slow);
-
-/* Port F in output push-pull 0 */
-/* Not PF0 because Input for ICC measurement */
-  GPIO_Init(GPIOF,GPIO_Pin_1|GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_5|GPIO_Pin_6|GPIO_Pin_7 ,GPIO_Mode_Out_PP_Low_Slow);
-
-  GPIO_Init(GPIOC, GPIO_Pin_1, GPIO_Mode_Out_PP_High_Slow);
-}
-void Halt_Init(void)
-{
+  //    悬空的引脚配置
+//  GPIO_Init(GPIOB,GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_2,GPIO_Mode_Out_PP_Low_Slow);    
+//  GPIO_Init(GPIOC,GPIO_Pin_0 | GPIO_Pin_1 |  GPIO_Pin_3 | GPIO_Pin_4,GPIO_Mode_Out_PP_Low_Slow);    
+//  GPIO_Init(GPIOD,GPIO_Pin_0,GPIO_Mode_Out_PP_Low_Slow);  
+//  
+//  
+//  GPIO_Init(GPIOB,GPIO_Pin_3,GPIO_Mode_Out_PP_High_Slow);    //不变   LED
+//  
+//  
+//  GPIO_Init(GPIOB,GPIO_Pin_1,GPIO_Mode_Out_PP_Low_Slow);    //KEY
   
-  /* Set STM8 in low power */
-  PWR->CSR2 = 0x2;
   
-  LCD_Cmd(DISABLE);
+  GPIO_Init(GPIOB,GPIO_Pin_5,GPIO_Mode_Out_PP_Low_Slow);    //SCLK
+  GPIO_Init(GPIOB,GPIO_Pin_6,GPIO_Mode_Out_PP_Low_Slow);    //MOSI
+  GPIO_Init(GPIOB,GPIO_Pin_7,GPIO_Mode_Out_PP_Low_Slow);    //MISO
   
-  /* To wait LCD disable */
-  while ((LCD->CR3 & 0x40) != 0x00);
+//  GPIO_Init(GPIOA,GPIO_Pin_2,GPIO_Mode_Out_PP_Low_Slow);   //GDO0
+//  GPIO_Init(GPIOC,GPIO_Pin_2,GPIO_Mode_Out_PP_Low_Slow);   //GDO2
   
-  /* Set GPIO in low power*/	
-  GPIO_LowPower_Config();
   
-  /* Stop RTC Source clock */
-  CLK_RTCClockConfig(CLK_RTCCLKSource_Off, CLK_RTCCLKDiv_1);
+  GPIO_Init(GPIOB,GPIO_Pin_3,GPIO_Mode_Out_PP_Low_Slow); 
   
-
   
-  /* Stop clock RTC and LCD */ 	
-  CLK_PeripheralClockConfig(CLK_Peripheral_RTC, DISABLE);
-  CLK_PeripheralClockConfig(CLK_Peripheral_LCD, DISABLE);
+  
+  
+  //=======================================
+  //     CC1101配置                               
+  //=======================================
+  
+  
+  GPIO_Init(GPIOB,GPIO_Pin_4,GPIO_Mode_Out_PP_Low_Slow);    //CS
+  
+  
+  //=======================================
+  //     不用的时钟配置                               
+  //=======================================
+  
+  TIM2_Cmd(DISABLE); 
+  while((TIM2->CR1 & TIM_CR1_CEN) != 0x00); 
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM2,DISABLE);
+  
+  TIM3_Cmd(DISABLE); 
+  while((TIM3->CR1 & TIM_CR1_CEN) != 0x00); 
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM3,DISABLE);
+  
+  TIM4_Cmd(DISABLE); 
+  while((TIM4->CR1 & TIM4_CR1_CEN) != 0x00);
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM4,DISABLE);
+  CLK_PeripheralClockConfig(CLK_Peripheral_USART1,DISABLE);
+  CLK_PeripheralClockConfig(CLK_Peripheral_I2C1,DISABLE);
+  CLK_PeripheralClockConfig(CLK_Peripheral_SPI1,DISABLE);   
+  
+  disableInterrupts();
+  
 }
 void LowPower_ModeConfig()
 {
   // CLK_LSICmd(ENABLE);
-  CLK_HSEConfig(CLK_HSE_OFF);
-  CLK_LSEConfig(CLK_LSE_OFF);
-  CLK_HSICmd(DISABLE);
-  CLK_LSICmd(ENABLE);
+  //SX1276_LoRa_SetMode( LORA_MODE_SLEEP );
+  // CLK_HSEConfig(CLK_HSE_OFF);
+  // CLK_LSEConfig(CLK_LSE_OFF);
+  // CLK_HSICmd(DISABLE);
+  // CLK_LSICmd(ENABLE);
   
-  CLK_SYSCLKSourceConfig(CLK_SYSCLKSource_LSI);
-  CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_128);  
+  // CLK_SYSCLKSourceConfig(CLK_SYSCLKSource_LSI);
+  // CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_128); 
   
-  CLK_PeripheralClockConfig(CLK_Peripheral_TIM2, DISABLE);
-  CLK_PeripheralClockConfig(CLK_Peripheral_TIM3, DISABLE);
-  CLK_PeripheralClockConfig(CLK_Peripheral_TIM4, DISABLE);
-  CLK_PeripheralClockConfig(CLK_Peripheral_I2C1, DISABLE);
-  CLK_PeripheralClockConfig(CLK_Peripheral_SPI1, DISABLE);
-  CLK_PeripheralClockConfig(CLK_Peripheral_USART1, DISABLE);
+  GPIO_Init( GPIOA, GPIO_Pin_All, GPIO_Mode_Out_PP_Low_Slow );
+  GPIO_ResetBits(GPIOA, GPIO_Pin_All);  
+  GPIO_Init( PORT_SX127X_TX_CTRL, PIN_SX127X_RX_CTRL, GPIO_Mode_Out_PP_Low_Slow );
+  GPIO_SetBits(PORT_SX127X_TX_CTRL, PIN_SX127X_RX_CTRL);  
+  GPIO_Init( PORT_SX127X_TX_CTRL, PIN_SX127X_TX_CTRL, GPIO_Mode_In_FL_No_IT );
+  GPIO_SetBits(PORT_SX127X_TX_CTRL, PIN_SX127X_TX_CTRL);
+//  
+  GPIO_ResetBits(GPIOA, GPIO_Pin_0);  
+  GPIO_ResetBits(GPIOA, GPIO_Pin_2);  
+  GPIO_ResetBits(GPIOA, GPIO_Pin_3);   
+  GPIO_ResetBits(GPIOA, GPIO_Pin_1);  
   
-  //CLK_PeripheralClockConfig(CLK_Peripheral_AWU, DISABLE);
-  
-  //CLK_DeInit();
-  // CLK_MainRegulatorCmd(DISABLE);
-  //CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_128);
-  // FLASH_PowerWaitModeConfig(FLASH_Power_IDDQ);
-  
-  
-  //USART_ITConfig(USART1, USART_IT_RXNE, DISABLE);//开启接收中断
-  //USART_ITConfig(USART1, USART_IT_IDLE, DISABLE);//开启接收中断
-  //USART_Cmd(USART1, DISABLE);  //使能UART2
-  
-  /*typedef enum
-  {
-  GPIO_Mode_In_FL_No_IT     
-  GPIO_Mode_In_PU_No_IT    
-  GPIO_Mode_In_FL_IT     
-  GPIO_Mode_In_PU_IT        
-  GPIO_Mode_Out_OD_Low_Fast  
-  GPIO_Mode_Out_PP_Low_Fast   
-  GPIO_Mode_Out_OD_Low_Slow  
-  GPIO_Mode_Out_PP_Low_Slow  
-  GPIO_Mode_Out_OD_HiZ_Fast 
-  GPIO_Mode_Out_PP_High_Fast  
-  GPIO_Mode_Out_OD_HiZ_Slow   
-  GPIO_Mode_Out_PP_High_Slow */ 
-  
-  GPIO_Init( GPIOA, GPIO_Pin_All,  GPIO_Mode_Out_PP_Low_Slow );
-  GPIO_Init( GPIOB, GPIO_Pin_All, GPIO_Mode_Out_PP_Low_Slow );
-  GPIO_Init( GPIOC, GPIO_Pin_All, GPIO_Mode_Out_PP_Low_Slow );//
-  GPIO_Init( GPIOD, GPIO_Pin_All,  GPIO_Mode_Out_PP_Low_Slow );
-  
-  GPIO_ResetBits(GPIOA, GPIO_Pin_All);
-  GPIO_ResetBits(GPIOB, GPIO_Pin_All);
-  GPIO_ResetBits(GPIOC, GPIO_Pin_All);
-  GPIO_ResetBits(GPIOD, GPIO_Pin_All);
-  GPIO_Init(GPIOA, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
-GPIO_Init(GPIOA, GPIO_Pin_1, GPIO_Mode_Out_PP_Low_Slow);  
+  GPIO_Init( LORA_AUX_PORT, LORA_AUX, GPIO_Mode_In_PU_No_IT );
+  GPIO_Init( LORA_AUX_PORT, LORA_M0, GPIO_Mode_Out_PP_Low_Slow );
+  GPIO_ResetBits(LORA_AUX_PORT, LORA_M0);
+  GPIO_Init( LORA_AUX_PORT, LORA_M1, GPIO_Mode_Out_PP_Low_Slow );
+  GPIO_ResetBits(LORA_AUX_PORT, LORA_M1);  
+  GPIO_Init( PORT_SX127X_RST, PIN_SX127X_RST, GPIO_Mode_Out_PP_High_Slow );
+  GPIO_SetBits(PORT_SX127X_RST, PIN_SX127X_RST);
+  GPIO_ResetBits(PORT_SX127X_RST, PIN_SX127X_RST);  
+  GPIO_Init( PORT_SX127X_CSN, PIN_SX127X_CSN, GPIO_Mode_In_PU_No_IT );
   
   
-  sim();
- 
- 
   
+  
+  // SPI相关IO口配置
+  GPIO_Init(PORT_SPI, PIN_MISO, GPIO_Mode_Out_PP_Low_Slow);       // MISO (PB7)
+  GPIO_Init(PORT_SPI, PIN_SCLK, GPIO_Mode_Out_PP_High_Slow);  // SCLK (PB5)
+  GPIO_Init(PORT_SPI, PIN_MOSI, GPIO_Mode_Out_PP_High_Slow);  // MOSI (PB6)
+  GPIO_ResetBits(PORT_SPI, PIN_MISO);
+  GPIO_ResetBits(PORT_SPI, PIN_SCLK);
+  GPIO_SetBits(PORT_SPI, PIN_MOSI);
+//  
+//  GPIO_Init( GPIOC, GPIO_Pin_All, GPIO_Mode_In_PU_No_IT );//
+  GPIO_Init(PORT_SX127X_DIO3, PIN_SX127X_DIO3, GPIO_Mode_In_FL_No_IT); 
+  GPIO_Init(PORT_SX127X_DIO4, PIN_SX127X_DIO4, GPIO_Mode_In_FL_No_IT);
+  GPIO_Init(PORT_SX127X_DIO5, PIN_SX127X_DIO5, GPIO_Mode_In_FL_No_IT);
+//  
+  GPIO_Init(GPIOC, GPIO_Pin_0, GPIO_Mode_In_FL_No_IT); 
+  GPIO_Init(GPIOC, GPIO_Pin_6, GPIO_Mode_In_FL_No_IT);
+  GPIO_Init(GPIOC, GPIO_Pin_5, GPIO_Mode_In_FL_No_IT);
+//  // GPIO_ResetBits(GPIOA, GPIO_Pin_All);
+//  //  GPIO_ResetBits(GPIOB, GPIO_Pin_All);
+//  
+//  
+//  //GPIO_Init( GPIOD, GPIO_Pin_All, GPIO_Mode_In_FL_No_IT );
+  GPIO_Init(PORT_SX127X_DIO0, PIN_SX127X_DIO0, GPIO_Mode_In_FL_No_IT);
+  GPIO_Init(PORT_SX127X_DIO1, PIN_SX127X_DIO1, GPIO_Mode_In_FL_No_IT); 
+  GPIO_Init(PORT_SX127X_DIO2, PIN_SX127X_DIO2, GPIO_Mode_In_FL_No_IT);
+  GPIO_Init(GPIOD, GPIO_Pin_4, GPIO_Mode_In_FL_No_IT);
+  
+  GPIO_Init(PORT_LED, PIN_LED, GPIO_Mode_Out_PP_High_Slow);
+  GPIO_ResetBits(PORT_LED, PIN_LED);
+//  
+  
+  //=======================================
+  //     不用的时钟配置                               
+  //=======================================
+  
+  TIM2_Cmd(DISABLE); 
+  while((TIM2->CR1 & TIM_CR1_CEN) != 0x00); 
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM2,DISABLE);
+  
+  TIM3_Cmd(DISABLE); 
+  while((TIM3->CR1 & TIM_CR1_CEN) != 0x00); 
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM3,DISABLE);
+  
+  TIM4_Cmd(DISABLE); 
+  while((TIM4->CR1 & TIM4_CR1_CEN) != 0x00);
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM4,DISABLE);
+  CLK_PeripheralClockConfig(CLK_Peripheral_USART1,DISABLE);
+  CLK_PeripheralClockConfig(CLK_Peripheral_I2C1,DISABLE);
+  CLK_PeripheralClockConfig(CLK_Peripheral_SPI1,DISABLE);   
+  
+  disableInterrupts();
 }
 void HardwareInit()
 {
-  SystemClock_Init(); 	// 系统时钟初始化
-  disableInterrupts();
+  //SystemClock_Init(); 	// 系统时钟初始化
+  //disableInterrupts();
   
-  GPIO_Initial();		 // 初始化GPIO
+  //GPIO_Initial();		 // 初始化GPIO
   
-  LED_Init();
-  SPI_Initial();
+  // LED_Init();
+  // SPI_Initial();
   CurrentMode =PowerSavingMode ;//NormalMode  PowerSavingMode
   
   RF_Initial();		   // 初始化无线芯片
-  Uart1_Init();
-  enableInterrupts();
+  // Uart1_Init();
+  GPIO_Init(PORT_SX127X_DIO3, PIN_SX127X_DIO3, GPIO_Mode_In_FL_IT);
+  GPIO_Init(PORT_SX127X_DIO1, PIN_SX127X_DIO1, GPIO_Mode_In_FL_IT);  
+  EXTI_SetPinSensitivity(EXTI_Pin_2, EXTI_Trigger_Rising);    
+  
+  EXTI_SetPinSensitivity(EXTI_Pin_3, EXTI_Trigger_Rising);
+  // enableInterrupts();
   
 }
 void main(void)
@@ -648,38 +684,32 @@ void main(void)
   
   
   SystemClock_Init();     // 系统时钟初始化
-  disableInterrupts();
-  //  
+  disableInterrupts(); 
   GPIO_Initial();         // 初始化GPIO
-  //  
-  //  LED_Init();
-  // // SPI_Initial();
-  //  CurrentMode =PowerSavingMode ;//NormalMode  PowerSavingMode
-  //  
-  //  //RF_Initial();         // 初始化无线芯片
-  //  Uart1_Init();
-  //  enableInterrupts();
-  //  // USART_SendStr("时钟+串口初始化完成\r\n");
-  //  lora_mode_satus = 0;
+  LED_Init();
+  SPI_Initial();
+  CurrentMode =PowerSavingMode ;//NormalMode  PowerSavingMode
   
-  //SX1276_PowerDown();
-  
-  LowPower_ModeConfig();
-  PWR_FastWakeUpCmd(ENABLE);
-  PWR_UltraLowPowerCmd(ENABLE);
+   RF_Initial();         // 初始化无线芯片
+  Uart1_Init();
   enableInterrupts();
-  // CLK_DeInit();
-  // CLK_MainRegulatorCmd(DISABLE);
-  // CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_128);
-
+  lora_mode_satus = 0;
+  
+  // SX1276_PowerDown();
+  EnterStopMode();
+    //LowPower_ModeConfig();
+  //PWR_FastWakeUpCmd(ENABLE);
+  //PWR_UltraLowPowerCmd(ENABLE);
+  //enableInterrupts();
+  
   
   while(1)
   {
-     halt(); 
+    
     //lora_process();
     // lora_rx_process();
     //PowerSavingMode_setting();
-    
+    halt(); 
     
   }
 }
