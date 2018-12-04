@@ -605,7 +605,7 @@
         </option>
         <option>
           <name>IlinkIcfOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>IlinkIcfFile</name>
@@ -812,7 +812,7 @@
         <debug>0</debug>
         <option>
           <name>GenDeviceSelectMenu</name>
-          <state></state>
+          <state>UnspecifiedSTM8	STM8 - Unspecified</state>
         </option>
         <option>
           <name>GenCodeModel</name>
@@ -856,7 +856,7 @@
         </option>
         <option>
           <name>GenRTConfigPath</name>
-          <state></state>
+          <state>$TOOLKIT_DIR$\LIB\dlstm8smn.h</state>
         </option>
         <option>
           <name>GenLibInFormatter</name>
@@ -951,7 +951,7 @@
         </option>
         <option>
           <name>IccOptLevelSlave</name>
-          <state>1</state>
+          <state>3</state>
         </option>
         <option>
           <name>IccOptAllowList</name>
@@ -964,7 +964,7 @@
         </option>
         <option>
           <name>IccOutputFile</name>
-          <state></state>
+          <state>$FILE_BNAME$.o</state>
         </option>
         <option>
           <name>IccCodeModel</name>
@@ -1052,7 +1052,8 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state></state>
+          <state>Z:\OS\others\Hardware\lora_rtc\Library\inc</state>
+          <state>Z:\OS\code\PARK\lora_rtc\App</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1338,7 +1339,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>###Unitialized###</state>
+          <state>sx1278.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>

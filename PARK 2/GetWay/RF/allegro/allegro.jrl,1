@@ -1,0 +1,2203 @@
+\t (20:20:03) allegro 16.6-2015 S108 (v16-6-112HV) Windows 32
+\t (20:20:03)     Journal start - Thu Nov 15 10:30:17 2018
+\t (20:20:03)         Host=ZM-DELL User=Administrator Pid=146292 CPUs=4
+\t (20:20:03) CmdLine= C:\Cadence\16.6\Cadence\Cadence_SPB_16.6\tools\pcb\bin\allegro.exe
+\t (20:20:03) 
+\d (20:20:03) Design opened: F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/lora.brd
+\i (20:20:03) etchedit 
+\i (20:20:04) zoom out 1 
+\i (20:20:04) setwindow pcb
+\i (20:20:04) zoom out 1313.513 598.253
+\t (20:20:04) Grids are drawn 32.000, 32.000 apart for enhanced viewability.
+\i (20:20:04) trapsize 20823
+\i (20:20:04) zoom out 1 
+\i (20:20:04) setwindow pcb
+\i (20:20:04) zoom out 1321.842 694.038
+\t (20:20:04) Grids are drawn 64.000, 64.000 apart for enhanced viewability.
+\i (20:20:04) trapsize 41646
+\i (20:20:05) zoom in 1 
+\i (20:20:05) setwindow pcb
+\i (20:20:05) zoom in 1130.270 -97.237
+\t (20:20:05) Grids are drawn 32.000, 32.000 apart for enhanced viewability.
+\i (20:20:05) trapsize 20823
+\i (20:20:07) setwindow form.vf_vis
+\i (20:20:07) FORM vf_vis 1 all_colorvisible YES 
+\i (20:20:08) FORM vf_vis 2 all_colorvisible YES 
+\i (20:20:08) FORM vf_vis 3 all_colorvisible YES 
+\i (20:20:09) FORM vf_vis 4 all_colorvisible YES 
+\i (20:20:10) setwindow pcb
+\i (20:20:10) pick grid 2079.800 -272.150
+\t (20:20:10) last pick:  2080.000 -272.000
+\i (20:20:10) zoom in 1 
+\i (20:20:10) setwindow pcb
+\i (20:20:10) zoom in 767.949 106.829
+\t (20:20:10) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:20:10) trapsize 10412
+\i (20:20:10) zoom in 1 
+\i (20:20:10) setwindow pcb
+\i (20:20:10) zoom in 809.595 88.089
+\t (20:20:10) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:20:10) trapsize 5206
+\i (20:20:10) zoom in 1 
+\i (20:20:10) setwindow pcb
+\i (20:20:10) zoom in 809.595 88.089
+\t (20:20:10) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:20:10) trapsize 2603
+\i (20:20:11) zoom out 1 
+\i (20:20:11) setwindow pcb
+\i (20:20:11) zoom out 809.595 88.090
+\t (20:20:11) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:20:11) trapsize 5206
+\i (20:20:12) zoom out 1 
+\i (20:20:12) setwindow pcb
+\i (20:20:12) zoom out 809.595 88.089
+\t (20:20:12) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:20:12) trapsize 10412
+\i (20:20:12) pick grid 915.794 -215.926
+\t (20:20:12) last pick:  916.000 -216.000
+\i (20:20:13) zoom in 1 
+\i (20:20:13) setwindow pcb
+\i (20:20:13) zoom in 865.818 98.501
+\t (20:20:13) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:20:13) trapsize 5206
+\i (20:20:13) zoom in 1 
+\i (20:20:13) setwindow pcb
+\i (20:20:13) zoom in 865.818 98.501
+\t (20:20:13) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:20:13) trapsize 2603
+\i (20:20:16) setwindow form.vf_vis
+\i (20:20:16) FORM vf_vis 2 all_colorvisible NO 
+\i (20:20:17) FORM vf_vis 3 all_colorvisible NO 
+\i (20:20:18) setwindow pcb
+\i (20:20:18) pick grid 1115.175 -33.204
+\t (20:20:18) last pick:  1115.000 -33.000
+\i (20:20:20) zoom in 1 
+\i (20:20:20) setwindow pcb
+\i (20:20:20) zoom in 1044.897 157.327
+\t (20:20:20) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:20:20) trapsize 1301
+\i (20:20:21) zoom out 1 
+\i (20:20:21) setwindow pcb
+\i (20:20:21) zoom out 960.304 172.945
+\t (20:20:21) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:20:21) trapsize 2603
+\i (20:20:23) zoom out 1 
+\i (20:20:23) setwindow pcb
+\i (20:20:23) zoom out 1112.832 -20.710
+\t (20:20:23) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:20:23) trapsize 5206
+\i (20:20:32) pick grid 1491.812 456.137
+\t (20:20:32) last pick:  1492.000 456.000
+\i (20:26:30) pick grid 991.018 -45.698
+\t (20:26:30) last pick:  991.000 -46.000
+\i (20:26:31) zoom in 1 
+\i (20:26:31) setwindow pcb
+\i (20:26:31) zoom in 1000.388 14.689
+\t (20:26:31) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:31) trapsize 2603
+\i (20:26:31) zoom in 1 
+\i (20:26:31) setwindow pcb
+\i (20:26:31) zoom in 1000.388 14.690
+\t (20:26:31) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:26:31) trapsize 1301
+\i (20:26:32) zoom out 1 
+\i (20:26:32) setwindow pcb
+\i (20:26:32) zoom out 1005.334 52.432
+\t (20:26:32) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:32) trapsize 2603
+\i (20:26:33) zoom out 1 
+\i (20:26:33) setwindow pcb
+\i (20:26:33) zoom out 1003.771 52.432
+\t (20:26:33) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:26:33) trapsize 5206
+\i (20:26:36) zoom in 1 
+\i (20:26:36) setwindow pcb
+\i (20:26:36) zoom in 496.731 520.950
+\t (20:26:36) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:36) trapsize 2603
+\i (20:26:38) zoom out 1 
+\i (20:26:38) setwindow pcb
+\i (20:26:38) zoom out 522.239 495.963
+\t (20:26:38) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:26:38) trapsize 5206
+\i (20:26:40) zoom in 1 
+\i (20:26:40) setwindow pcb
+\i (20:26:40) zoom in 1336.420 28.485
+\t (20:26:40) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:40) trapsize 2603
+\i (20:26:41) pick grid 1291.130 -35.025
+\t (20:26:41) last pick:  1291.000 -35.000
+\i (20:26:42) zoom in 1 
+\i (20:26:42) setwindow pcb
+\i (20:26:42) zoom in 1365.573 9.744
+\t (20:26:42) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:26:42) trapsize 1301
+\i (20:26:43) zoom out 1 
+\i (20:26:43) setwindow pcb
+\i (20:26:43) zoom out 1362.970 13.648
+\t (20:26:43) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:43) trapsize 2603
+\i (20:26:44) zoom out 1 
+\i (20:26:44) setwindow pcb
+\i (20:26:44) zoom out 1362.970 13.649
+\t (20:26:44) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:26:44) trapsize 5206
+\i (20:26:46) zoom in 1 
+\i (20:26:46) setwindow pcb
+\i (20:26:46) zoom in 1070.406 575.871
+\t (20:26:46) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:46) trapsize 2603
+\i (20:26:46) zoom in 1 
+\i (20:26:46) setwindow pcb
+\i (20:26:46) zoom in 1070.406 575.871
+\t (20:26:46) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:26:46) trapsize 1301
+\i (20:26:47) zoom in 1 
+\i (20:26:47) setwindow pcb
+\i (20:26:47) zoom in 1070.406 575.871
+\i (20:26:47) trapsize 651
+\i (20:26:48) zoom out 1 
+\i (20:26:48) setwindow pcb
+\i (20:26:48) zoom out 1062.728 565.459
+\i (20:26:48) trapsize 1301
+\i (20:26:48) zoom out 1 
+\i (20:26:48) setwindow pcb
+\i (20:26:48) zoom out 1062.728 565.460
+\t (20:26:48) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:48) trapsize 2603
+\i (20:26:48) zoom out 1 
+\i (20:26:48) setwindow pcb
+\i (20:26:48) zoom out 1062.728 565.460
+\t (20:26:48) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:26:48) trapsize 5206
+\i (20:26:51) zoom in 1 
+\i (20:26:51) setwindow pcb
+\i (20:26:51) zoom in 583.799 718.509
+\t (20:26:51) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:51) trapsize 2603
+\i (20:26:51) zoom in 1 
+\i (20:26:51) setwindow pcb
+\i (20:26:51) zoom in 583.799 718.509
+\t (20:26:51) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:26:51) trapsize 1301
+\i (20:26:52) pick grid 581.457 731.263
+\t (20:26:52) last pick:  581.000 731.000
+\i (20:26:53) zoom out 1 
+\i (20:26:53) setwindow pcb
+\i (20:26:53) zoom out 595.773 676.603
+\t (20:26:53) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:53) trapsize 2603
+\i (20:26:53) zoom out 1 
+\i (20:26:53) setwindow pcb
+\i (20:26:53) zoom out 596.814 676.082
+\t (20:26:53) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:26:53) trapsize 5206
+\i (20:26:55) zoom in 1 
+\i (20:26:56) setwindow pcb
+\i (20:26:56) zoom in 355.267 642.765
+\t (20:26:56) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:56) trapsize 2603
+\i (20:26:56) zoom in 1 
+\i (20:26:56) setwindow pcb
+\i (20:26:56) zoom in 355.267 642.766
+\t (20:26:56) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:26:56) trapsize 1301
+\i (20:26:58) zoom out 1 
+\i (20:26:58) setwindow pcb
+\i (20:26:58) zoom out 387.283 640.684
+\t (20:26:58) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:26:58) trapsize 2603
+\i (20:27:00) pick grid 604.884 593.312
+\t (20:27:00) last pick:  605.000 593.000
+\i (20:27:00) move 
+\t (20:27:00) last pick:  612.402 694.220
+\t (20:27:00) Moving C19 / CAP NP_C0603_10UF / C0603.
+\t (20:27:00) Pick new location for the element(s).
+\i (20:27:02) Esc 
+\i (20:27:03) prepopup 538.771 613.094
+\i (20:27:04) oops 
+\i (20:27:04) etchedit 
+\i (20:27:05) zoom out 1 
+\i (20:27:05) setwindow pcb
+\i (20:27:05) zoom out 538.771 613.094
+\t (20:27:05) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:05) trapsize 5206
+\i (20:27:06) zoom out 1 
+\i (20:27:06) setwindow pcb
+\i (20:27:06) zoom out 538.770 613.093
+\t (20:27:06) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:27:06) trapsize 10412
+\i (20:27:06) pick grid 540.854 919.192
+\t (20:27:06) last pick:  541.000 919.000
+\i (20:27:07) zoom in 1 
+\i (20:27:07) setwindow pcb
+\i (20:27:07) zoom in 1384.187 471.497
+\t (20:27:07) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:07) trapsize 5206
+\i (20:27:08) zoom in 1 
+\i (20:27:08) setwindow pcb
+\i (20:27:08) zoom in 1382.105 470.456
+\t (20:27:08) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:08) trapsize 2603
+\i (20:27:09) pick grid 1467.480 478.785
+\t (20:27:09) last pick:  1467.000 479.000
+\i (20:27:10) zoom in 1 
+\i (20:27:10) setwindow pcb
+\i (20:27:10) zoom in 1431.560 463.168
+\t (20:27:10) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:27:10) trapsize 1301
+\i (20:27:10) zoom in 1 
+\i (20:27:10) setwindow pcb
+\i (20:27:10) zoom in 1431.040 462.647
+\i (20:27:10) trapsize 651
+\i (20:27:10) zoom in 1 
+\i (20:27:11) setwindow pcb
+\i (20:27:11) zoom in 1427.657 459.915
+\i (20:27:11) trapsize 325
+\i (20:27:11) zoom in 1 
+\i (20:27:11) setwindow pcb
+\i (20:27:11) zoom in 1427.657 459.915
+\i (20:27:11) trapsize 163
+\i (20:27:11) zoom in 1 
+\i (20:27:11) setwindow pcb
+\i (20:27:11) zoom in 1427.657 459.916
+\i (20:27:11) trapsize 81
+\i (20:27:12) zoom in 1 
+\i (20:27:12) setwindow pcb
+\i (20:27:12) zoom in 1424.778 459.379
+\i (20:27:12) trapsize 41
+\i (20:27:12) zoom out 1 
+\i (20:27:12) setwindow pcb
+\i (20:27:12) zoom out 1425.697 459.933
+\i (20:27:12) trapsize 81
+\i (20:27:12) zoom out 1 
+\i (20:27:12) setwindow pcb
+\i (20:27:12) zoom out 1425.698 459.932
+\i (20:27:12) trapsize 163
+\i (20:27:13) zoom out 1 
+\i (20:27:13) setwindow pcb
+\i (20:27:13) zoom out 1425.697 459.933
+\i (20:27:13) trapsize 325
+\i (20:27:13) zoom out 1 
+\i (20:27:13) setwindow pcb
+\i (20:27:13) zoom out 1425.697 459.933
+\i (20:27:13) trapsize 651
+\i (20:27:13) zoom out 1 
+\i (20:27:13) setwindow pcb
+\i (20:27:13) zoom out 1425.696 459.933
+\i (20:27:13) trapsize 1301
+\i (20:27:13) zoom out 1 
+\i (20:27:13) setwindow pcb
+\i (20:27:13) zoom out 1425.696 459.932
+\t (20:27:13) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:13) trapsize 2603
+\i (20:27:14) zoom out 1 
+\i (20:27:14) setwindow pcb
+\i (20:27:14) zoom out 1425.695 459.933
+\t (20:27:14) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:14) trapsize 5206
+\i (20:27:14) zoom out 1 
+\i (20:27:14) setwindow pcb
+\i (20:27:14) zoom out 1425.696 459.933
+\t (20:27:14) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:27:14) trapsize 10411
+\i (20:27:15) zoom in 1 
+\i (20:27:15) setwindow pcb
+\i (20:27:15) zoom in 1342.407 -0.242
+\t (20:27:15) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:15) trapsize 5206
+\i (20:27:15) zoom in 1 
+\i (20:27:15) setwindow pcb
+\i (20:27:15) zoom in 1342.408 -0.242
+\t (20:27:15) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:15) trapsize 2603
+\i (20:27:15) zoom in 1 
+\i (20:27:15) setwindow pcb
+\i (20:27:15) zoom in 1342.408 -0.242
+\t (20:27:15) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:27:15) trapsize 1301
+\i (20:27:15) zoom in 1 
+\i (20:27:15) setwindow pcb
+\i (20:27:15) zoom in 1342.408 -0.241
+\i (20:27:15) trapsize 651
+\i (20:27:16) zoom in 1 
+\i (20:27:16) setwindow pcb
+\i (20:27:16) zoom in 1342.408 -0.241
+\i (20:27:16) trapsize 325
+\i (20:27:17) zoom out 1 
+\i (20:27:17) setwindow pcb
+\i (20:27:17) zoom out 1338.959 0.996
+\i (20:27:17) trapsize 651
+\i (20:27:17) zoom out 1 
+\i (20:27:17) setwindow pcb
+\i (20:27:17) zoom out 1338.959 0.995
+\i (20:27:17) trapsize 1301
+\i (20:27:17) zoom out 1 
+\i (20:27:17) setwindow pcb
+\i (20:27:17) zoom out 1338.959 0.996
+\t (20:27:17) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:17) trapsize 2603
+\i (20:27:17) zoom out 1 
+\i (20:27:17) setwindow pcb
+\i (20:27:17) zoom out 1338.958 0.996
+\t (20:27:17) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:17) trapsize 5206
+\i (20:27:20) zoom in 1 
+\i (20:27:20) setwindow pcb
+\i (20:27:20) zoom in 821.523 415.361
+\t (20:27:20) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:20) trapsize 2603
+\i (20:27:20) zoom in 1 
+\i (20:27:20) setwindow pcb
+\i (20:27:20) zoom in 821.523 415.361
+\t (20:27:20) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:27:20) trapsize 1301
+\i (20:27:22) zoom out 1 
+\i (20:27:22) setwindow pcb
+\i (20:27:22) zoom out 827.510 398.183
+\t (20:27:22) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:22) trapsize 2603
+\i (20:27:22) zoom out 1 
+\i (20:27:22) setwindow pcb
+\i (20:27:22) zoom out 829.072 396.100
+\t (20:27:22) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:22) trapsize 5206
+\i (20:27:24) pick grid 1490.183 330.510
+\t (20:27:24) last pick:  1490.000 331.000
+\i (20:27:28) zoom in 1 
+\i (20:27:28) setwindow pcb
+\i (20:27:28) zoom in 951.924 82.724
+\t (20:27:28) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:28) trapsize 2603
+\i (20:27:29) zoom out 1 
+\i (20:27:29) setwindow pcb
+\i (20:27:29) zoom out 1239.793 82.724
+\t (20:27:29) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:29) trapsize 5206
+\i (20:27:29) zoom out 1 
+\i (20:27:29) setwindow pcb
+\i (20:27:29) zoom out 1239.794 82.724
+\t (20:27:29) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:27:29) trapsize 10411
+\i (20:27:30) zoom in 1 
+\i (20:27:30) setwindow pcb
+\i (20:27:30) zoom in 211.168 384.648
+\t (20:27:30) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:30) trapsize 5206
+\i (20:27:31) zoom out 1 
+\i (20:27:31) setwindow pcb
+\i (20:27:31) zoom out 362.130 355.497
+\t (20:27:31) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:27:31) trapsize 10411
+\i (20:27:32) zoom in 1 
+\i (20:27:32) setwindow pcb
+\i (20:27:32) zoom in 649.480 426.293
+\t (20:27:32) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:32) trapsize 5206
+\i (20:27:33) zoom in 1 
+\i (20:27:33) setwindow pcb
+\i (20:27:33) zoom in 663.014 498.130
+\t (20:27:33) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:33) trapsize 2603
+\i (20:27:33) zoom in 1 
+\i (20:27:33) setwindow pcb
+\i (20:27:33) zoom in 663.014 498.130
+\t (20:27:33) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:27:33) trapsize 1301
+\i (20:27:34) zoom out 1 
+\i (20:27:34) setwindow pcb
+\i (20:27:34) zoom out 652.603 490.842
+\t (20:27:34) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:34) trapsize 2603
+\i (20:27:34) zoom out 1 
+\i (20:27:34) setwindow pcb
+\i (20:27:34) zoom out 652.603 490.842
+\t (20:27:34) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:34) trapsize 5206
+\i (20:27:34) zoom out 1 
+\i (20:27:34) setwindow pcb
+\i (20:27:34) zoom out 650.521 486.678
+\t (20:27:34) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:27:34) trapsize 10411
+\i (20:27:35) zoom out 1 
+\i (20:27:35) setwindow pcb
+\i (20:27:35) zoom out 650.522 486.678
+\t (20:27:35) Grids are drawn 32.000, 32.000 apart for enhanced viewability.
+\i (20:27:35) trapsize 20822
+\i (20:27:35) zoom in 1 
+\i (20:27:35) setwindow pcb
+\i (20:27:35) zoom in 650.522 486.679
+\t (20:27:35) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:27:35) trapsize 10411
+\i (20:27:36) zoom in 1 
+\i (20:27:36) setwindow pcb
+\i (20:27:36) zoom in 650.522 486.679
+\t (20:27:36) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:36) trapsize 5206
+\i (20:27:37) zoom in 1 
+\i (20:27:37) setwindow pcb
+\i (20:27:37) zoom in 1144.013 287.825
+\t (20:27:37) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:37) trapsize 2603
+\i (20:27:38) zoom in 1 
+\i (20:27:38) setwindow pcb
+\i (20:27:38) zoom in 1144.013 287.825
+\t (20:27:38) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:27:38) trapsize 1301
+\i (20:27:39) zoom in 1 
+\i (20:27:39) setwindow pcb
+\i (20:27:39) zoom in 1144.013 287.826
+\i (20:27:39) trapsize 651
+\i (20:27:40) zoom out 1 
+\i (20:27:40) setwindow pcb
+\i (20:27:40) zoom out 1109.657 303.703
+\i (20:27:40) trapsize 1301
+\i (20:27:40) zoom out 1 
+\i (20:27:40) setwindow pcb
+\i (20:27:40) zoom out 1109.656 303.703
+\t (20:27:40) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:27:40) trapsize 2603
+\i (20:27:41) zoom out 1 
+\i (20:27:41) setwindow pcb
+\i (20:27:41) zoom out 1109.656 303.702
+\t (20:27:41) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:27:41) trapsize 5206
+\i (20:29:32) setwindow form.vf_vis
+\i (20:29:32) FORM vf_vis 1 all_colorvisible NO 
+\i (20:29:34) FORM vf_vis 4 all_colorvisible NO 
+\i (20:29:38) FORM vf_vis colorview_list Film: SILKSCREEN_BOTTOM 
+\i (20:29:42) FORM vf_vis colorview_list Last View 
+\i (20:29:44) setwindow pcb
+\i (20:29:44) zoom in 1 
+\i (20:29:44) setwindow pcb
+\i (20:29:44) zoom in 42.510 21.560
+\t (20:29:44) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:29:44) trapsize 2603
+\i (20:29:45) zoom in 1 
+\i (20:29:45) setwindow pcb
+\i (20:29:45) zoom in 70.100 19.478
+\t (20:29:45) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:29:45) trapsize 1301
+\i (20:29:46) zoom out 1 
+\i (20:29:46) setwindow pcb
+\i (20:29:46) zoom out 133.348 24.683
+\t (20:29:46) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:29:46) trapsize 2603
+\i (20:29:47) zoom out 1 
+\i (20:29:47) setwindow pcb
+\i (20:29:47) zoom out 133.349 24.684
+\t (20:29:47) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:29:47) trapsize 5206
+\i (20:29:47) zoom out 1 
+\i (20:29:47) setwindow pcb
+\i (20:29:47) zoom out 133.349 24.684
+\t (20:29:47) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:29:47) trapsize 10411
+\i (20:29:47) pick grid 6.332 -137.731
+\t (20:29:47) last pick:  6.000 -138.000
+\i (20:29:48) zoom in 1 
+\i (20:29:48) setwindow pcb
+\i (20:29:48) zoom in 220.802 709.739
+\t (20:29:48) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:29:48) trapsize 5206
+\i (20:29:48) zoom in 1 
+\i (20:29:48) setwindow pcb
+\i (20:29:48) zoom in 220.803 709.740
+\t (20:29:48) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:29:48) trapsize 2603
+\i (20:29:48) zoom in 1 
+\i (20:29:48) setwindow pcb
+\i (20:29:48) zoom in 214.556 708.699
+\t (20:29:48) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:29:48) trapsize 1301
+\i (20:29:50) pick grid 140.637 706.096
+\t (20:29:50) last pick:  141.000 706.000
+\i (20:29:50) move 
+\t (20:29:50) last pick:  1345.358 492.921
+\t (20:29:50) Moving U4 / E32-TTL-100_E32-TTL-100_E32-TTL / E32-TTL-100.
+\t (20:29:50) Pick new location for the element(s).
+\i (20:29:52) Esc 
+\i (20:29:53) prepopup 126.062 708.178
+\i (20:29:54) oops 
+\i (20:29:54) etchedit 
+\i (20:29:54) zoom out 1 
+\i (20:29:54) setwindow pcb
+\i (20:29:54) zoom out 192.433 717.028
+\t (20:29:54) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:29:54) trapsize 2603
+\i (20:29:55) zoom out 1 
+\i (20:29:55) setwindow pcb
+\i (20:29:55) zoom out 192.433 717.028
+\t (20:29:55) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:29:55) trapsize 5206
+\i (20:29:55) pick grid -251.084 803.440
+\t (20:29:55) last pick:  -251.000 803.000
+\i (20:29:56) prepopup 49.800 721.192
+\i (20:29:58) pop dyn_option_select @:@Fix 
+\i (20:29:58) fix 
+\i (20:29:58) etchedit 
+\i (20:30:00) prepopup 1376.185 598.340
+\i (20:30:01) pick grid 457.919 936.703
+\t (20:30:01) last pick:  458.000 937.000
+\i (20:30:06) setwindow form.find
+\i (20:30:06) FORM find symbols NO 
+\i (20:30:07) FORM find shapes YES 
+\i (20:30:07) setwindow pcb
+\i (20:30:07) zoom in 1 
+\i (20:30:08) setwindow pcb
+\i (20:30:08) zoom in 170.570 753.466
+\t (20:30:08) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:30:08) trapsize 2603
+\i (20:30:08) zoom in 1 
+\i (20:30:08) setwindow pcb
+\i (20:30:08) zoom in 168.488 751.904
+\t (20:30:08) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:30:08) trapsize 1301
+\i (20:30:08) zoom in 1 
+\i (20:30:08) setwindow pcb
+\i (20:30:08) zoom in 165.885 751.124
+\i (20:30:08) trapsize 651
+\i (20:30:09) pick grid 139.987 750.734
+\t (20:30:09) last pick:  140.000 751.000
+\i (20:30:10) prepopup 139.987 750.734
+\i (20:30:18) pick grid 148.056 759.844
+\t (20:30:18) last pick:  148.000 760.000
+\i (20:30:19) pick grid 140.378 762.056
+\t (20:30:19) last pick:  140.000 762.000
+\i (20:30:20) pick grid 139.076 762.967
+\t (20:30:20) last pick:  139.000 763.000
+\i (20:30:20) pick grid dbl 139.076 762.967
+\t (20:30:20) last pick:  139.000 763.000
+\i (20:30:21) prepopup 139.076 762.967
+\i (20:30:23) pop dyn_option_select '@:@Property edit' 
+\i (20:30:23) property edit 
+\i (20:30:32) setwindow form.editprop1
+\i (20:30:32) FORM editprop1 cancel  
+\i (20:30:32) setwindow pcb
+\i (20:30:32) etchedit 
+\i (20:30:33) zoom out 1 
+\i (20:30:33) setwindow pcb
+\i (20:30:33) zoom out 243.969 711.041
+\i (20:30:33) trapsize 1301
+\i (20:30:34) pick grid 169.789 710.521
+\t (20:30:34) last pick:  170.000 711.000
+\i (20:30:35) zoom out 1 
+\i (20:30:35) setwindow pcb
+\i (20:30:35) zoom out 102.117 783.660
+\t (20:30:35) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:30:36) trapsize 2603
+\i (20:30:37) zoom out 1 
+\i (20:30:37) setwindow pcb
+\i (20:30:37) zoom out 102.116 783.660
+\t (20:30:37) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:30:37) trapsize 5206
+\i (20:30:38) zoom out 1 
+\i (20:30:38) setwindow pcb
+\i (20:30:38) zoom out 102.117 783.659
+\t (20:30:38) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:30:38) trapsize 10411
+\i (20:30:40) zoom in 1 
+\i (20:30:40) setwindow pcb
+\i (20:30:40) zoom in 91.705 56.959
+\t (20:30:40) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:30:40) trapsize 5206
+\i (20:30:40) zoom in 1 
+\i (20:30:40) setwindow pcb
+\i (20:30:40) zoom in 91.705 56.959
+\t (20:30:40) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:30:40) trapsize 2603
+\i (20:30:41) pick grid 128.665 -13.837
+\t (20:30:41) last pick:  129.000 -14.000
+\i (20:30:46) zoom in 1 
+\i (20:30:46) setwindow pcb
+\i (20:30:46) zoom in 127.624 58.521
+\t (20:30:46) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:30:46) trapsize 1301
+\i (20:30:46) zoom in 1 
+\i (20:30:46) setwindow pcb
+\i (20:30:46) zoom in 127.624 58.521
+\i (20:30:46) trapsize 651
+\i (20:30:48) zoom out 1 
+\i (20:30:48) setwindow pcb
+\i (20:30:48) zoom out 136.344 62.165
+\i (20:30:48) trapsize 1301
+\i (20:30:48) zoom out 1 
+\i (20:30:48) setwindow pcb
+\i (20:30:48) zoom out 136.344 62.165
+\t (20:30:48) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:30:48) trapsize 2603
+\i (20:30:49) zoom out 1 
+\i (20:30:49) setwindow pcb
+\i (20:30:49) zoom out 136.344 62.165
+\t (20:30:49) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:30:49) trapsize 5206
+\i (20:30:54) setwindow form.mini
+\i (20:30:54) FORM mini class BOARD GEOMETRY 
+\i (20:30:57) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (20:31:01) setwindow pcb
+\i (20:31:01) add line 
+\i (20:31:13) setwindow form.mini
+\i (20:31:13) FORM mini line_width 5.000 
+\i (20:31:14) setwindow pcb
+\i (20:31:14) pick grid -106.236 391.158
+\t (20:31:14) last pick:  -106.000 391.000
+\i (20:31:15) prepopup -33.357 666.014
+\i (20:31:16) oops 
+\i (20:31:17) zoom in 1 
+\i (20:31:17) setwindow pcb
+\i (20:31:17) zoom in 20.781 813.852
+\t (20:31:17) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:17) trapsize 2603
+\i (20:31:17) zoom in 1 
+\i (20:31:17) setwindow pcb
+\i (20:31:17) zoom in 20.781 813.852
+\t (20:31:17) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:31:17) trapsize 1301
+\i (20:31:17) zoom out 1 
+\i (20:31:17) setwindow pcb
+\i (20:31:17) zoom out 16.617 751.646
+\t (20:31:17) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:17) trapsize 2603
+\i (20:31:18) zoom out 1 
+\i (20:31:18) setwindow pcb
+\i (20:31:18) zoom out 19.740 739.673
+\t (20:31:18) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:31:18) trapsize 5206
+\i (20:31:18) zoom in 1 
+\i (20:31:18) setwindow pcb
+\i (20:31:18) zoom in 18.699 793.811
+\t (20:31:18) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:18) trapsize 2603
+\i (20:31:18) zoom in 1 
+\i (20:31:18) setwindow pcb
+\i (20:31:18) zoom in 18.699 792.249
+\t (20:31:18) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:31:18) trapsize 1301
+\i (20:31:20) zoom in 1 
+\i (20:31:20) setwindow pcb
+\i (20:31:20) zoom in 3.343 831.812
+\i (20:31:20) trapsize 651
+\i (20:31:23) pick grid 1.651 832.853
+\t (20:31:23) last pick:  2.000 833.000
+\i (20:31:24) prepopup 26.247 822.963
+\i (20:31:25) oops 
+\i (20:31:28) add rect 
+\i (20:31:33) pick grid 4.774 829.860
+\t (20:31:33) last pick:  5.000 830.000
+\i (20:31:34) zoom out 1 
+\i (20:31:34) setwindow pcb
+\i (20:31:34) zoom out 41.344 818.018
+\i (20:31:34) trapsize 1301
+\i (20:31:34) zoom out 1 
+\i (20:31:34) setwindow pcb
+\i (20:31:34) zoom out 41.343 818.017
+\t (20:31:34) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:34) trapsize 2603
+\i (20:31:34) zoom out 1 
+\i (20:31:34) setwindow pcb
+\i (20:31:34) zoom out 41.343 818.017
+\t (20:31:34) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:31:34) trapsize 5206
+\i (20:31:34) zoom out 1 
+\i (20:31:34) setwindow pcb
+\i (20:31:34) zoom out 41.344 818.018
+\t (20:31:34) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:31:34) trapsize 10411
+\i (20:31:35) zoom in 1 
+\i (20:31:35) setwindow pcb
+\i (20:31:35) zoom in 85.072 -10.714
+\t (20:31:35) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:31:35) trapsize 5206
+\i (20:31:35) zoom in 1 
+\i (20:31:35) setwindow pcb
+\i (20:31:35) zoom in 85.072 -10.714
+\t (20:31:35) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:35) trapsize 2603
+\i (20:31:35) zoom in 1 
+\i (20:31:35) setwindow pcb
+\i (20:31:35) zoom in 85.072 -10.714
+\t (20:31:35) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:31:35) trapsize 1301
+\i (20:31:36) zoom in 1 
+\i (20:31:36) setwindow pcb
+\i (20:31:36) zoom in 87.675 -8.371
+\i (20:31:36) trapsize 651
+\i (20:31:39) pick grid 139.601 5.424
+\t (20:31:39) last pick:  140.000 5.000
+\i (20:31:40) zoom out 1 
+\i (20:31:40) setwindow pcb
+\i (20:31:40) zoom out 112.532 -12.015
+\i (20:31:40) trapsize 1301
+\i (20:31:41) prepopup 46.420 65.809
+\i (20:31:42) done 
+\i (20:31:42) etchedit 
+\i (20:31:44) setwindow form.find
+\i (20:31:44) FORM find all_off  
+\i (20:31:46) setwindow pcb
+\i (20:31:46) pick grid -77.993 75.439
+\t (20:31:46) last pick:  -78.000 75.000
+\i (20:31:50) setwindow form.mini
+\i (20:31:50) FORM mini subclass SILKSCREEN_TOP 
+\i (20:31:51) setwindow pcb
+\i (20:31:51) pick grid 73.489 61.645
+\t (20:31:51) last pick:  73.000 62.000
+\i (20:31:53) prepopup -113.652 88.974
+\i (20:31:54) pick grid -114.433 97.563
+\t (20:31:54) last pick:  -114.000 98.000
+\i (20:31:56) pick grid 66.722 51.754
+\t (20:31:56) last pick:  67.000 52.000
+\i (20:31:56) pick grid 63.078 74.919
+\t (20:31:56) last pick:  63.000 75.000
+\i (20:31:57) zoom out 1 
+\i (20:31:57) setwindow pcb
+\i (20:31:57) zoom out 126.066 21.301
+\t (20:31:57) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:57) trapsize 2603
+\i (20:31:57) zoom out 1 
+\i (20:31:57) setwindow pcb
+\i (20:31:57) zoom out 126.066 19.740
+\t (20:31:57) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:31:57) trapsize 5206
+\i (20:31:58) pick grid 296.809 210.265
+\t (20:31:58) last pick:  297.000 210.000
+\i (20:31:59) pick grid 527.938 323.747
+\t (20:31:59) last pick:  528.000 324.000
+\i (20:31:59) zoom in 1 
+\i (20:31:59) setwindow pcb
+\i (20:31:59) zoom in 607.063 334.158
+\t (20:31:59) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:31:59) trapsize 2603
+\i (20:31:59) zoom in 1 
+\i (20:31:59) setwindow pcb
+\i (20:31:59) zoom in 607.063 334.158
+\t (20:31:59) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:31:59) trapsize 1301
+\i (20:31:59) zoom in 1 
+\i (20:31:59) setwindow pcb
+\i (20:31:59) zoom in 607.063 334.158
+\i (20:31:59) trapsize 651
+\i (20:32:00) zoom in 1 
+\i (20:32:00) setwindow pcb
+\i (20:32:00) zoom in 573.487 332.336
+\i (20:32:00) trapsize 325
+\i (20:32:00) zoom in 1 
+\i (20:32:00) setwindow pcb
+\i (20:32:00) zoom in 572.576 332.141
+\i (20:32:00) trapsize 163
+\i (20:32:01) prepopup 563.629 330.905
+\i (20:32:03) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (20:32:03) generaledit 
+\i (20:32:03) pick grid 570.168 331.816
+\t (20:32:03) last pick:  570.000 332.000
+\i (20:32:04) zoom out 1 
+\i (20:32:04) setwindow pcb
+\i (20:32:04) zoom out 573.975 324.496
+\i (20:32:04) trapsize 325
+\i (20:32:06) setwindow form.find
+\i (20:32:06) FORM find text YES 
+\i (20:32:06) setwindow pcb
+\i (20:32:06) zoom out 1 
+\i (20:32:06) setwindow pcb
+\i (20:32:06) zoom out 559.074 339.006
+\i (20:32:06) trapsize 651
+\i (20:32:07) zoom out 1 
+\i (20:32:07) setwindow pcb
+\i (20:32:07) zoom out 559.073 339.007
+\i (20:32:07) trapsize 1301
+\i (20:32:07) zoom out 1 
+\i (20:32:07) setwindow pcb
+\i (20:32:07) zoom out 559.074 339.007
+\t (20:32:07) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:32:07) trapsize 2603
+\i (20:32:07) zoom out 1 
+\i (20:32:07) setwindow pcb
+\i (20:32:07) zoom out 559.074 339.006
+\t (20:32:07) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:32:07) trapsize 5206
+\i (20:32:08) zoom in 1 
+\i (20:32:08) setwindow pcb
+\i (20:32:08) zoom in 23.939 59.987
+\t (20:32:08) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:32:08) trapsize 2603
+\i (20:32:08) zoom in 1 
+\i (20:32:08) setwindow pcb
+\i (20:32:08) zoom in 23.939 59.988
+\t (20:32:08) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:32:08) trapsize 1301
+\i (20:32:09) pick grid 47.885 65.714
+\t (20:32:09) last pick:  48.000 66.000
+\i (20:32:10) prepopup 47.885 65.714
+\i (20:32:14) pop dyn_option_select 'Change to layer@:@SILKSCREEN_BOTTOM' 
+\i (20:32:14) change layer 
+\t (20:32:14) No DRC errors detected.
+\t (20:32:14) Changed 1 items out of 1 items found.
+\i (20:32:14) generaledit 
+\i (20:32:15) pick grid -33.843 63.371
+\t (20:32:15) last pick:  -34.000 63.000
+\i (20:32:17) pick grid 49.186 63.371
+\t (20:32:17) last pick:  49.000 63.000
+\i (20:32:17) prepopup 49.186 63.371
+\i (20:32:19) pop dyn_option_select @:@Mirror 
+\i (20:32:19) mirror 
+\i (20:32:19) generaledit 
+\i (20:32:21) drag_start grid 25.501 65.454
+\i (20:32:21) move 
+\t (20:32:21) last pick:  65.691 52.252
+\t (20:32:21) Pick new location for the element(s).
+\i (20:32:22) drag_stop grid 99.941 37.604
+\i (20:32:23) generaledit 
+\i (20:32:23) pick grid 99.941 37.604
+\t (20:32:23) last pick:  100.000 38.000
+\i (20:32:23) pick grid 116.859 -29.809
+\t (20:32:23) last pick:  117.000 -30.000
+\i (20:32:25) pick grid 78.077 42.809
+\t (20:32:25) last pick:  78.000 43.000
+\i (20:32:26) prepopup 83.023 47.494
+\i (20:32:28) pop dyn_option_select @:@Mirror 
+\i (20:32:28) mirror 
+\i (20:32:28) generaledit 
+\i (20:32:29) drag_start grid 80.160 41.248
+\i (20:32:29) move 
+\t (20:32:30) last pick:  66.046 38.000
+\t (20:32:30) Pick new location for the element(s).
+\i (20:32:30) drag_stop grid 45.803 40.207
+\i (20:32:30) generaledit 
+\i (20:32:31) pick grid 45.803 40.207
+\t (20:32:31) last pick:  46.000 40.000
+\i (20:32:32) zoom out 1 
+\i (20:32:32) setwindow pcb
+\i (20:32:32) zoom out 86.146 28.234
+\t (20:32:32) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:32:32) trapsize 2603
+\i (20:32:32) zoom out 1 
+\i (20:32:32) setwindow pcb
+\i (20:32:32) zoom out 86.146 28.233
+\t (20:32:32) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:32:32) trapsize 5206
+\i (20:32:33) zoom out 1 
+\i (20:32:33) setwindow pcb
+\i (20:32:33) zoom out 86.147 28.234
+\t (20:32:33) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:32:33) trapsize 10411
+\i (20:32:34) zoom in 1 
+\i (20:32:34) setwindow pcb
+\i (20:32:34) zoom in 211.081 159.415
+\t (20:32:34) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:32:34) trapsize 5206
+\i (20:32:34) zoom in 1 
+\i (20:32:34) setwindow pcb
+\i (20:32:34) zoom in 211.081 159.415
+\t (20:32:34) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:32:34) trapsize 2603
+\i (20:32:34) zoom in 1 
+\i (20:32:34) setwindow pcb
+\i (20:32:34) zoom in 211.081 159.416
+\t (20:32:34) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:32:34) trapsize 1301
+\i (20:32:35) pick grid 212.122 164.101
+\t (20:32:35) last pick:  212.000 164.000
+\i (20:32:36) prepopup 212.122 164.101
+\i (20:32:37) pop dyn_option_select @:@Mirror 
+\i (20:32:37) mirror 
+\i (20:32:38) generaledit 
+\i (20:32:38) pick grid 238.670 183.362
+\t (20:32:38) last pick:  239.000 183.000
+\i (20:32:40) prepopup 216.026 167.225
+\i (20:32:41) pop dyn_option_select @:@Mirror 
+\i (20:32:41) mirror 
+\i (20:32:41) generaledit 
+\i (20:32:42) pick grid 235.807 186.225
+\t (20:32:42) last pick:  236.000 186.000
+\i (20:32:42) zoom out 1 
+\i (20:32:42) setwindow pcb
+\i (20:32:42) zoom out 234.506 207.047
+\t (20:32:42) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:32:42) trapsize 2603
+\i (20:32:42) zoom out 1 
+\i (20:32:42) setwindow pcb
+\i (20:32:42) zoom out 234.506 207.048
+\t (20:32:42) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:32:42) trapsize 5206
+\i (20:32:43) zoom in 1 
+\i (20:32:43) setwindow pcb
+\i (20:32:43) zoom in 62.722 46.716
+\t (20:32:43) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:32:43) trapsize 2603
+\i (20:32:43) zoom in 1 
+\i (20:32:43) setwindow pcb
+\i (20:32:43) zoom in 63.763 48.798
+\t (20:32:43) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (20:32:43) trapsize 1301
+\i (20:32:43) zoom in 1 
+\i (20:32:43) setwindow pcb
+\i (20:32:43) zoom in 64.024 49.579
+\i (20:32:43) trapsize 651
+\i (20:32:44) pick grid 65.326 54.524
+\t (20:32:44) last pick:  65.000 55.000
+\i (20:32:45) prepopup 63.374 54.785
+\i (20:32:47) pop dyn_option_select @:@Mirror 
+\i (20:32:47) mirror 
+\i (20:32:47) generaledit 
+\i (20:32:48) prepopup 64.415 55.696
+\i (20:32:50) pop dyn_option_select @:@Mirror 
+\i (20:32:50) mirror 
+\i (20:32:50) generaledit 
+\i (20:32:53) prepopup 89.532 68.710
+\i (20:32:57) pop dyn_option_select 'Change to layer@:@SILKSCREEN_TOP' 
+\i (20:32:57) change layer 
+\t (20:32:57) No DRC errors detected.
+\t (20:32:57) Changed 1 items out of 1 items found.
+\i (20:32:57) generaledit 
+\i (20:32:58) pick grid 51.531 69.230
+\t (20:32:58) last pick:  52.000 69.000
+\i (20:33:00) prepopup 64.154 64.285
+\i (20:33:01) pop dyn_option_select @:@Mirror 
+\i (20:33:01) mirror 
+\i (20:33:01) generaledit 
+\i (20:33:02) drag_start grid 63.374 61.552
+\i (20:33:03) move 
+\t (20:33:03) last pick:  80.226 40.000
+\t (20:33:03) Pick new location for the element(s).
+\i (20:33:04) drag_stop grid 100.073 33.962
+\i (20:33:04) generaledit 
+\i (20:33:07) save 
+\i (20:33:09) fillin yes 
+\i (20:33:09) generaledit 
+\i (20:33:09) zoom out 1 
+\i (20:33:09) setwindow pcb
+\i (20:33:09) zoom out 74.436 28.106
+\i (20:33:09) trapsize 1301
+\i (20:33:10) zoom out 1 
+\i (20:33:10) setwindow pcb
+\i (20:33:10) zoom out 74.435 28.106
+\t (20:33:10) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:33:10) trapsize 2603
+\i (20:33:10) zoom out 1 
+\i (20:33:10) setwindow pcb
+\i (20:33:10) zoom out 74.435 28.106
+\t (20:33:10) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:33:10) trapsize 5206
+\i (20:33:10) zoom out 1 
+\i (20:33:10) setwindow pcb
+\i (20:33:10) zoom out 74.436 28.107
+\t (20:33:10) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (20:33:10) trapsize 10411
+\i (20:33:13) zoom in 1 
+\i (20:33:13) setwindow pcb
+\i (20:33:13) zoom in 1248.818 540.338
+\t (20:33:13) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:33:13) trapsize 5206
+\i (20:33:20) setwindow form.vf_vis
+\i (20:33:20) FORM vf_vis 1 all_colorvisible YES 
+\i (20:33:21) FORM vf_vis 2 all_colorvisible YES 
+\i (20:33:21) FORM vf_vis 3 all_colorvisible YES 
+\i (20:33:22) FORM vf_vis 4 all_colorvisible YES 
+\i (20:34:03) setwindow pcb
+\i (20:34:03) zoom in 1 
+\i (20:34:03) setwindow pcb
+\i (20:34:03) zoom in 903.166 399.787
+\t (20:34:03) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:34:03) trapsize 2603
+\i (20:34:07) zoom out 1 
+\i (20:34:07) setwindow pcb
+\i (20:34:07) zoom out 905.248 413.322
+\t (20:34:07) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:34:07) trapsize 5206
+\i (20:34:40) zoom in 1 
+\i (20:34:40) setwindow pcb
+\i (20:34:40) zoom in 919.825 409.158
+\t (20:34:40) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (20:34:40) trapsize 2603
+\i (20:34:44) pick grid 937.524 421.131
+\t (20:34:44) last pick:  938.000 421.000
+\i (20:34:45) zoom out 1 
+\i (20:34:45) setwindow pcb
+\i (20:34:45) zoom out 937.524 421.131
+\t (20:34:45) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (20:34:45) trapsize 5206
+\i (20:34:47) pick grid 850.071 427.377
+\t (20:34:47) last pick:  850.000 427.000
+\i (20:34:48) pick grid 809.467 425.295
+\t (20:34:48) last pick:  809.000 425.000
+\i (21:33:51) pick grid -129.622 258.716
+\t (21:33:51) last pick:  -130.000 259.000
+\i (23:46:25) xhilite 
+\i (23:46:26) xname_flush 
+\i (23:46:26) done 
+\i (23:46:26) generaledit 
+\i (23:46:32) xdehilite 
+\i (23:46:32) xname_flush 
+\i (23:46:32) done 
+\i (23:46:32) generaledit 
+\i (24:00:47) xhilite 
+\i (24:00:47) xname_flush 
+\i (24:00:47) done 
+\i (24:00:47) generaledit 
+\i (24:00:51) xdehilite 
+\i (24:00:51) xname_flush 
+\i (24:00:51) done 
+\i (24:00:51) generaledit 
+\i (24:01:07) xhilite 
+\i (24:01:07) xname_flush 
+\i (24:01:07) done 
+\i (24:01:07) generaledit 
+\i (24:01:16) xdehilite 
+\i (24:01:16) xname_flush 
+\i (24:01:16) done 
+\i (24:01:16) generaledit 
+\i (24:01:57) xhilite 
+\i (24:01:57) xname_flush 
+\i (24:01:57) done 
+\i (24:01:58) generaledit 
+\i (24:01:59) xdehilite 
+\i (24:01:59) xname_flush 
+\i (24:01:59) done 
+\i (24:01:59) generaledit 
+\i (24:02:13) xdehilite 
+\i (24:02:13) xname_flush 
+\i (24:02:13) done 
+\i (24:02:13) generaledit 
+\i (24:02:15) xhilite 
+\i (24:02:15) xname_flush 
+\i (24:02:15) done 
+\i (24:02:15) generaledit 
+\i (24:02:21) xdehilite 
+\i (24:02:21) xname_flush 
+\i (24:02:21) done 
+\i (24:02:22) generaledit 
+\i (24:02:26) xhilite 
+\i (24:02:26) xname_flush 
+\i (24:02:26) done 
+\i (24:02:26) generaledit 
+\i (24:02:27) xdehilite 
+\i (24:02:27) xname_flush 
+\i (24:02:27) done 
+\i (24:02:27) generaledit 
+\i (24:02:27) xhilite 
+\i (24:02:27) xname_flush 
+\i (24:02:27) done 
+\i (24:02:27) generaledit 
+\i (24:02:38) xdehilite 
+\i (24:02:38) xname_flush 
+\i (24:02:38) done 
+\i (24:02:38) generaledit 
+\i (24:02:42) xhilite 
+\i (24:02:42) xname_flush 
+\i (24:02:42) done 
+\i (24:02:42) generaledit 
+\i (24:03:07) xhilite 
+\i (24:03:07) xname_flush 
+\i (24:03:07) done 
+\i (24:03:07) generaledit 
+\i (24:03:10) xdehilite 
+\i (24:03:10) xname_flush 
+\i (24:03:10) done 
+\i (24:03:10) generaledit 
+\i (24:03:13) xhilite 
+\i (24:03:13) xname_flush 
+\i (24:03:13) done 
+\i (24:03:13) generaledit 
+\i (24:03:17) xdehilite 
+\i (24:03:17) xname_flush 
+\i (24:03:17) done 
+\i (24:03:17) generaledit 
+\i (24:03:19) xhilite 
+\i (24:03:19) xname_flush 
+\i (24:03:19) done 
+\i (24:03:19) generaledit 
+\i (24:03:21) xdehilite 
+\i (24:03:21) xname_flush 
+\i (24:03:21) done 
+\i (24:03:21) generaledit 
+\i (24:03:21) xhilite 
+\i (24:03:21) xname_flush 
+\i (24:03:22) done 
+\i (24:03:22) generaledit 
+\i (24:03:31) xhilite 
+\i (24:03:31) xname_flush 
+\i (24:03:31) done 
+\i (24:03:31) generaledit 
+\i (24:03:32) xdehilite 
+\i (24:03:32) xname_flush 
+\i (24:03:32) done 
+\i (24:03:33) generaledit 
+\i (24:03:35) xhilite 
+\i (24:03:35) xname_flush 
+\i (24:03:35) done 
+\i (24:03:35) generaledit 
+\i (24:03:52) xdehilite 
+\i (24:03:52) xname_flush 
+\i (24:03:52) done 
+\i (24:03:52) generaledit 
+\i (24:03:52) xhilite 
+\i (24:03:52) xname_flush 
+\i (24:03:52) done 
+\i (24:03:52) generaledit 
+\i (24:03:56) xdehilite 
+\i (24:03:56) xname_flush 
+\i (24:03:56) done 
+\i (24:03:56) generaledit 
+\i (24:03:57) xhilite 
+\i (24:03:57) xname_flush 
+\i (24:03:57) done 
+\i (24:03:58) generaledit 
+\i (24:03:59) xdehilite 
+\i (24:03:59) xname_flush 
+\i (24:03:59) done 
+\i (24:03:59) generaledit 
+\i (24:03:59) xhilite 
+\i (24:03:59) xname_flush 
+\i (24:03:59) done 
+\i (24:03:59) generaledit 
+\i (24:04:02) xdehilite 
+\i (24:04:02) xname_flush 
+\i (24:04:02) done 
+\i (24:04:02) generaledit 
+\i (24:04:02) xhilite 
+\i (24:04:02) xname_flush 
+\i (24:04:02) done 
+\i (24:04:02) generaledit 
+\i (24:04:04) xdehilite 
+\i (24:04:04) xname_flush 
+\i (24:04:04) done 
+\i (24:04:04) generaledit 
+\i (24:04:04) xhilite 
+\i (24:04:04) xname_flush 
+\i (24:04:04) done 
+\i (24:04:04) generaledit 
+\i (24:04:05) xdehilite 
+\i (24:04:05) xname_flush 
+\i (24:04:05) done 
+\i (24:04:05) generaledit 
+\i (24:04:05) xhilite 
+\i (24:04:05) xname_flush 
+\i (24:04:05) done 
+\i (24:04:05) generaledit 
+\i (24:04:06) xdehilite 
+\i (24:04:06) xname_flush 
+\i (24:04:06) done 
+\i (24:04:06) generaledit 
+\i (24:04:07) xhilite 
+\i (24:04:07) xname_flush 
+\i (24:04:07) done 
+\i (24:04:07) generaledit 
+\i (24:04:12) xhilite 
+\i (24:04:12) xname_flush 
+\i (24:04:12) done 
+\i (24:04:12) generaledit 
+\i (24:04:22) xhilite 
+\i (24:04:22) xname_flush 
+\i (24:04:22) done 
+\i (24:04:22) generaledit 
+\i (24:04:22) xdehilite 
+\i (24:04:22) xname_flush 
+\i (24:04:22) done 
+\i (24:04:22) generaledit 
+\i (24:04:22) xhilite 
+\i (24:04:22) xname_flush 
+\i (24:04:22) done 
+\i (24:04:23) generaledit 
+\i (24:04:25) xdehilite 
+\i (24:04:25) xname_flush 
+\i (24:04:25) done 
+\i (24:04:25) generaledit 
+\i (24:05:04) xhilite 
+\i (24:05:04) xname_flush 
+\i (24:05:04) done 
+\i (24:05:04) generaledit 
+\i (24:05:08) xdehilite 
+\i (24:05:08) xname_flush 
+\i (24:05:08) done 
+\i (24:05:08) generaledit 
+\i (24:05:09) xhilite 
+\i (24:05:09) xname_flush 
+\i (24:05:09) done 
+\i (24:05:09) generaledit 
+\i (24:05:09) xdehilite 
+\i (24:05:09) xname_flush 
+\i (24:05:09) done 
+\i (24:05:09) generaledit 
+\i (24:05:09) xhilite 
+\i (24:05:09) xname_flush 
+\i (24:05:09) done 
+\i (24:05:10) generaledit 
+\i (24:05:14) xdehilite 
+\i (24:05:14) xname_flush 
+\i (24:05:14) done 
+\i (24:05:14) generaledit 
+\i (24:05:15) xhilite 
+\i (24:05:15) xname_flush 
+\i (24:05:15) done 
+\i (24:05:15) generaledit 
+\i (24:05:27) xdehilite 
+\i (24:05:27) xname_flush 
+\i (24:05:27) done 
+\i (24:05:27) generaledit 
+\i (24:05:29) xhilite 
+\i (24:05:29) xname_flush 
+\i (24:05:29) done 
+\i (24:05:29) generaledit 
+\i (24:05:31) xdehilite 
+\i (24:05:31) xname_flush 
+\i (24:05:31) done 
+\i (24:05:31) generaledit 
+\i (24:05:34) xhilite 
+\i (24:05:34) xname_flush 
+\i (24:05:34) done 
+\i (24:05:34) generaledit 
+\i (24:05:35) xdehilite 
+\i (24:05:35) xname_flush 
+\i (24:05:35) done 
+\i (24:05:35) generaledit 
+\i (24:05:38) xhilite 
+\i (24:05:39) xname_flush 
+\i (24:05:39) done 
+\i (24:05:39) generaledit 
+\i (24:05:43) xdehilite 
+\i (24:05:43) xname_flush 
+\i (24:05:43) done 
+\i (24:05:43) generaledit 
+\i (24:05:44) xhilite 
+\i (24:05:44) xname_flush 
+\i (24:05:44) done 
+\i (24:05:44) generaledit 
+\i (24:05:47) xdehilite 
+\i (24:05:47) xname_flush 
+\i (24:05:47) done 
+\i (24:05:47) generaledit 
+\i (24:05:49) xhilite 
+\i (24:05:49) xname_flush 
+\i (24:05:49) done 
+\i (24:05:49) generaledit 
+\i (24:05:54) xhilite 
+\i (24:05:54) xname_flush 
+\i (24:05:54) done 
+\i (24:05:54) generaledit 
+\i (24:05:55) xdehilite 
+\i (24:05:55) xname_flush 
+\i (24:05:55) done 
+\i (24:05:55) generaledit 
+\i (24:05:55) xhilite 
+\i (24:05:55) xname_flush 
+\i (24:05:55) done 
+\i (24:05:55) generaledit 
+\i (24:05:56) xdehilite 
+\i (24:05:56) xname_flush 
+\i (24:05:56) done 
+\i (24:05:56) generaledit 
+\i (24:05:58) xhilite 
+\i (24:05:58) xname_flush 
+\i (24:05:58) done 
+\i (24:05:58) generaledit 
+\i (24:06:05) xhilite 
+\i (24:06:05) xname_flush 
+\i (24:06:05) done 
+\i (24:06:05) generaledit 
+\i (24:06:06) xdehilite 
+\i (24:06:07) xname_flush 
+\i (24:06:07) done 
+\i (24:06:07) generaledit 
+\i (24:06:11) xhilite 
+\i (24:06:11) xname_flush 
+\i (24:06:11) done 
+\i (24:06:11) generaledit 
+\i (24:06:12) xdehilite 
+\i (24:06:12) xname_flush 
+\i (24:06:12) done 
+\i (24:06:13) generaledit 
+\i (24:06:58) xhilite 
+\i (24:06:58) xname_flush 
+\i (24:06:58) done 
+\i (24:06:58) generaledit 
+\i (24:07:02) xdehilite 
+\i (24:07:02) xname_flush 
+\i (24:07:02) done 
+\i (24:07:02) generaledit 
+\i (24:07:05) xhilite 
+\i (24:07:05) xname_flush 
+\i (24:07:05) done 
+\i (24:07:05) generaledit 
+\i (24:07:09) xdehilite 
+\i (24:07:09) xname_flush 
+\i (24:07:09) done 
+\i (24:07:09) generaledit 
+\i (24:07:10) xhilite 
+\i (24:07:10) xname_flush 
+\i (24:07:10) done 
+\i (24:07:10) generaledit 
+\i (24:07:20) xdehilite 
+\i (24:07:20) xname_flush 
+\i (24:07:20) done 
+\i (24:07:20) generaledit 
+\i (24:08:12) xhilite 
+\i (24:08:12) xname_flush 
+\i (24:08:12) done 
+\i (24:08:12) generaledit 
+\i (24:08:13) xhilite 
+\i (24:08:13) xname_flush 
+\i (24:08:13) done 
+\i (24:08:13) generaledit 
+\i (24:08:13) xhilite 
+\i (24:08:13) xname_flush 
+\i (24:08:13) done 
+\i (24:08:14) generaledit 
+\i (24:08:14) xhilite 
+\i (24:08:14) xname_flush 
+\i (24:08:14) done 
+\i (24:08:14) generaledit 
+\i (24:08:17) xhilite 
+\i (24:08:17) xname_flush 
+\i (24:08:17) done 
+\i (24:08:18) generaledit 
+\i (24:08:19) xdehilite 
+\i (24:08:19) xname_flush 
+\i (24:08:19) done 
+\i (24:08:19) generaledit 
+\i (24:08:19) xhilite 
+\i (24:08:19) xname_flush 
+\i (24:08:19) done 
+\i (24:08:19) generaledit 
+\i (24:08:21) xdehilite 
+\i (24:08:21) xname_flush 
+\i (24:08:21) done 
+\i (24:08:21) generaledit 
+\i (24:08:21) xhilite 
+\i (24:08:21) xname_flush 
+\i (24:08:21) done 
+\i (24:08:21) generaledit 
+\i (24:08:23) xdehilite 
+\i (24:08:23) xname_flush 
+\i (24:08:23) done 
+\i (24:08:23) generaledit 
+\i (24:08:25) xhilite 
+\i (24:08:25) xname_flush 
+\i (24:08:25) done 
+\i (24:08:25) generaledit 
+\i (24:08:43) xhilite 
+\i (24:08:43) xname_flush 
+\i (24:08:43) done 
+\i (24:08:43) generaledit 
+\i (24:08:56) xdehilite 
+\i (24:08:56) xname_flush 
+\i (24:08:56) done 
+\i (24:08:56) generaledit 
+\i (24:09:04) xhilite 
+\i (24:09:05) xname_flush 
+\i (24:09:05) done 
+\i (24:09:05) generaledit 
+\i (24:09:07) xdehilite 
+\i (24:09:08) xname_flush 
+\i (24:09:08) done 
+\i (24:09:08) generaledit 
+\i (24:09:19) xhilite 
+\i (24:09:19) xname_flush 
+\i (24:09:19) done 
+\i (24:09:19) generaledit 
+\i (24:09:20) xdehilite 
+\i (24:09:20) xname_flush 
+\i (24:09:20) done 
+\i (24:09:20) generaledit 
+\i (24:09:23) xhilite 
+\i (24:09:23) xname_flush 
+\i (24:09:23) done 
+\i (24:09:24) generaledit 
+\i (24:09:25) xdehilite 
+\i (24:09:26) xname_flush 
+\i (24:09:26) done 
+\i (24:09:26) generaledit 
+\i (24:09:30) xhilite 
+\i (24:09:30) xname_flush 
+\i (24:09:30) done 
+\i (24:09:30) generaledit 
+\i (24:09:30) xdehilite 
+\i (24:09:30) xname_flush 
+\i (24:09:30) done 
+\i (24:09:30) generaledit 
+\i (24:09:33) xhilite 
+\i (24:09:33) xname_flush 
+\i (24:09:33) done 
+\i (24:09:33) generaledit 
+\i (24:09:34) xdehilite 
+\i (24:09:34) xname_flush 
+\i (24:09:34) done 
+\i (24:09:34) generaledit 
+\i (24:09:36) xhilite 
+\i (24:09:36) xname_flush 
+\i (24:09:36) done 
+\i (24:09:36) generaledit 
+\i (24:09:37) xdehilite 
+\i (24:09:37) xname_flush 
+\i (24:09:37) done 
+\i (24:09:37) generaledit 
+\i (24:09:39) xhilite 
+\i (24:09:39) xname_flush 
+\i (24:09:39) done 
+\i (24:09:39) generaledit 
+\i (24:09:45) xdehilite 
+\i (24:09:45) xname_flush 
+\i (24:09:45) done 
+\i (24:09:45) generaledit 
+\i (24:09:53) xhilite 
+\i (24:09:53) xname_flush 
+\i (24:09:53) done 
+\i (24:09:54) generaledit 
+\i (24:09:56) xhilite 
+\i (24:09:56) xname_flush 
+\i (24:09:56) done 
+\i (24:09:56) generaledit 
+\i (24:09:59) xdehilite 
+\i (24:09:59) xname_flush 
+\i (24:09:59) done 
+\i (24:09:59) generaledit 
+\i (24:10:00) xhilite 
+\i (24:10:00) xname_flush 
+\i (24:10:00) done 
+\i (24:10:01) generaledit 
+\i (24:10:04) xdehilite 
+\i (24:10:04) xname_flush 
+\i (24:10:04) done 
+\i (24:10:04) generaledit 
+\i (24:12:27) xhilite 
+\i (24:12:27) xname_flush 
+\i (24:12:27) done 
+\i (24:12:27) generaledit 
+\i (24:12:30) xhilite 
+\i (24:12:30) xname_flush 
+\i (24:12:30) done 
+\i (24:12:30) generaledit 
+\i (24:12:32) xhilite 
+\i (24:12:32) xname_flush 
+\i (24:12:32) done 
+\i (24:12:32) generaledit 
+\i (24:12:33) xdehilite 
+\i (24:12:33) xname_flush 
+\i (24:12:33) done 
+\i (24:12:33) generaledit 
+\i (24:12:34) xhilite 
+\i (24:12:34) xname_flush 
+\i (24:12:34) done 
+\i (24:12:34) generaledit 
+\i (24:13:34) xhilite 
+\i (24:13:34) xname_flush 
+\i (24:13:34) done 
+\i (24:13:34) generaledit 
+\i (24:13:35) xdehilite 
+\i (24:13:35) xname_flush 
+\i (24:13:35) done 
+\i (24:13:35) generaledit 
+\i (24:13:37) xhilite 
+\i (24:13:37) xname_flush 
+\i (24:13:37) done 
+\i (24:13:37) generaledit 
+\i (24:13:37) xdehilite 
+\i (24:13:37) xname_flush 
+\i (24:13:37) done 
+\i (24:13:37) generaledit 
+\i (24:13:38) xhilite 
+\i (24:13:38) xname_flush 
+\i (24:13:38) done 
+\i (24:13:38) generaledit 
+\i (24:13:40) xdehilite 
+\i (24:13:40) xname_flush 
+\i (24:13:40) done 
+\i (24:13:40) generaledit 
+\i (24:13:46) xhilite 
+\i (24:13:46) xname_flush 
+\i (24:13:46) done 
+\i (24:13:46) generaledit 
+\i (24:13:46) xdehilite 
+\i (24:13:46) xname_flush 
+\i (24:13:46) done 
+\i (24:13:47) generaledit 
+\i (24:13:48) xhilite 
+\i (24:13:48) xname_flush 
+\i (24:13:48) done 
+\i (24:13:49) generaledit 
+\i (24:13:51) xdehilite 
+\i (24:13:51) xname_flush 
+\i (24:13:51) done 
+\i (24:13:51) generaledit 
+\i (24:13:55) xhilite 
+\i (24:13:56) xname_flush 
+\i (24:13:56) done 
+\i (24:13:56) generaledit 
+\i (24:13:56) xdehilite 
+\i (24:13:56) xname_flush 
+\i (24:13:56) done 
+\i (24:13:56) generaledit 
+\i (24:14:17) xhilite 
+\i (24:14:17) xname_flush 
+\i (24:14:17) done 
+\i (24:14:17) generaledit 
+\i (24:14:22) xdehilite 
+\i (24:14:22) xname_flush 
+\i (24:14:22) done 
+\i (24:14:22) generaledit 
+\i (24:14:26) xhilite 
+\i (24:14:27) xname_flush 
+\i (24:14:27) done 
+\i (24:14:27) generaledit 
+\i (24:14:40) xhilite 
+\i (24:14:40) xname_flush 
+\i (24:14:40) done 
+\i (24:14:40) generaledit 
+\i (24:14:41) xdehilite 
+\i (24:14:41) xname_flush 
+\i (24:14:41) done 
+\i (24:14:41) generaledit 
+\i (24:14:45) xhilite 
+\i (24:14:45) xname_flush 
+\i (24:14:45) done 
+\i (24:14:45) generaledit 
+\i (24:14:49) xhilite 
+\i (24:14:49) xname_flush 
+\i (24:14:49) done 
+\i (24:14:49) generaledit 
+\i (24:14:53) xdehilite 
+\i (24:14:53) xname_flush 
+\i (24:14:53) done 
+\i (24:14:53) generaledit 
+\i (24:14:53) xhilite 
+\i (24:14:53) xname_flush 
+\i (24:14:53) done 
+\i (24:14:53) generaledit 
+\i (24:14:54) xdehilite 
+\i (24:14:54) xname_flush 
+\i (24:14:54) done 
+\i (24:14:54) generaledit 
+\i (24:14:58) xhilite 
+\i (24:14:58) xname_flush 
+\i (24:14:58) done 
+\i (24:14:59) generaledit 
+\i (24:14:59) xdehilite 
+\i (24:14:59) xname_flush 
+\i (24:14:59) done 
+\i (24:14:59) generaledit 
+\i (24:15:01) xhilite 
+\i (24:15:01) xname_flush 
+\i (24:15:01) done 
+\i (24:15:01) generaledit 
+\i (24:15:04) xdehilite 
+\i (24:15:04) xname_flush 
+\i (24:15:04) done 
+\i (24:15:04) generaledit 
+\i (24:15:07) xhilite 
+\i (24:15:07) xname_flush 
+\i (24:15:07) done 
+\i (24:15:07) generaledit 
+\i (24:15:07) xdehilite 
+\i (24:15:08) xname_flush 
+\i (24:15:08) done 
+\i (24:15:08) generaledit 
+\i (24:15:09) xhilite 
+\i (24:15:09) xname_flush 
+\i (24:15:09) done 
+\i (24:15:09) generaledit 
+\i (24:15:12) xhilite 
+\i (24:15:12) xname_flush 
+\i (24:15:12) done 
+\i (24:15:13) generaledit 
+\i (24:15:16) xdehilite 
+\i (24:15:16) xname_flush 
+\i (24:15:16) done 
+\i (24:15:17) generaledit 
+\i (24:15:18) xhilite 
+\i (24:15:18) xname_flush 
+\i (24:15:18) done 
+\i (24:15:18) generaledit 
+\i (24:15:21) xdehilite 
+\i (24:15:21) xname_flush 
+\i (24:15:21) done 
+\i (24:15:21) generaledit 
+\i (24:16:02) xhilite 
+\i (24:16:02) xname_flush 
+\i (24:16:02) done 
+\i (24:16:02) generaledit 
+\i (24:16:06) xhilite 
+\i (24:16:06) xname_flush 
+\i (24:16:06) done 
+\i (24:16:06) generaledit 
+\i (24:16:12) xhilite 
+\i (24:16:12) xname_flush 
+\i (24:16:12) done 
+\i (24:16:12) generaledit 
+\i (24:16:15) xdehilite 
+\i (24:16:15) xname_flush 
+\i (24:16:15) done 
+\i (24:16:16) generaledit 
+\i (24:16:16) xhilite 
+\i (24:16:16) xname_flush 
+\i (24:16:16) done 
+\i (24:16:16) generaledit 
+\i (24:16:19) xdehilite 
+\i (24:16:19) xname_flush 
+\i (24:16:19) done 
+\i (24:16:19) generaledit 
+\i (24:16:20) xhilite 
+\i (24:16:20) xname_flush 
+\i (24:16:20) done 
+\i (24:16:20) generaledit 
+\i (24:16:22) xhilite 
+\i (24:16:22) xname_flush 
+\i (24:16:22) done 
+\i (24:16:23) generaledit 
+\i (24:16:23) xdehilite 
+\i (24:16:23) xname_flush 
+\i (24:16:23) done 
+\i (24:16:23) generaledit 
+\i (24:16:23) xhilite 
+\i (24:16:23) xname_flush 
+\i (24:16:23) done 
+\i (24:16:23) generaledit 
+\i (24:16:26) xdehilite 
+\i (24:16:26) xname_flush 
+\i (24:16:26) done 
+\i (24:16:26) generaledit 
+\i (24:16:27) xhilite 
+\i (24:16:27) xname_flush 
+\i (24:16:27) done 
+\i (24:16:27) generaledit 
+\i (24:16:35) xdehilite 
+\i (24:16:35) xname_flush 
+\i (24:16:35) done 
+\i (24:16:35) generaledit 
+\i (24:16:35) xhilite 
+\i (24:16:35) xname_flush 
+\i (24:16:35) done 
+\i (24:16:35) generaledit 
+\i (24:16:44) xdehilite 
+\i (24:16:44) xname_flush 
+\i (24:16:44) done 
+\i (24:16:44) generaledit 
+\i (24:16:46) xhilite 
+\i (24:16:46) xname_flush 
+\i (24:16:46) done 
+\i (24:16:46) generaledit 
+\i (24:16:56) xdehilite 
+\i (24:16:56) xname_flush 
+\i (24:16:56) done 
+\i (24:16:56) generaledit 
+\i (24:16:59) xhilite 
+\i (24:16:59) xname_flush 
+\i (24:16:59) done 
+\i (24:16:59) generaledit 
+\i (24:17:00) xdehilite 
+\i (24:17:00) xname_flush 
+\i (24:17:00) done 
+\i (24:17:00) generaledit 
+\i (24:17:21) xhilite 
+\i (24:17:21) xname_flush 
+\i (24:17:21) done 
+\i (24:17:21) generaledit 
+\i (24:17:22) xdehilite 
+\i (24:17:22) xname_flush 
+\i (24:17:22) done 
+\i (24:17:22) generaledit 
+\i (24:17:23) xhilite 
+\i (24:17:23) xname_flush 
+\i (24:17:23) done 
+\i (24:17:23) generaledit 
+\i (24:17:29) xhilite 
+\i (24:17:29) xname_flush 
+\i (24:17:29) done 
+\i (24:17:29) generaledit 
+\i (24:17:32) xdehilite 
+\i (24:17:32) xname_flush 
+\i (24:17:32) done 
+\i (24:17:32) generaledit 
+\i (24:17:39) xhilite 
+\i (24:17:39) xname_flush 
+\i (24:17:39) done 
+\i (24:17:39) generaledit 
+\i (24:17:39) xdehilite 
+\i (24:17:39) xname_flush 
+\i (24:17:39) done 
+\i (24:17:39) generaledit 
+\i (24:18:48) xhilite 
+\i (24:18:48) xname_flush 
+\i (24:18:48) done 
+\i (24:18:48) generaledit 
+\i (24:19:40) xdehilite 
+\i (24:19:40) xname_flush 
+\i (24:19:40) done 
+\i (24:19:40) generaledit 
+\i (24:20:48) xhilite 
+\i (24:20:48) xname_flush 
+\i (24:20:48) done 
+\i (24:20:48) generaledit 
+\i (24:20:48) xdehilite 
+\i (24:20:48) xname_flush 
+\i (24:20:48) done 
+\i (24:20:48) generaledit 
+\i (24:31:22) xhilite 
+\i (24:31:23) xname_flush 
+\i (24:31:23) done 
+\i (24:31:23) generaledit 
+\i (24:31:25) xdehilite 
+\i (24:31:25) xname_flush 
+\i (24:31:25) done 
+\i (24:31:25) generaledit 
+\i (24:31:25) xhilite 
+\i (24:31:25) xname_flush 
+\i (24:31:25) done 
+\i (24:31:25) generaledit 
+\i (24:31:27) xhilite 
+\i (24:31:27) xname_flush 
+\i (24:31:27) done 
+\i (24:31:27) generaledit 
+\i (24:31:32) xdehilite 
+\i (24:31:32) xname_flush 
+\i (24:31:32) done 
+\i (24:31:32) generaledit 
+\i (24:31:35) xhilite 
+\i (24:31:35) xname_flush 
+\i (24:31:35) done 
+\i (24:31:35) generaledit 
+\i (24:31:36) xdehilite 
+\i (24:31:36) xname_flush 
+\i (24:31:36) done 
+\i (24:31:36) generaledit 
+\i (24:31:38) xhilite 
+\i (24:31:38) xname_flush 
+\i (24:31:38) done 
+\i (24:31:38) generaledit 
+\i (24:31:39) xdehilite 
+\i (24:31:39) xname_flush 
+\i (24:31:39) done 
+\i (24:31:39) generaledit 
+\i (24:31:40) xhilite 
+\i (24:31:40) xname_flush 
+\i (24:31:40) done 
+\i (24:31:40) generaledit 
+\i (24:31:49) xhilite 
+\i (24:31:49) xname_flush 
+\i (24:31:49) done 
+\i (24:31:49) generaledit 
+\i (24:31:58) xdehilite 
+\i (24:31:58) xname_flush 
+\i (24:31:58) done 
+\i (24:31:58) generaledit 
+\i (24:32:01) xhilite 
+\i (24:32:01) xname_flush 
+\i (24:32:01) done 
+\i (24:32:01) generaledit 
+\i (24:32:02) xdehilite 
+\i (24:32:02) xname_flush 
+\i (24:32:02) done 
+\i (24:32:02) generaledit 
+\i (24:33:51) xhilite 
+\i (24:33:51) xname_flush 
+\i (24:33:51) done 
+\i (24:33:51) generaledit 
+\i (24:33:52) xdehilite 
+\i (24:33:52) xname_flush 
+\i (24:33:52) done 
+\i (24:33:52) generaledit 
+\i (24:33:57) xhilite 
+\i (24:33:57) xname_flush 
+\i (24:33:57) done 
+\i (24:33:57) generaledit 
+\i (24:33:58) xdehilite 
+\i (24:33:58) xname_flush 
+\i (24:33:58) done 
+\i (24:33:58) generaledit 
+\i (24:34:28) xhilite 
+\i (24:34:28) xname_flush 
+\i (24:34:28) done 
+\i (24:34:28) generaledit 
+\i (24:34:29) xdehilite 
+\i (24:34:29) xname_flush 
+\i (24:34:29) done 
+\i (24:34:29) generaledit 
+\i (24:34:39) xhilite 
+\i (24:34:39) xname_flush 
+\i (24:34:39) done 
+\i (24:34:39) generaledit 
+\i (24:34:40) xdehilite 
+\i (24:34:40) xname_flush 
+\i (24:34:40) done 
+\i (24:34:40) generaledit 
+\i (24:35:03) xhilite 
+\i (24:35:03) xname_flush 
+\i (24:35:03) done 
+\i (24:35:03) generaledit 
+\i (24:35:05) xdehilite 
+\i (24:35:05) xname_flush 
+\i (24:35:05) done 
+\i (24:35:05) generaledit 
+\i (24:35:08) xhilite 
+\i (24:35:08) xname_flush 
+\i (24:35:08) done 
+\i (24:35:08) generaledit 
+\i (24:35:11) xdehilite 
+\i (24:35:11) xname_flush 
+\i (24:35:11) done 
+\i (24:35:11) generaledit 
+\i (24:35:11) xhilite 
+\i (24:35:11) xname_flush 
+\i (24:35:11) done 
+\i (24:35:12) generaledit 
+\i (24:35:13) xdehilite 
+\i (24:35:13) xname_flush 
+\i (24:35:13) done 
+\i (24:35:13) generaledit 
+\i (24:40:41) xhilite 
+\i (24:40:41) xname_flush 
+\i (24:40:41) done 
+\i (24:40:41) generaledit 
+\i (24:40:43) xdehilite 
+\i (24:40:43) xname_flush 
+\i (24:40:43) done 
+\i (24:40:43) generaledit 
+\i (24:40:46) xhilite 
+\i (24:40:46) xname_flush 
+\i (24:40:46) done 
+\i (24:40:46) generaledit 
+\i (24:40:47) xdehilite 
+\i (24:40:47) xname_flush 
+\i (24:40:47) done 
+\i (24:40:47) generaledit 
+\i (24:40:50) xhilite 
+\i (24:40:50) xname_flush 
+\i (24:40:50) done 
+\i (24:40:50) generaledit 
+\i (24:40:50) xdehilite 
+\i (24:40:50) xname_flush 
+\i (24:40:50) done 
+\i (24:40:51) generaledit 
+\i (24:46:09) xhilite 
+\i (24:46:09) xname_flush 
+\i (24:46:09) done 
+\i (24:46:09) generaledit 
+\i (24:46:10) xdehilite 
+\i (24:46:10) xname_flush 
+\i (24:46:10) done 
+\i (24:46:10) generaledit 
+\i (24:46:19) xhilite 
+\i (24:46:19) xname_flush 
+\i (24:46:19) done 
+\i (24:46:19) generaledit 
+\i (24:46:20) xdehilite 
+\i (24:46:20) xname_flush 
+\i (24:46:20) done 
+\i (24:46:20) generaledit 
+\i (24:47:53) xhilite 
+\i (24:47:53) xname_flush 
+\i (24:47:53) done 
+\i (24:47:53) generaledit 
+\i (24:47:55) xdehilite 
+\i (24:47:55) xname_flush 
+\i (24:47:55) done 
+\i (24:47:55) generaledit 
+\i (24:47:55) xhilite 
+\i (24:47:55) xname_flush 
+\i (24:47:55) done 
+\i (24:47:55) generaledit 
+\i (24:47:56) xdehilite 
+\i (24:47:56) xname_flush 
+\i (24:47:56) done 
+\i (24:47:56) generaledit 
+\i (24:48:09) xhilite 
+\i (24:48:09) xname_flush 
+\i (24:48:09) done 
+\i (24:48:09) generaledit 
+\i (24:48:10) xdehilite 
+\i (24:48:10) xname_flush 
+\i (24:48:10) done 
+\i (24:48:10) generaledit 
+\i (24:48:13) xhilite 
+\i (24:48:13) xname_flush 
+\i (24:48:13) done 
+\i (24:48:13) generaledit 
+\i (24:48:22) xdehilite 
+\i (24:48:22) xname_flush 
+\i (24:48:22) done 
+\i (24:48:22) generaledit 
+\i (24:48:33) xhilite 
+\i (24:48:33) xname_flush 
+\i (24:48:33) done 
+\i (24:48:33) generaledit 
+\i (24:48:36) xdehilite 
+\i (24:48:36) xname_flush 
+\i (24:48:36) done 
+\i (24:48:36) generaledit 
+\i (24:48:41) xhilite 
+\i (24:48:41) xname_flush 
+\i (24:48:41) done 
+\i (24:48:41) generaledit 
+\i (24:48:44) xdehilite 
+\i (24:48:44) xname_flush 
+\i (24:48:44) done 
+\i (24:48:44) generaledit 
+\i (24:48:45) xhilite 
+\i (24:48:45) xname_flush 
+\i (24:48:45) done 
+\i (24:48:45) generaledit 
+\i (24:48:51) xdehilite 
+\i (24:48:51) xname_flush 
+\i (24:48:51) done 
+\i (24:48:51) generaledit 
+\i (24:48:52) xhilite 
+\i (24:48:52) xname_flush 
+\i (24:48:52) done 
+\i (24:48:53) generaledit 
+\i (24:48:55) xdehilite 
+\i (24:48:55) xname_flush 
+\i (24:48:55) done 
+\i (24:48:55) generaledit 
+\i (24:48:58) xhilite 
+\i (24:48:58) xname_flush 
+\i (24:48:58) done 
+\i (24:48:58) generaledit 
+\i (24:49:01) xdehilite 
+\i (24:49:02) xname_flush 
+\i (24:49:02) done 
+\i (24:49:02) generaledit 
+\i (24:49:03) xhilite 
+\i (24:49:03) xname_flush 
+\i (24:49:03) done 
+\i (24:49:03) generaledit 
+\i (24:49:03) xdehilite 
+\i (24:49:03) xname_flush 
+\i (24:49:03) done 
+\i (24:49:03) generaledit 
+\i (24:49:08) xhilite 
+\i (24:49:08) xname_flush 
+\i (24:49:08) done 
+\i (24:49:08) generaledit 
+\i (24:49:13) xdehilite 
+\i (24:49:13) xname_flush 
+\i (24:49:13) done 
+\i (24:49:13) generaledit 
+\i (24:49:17) xhilite 
+\i (24:49:18) xname_flush 
+\i (24:49:18) done 
+\i (24:49:18) generaledit 
+\i (24:49:20) xdehilite 
+\i (24:49:20) xname_flush 
+\i (24:49:20) done 
+\i (24:49:20) generaledit 
+\i (24:49:27) xhilite 
+\i (24:49:27) xname_flush 
+\i (24:49:27) done 
+\i (24:49:27) generaledit 
+\i (24:49:29) xdehilite 
+\i (24:49:29) xname_flush 
+\i (24:49:29) done 
+\i (24:49:29) generaledit 
+\i (24:49:31) xhilite 
+\i (24:49:31) xname_flush 
+\i (24:49:31) done 
+\i (24:49:31) generaledit 
+\i (24:49:33) xdehilite 
+\i (24:49:33) xname_flush 
+\i (24:49:33) done 
+\i (24:49:34) generaledit 
+\i (24:49:48) xhilite 
+\i (24:49:48) xname_flush 
+\i (24:49:48) done 
+\i (24:49:49) generaledit 
+\i (24:50:10) xhilite 
+\i (24:50:10) xname_flush 
+\i (24:50:10) done 
+\i (24:50:10) generaledit 
+\i (24:50:10) xdehilite 
+\i (24:50:10) xname_flush 
+\i (24:50:10) done 
+\i (24:50:11) generaledit 
+\i (24:50:22) xhilite 
+\i (24:50:22) xname_flush 
+\i (24:50:22) done 
+\i (24:50:22) generaledit 
+\i (24:50:24) xdehilite 
+\i (24:50:24) xname_flush 
+\i (24:50:24) done 
+\i (24:50:24) generaledit 
+\i (24:51:10) xhilite 
+\i (24:51:10) xname_flush 
+\i (24:51:10) done 
+\i (24:51:10) generaledit 
+\i (24:51:10) xdehilite 
+\i (24:51:10) xname_flush 
+\i (24:51:10) done 
+\i (24:51:10) generaledit 
+\i (24:51:39) xhilite 
+\i (24:51:39) xname_flush 
+\i (24:51:39) done 
+\i (24:51:39) generaledit 
+\i (24:51:40) xdehilite 
+\i (24:51:40) xname_flush 
+\i (24:51:40) done 
+\i (24:51:40) generaledit 
+\i (24:51:43) xdehilite 
+\i (24:51:43) xname_flush 
+\i (24:51:43) done 
+\i (24:51:43) generaledit 
+\i (24:51:46) xdehilite 
+\i (24:51:46) xname_flush 
+\i (24:51:46) done 
+\i (24:51:46) generaledit 
+\i (24:51:52) xhilite 
+\i (24:51:52) xname_flush 
+\i (24:51:52) done 
+\i (24:51:52) generaledit 
+\i (24:51:54) xdehilite 
+\i (24:51:54) xname_flush 
+\i (24:51:54) done 
+\i (24:51:54) generaledit 
+\i (24:51:54) xhilite 
+\i (24:51:54) xname_flush 
+\i (24:51:54) done 
+\i (24:51:55) generaledit 
+\i (24:51:59) xdehilite 
+\i (24:51:59) xname_flush 
+\i (24:51:59) done 
+\i (24:51:59) generaledit 
+\i (24:52:34) xhilite 
+\i (24:52:34) xname_flush 
+\i (24:52:34) done 
+\i (24:52:34) generaledit 
+\i (24:52:38) xdehilite 
+\i (24:52:38) xname_flush 
+\i (24:52:38) done 
+\i (24:52:38) generaledit 
+\i (24:52:48) xhilite 
+\i (24:52:48) xname_flush 
+\i (24:52:48) done 
+\i (24:52:49) generaledit 
+\i (24:52:50) xdehilite 
+\i (24:52:50) xname_flush 
+\i (24:52:50) done 
+\i (24:52:50) generaledit 
+\i (24:52:50) xhilite 
+\i (24:52:50) xname_flush 
+\i (24:52:50) done 
+\i (24:52:50) generaledit 
+\i (24:52:52) xdehilite 
+\i (24:52:52) xname_flush 
+\i (24:52:52) done 
+\i (24:52:52) generaledit 
+\i (24:53:58) xhilite 
+\i (24:53:58) xname_flush 
+\i (24:53:58) done 
+\i (24:53:58) generaledit 
+\i (24:55:47) xhilite 
+\i (24:55:47) xname_flush 
+\i (24:55:47) done 
+\i (24:55:47) generaledit 
+\i (24:55:49) xhilite 
+\i (24:55:49) xname_flush 
+\i (24:55:49) done 
+\i (24:55:49) generaledit 
+\i (24:55:52) xdehilite 
+\i (24:55:52) xname_flush 
+\i (24:55:52) done 
+\i (24:55:52) generaledit 
+\i (24:55:52) xhilite 
+\i (24:55:52) xname_flush 
+\i (24:55:52) done 
+\i (24:55:53) generaledit 
+\i (24:55:53) xdehilite 
+\i (24:55:53) xname_flush 
+\i (24:55:53) done 
+\i (24:55:53) generaledit 
+\i (24:55:53) xhilite 
+\i (24:55:53) xname_flush 
+\i (24:55:53) done 
+\i (24:55:53) generaledit 
+\i (24:56:05) xhilite 
+\i (24:56:05) xname_flush 
+\i (24:56:05) done 
+\i (24:56:05) generaledit 
+\i (24:56:37) xhilite 
+\i (24:56:37) xname_flush 
+\i (24:56:37) done 
+\i (24:56:37) generaledit 
+\i (24:56:39) xhilite 
+\i (24:56:39) xname_flush 
+\i (24:56:39) done 
+\i (24:56:39) generaledit 
+\i (24:56:44) xhilite 
+\i (24:56:44) xname_flush 
+\i (24:56:44) done 
+\i (24:56:45) generaledit 
+\i (24:56:47) xhilite 
+\i (24:56:47) xname_flush 
+\i (24:56:47) done 
+\i (24:56:47) generaledit 
+\i (24:56:51) xhilite 
+\i (24:56:51) xname_flush 
+\i (24:56:51) done 
+\i (24:56:51) generaledit 
+\i (24:56:57) xhilite 
+\i (24:56:57) xname_flush 
+\i (24:56:57) done 
+\i (24:56:57) generaledit 
+\i (24:56:58) xhilite 
+\i (24:56:58) xname_flush 
+\i (24:56:58) done 
+\i (24:56:58) generaledit 
+\i (24:56:59) xdehilite 
+\i (24:56:59) xname_flush 
+\i (24:56:59) done 
+\i (24:56:59) generaledit 
+\i (24:56:59) xhilite 
+\i (24:56:59) xname_flush 
+\i (24:56:59) done 
+\i (24:56:59) generaledit 
+\i (24:57:05) xhilite 
+\i (24:57:05) xname_flush 
+\i (24:57:05) done 
+\i (24:57:05) generaledit 
+\i (24:57:06) xdehilite 
+\i (24:57:06) xname_flush 
+\i (24:57:06) done 
+\i (24:57:06) generaledit 
+\i (24:57:06) xhilite 
+\i (24:57:06) xname_flush 
+\i (24:57:06) done 
+\i (24:57:06) generaledit 
+\i (24:57:09) xhilite 
+\i (24:57:09) xname_flush 
+\i (24:57:09) done 
+\i (24:57:09) generaledit 
+\i (24:57:10) xdehilite 
+\i (24:57:10) xname_flush 
+\i (24:57:10) done 
+\i (24:57:10) generaledit 
+\i (24:57:11) xhilite 
+\i (24:57:11) xname_flush 
+\i (24:57:11) done 
+\i (24:57:11) generaledit 
+\i (24:57:12) xhilite 
+\i (24:57:12) xname_flush 
+\i (24:57:12) done 
+\i (24:57:12) generaledit 
+\i (24:57:59) xhilite 
+\i (24:57:59) xname_flush 
+\i (24:57:59) done 
+\i (24:57:59) generaledit 
+\i (24:58:01) xdehilite 
+\i (24:58:01) xname_flush 
+\i (24:58:01) done 
+\i (24:58:01) generaledit 
+\i (24:58:02) xhilite 
+\i (24:58:02) xname_flush 
+\i (24:58:02) done 
+\i (24:58:02) generaledit 
+\i (24:58:03) xdehilite 
+\i (24:58:03) xname_flush 
+\i (24:58:03) done 
+\i (24:58:03) generaledit 
+\i (24:58:03) xhilite 
+\i (24:58:03) xname_flush 
+\i (24:58:03) done 
+\i (24:58:03) generaledit 
+\i (24:58:04) xdehilite 
+\i (24:58:04) xname_flush 
+\i (24:58:04) done 
+\i (24:58:04) generaledit 
+\i (28:52:10) exit 
+\e (28:52:11) Do you want to save the changes you made to F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/lora.brd?
+\i (28:52:12) fillin no 
+\t (28:52:28)     Journal end - Thu Nov 15 19:02:43 2018

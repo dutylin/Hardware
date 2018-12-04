@@ -1,0 +1,270 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd       |
+|                                                    Tue Dec 04 17:09:02 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N43164       pins ADDED TO this existing net (pins not previously on any net)
+                                 D4.2                           
+                                 D5.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PWR_EN       pins ADDED TO this existing net (pins not previously on any net)
+                                 D4.1                           
+                                 D5.1                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd       |
+|                                                    Tue Dec 04 17:09:02 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ DIODE 34/DD_0_SOD-523_BAT54XV2
+ DIODE 34/DD_1_SOD-523_BAT54XV2
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd       |
+|                                                    Tue Dec 04 17:09:02 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D4                  DIODE 34/DD_0_SOD-523_BAT54XV2                 DIODE 34/DD_SOD-523_BAT54XV2
+ D5                  DIODE 34/DD_1_SOD-523_BAT54XV2                 DIODE 34/DD_SOD-523_BAT54XV2
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd       |
+|                                                    Tue Dec 04 17:09:02 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D4.2                           PRIM_FILE      .\pstchip.dat
+ D5.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
+|       Comp definitions added:       2                                        |
+|       Components changed    :       2                                        |
+|       Slot property added   :       2                                        |
+|                                                                              |
+|   Total ECO changes reported:      10                                        |
+|------------------------------------------------------------------------------|
+8:05:00) ERROR(SPMHGE-554): Text already matches option panel settings.
+\i (08:05:01) zoom in 1 
+\i (08:05:01) setwindow pcb
+\i (08:05:01) zoom in 40.8436 -6.7738
+\i (08:05:01) trapsize 2392
+\i (08:05:01) zoom in 1 
+\i (08:05:01) setwindow pcb
+\i (08:05:01) zoom in 40.8436 -6.7738
+\i (08:05:01) trapsize 1196
+\i (08:05:09) change 
+\i (08:05:16) setwindow form.mini
+\i (08:05:16) FORM mini change_class PACKAGE GEOMETRY 
+\i (08:05:29) FORM mini change_class REF DES 
+\i (08:05:36) setwindow pcb
+\i (08:05:36) zoom out 1 
+\i (08:05:36) setwindow pcb
+\i (08:05:36) zoom out 58.7806 -2.0623
+\i (08:05:36) trapsize 2392
+\i (08:05:36) zoom out 1 
+\i (08:05:36) setwindow pcb
+\i (08:05:36) zoom out 19.0322 -1.5361
+\i (08:05:36) trapsize 4783
+\i (08:05:37) zoom out 1 
+\i (08:05:37) setwindow pcb
+\i (08:05:37) zoom out 19.0322 -1.5362
+\i (08:05:37) trapsize 9566
+\i (08:05:37) zoom out 1 
+\i (08:05:37) setwindow pcb
+\i (08:05:37) zoom out 19.0321 -1.5361
+\i (08:05:37) trapsize 19133
+\i (08:05:37) drag_start grid -14.6416 50.1225
+\i (08:05:38) drag_stop 102.4513 -53.5774
+\e (08:05:38) ERROR(SPMHGE-554): Text already matches option panel settings.
+\i (08:05:38) zoom in 1 
+\i (08:05:38) setwindow pcb
+\i (08:05:38) zoom in 45.8182 -10.3372
+\i (08:05:38) trapsize 9566
+\i (08:05:38) zoom in 1 
+\i (08:05:38) setwindow pcb
+\i (08:05:38) zoom in 47.1575 -7.8499
+\i (08:05:38) trapsize 4783
+\i (08:05:38) zoom in 1 
+\i (08:05:39) setwindow pcb
+\i (08:05:39) zoom in 47.3488 -7.2759
+\i (08:05:39) trapsize 2392
+\i (08:05:39) zoom in 1 
+\i (08:05:39) setwindow pcb
+\i (08:05:39) zoom in 44.2876 1.7644
+\i (08:05:39) trapsize 1196
+\i (08:05:39) zoom in 1 
+\i (08:05:39) setwindow pcb
+\i (08:05:39) zoom in 44.2876 1.7644
+\i (08:05:39) trapsize 598
+\i (08:05:39) zoom in 1 
+\i (08:05:39) setwindow pcb
+\i (08:05:39) zoom in 44.2876 1.7645
+\i (08:05:39) trapsize 299
+\i (08:05:46) setwindow form.mini
+\i (08:05:46) FORM mini change_subclass SILKSCREEN_TOP 
+\i (08:05:55) FORM mini line_width 0.1270 
+\i (08:05:56) setwindow pcb
+\i (08:05:56) zoom out 1 
+\i (08:05:56) setwindow pcb
+\i (08:05:56) zoom out 49.3459 0.7182
+\i (08:05:56) trapsize 598
+\i (08:05:56) zoom out 1 
+\i (08:05:56) setwindow pcb
+\i (08:05:56) zoom out 48.1501 0.5388
+\i (08:05:56) trapsize 1196
+\i (08:05:57) zoom in 1 
+\i (08:05:57) setwindow pcb
+\i (08:05:57) zoom in 43.6060 0.0127
+\i (08:05:57) trapsize 598
+\i (08:05:58) zoom in 1 
+\i (08:05:58) setwindow pcb
+\i (08:05:58) zoom in 43.6061 0.0128
+\i (08:05:58) trapsize 299
+\i (08:06:00) pick grid 43.5762 -0.0111
+\t (08:06:00) last pick:  43.5760 -0.0110
+\i (08:06:00) zoom out 1 
+\i (08:06:00) setwindow pcb
+\i (08:06:00) zoom out 43.6180 0.1802
+\i (08:06:00) trapsize 598
+\i (08:06:00) zoom out 1 
+\i (08:06:00) setwindow pcb
+\i (08:06:00) zoom out 43.6181 0.1802
+\i (08:06:00) trapsize 1196
+\i (08:06:01) zoom in 1 
+\i (08:06:01) setwindow pcb
+\i (08:06:01) zoom in 42.8766 0.9455
+\i (08:06:01) trapsize 598
+\i (08:06:01) zoom in 1 
+\i (08:06:01) setwindow pcb
+\i (08:06:01) zoom in 42.8767 0.9455
+\i (08:06:01) trapsize 299
+\i (08:06:01) zoom in 1 
+\i (08:06:01) setwindow pcb
+\i (08:06:01) zoom in 42.8767 0.9455
+\i (08:06:01) trapsize 149
+\i (08:06:02) pick grid 42.8259 1.0591
+\t (08:06:02) last pick:  42.8260 1.0590
+\e (08:06:02) ERROR(SPMHGE-554): Text already matches option panel settings.
+\i (08:06:02) pick grid 42.8259 1.1279
+\t (08:06:02) last pick:  42.8260 1.1280
+\i (08:06:03) pick grid 42.8289 1.0860
+\t (08:06:03) last pick:  42.8290 1.0860
+\e (08:06:03) ERROR(SPMHGE-554): Text already matches option panel settings.
+\i (08:06:06) zoom out 1 
+\i (08:06:06) setwindow pcb
+\i (08:06:06) zoom out 40.7841 1.0232
+\i (08:06:06) trapsize 299
+\i (08:06:06) zoom out 1 
+\i (08:06:06) setwindow pcb
+\i (08:06:06) zoom out 40.7841 1.0233
+\i (08:06:06) trapsize 598
+\i (08:06:06) zoom out 1 
+\i (08:06:06) setwindow pcb
+\i (08:06:06) zoom out 40.7841 1.0233
+\i (08:06:06) trapsize 1196
+\i (08:06:06) zoom out 1 
+\i (08:06:06) setwindow pcb
+\i (08:06:06) zoom out 40.7840 1.0232
+\i (08:06:06) trapsize 2392
+\i (08:06:06) zoom out 1 
+\i (08:06:06) setwindow pcb
+\i (08:06:06) zoom out 40.7841 1.0233
+\i (08:06:06) trapsize 4783
+\i (08:06:07) zoom out 1 
+\i (08:06:07) setwindow pcb
+\i (08:06:07) zoom out 40.7841 1.0232
+\i (08:06:07) trapsize 9566
+\i (08:06:08) drag_start grid -13.9357 44.8374
+\i (08:06:08) drag_stop 82.1111 -34.7551
+\e (08:06:08) ERROR(SPMHGE-552): Text cannot be changed from another class to this class.
+\t (08:06:08) Changed 1 items out of 116 items found.
+\i (08:06:09) zoom in 1 
+\i (08:06:09) setwindow pcb
+\i (08:06:09) zoom in 44.2281 -7.3952
+\i (08:06:09) trapsize 4783
+\i (08:06:09) zoom in 1 
+\i (08:06:09) setwindow pcb
+\i (08:06:09) zoom in 44.2281 -7.3952
+\i (08:06:09) trapsize 2392
+\i (08:06:09) zoom in 1 
+\i (08:06:09) setwindow pcb
+\i (08:06:09) zoom in 44.2281 -7.3951
+\i (08:06:09) trapsize 1196
+\i (08:06:10) zoom in 1 
+\i (08:06:10) setwindow pcb
+\i (08:06:10) zoom in 35.7619 -9.4040
+\i (08:06:10) trapsize 598
+\i (08:06:19) setwindow form.mini
+\i (08:06:19) FORM mini text_block 5 
+\i (08:06:20) setwindow pcb
+\i (08:06:20) pick grid 45.7468 -9.3561
+\t (08:06:20) last pick:  45.7470 -9.3560
+\i (08:06:40) setwindow form.mini
+\i (08:06:40) FORM mini text_block 1 
+\i (08:06:40) setwindow pcb
+\i (08:06:40) zoom out 1 
+\i (08:06:40) setwindow pcb
+\i (08:06:40) zoom out 52.1085 -7.8136
+\i (08:06:40) trapsize 1196
+\i (08:06:40) zoom out 1 
+\i (08:06:40) setwindow pcb
+\i (08:06:40) zoom out 52.1084 -7.8135
+\i (08:06:40) trapsize 2392
+\i (08:06:42) zoom out 1 
+\i (08:06:42) setwindow pcb
+\i (08:06:42) zoom out 40.7246 -10.7312
+\i (08:06:42) trapsize 4783
+\i (08:06:43) prepopup -18.7786 3.8097
+\i (08:06:45) setwindow form.find
+\i (08:06:45) FORM find text NO 
+\i (08:06:45) FORM find text YES 
+\i (08:06:46) setwindow pcb
+\i (08:06:46) zoom out 1 
+\i (08:06:46) setwindow pcb
+\i (08:06:46) zoom out -20.7875 -23.0719
+\i (08:06:46) trapsize 9566
+\i (08:06:47) drag_start grid -27.8667 48.2935
+\i (08:06:48) drag_stop 93.0527 -48.5186
+\e (08:06:48) ERROR(SPMHGE-552): Text cannot be changed from another class to this class.
+\t (08:06:48) No DRC errors detected.
+\t (08:06:48) Changed 16 items out of 116 items found.
+\i (08:06:49) zoom in 1 
+\i (08:06:49) setwindow pcb
+\i (08:06:49) zoom in 29.3404 -8.9137
+\i (08:06:49) trapsize 4783
+\i (08:06:49) zoom in 1 
+\i (08:06:49) setwindow pcb
+\i (08:06:49) zoom in 29.3405 -7.3831
+\i (08:06:49) trapsize 2392
+\i (08:06:57) setwindow form.mini
+\i (08:06:57) FORM mini change_subclass SILKSCREEN_BOTTOM 
+\i (08:06:58) setwindow pcb
+\i (08:06:58) zoom out 1 
+\i (08:06:58) setwindow pcb
+\i (08:06:58) zoom out 39.1461 -14.5579
+\i (08:06:58) trapsize 4783
+\i (08:06:58) zoom out 1 
+\i (08:06:58) setwindow pcb
+\i (08:06:58) zoom out 39.1461 -14.5579
+\i (08:06:58) trapsize 9566
+\i (08:06:59) drag_start

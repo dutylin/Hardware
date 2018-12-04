@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRILL LEGEND                                                     )
+(                                                                     )
+(    Drawing          : lora.brd                                      )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Tue Nov 13 10:07:37 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Begin processing of drill legend template file 'C:/Cadence/16.6/Cadence/Cadence_SPB_16.6/share/pcb/text/nclegend/default-mil.dlt' ...
+WARNING(SPMHSK-41): Title Text Block number is greater than Max Text Block(6) ... assuming 1.
+WARNING(SPMHSK-41): Column Title Text Block number is greater than Max Text Block(6) ... assuming 1.
+WARNING(SPMHSK-41): Data Text Block number is greater than Max Text Block(6) ... assuming 1.
+End of drill legend template file processing.
+
+Begin processing drill holes.
+No errors detected in processing holes.
+End processing drill holes.

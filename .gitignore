@@ -15,3 +15,7 @@
 *.SchDocPreview
 /History
 /Project Logs*
+*.err
+*.eco
+*.tmp
+*.lst

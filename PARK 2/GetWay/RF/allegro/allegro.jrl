@@ -1,0 +1,60 @@
+\t (00:00:05) allegro 16.6-2015 S108 (v16-6-112HV) Windows 32
+\t (00:00:05)     Journal start - Mon Dec 03 14:13:25 2018
+\t (00:00:05)         Host=ZM-DELL User=Administrator Pid=46720 CPUs=4
+\t (00:00:05) CmdLine= C:\Cadence\16.6\Cadence\Cadence_SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/lora.brd
+\i (00:00:09) trapsize 549
+\i (00:00:09) trapsize 542
+\i (00:00:09) trapsize 551
+\i (00:00:10) trapsize 554
+\i (00:00:10) trapsize 651
+\i (00:00:10) trapsize 651
+\i (00:00:11) generaledit 
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out -20.957 48.668
+\t (00:00:12) Grids are drawn 2.000, 2.000 apart for enhanced viewability.
+\i (00:00:12) trapsize 1301
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out -19.135 48.408
+\t (00:00:12) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (00:00:12) trapsize 2603
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out -16.012 47.367
+\t (00:00:12) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (00:00:12) trapsize 5206
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out -16.011 47.367
+\t (00:00:13) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (00:00:13) trapsize 10411
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out -16.011 47.368
+\t (00:00:13) Grids are drawn 32.000, 32.000 apart for enhanced viewability.
+\i (00:00:13) trapsize 20822
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 63.114 447.157
+\t (00:00:13) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (00:00:13) trapsize 10411
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 63.115 447.158
+\t (00:00:14) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (00:00:14) trapsize 5206
+\i (00:00:21) open 
+\i (00:00:39) fillin "F:\work\ZM\Frogs\Design\FOOTPRINT\candence\E32-TTL-100.dra"
+\i (00:00:39) cd "F:\work\ZM\Frogs\Design\FOOTPRINT\candence"
+\t (00:00:39) Opening existing design...
+\i (00:00:39) trapsize 832
+\i (00:00:39) trapsize 810
+\i (00:00:40) trapsize 826
+\i (00:00:40) trapsize 713
+\t (00:00:40) Grids are drawn 1.0240, 1.0240 apart for enhanced viewability.
+\i (00:00:40) trapsize 713
+\t (00:00:41)     Journal end - Mon Dec 03 14:14:01 2018

@@ -1,0 +1,81 @@
+*
+*
+G04 PADS VX.1.2 Build Number: 698008 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "R06-MIC-SENSOR-V1.0.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD067C,0.005*%
+%ADD118C,0.001*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name R06-MIC-SENSOR-V1.0.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name R06-MIC-SENSOR-V1.0.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name R06-MIC-SENSOR-V1.0.pcb - circuitry*
+%LPD*%
+*
+G54D67*
+G01X1930961Y1578812D02*
+X2069093D01*
+Y1621188*
+X1930961*
+Y1578812*
+X1930907Y1603226D02*
+X2069041D01*
+Y1603229*
+G54D118*
+X0Y0D02*
+M02*

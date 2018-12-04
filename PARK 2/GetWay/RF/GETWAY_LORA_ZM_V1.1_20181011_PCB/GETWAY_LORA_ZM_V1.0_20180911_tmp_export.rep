@@ -1,0 +1,16 @@
+
+CCE export report file.
+Export to file: F:\work\ZM\Frogs\Design\M3\pcb\PARK\GetWay\RF\GETWAY_LORA_ZM_V1.0_20180911_PCB\GETWAY_LORA_ZM_V1.0_20180911_tmp.cce
+Report created on: 09/14/2018 12:40:57
+
+
+Info: Preferred layer for placement outlines: none (Auto-detect option).
+Info: Decal ER0603                                            :  1 closed outline shape was taken from layer      0 : (All layers)
+Info: Decal MINIPCIE_FINGER                                   : No closed outline shapes found; artificial outline was created (used box around pins).
+Info: Decal C0603                                             : No closed outline shapes found; artificial outline was created (used box around pins).
+Info: Decal LED_0603                                          : No closed outline shapes found; artificial outline was created (used box around pins).
+Info: Decal CON7P                                             : No closed outline shapes found; artificial outline was created (used box around pins).
+Info: Decal CQFP50P920X920X127-49M                            :  1 closed outline shape was taken from layer    127 : ×°ÅäÍ¼¶¥²ã
+Info: Decal CON_2.54_4P                                       : No closed outline shapes found; artificial outline was created (used box around pins).
+Info: Decal C1206                                             :  1 closed outline shape was taken from layer    127 : ×°ÅäÍ¼¶¥²ã
+Info: default variant (name 'BaseOption') exported as '$$ Default $$'.

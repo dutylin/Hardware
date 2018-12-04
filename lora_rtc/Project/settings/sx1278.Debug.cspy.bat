@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "Z:\OS\code\PARK\lora_rtc\Project\settings\sx1278.Debug.general.xcl" --backend -f "Z:\OS\code\PARK\lora_rtc\Project\settings\sx1278.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "Z:\OS\others\Hardware\lora_rtc\Project\settings\sx1278.Debug.general.xcl" --backend -f "Z:\OS\others\Hardware\lora_rtc\Project\settings\sx1278.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "Z:\OS\code\PARK\lora_rtc\Project\settings\sx1278.Debug.general.xcl" "--debug_file=%~1" --backend -f "Z:\OS\code\PARK\lora_rtc\Project\settings\sx1278.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "Z:\OS\others\Hardware\lora_rtc\Project\settings\sx1278.Debug.general.xcl" "--debug_file=%~1" --backend -f "Z:\OS\others\Hardware\lora_rtc\Project\settings\sx1278.Debug.driver.xcl" 
 
 @echo off 
 :end

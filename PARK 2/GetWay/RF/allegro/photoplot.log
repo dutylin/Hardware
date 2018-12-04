@@ -1,0 +1,1137 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : lora.brd                                      )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Tue Nov 13 10:08:04 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (0.000 0.000)
+           ... ignored.
+
+    WARNING: Segment with same start and end points at
+	(65.831 417.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 417.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(208.480 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(267.535 340.004) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(247.850 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(287.220 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(306.909 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.275 371.838) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.276 361.965) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.590 373.807) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 373.807) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(367.929 389.555) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(917.398 488.232) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(840.630 605.362) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(923.859 122.169) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(923.859 173.350) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(228.161 525.382) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(206.511 507.665) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(365.960 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(365.961 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(365.961 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(306.906 569.996) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.275 525.382) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.276 579.996) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(866.220 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(891.807 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(891.811 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(815.039 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(674.902 554.177) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(891.811 488.228) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1065.961 353.409) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 523.413) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 523.409) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 523.413) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.760 605.362) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.756 605.358) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.760 630.953) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.756 630.949) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(263.902 692.008) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(602.598 125.590) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(603.201 236.598) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(603.512 377.949) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(538.390 631.579) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(538.390 631.583) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(723.508 528.591) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(723.508 630.953) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(923.859 147.759) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1005.508 147.681) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(206.511 389.555) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(779.996 579.768) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(723.508 605.362) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00499                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  RECTANGLE  0.01968     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02500     x 0.01968       0.000 NO     DARK 
+  RECTANGLE  0.02500     x 0.01968      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.03268     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.03268     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.18898     x 0.18898       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.03150       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00499                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+
+     GND created with warnings
+
+
+================================================================
+     PROCESSING FILM < POWER >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/POWER.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+
+     POWER created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(65.827 317.330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 317.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 617.330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 617.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 517.330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 517.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 717.330) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 717.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00499                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     OUTLINE created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.05945                                  DARK 
+  RECTANGLE  0.01968     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02539     x 0.02008       0.000 NO     DARK 
+  RECTANGLE  0.02539     x 0.02008      90.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03189       0.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03189      90.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01968       0.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01968      90.000 NO     DARK 
+  RECTANGLE  0.05551     x 0.04764      90.000 NO     DARK 
+  RECTANGLE  0.07126     x 0.03976       0.000 NO     DARK 
+  RECTANGLE  0.18898     x 0.18898       0.000 NO     DARK 
+  OBLONG     0.05945     x 0.03189       0.000 NO     DARK 
+
+     PASTEMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     PASTEMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: more than one pin class in film record
+    WARNING: more than one via class in film record
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (113.701 61.390).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (45.831 30.441).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (137.039 468.461).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (118.150 788.098).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (151.500 122.728).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (247.831 236.098).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (283.441 270.339).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (206.512 287.772).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (169.402 196.819).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (292.772 418.461).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (287.220 328.409).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (279.488 464.650).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (162.598 580.161).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (228.169 576.941).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (277.339 616.799).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (166.358 743.969).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (168.961 680.181).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (263.902 740.720).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (207.020 599.240).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (177.488 803.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (243.870 807.382).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (415.209 295.961).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (359.209 302.642).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (306.839 307.902).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (371.500 350.291).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (326.610 348.110).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (397.161 389.559).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (306.909 602.941).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (326.909 631.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (354.850 655.579).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (500.882 298.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA40_25 at (545.051 573.579).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (485.681 533.319).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (576.720 732.661).
+    WARNING: Null REGULAR-PAD specified for padstack VIA40_25 at (490.858 703.811).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (659.000 224.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (767.000 340.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (657.760 473.240).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (672.031 724.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (882.260 28.890).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (923.902 103.661).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (924.091 196.819).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (833.012 427.370).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (780.512 545.929).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (839.110 545.929).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (900.669 542.961).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (842.449 682.402).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (866.220 818.559).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (866.220 762.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (834.701 800.350).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (834.701 760.181).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1077.571 103.669).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1019.720 104.039).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (960.012 102.189).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (950.000 51.382).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1028.988 22.079).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1079.618 212.520).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1004.331 213.260).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (985.118 440.949).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (992.449 293.228).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (970.748 316.240).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1073.118 564.839).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (998.858 528.598).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1021.240 554.098).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1000.181 579.650).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (992.689 488.512).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1079.299 682.130).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1030.130 603.720).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1052.358 630.902).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1028.811 656.681).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (950.118 807.598).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1041.000 808.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (951.110 763.618).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1098.000 24.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1236.681 82.161).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1144.701 101.441).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1176.969 22.449).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1138.402 211.031).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1198.661 224.760).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1200.295 415.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1179.929 363.091).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1142.098 547.780).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1205.150 547.039).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1199.961 496.598).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1200.295 615.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1121.000 806.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1187.720 799.969).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1306.402 90.689).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1252.000 25.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1325.311 26.531).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1389.098 26.531).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1259.110 234.031).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1318.449 239.961).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1299.350 278.531).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1257.811 415.012).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1305.280 349.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1375.012 370.512).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1317.150 401.661).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1365.358 311.909).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1271.902 548.520).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1261.520 482.512).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1266.339 802.189).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1343.480 801.449).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1317.520 768.811).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01968                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.05945                                  DARK 
+  RECTANGLE  0.01968     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02500     x 0.01968       0.000 NO     DARK 
+  RECTANGLE  0.02500     x 0.01968      90.000 NO     DARK 
+  RECTANGLE  0.02539     x 0.02008       0.000 NO     DARK 
+  RECTANGLE  0.02539     x 0.02008      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03268     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.03268     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03189       0.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03189      90.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01968       0.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01968      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.05551     x 0.04764      90.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.07126     x 0.03976       0.000 NO     DARK 
+  RECTANGLE  0.18898     x 0.18898       0.000 NO     DARK 
+  OBLONG     0.05906     x 0.03150       0.000 NO     DARK 
+  OBLONG     0.05945     x 0.03189       0.000 NO     DARK 
+
+     SOLDERMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: more than one pin class in film record
+    WARNING: more than one via class in film record
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (113.701 61.390).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (45.831 30.441).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (137.039 468.461).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (118.150 788.098).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (151.500 122.728).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (247.831 236.098).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (283.441 270.339).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (206.512 287.772).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (169.402 196.819).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (292.772 418.461).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (287.220 328.409).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (279.488 464.650).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (162.598 580.161).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (228.169 576.941).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (277.339 616.799).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (166.358 743.969).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (168.961 680.181).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (263.902 740.720).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (207.020 599.240).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (177.488 803.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (243.870 807.382).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (415.209 295.961).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (359.209 302.642).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (306.839 307.902).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (371.500 350.291).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (326.610 348.110).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (397.161 389.559).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (306.909 602.941).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (326.909 631.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (354.850 655.579).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (500.882 298.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA40_25 at (545.051 573.579).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (485.681 533.319).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (576.720 732.661).
+    WARNING: Null REGULAR-PAD specified for padstack VIA40_25 at (490.858 703.811).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (659.000 224.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (767.000 340.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (657.760 473.240).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (672.031 724.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (882.260 28.890).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (923.902 103.661).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (924.091 196.819).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (833.012 427.370).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (780.512 545.929).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (839.110 545.929).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (900.669 542.961).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (842.449 682.402).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (866.220 818.559).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (866.220 762.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (834.701 800.350).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (834.701 760.181).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1077.571 103.669).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1019.720 104.039).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (960.012 102.189).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (950.000 51.382).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1028.988 22.079).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1079.618 212.520).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1004.331 213.260).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (985.118 440.949).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (992.449 293.228).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (970.748 316.240).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1073.118 564.839).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (998.858 528.598).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1021.240 554.098).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1000.181 579.650).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (992.689 488.512).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1079.299 682.130).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1030.130 603.720).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1052.358 630.902).
+    WARNING: Null REGULAR-PAD specified for padstack VIA20_12 at (1028.811 656.681).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (950.118 807.598).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1041.000 808.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (951.110 763.618).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1098.000 24.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1236.681 82.161).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1144.701 101.441).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1176.969 22.449).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1138.402 211.031).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1198.661 224.760).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1200.295 415.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1179.929 363.091).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1142.098 547.780).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1205.150 547.039).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1199.961 496.598).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1200.295 615.311).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1121.000 806.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1187.720 799.969).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1306.402 90.689).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1252.000 25.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1325.311 26.531).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1389.098 26.531).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1259.110 234.031).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1318.449 239.961).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1299.350 278.531).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1257.811 415.012).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1305.280 349.000).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1375.012 370.512).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1317.150 401.661).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1365.358 311.909).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1271.902 548.520).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1261.520 482.512).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1266.339 802.189).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1343.480 801.449).
+    WARNING: Null REGULAR-PAD specified for padstack VIA30_20 at (1317.520 768.811).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+
+     SOLDERMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (684.567 489.138)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00591                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00591                                  DARK 
+
+     SILKSCREEN_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < DRILL >
+     TO FILE < F:/work/ZM/Frogs/Design/M3/pcb/PARK/GetWay/RF/allegro/DRILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (1600.000 270.000)
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: Segment with same start and end points at
+	(65.831 417.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(65.827 417.331) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(208.480 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(267.535 340.004) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(247.850 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(287.220 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(306.909 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.275 371.838) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.276 361.965) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.590 373.807) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 373.811) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 373.807) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(367.929 389.555) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(917.398 488.232) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(840.630 605.362) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(923.859 122.169) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(923.859 173.350) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(228.161 525.382) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(206.511 507.665) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(365.960 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(365.961 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(365.961 468.295) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(306.906 569.996) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.275 525.382) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(346.276 579.996) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(866.220 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(891.807 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(891.811 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(815.039 722.480) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(674.902 554.177) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(891.811 488.228) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1065.961 353.409) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 523.413) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 523.409) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(326.591 523.413) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.760 605.362) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.756 605.358) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.760 630.953) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(957.756 630.949) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(263.902 692.008) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(602.598 125.590) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(603.201 236.598) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(603.512 377.949) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(538.390 631.579) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(538.390 631.583) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(723.508 528.591) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(723.508 630.953) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(923.859 147.759) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1005.508 147.681) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(206.511 389.555) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(779.996 579.768) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(723.508 605.362) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00499                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+
+     DRILL created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND created with warnings
+        POWER created with warnings
+        BOTTOM created with warnings
+        OUTLINE created with warnings
+        PASTEMASK_TOP created with warnings
+        PASTEMASK_BOTTOM created with warnings
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
+        DRILL created with warnings
+
+ ARTWORK had warnings

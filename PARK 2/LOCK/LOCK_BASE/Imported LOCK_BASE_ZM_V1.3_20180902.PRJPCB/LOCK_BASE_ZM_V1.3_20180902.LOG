@@ -1,0 +1,9 @@
+Importer Log Report
+Project : LOCK_BASE_ZM_V1.3_20180902.PRJPCB
+
+Section : Document - F:\work\ZM\Frogs\Design\M3\pcb\PARK\LOCK\LOCK_BASE\LOCK_BASE_ZM_V1.3_20180902.txt
+    Section : Load Messages
+        Error   : Error in line: 1. Missing program name or version  from header data.
+        Error   : Errors encountered loading header, at line number: 1. Header data missing, corrupted or the file is a PADS file version 4.0 or later with 250 layers.
+    EndSection
+EndSection

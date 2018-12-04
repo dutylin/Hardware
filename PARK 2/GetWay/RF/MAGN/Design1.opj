@@ -1,0 +1,62 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (VCC_BAR
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (HMC5883
+      (FullPartName "HMC5883.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (STM32F051K8T6
+      (FullPartName "STM32F051K8T6.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\GETWAY\RF\MAGN\design1.dsn")
+      (Path "Design Resources"
+         "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\GETWAY\RF\MAGN\design1.dsn"
+         "Design Cache")
+      (Select "Design Resources"
+         "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\GETWAY\RF\MAGN\design1.dsn"
+         "Design Cache" "HMC5883"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 666"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 1913 50 754")
+        (Scroll "-310 -8")
+        (Zoom "101")
+        (Occurrence "/"))
+      (Path "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\GETWAY\RF\MAGN\DESIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

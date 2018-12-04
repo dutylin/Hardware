@@ -1,0 +1,20 @@
+Importer Log Report
+Project : LOCK_BASE_ZM_V1.3_20180902.PRJPCB
+
+Section : Document - F:\work\ZM\Frogs\Design\M3\pcb\PARK\LOCK\LOCK_BASE\LOCK_BASE_ZM_V1.3_20180902.txt
+    Section : Load Messages
+        Error   : Error, expected keyword: 'GROUP' in line: 510
+        Error   : Error, expected keyword: 'DATA' in line: 510
+        Error   : Error, expected keyword: 'DESIGN' in line: 512
+        Error   : Error, expected keyword: 'RULES' in line: 512
+        Error   : Error, expected keyword: 'RULE_SET' or 'DIF_PAIR' in line: 514
+        Error   : Error, expected keyword: 'RULE_SET' or 'DIF_PAIR' in line: 514
+        Error   : Error, expected keyword: 'RULE_SET' or 'DIF_PAIR' in line: 515
+        Error   : Error, expected keyword: 'RULE_SET' or 'DIF_PAIR' in line: 516
+        Error   : Error, expected keyword: 'RULE_SET' or 'DIF_PAIR' in line: 516
+        Error   : Errors encountered while processing of *MISC* fSection. Some data might be discarded. Please check the file.
+    EndSection
+
+    Section : Import Messages
+    EndSection
+EndSection

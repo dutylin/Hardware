@@ -1,0 +1,48 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\r19-v1.0-20180408.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\r19-v1.0-20180408.dsn")
+      (Path "Design Resources" ".\r19-v1.0-20180408.dsn" "RK3128_REF")
+      (Select "Design Resources" ".\r19-v1.0-20180408.dsn" "RK3128_REF"
+         "20.USB Port"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 246"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 2211 50 799")
+        (Scroll "-230 102")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "F:\WORK\ZM\FROGS\DESIGN\1代相框\硬件方案\SCH&PCB\M3\ELC\V6\R19-V1.0-20180408.DSN")
+      (Schematic "RK3128_REF")
+      (Page "21.Power-RK818"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 2236 75 824")
+        (Scroll "-497 -9")
+        (Zoom "127")
+        (Occurrence "/"))
+      (Path
+         "F:\WORK\ZM\FROGS\DESIGN\1代相框\硬件方案\SCH&PCB\M3\ELC\V6\R19-V1.0-20180408.DSN")
+      (Schematic "RK3128_REF")
+      (Page "20.USB Port")))
+  (PartMRUSelector))

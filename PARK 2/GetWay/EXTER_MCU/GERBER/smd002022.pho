@@ -1,0 +1,103 @@
+*
+*
+G04 PADS VX.2.3 Build Number: 9191294 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "GETWAY_EXE_MCU_ZM_V1.0_"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD064R,0.02559X0.09055*%
+%ADD066R,0.02362X0.09055*%
+%ADD067R,0.02362X0.09055*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name GETWAY_EXE_MCU_ZM_V1.0_ - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name GETWAY_EXE_MCU_ZM_V1.0_ - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name GETWAY_EXE_MCU_ZM_V1.0_ - circuitry*
+%LPD*%
+*
+G54D10*
+G54D64*
+G01X202754Y295413D03*
+X199604D03*
+X196455D03*
+X193305D03*
+X190156D03*
+X187006D03*
+X171258D03*
+X168108D03*
+X164959D03*
+X161809D03*
+X158659D03*
+X155510D03*
+X152360D03*
+X149211D03*
+X146061D03*
+X142911D03*
+X139762D03*
+X136612D03*
+X133463D03*
+X130313D03*
+X127163D03*
+X124014D03*
+X120864D03*
+X117715D03*
+G54D66*
+X209053D03*
+G54D67*
+X205904D03*
+X0Y0D02*
+M02*

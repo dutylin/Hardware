@@ -1,0 +1,100 @@
+*
+*
+G04 PADS VX.2.3 Build Number: 9191294 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "MODULE_LORA_ZM_V1.0_201"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD022R,0.038X0.038*%
+%ADD057R,0.07874X0.01969*%
+%ADD058R,0.01969X0.05*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name MODULE_LORA_ZM_V1.0_201 - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name MODULE_LORA_ZM_V1.0_201 - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name MODULE_LORA_ZM_V1.0_201 - circuitry*
+%LPD*%
+*
+G54D10*
+G54D22*
+G01X120831Y118925D03*
+X127131D03*
+G54D57*
+X105972Y173618D03*
+Y168618D03*
+Y163618D03*
+Y158618D03*
+Y153618D03*
+Y148618D03*
+Y143618D03*
+Y138618D03*
+Y133618D03*
+X176051D03*
+Y138618D03*
+Y143618D03*
+Y148618D03*
+Y153618D03*
+Y158618D03*
+Y163618D03*
+Y168618D03*
+Y173618D03*
+G54D58*
+X163059Y222201D03*
+X158059D03*
+X153059D03*
+X0Y0D02*
+M02*

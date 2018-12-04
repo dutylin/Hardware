@@ -1,0 +1,5 @@
+2018-09-14 12:41:09 25724     [INFO] Opened Board: GETWAY_LORA_ZM_V1.0_20180911_tmp.cce <F:\work\ZM\Frogs\Design\M3\pcb\PARK\GetWay\RF\GETWAY_LORA_ZM_V1.0_20180911_PCB\>
+2018-09-14 12:41:09 25724  [WARNING] Warning: One or more nets are completely unrouted.  Do you want to connect them using "virtual", Manhattan-style routing?  (Does not apply to power-supply nets.)  Note: This process will begin by determining the detailed routing status of every net on the board, which can be very time-consuming (especially if some power-supply nets are mistakenly identified as signal nets).  If you prefer to skip this process now, you can run it later using Edit > Connect Nets with Manhattan Routing. - The "No" button was selected
+2018-09-14 14:25:49 25724     [INFO] Close HyperLynx Session: Design file: GETWAY_LORA_ZM_V1.0_20180911_tmp.cce Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2018-09-14 14:25:51 25724     [INFO] Closing Design: GETWAY_LORA_ZM_V1.0_20180911_tmp.cce
+2018-09-14 14:25:51 25724     [INFO] ****** Closing HyperLynx 

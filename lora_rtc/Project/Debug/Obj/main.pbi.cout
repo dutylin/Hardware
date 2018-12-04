@@ -1,22 +1,22 @@
-"Z:\OS\code\PARK\lora_rtc\App\main.c"
+"Z:\OS\others\Hardware\lora_rtc\App\main.c"
 -std=c99
 -ferror-limit=100
 -I
-Z:\OS\code\PARK\lora_rtc\Project\..\Library\inc
+Z:\OS\others\Hardware\lora_rtc\Project\..\Library\inc
 -I
-Z:\OS\code\PARK\lora_rtc\Project\..\Library\src
+Z:\OS\others\Hardware\lora_rtc\Project\..\Library\src
 -I
-Z:\OS\code\PARK\lora_rtc\Project\..\App
+Z:\OS\others\Hardware\lora_rtc\Project\..\App
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\c
 -I
-Z:\OS\code\PARK\lora_rtc\Library\inc
+Z:\OS\others\Hardware\lora_rtc\Library\inc
 -I
-Z:\OS\code\PARK\lora_rtc\Library\src
+Z:\OS\others\Hardware\lora_rtc\Library\src
 -I
-Z:\OS\code\PARK\lora_rtc\App
+Z:\OS\others\Hardware\lora_rtc\App
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

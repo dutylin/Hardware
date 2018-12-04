@@ -1,0 +1,49 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\esp8266-devkitc-v1_sch_20180810a.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\esp8266-devkitc-v1_sch_20180810a.dsn")
+      (Path "Design Resources" ".\esp8266-devkitc-v1_sch_20180810a.dsn"
+         "ESP8266_DevKitC_V1")
+      (Select "Design Resources" ".\esp8266-devkitc-v1_sch_20180810a.dsn"
+         "ESP8266_DevKitC_V1" "02_ESP8266_DevKitC_V1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 421"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 72 1411 50 509")
+        (Scroll "51 89")
+        (Zoom "82")
+        (Occurrence "/"))
+      (Path
+         "Z:\ADMIN\DOCUMENTS\ZM\FROGS\DESIGN\M3\PCB\PARK\01_SCHEMATIC\ESP8266-DEVKITC-V1_SCH_20180810A.DSN")
+      (Schematic "ESP8266_DevKitC_V1")
+      (Page "01_FunctionBlock"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 108 1447 75 534")
+        (Scroll "-283 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path
+         "Z:\ADMIN\DOCUMENTS\ZM\FROGS\DESIGN\M3\PCB\PARK\01_SCHEMATIC\ESP8266-DEVKITC-V1_SCH_20180810A.DSN")
+      (Schematic "ESP8266_DevKitC_V1")
+      (Page "02_ESP8266_DevKitC_V1"))))
