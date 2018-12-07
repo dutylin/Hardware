@@ -1,0 +1,297 @@
+\t (07:57:59) allegro 16.6-2015 S108 (v16-6-112HV) Windows 32
+\t (07:57:59)     Journal start - Tue Dec 04 17:26:09 2018
+\t (07:57:59)         Host=ZM-DELL User=Administrator Pid=7868 CPUs=4
+\t (07:57:59) CmdLine= C:\Cadence\16.6\Cadence\Cadence_SPB_16.6\tools\pcb\bin\allegro.exe
+\t (07:57:59) 
+\d (07:57:59) Design opened: F:/work/ZM/Frogs/Design/FOOTPRINT/candence/SOD-523.dra
+\i (07:58:07) zoom out 1 
+\i (07:58:07) setwindow pcb
+\i (07:58:07) zoom out 0.1133 0.5435
+\i (07:58:07) trapsize 252
+\i (07:58:07) zoom out 1 
+\i (07:58:07) setwindow pcb
+\i (07:58:07) zoom out 0.1384 0.4679
+\i (07:58:07) trapsize 503
+\i (07:58:08) zoom in 1 
+\i (07:58:08) setwindow pcb
+\i (07:58:08) zoom in 0.1283 0.3270
+\i (07:58:08) trapsize 252
+\i (07:58:08) zoom in 1 
+\i (07:58:08) setwindow pcb
+\i (07:58:08) zoom in 0.1283 0.3270
+\i (07:58:08) trapsize 126
+\i (07:58:14) setwindow form.mini
+\i (07:58:14) FORM mini class PACKAGE GEOMETRY 
+\i (07:58:16) FORM mini subclass SILKSCREEN_TOP 
+\i (07:58:24) FORM mini class ETCH 
+\i (07:58:27) setwindow pcb
+\i (07:58:27) zoom out 1 
+\i (07:58:27) setwindow pcb
+\i (07:58:27) zoom out -1.4297 -0.0001
+\i (07:58:27) trapsize 252
+\i (07:58:27) zoom out 1 
+\i (07:58:27) setwindow pcb
+\i (07:58:27) zoom out -1.4297 -0.0002
+\i (07:58:27) trapsize 503
+\e (07:58:32) Command not found: Command >esc
+\i (07:58:33) zoom in 1 
+\i (07:58:33) setwindow pcb
+\i (07:58:33) zoom in -0.3625 0.3019
+\i (07:58:33) trapsize 252
+\i (07:58:33) zoom in 1 
+\i (07:58:33) setwindow pcb
+\i (07:58:33) zoom in -0.3323 0.3019
+\i (07:58:33) trapsize 126
+\i (07:58:38) move 
+\t (07:58:38) Select element(s) to move.
+\i (07:58:39) pick grid 0.2240 0.4807
+\t (07:58:39) last pick:  0.2240 0.4810
+\t (07:58:39) last pick:  0.2240 0.4810
+\t (07:58:39) Element has no origin, using pick.
+\t (07:58:39) Pick new location for the element(s).
+\i (07:58:41) pick grid 0.2240 0.4807
+\t (07:58:41) last pick:  0.2240 0.4810
+\i (07:58:42) prepopup 0.2240 0.4807
+\i (07:58:44) done 
+\i (07:58:47) change 
+\i (07:58:49) pick grid 0.8633 0.4681
+\t (07:58:49) last pick:  0.8630 0.4680
+\e (07:58:49) ERROR(SPMHGE-523): Line already matches option panel settings.
+\i (07:58:49) prepopup 0.8633 0.4681
+\i (07:58:50) pick grid 0.6217 0.5184
+\t (07:58:50) last pick:  0.6220 0.5180
+\e (07:58:50) ERROR(SPMHGE-523): Line already matches option panel settings.
+\i (07:58:51) drag_start grid -0.4380 0.8104
+\i (07:58:52) drag_stop 1.5228 0.3573
+\e (07:58:52) ERROR(SPMHGE-523): Line already matches option panel settings.
+\e (07:58:52) ERROR(SPMHGE-554): Text already matches option panel settings.
+\i (07:58:52) prepopup 1.1100 0.4656
+\i (07:58:56) pick grid 3.0657 -0.3122
+\t (07:58:56) last pick:  3.0660 -0.3120
+\i (07:59:01) setwindow form.mini
+\i (07:59:01) FORM mini change_subclass SILKSCREEN_TOP 
+\i (07:59:02) setwindow pcb
+\i (07:59:02) pick grid 1.0319 0.4907
+\t (07:59:02) last pick:  1.0320 0.4910
+\e (07:59:02) ERROR(SPMHGE-522): Changing line to a different class is not supported.
+\i (07:59:04) drag_start grid -0.2769 0.8482
+\i (07:59:05) drag_stop 1.5857 0.3171
+\e (07:59:06) ERROR(SPMHGE-522): Changing line to a different class is not supported.
+\e (07:59:06) ERROR(SPMHGE-555): Changing pin number to a different subclass is not supported.
+\i (07:59:07) prepopup 1.2333 0.4706
+\i (07:59:08) prepopup 0.9363 0.9136
+\i (07:59:08) done 
+\i (07:59:14) setwindow form.mini
+\i (07:59:14) FORM mini class PACKAGE GEOMETRY 
+\i (07:59:16) FORM mini subclass SILKSCREEN_TOP 
+\i (07:59:18) FORM mini subclass ASSEMBLY_TOP 
+\i (07:59:25) FORM mini subclass PLACE_BOUND_TOP 
+\i (07:59:33) setwindow pcb
+\i (07:59:33) change 
+\i (07:59:38) pick grid 0.8885 0.2466
+\t (07:59:38) last pick:  0.8890 0.2470
+\t (07:59:38) No DRC errors detected.
+\t (07:59:38) Changed 1 items out of 1 items found.
+\i (07:59:39) prepopup 0.8885 0.2466
+\i (07:59:47) setwindow form.mini
+\i (07:59:47) FORM mini change_subclass PLACE_BOUND_TOP 
+\i (07:59:49) setwindow pcb
+\i (07:59:49) pick grid 0.7677 0.1812
+\t (07:59:49) last pick:  0.7680 0.1810
+\t (07:59:49) No DRC errors detected.
+\t (07:59:49) Changed 1 items out of 1 items found.
+\i (07:59:50) pick grid 0.7677 0.1812
+\t (07:59:50) last pick:  0.7680 0.1810
+\e (07:59:50) ERROR(SPMHGE-545): Rectangle already matches option panel settings.
+\i (07:59:50) pick grid dbl 0.7677 0.1812
+\t (07:59:50) last pick:  0.7680 0.1810
+\e (07:59:50) ERROR(SPMHGE-545): Rectangle already matches option panel settings.
+\i (07:59:51) pick grid 0.7677 0.1812
+\t (07:59:51) last pick:  0.7680 0.1810
+\e (07:59:51) ERROR(SPMHGE-545): Rectangle already matches option panel settings.
+\i (07:59:52) pick grid 0.8331 0.5260
+\t (07:59:52) last pick:  0.8330 0.5260
+\e (07:59:52) ERROR(SPMHGE-522): Changing line to a different class is not supported.
+\i (07:59:53) prepopup 0.8331 0.5260
+\i (07:59:57) pick grid 0.6997 0.4731
+\t (07:59:57) last pick:  0.7000 0.4730
+\e (07:59:57) ERROR(SPMHGE-522): Changing line to a different class is not supported.
+\i (07:59:59) save 
+\i (08:00:01) fillin yes 
+\t (08:00:02) Symbol 'sod-523.psm' created.
+\i (08:00:03) open 
+\i (08:00:04) fillin "SOD-523.dra"
+\t (08:00:04) Opening existing design...
+\i (08:00:04) trapsize 126
+\d (08:00:04) Design opened: F:/work/ZM/Frogs/Design/FOOTPRINT/candence/SOD-523.dra
+\i (08:00:06) zoom out 1 
+\i (08:00:06) setwindow pcb
+\i (08:00:06) zoom out 0.7047 0.5839
+\i (08:00:06) trapsize 252
+\i (08:00:07) zoom out 1 
+\i (08:00:07) setwindow pcb
+\i (08:00:07) zoom out 0.7048 0.5839
+\i (08:00:07) trapsize 503
+\i (08:00:07) zoom in 1 
+\i (08:00:07) setwindow pcb
+\i (08:00:07) zoom in 0.7046 0.5838
+\i (08:00:07) trapsize 252
+\i (08:00:07) zoom in 1 
+\i (08:00:07) setwindow pcb
+\i (08:00:07) zoom in 0.7047 0.5839
+\i (08:00:07) trapsize 126
+\i (08:00:07) zoom in 1 
+\i (08:00:07) setwindow pcb
+\i (08:00:07) zoom in 0.7047 0.5839
+\i (08:00:07) trapsize 63
+\i (08:00:09) zoom out 1 
+\i (08:00:09) setwindow pcb
+\i (08:00:09) zoom out 0.7337 0.4807
+\i (08:00:09) trapsize 126
+\i (08:00:14) delete 
+\i (08:00:16) pick grid 0.7210 0.4858
+\t (08:00:16) last pick:  0.7210 0.4860
+\t (08:00:16) Line "Etch/Top"
+\i (08:00:16) pick grid dbl 0.7210 0.4858
+\t (08:00:16) last pick:  0.7210 0.4860
+\i (08:00:17) pick grid 0.6757 -0.4631
+\t (08:00:17) last pick:  0.6760 -0.4630
+\t (08:00:17) Line "Etch/Top"
+\i (08:00:17) pick grid dbl 0.6757 -0.4631
+\t (08:00:17) last pick:  0.6760 -0.4630
+\i (08:00:18) pick grid -0.3940 -0.0201
+\t (08:00:18) last pick:  -0.3940 -0.0200
+\t (08:00:18) Line "Etch/Top"
+\i (08:00:18) pick grid dbl -0.3940 -0.0201
+\t (08:00:18) last pick:  -0.3940 -0.0200
+\i (08:00:20) pick grid 2.0953 0.1007
+\t (08:00:20) last pick:  2.0950 0.1010
+\t (08:00:20) Text "D"
+\i (08:00:20) pick grid dbl 2.0953 0.1007
+\t (08:00:20) last pick:  2.0950 0.1010
+\i (08:00:22) pick grid 0.7663 0.2845
+\t (08:00:22) last pick:  0.7660 0.2850
+\t (08:00:22) Filled Rectangle "Package Geometry/Place_Bound_Top"
+\i (08:00:22) pick grid dbl 0.7663 0.2845
+\t (08:00:22) last pick:  0.7660 0.2850
+\i (08:00:23) prepopup 0.4341 0.7350
+\i (08:00:24) done 
+\i (08:00:30) add rect 
+\i (08:00:34) pick grid -0.2958 0.2920
+\t (08:00:34) last pick:  -0.2960 0.2920
+\i (08:00:36) pick grid 1.6246 -0.2718
+\t (08:00:36) last pick:  1.6250 -0.2720
+\i (08:00:39) prepopup 0.3812 0.0982
+\i (08:00:40) oops 
+\t (08:00:40) last pick:  -0.2960 0.2920
+\i (08:00:48) pick grid 1.6095 -0.2945
+\t (08:00:48) last pick:  1.6100 -0.2940
+\i (08:00:49) prepopup -0.2707 0.3398
+\i (08:00:50) done 
+\i (08:00:53) add line 
+\i (08:00:56) setwindow form.mini
+\i (08:00:56) FORM mini subclass SILKSCREEN_TOP 
+\i (08:01:01) setwindow pcb
+\i (08:01:01) pick grid 0.0012 0.3725
+\t (08:01:01) last pick:  0.0010 0.3730
+\i (08:01:04) pick grid 0.0087 0.5236
+\t (08:01:04) last pick:  0.0090 0.5240
+\i (08:01:12) pick grid 1.3176 0.5261
+\t (08:01:12) last pick:  1.3180 0.5260
+\i (08:01:16) pick grid 1.3150 0.3877
+\t (08:01:16) last pick:  1.3150 0.3880
+\i (08:01:16) prepopup 1.3150 0.3877
+\i (08:01:17) next 
+\i (08:01:18) zoom out 1 
+\i (08:01:18) setwindow pcb
+\i (08:01:18) zoom out 0.8695 0.5362
+\i (08:01:18) trapsize 252
+\i (08:01:19) zoom in 1 
+\i (08:01:19) setwindow pcb
+\i (08:01:19) zoom in 0.0641 0.6318
+\i (08:01:19) trapsize 126
+\i (08:01:19) zoom in 1 
+\i (08:01:19) setwindow pcb
+\i (08:01:19) zoom in 0.0641 0.6318
+\i (08:01:19) trapsize 63
+\i (08:01:19) prepopup 0.0277 0.7602
+\i (08:01:20) done 
+\i (08:01:21) zoom out 1 
+\i (08:01:21) setwindow pcb
+\i (08:01:21) zoom out -0.1410 0.7136
+\i (08:01:21) trapsize 126
+\i (08:01:24) zoom out 1 
+\i (08:01:25) setwindow pcb
+\i (08:01:25) zoom out 0.7576 0.4519
+\i (08:01:25) trapsize 252
+\i (08:01:26) zoom in 1 
+\i (08:01:26) setwindow pcb
+\i (08:01:26) zoom in 0.0428 -0.2981
+\i (08:01:26) trapsize 126
+\i (08:01:30) add line 
+\i (08:01:36) pick grid 0.0076 -0.3308
+\t (08:01:36) last pick:  0.0080 -0.3310
+\i (08:01:39) pick grid 0.0126 -0.4240
+\t (08:01:39) last pick:  0.0130 -0.4240
+\i (08:01:49) pick grid 0.8306 -0.4240
+\t (08:01:49) last pick:  0.8310 -0.4240
+\i (08:01:54) pick grid 1.3240 -0.4215
+\t (08:01:54) last pick:  1.3240 -0.4210
+\i (08:01:58) pick grid 1.3265 -0.3560
+\t (08:01:58) last pick:  1.3270 -0.3560
+\i (08:01:59) prepopup 1.3265 -0.3560
+\i (08:02:00) done 
+\i (08:02:07) add line 
+\i (08:02:10) pick grid 1.6889 0.1625
+\t (08:02:10) last pick:  1.6890 0.1630
+\i (08:02:13) pick grid 1.6990 -0.0968
+\t (08:02:13) last pick:  1.6990 -0.0970
+\i (08:02:13) prepopup 1.6990 -0.0968
+\i (08:02:14) done 
+\i (08:02:20) undo 
+\i (08:02:20) trapsize 126
+\i (08:02:23) add line 
+\i (08:02:25) pick grid 1.7116 0.1398
+\t (08:02:25) last pick:  1.7120 0.1400
+\i (08:02:29) pick grid 1.7141 -0.0867
+\t (08:02:29) last pick:  1.7140 -0.0870
+\i (08:02:29) prepopup 1.7141 -0.0867
+\i (08:02:30) done 
+\i (08:02:33) save 
+\i (08:02:35) fillin yes 
+\e (08:02:36) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (08:02:40) setwindow text
+\i (08:02:40) close 
+\i (08:02:43) setwindow pcb
+\i (08:02:43) label refdes 
+\t (08:02:43) Pick text location.
+\i (08:02:47) pick grid 1.9834 -0.2604
+\t (08:02:47) last pick:  1.9830 -0.2600
+\t (08:02:47) Enter text string.
+\i (08:02:53) setwindow pcb
+\i (08:02:53) pick 1.9830 -0.2600
+\i (08:02:55) prepopup 1.9255 -0.0464
+\i (08:02:56) oops 
+\t (08:02:56) Pick text location.
+\i (08:02:58) setwindow form.mini
+\i (08:02:58) FORM mini subclass SILKSCREEN_TOP 
+\i (08:03:00) setwindow pcb
+\i (08:03:00) pick grid 2.0615 -0.1547
+\t (08:03:00) last pick:  2.0620 -0.1550
+\t (08:03:00) Enter text string.
+\i (08:03:03) setwindow pcb
+\i (08:03:03) pick 2.0620 -0.1550
+\i (08:03:05) prepopup -0.4128 0.4117
+\i (08:03:06) done 
+\i (08:03:07) save 
+\i (08:03:08) fillin yes 
+\t (08:03:10) Symbol 'sod-523.psm' created.
+\i (08:03:15) opencd F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd 
+\t (08:03:16) Opening existing design...
+\i (08:03:16) trapsize 256
+\i (08:03:16) trapsize 252
+\i (08:03:16) trapsize 256
+\i (08:03:16) trapsize 258
+\i (08:03:17) trapsize 299
+\i (08:03:17) trapsize 299
+\t (08:03:18)     Journal end - Tue Dec 04 17:31:28 2018

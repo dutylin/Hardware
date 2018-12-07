@@ -1,0 +1,92 @@
+\t (07:53:13) allegro 16.6-2015 S108 (v16-6-112HV) Windows 32
+\t (07:53:13)     Journal start - Tue Dec 04 17:21:23 2018
+\t (07:53:13)         Host=ZM-DELL User=Administrator Pid=7868 CPUs=4
+\t (07:53:13) CmdLine= C:\Cadence\16.6\Cadence\Cadence_SPB_16.6\tools\pcb\bin\allegro.exe
+\t (07:53:13) 
+\d (07:53:13) Design opened: F:/work/ZM/Frogs/Design/FOOTPRINT/candence/E32-433T20S.dra
+\i (07:53:13) generaledit 
+\i (07:53:14) pick grid 13.6636 -3.9769
+\t (07:53:14) last pick:  13.6640 -3.9770
+\i (07:53:15) zoom in 1 
+\i (07:53:15) setwindow pcb
+\i (07:53:15) zoom in -1.0963 -1.3794
+\i (07:53:15) trapsize 503
+\i (07:53:15) zoom in 1 
+\i (07:53:15) setwindow pcb
+\i (07:53:15) zoom in -1.0963 -1.3793
+\i (07:53:15) trapsize 252
+\i (07:53:16) pick grid -0.0592 -0.8406
+\t (07:53:16) last pick:  -0.0590 -0.8410
+\i (07:53:17) pick grid 0.4643 -0.9212
+\t (07:53:17) last pick:  0.4640 -0.9210
+\i (07:53:20) setwindow form.find
+\i (07:53:20) FORM find shapes YES 
+\i (07:53:22) setwindow pcb
+\i (07:53:22) pick grid 1.5869 0.0554
+\t (07:53:22) last pick:  1.5870 0.0550
+\i (07:53:23) pick grid 1.4912 -0.5034
+\t (07:53:23) last pick:  1.4910 -0.5030
+\i (07:53:24) prepopup 1.4912 -0.5034
+\i (07:53:25) pop dyn_option_select @:@Delete 
+\i (07:53:25) delete 
+\i (07:53:25) generaledit 
+\i (07:53:28) setwindow form.mini
+\i (07:53:28) FORM mini subclass PLACE_BOUND_TOP 
+\i (07:53:32) setwindow pcb
+\i (07:53:32) add rect 
+\i (07:53:32) zoom out 1 
+\i (07:53:32) setwindow pcb
+\i (07:53:32) zoom out 0.4442 -0.0100
+\i (07:53:32) trapsize 503
+\i (07:53:35) pick grid 0.2125 -0.1510
+\t (07:53:35) last pick:  0.2130 -0.1510
+\i (07:53:35) zoom out 1 
+\i (07:53:35) setwindow pcb
+\i (07:53:35) zoom out 1.6422 -0.8759
+\i (07:53:35) trapsize 1007
+\i (07:53:36) zoom out 1 
+\i (07:53:36) setwindow pcb
+\i (07:53:36) zoom out 1.7831 -0.9161
+\i (07:53:36) trapsize 2014
+\i (07:53:37) zoom in 1 
+\i (07:53:37) setwindow pcb
+\i (07:53:37) zoom in 16.2811 -26.9321
+\i (07:53:37) trapsize 1007
+\i (07:53:37) zoom in 1 
+\i (07:53:37) setwindow pcb
+\i (07:53:37) zoom in 16.4221 -26.7509
+\i (07:53:37) trapsize 503
+\i (07:53:38) zoom in 1 
+\i (07:53:38) setwindow pcb
+\i (07:53:38) zoom in 16.4523 -26.2676
+\i (07:53:38) trapsize 252
+\i (07:53:42) pick grid 16.6034 -25.2255
+\t (07:53:42) last pick:  16.6030 -25.2250
+\i (07:53:43) zoom out 1 
+\i (07:53:43) setwindow pcb
+\i (07:53:43) zoom out 17.4592 -25.7642
+\i (07:53:43) trapsize 503
+\i (07:53:43) zoom out 1 
+\i (07:53:43) setwindow pcb
+\i (07:53:43) zoom out 17.4591 -25.7641
+\i (07:53:43) trapsize 1007
+\i (07:53:44) prepopup -1.4892 -18.4748
+\i (07:53:44) done 
+\i (07:53:45) generaledit 
+\i (07:53:45) zoom out 1 
+\i (07:53:45) setwindow pcb
+\i (07:53:45) zoom out 7.6527 -22.7840
+\i (07:53:45) trapsize 2014
+\i (07:53:46) save 
+\i (07:53:48) fillin yes 
+\t (07:53:49) Symbol 'e32-433t20s.psm' created.
+\i (07:53:49) generaledit 
+\i (07:53:52) opencd F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd 
+\t (07:53:52) Opening existing design...
+\i (07:53:53) trapsize 2051
+\i (07:53:53) trapsize 2019
+\i (07:53:53) trapsize 2051
+\i (07:53:53) trapsize 2063
+\i (07:53:54) trapsize 2392
+\i (07:53:54) trapsize 2392
+\t (07:53:54)     Journal end - Tue Dec 04 17:22:04 2018

@@ -1,0 +1,40 @@
+\t (00:32:41) allegro 16.6-2015 S108 (v16-6-112HV) Windows 32
+\t (00:32:41)     Journal start - Thu Dec 06 09:59:22 2018
+\t (00:32:41)         Host=ZM-DELL User=Administrator Pid=6364 CPUs=4
+\t (00:32:41) CmdLine= C:\Cadence\16.6\Cadence\Cadence_SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:32:41) 
+\d (00:32:41) Design opened: F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER_CHARGER/REMOTER_V1.0_20191203.brd
+\i (00:32:42) generaledit 
+\i (00:32:47) netin 
+\i (00:32:48) setwindow form.niparams
+\i (00:32:48) FORM niparams import  
+\t (00:32:48) Starting Cadence Logic Import...
+\w (00:32:51) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:32:51) Opening existing design...
+\i (00:32:51) setwindow pcb
+\i (00:32:51) trapsize 4783
+\i (00:32:53) generaledit 
+\i (00:32:59) setwindow text
+\i (00:32:59) close 
+\i (00:33:03) setwindow pcb
+\i (00:33:03) quickplace 
+\i (00:33:04) setwindow form.quickplc
+\i (00:33:04) FORM quickplc place  
+\e (00:33:04) Component(s) could not be placed.  See logfile for errors.
+\i (00:33:07) FORM quickplc viewlog  
+\i (00:33:14) setwindow text
+\i (00:33:14) close 
+\i (00:33:16) setwindow form.quickplc
+\i (00:33:16) FORM quickplc done  
+\i (00:33:16) setwindow pcb
+\i (00:33:16) generaledit 
+\i (00:33:20) opencd F:/work/ZM/Frogs/Design/FOOTPRINT/candence/SOT23-5.dra 
+\e (00:33:20) Do you want to save the changes you made to F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER_CHARGER/REMOTER_V1.0_20191203.brd?
+\i (00:33:21) fillin yes 
+\t (00:33:22) Opening existing design...
+\i (00:33:22) trapsize 587
+\i (00:33:22) trapsize 572
+\i (00:33:22) trapsize 583
+\i (00:33:23) trapsize 503
+\i (00:33:23) trapsize 503
+\t (00:33:24)     Journal end - Thu Dec 06 10:00:05 2018

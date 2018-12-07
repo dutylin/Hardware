@@ -1,0 +1,38 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\remoter_charger_v1.0_2081203.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\remoter_charger_v1.0_2081203.dsn")
+      (Path "Design Resources" ".\remoter_charger_v1.0_2081203.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" ".\remoter_charger_v1.0_2081203.dsn"
+         "SCHEMATIC1" "LORA&MCU"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 666"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 2280 125 829")
+        (Scroll "5339 10239")
+        (Zoom "784")
+        (Occurrence "/"))
+      (Path
+         "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER_CHARGER\REMOTER_CHARGER_V1.0_2081203.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LORA&MCU"))))

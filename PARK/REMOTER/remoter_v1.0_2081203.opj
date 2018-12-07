@@ -1,0 +1,118 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\remoter_v1.0_2081203.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\REMOTER_V1.0_2081203.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (TLV70130DBVR
+      (FullPartName "TLV70130DBVR.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("DIODE 34/DD"
+      (FullPartName "DIODE 34/DD.Normal")
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TLV760
+      (FullPartName "TLV760.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SENS59150-SPST
+      (FullPartName "SENS59150-SPST.Normal")
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (2N6660
+      (FullPartName "2N6660.Normal")
+      (LibraryName
+         "C:\CADENCE\16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TEST
+      (FullPartName "TEST.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (STM32F031G4U
+      (FullPartName "STM32F031G4U.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (E32433T20S
+      (FullPartName "E32433T20S.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (E32-TTL-100
+      (FullPartName "E32-TTL-100.Normal")
+      (LibraryName "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "f:\work\zm\frogs\design\m3\pcb\park\remoter\remoter_v1.0_2081203.dsn")
+      (Path "Design Resources"
+         "f:\work\zm\frogs\design\m3\pcb\park\remoter\remoter_v1.0_2081203.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "f:\work\zm\frogs\design\m3\pcb\park\remoter\remoter_v1.0_2081203.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "f:\work\zm\frogs\design\m3\pcb\park\remoter\remoter_v1.0_2081203.dsn"
+         "SCHEMATIC1" "LORA&MCU"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 666"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 2280 125 829")
+        (Scroll "0 266")
+        (Zoom "80")
+        (Occurrence "/"))
+      (Path
+         "F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER\REMOTER_V1.0_2081203.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LORA&MCU")))
+  (MPSSessionName "Administrator"))

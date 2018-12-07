@@ -1,0 +1,97 @@
+\t (00:00:00) pad_designer 16.6-2015 S069 (v16-6-112FN) Windows 32
+\t (00:00:00)     Journal start - Mon Dec 03 14:14:33 2018
+\t (00:00:00)         Host=ZM-DELL User=Administrator Pid=47620 CPUs=4
+\t (00:00:00) CmdLine= C:\Cadence\16.6\Cadence\Cadence_SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:15) setwindow form.padedit
+\i (00:00:15) FORM padedit units Millimeter 
+\i (00:00:17) fillin yes 
+\w (00:00:17) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:19) FORM padedit layers  
+\i (00:00:20) FORM padedit single YES 
+\i (00:00:21) FORM padedit grid row begin_layer 
+\i (00:00:24) FORM padedit geometry Rectangle 
+\i (00:00:26) FORM padedit crossbox YES 
+\i (00:07:54) FORM padedit shapename 1 
+\i (00:07:58) FORM padedit flash 0.5 
+\e (00:07:58) Illegal characters in flash name.
+\i (00:08:02) FORM padedit geometry Rectangle 
+\i (00:08:03) FORM padedit shapename 1 
+\i (00:08:06) FORM padedit flash 0.5 
+\e (00:08:06) Illegal characters in flash name.
+\i (00:08:14) FORM padedit geometry Rectangle 
+\i (00:08:17) FORM padedit shapename 1 
+\i (00:08:20) FORM padedit flash 1 
+\i (00:08:23) FORM padedit grid row soldermask_top 
+\i (00:08:24) FORM padedit grid row begin_layer 
+\i (00:08:28) FORM padedit geometry Null 
+\i (00:08:29) FORM padedit shapename 1 
+\i (00:08:32) FORM padedit flash 0.5 
+\e (00:08:32) Illegal characters in flash name.
+\i (00:08:39) FORM padedit shapename  
+\i (00:08:40) FORM padedit geometry Rectangle 
+\i (00:08:42) FORM padedit width 1 
+\i (00:08:46) FORM padedit height 0.5 
+\i (00:09:08) FORM padedit grid row soldermask_top 
+\i (00:09:11) FORM padedit grid row begin_layer 
+\i (00:09:11) FORM padedit grid row soldermask_top 
+\i (00:09:35) FORM padedit width 1.1 
+\i (00:09:38) FORM padedit geometry Rectangle 
+\i (00:09:39) FORM padedit width 1.1 
+\i (00:09:42) FORM padedit height 0.6 
+\i (00:09:42) FORM padedit grid row soldermask_bottom 
+\i (00:09:51) pse_save 
+\i (00:09:56) pse_save_as 
+\i (00:10:11) fillin "hole1x0_5.pad"
+\i (00:11:15) pse_save_as 
+\i (00:11:31) fillin "SMD1X0_5.pad"
+\i (00:14:03) FORM padedit grid row begin_layer 
+\i (00:14:09) FORM padedit width 2 
+\i (00:14:11) FORM padedit height 1 
+\i (00:14:11) FORM padedit grid row soldermask_top 
+\i (00:14:15) FORM padedit width 2.1000 
+\i (00:14:19) FORM padedit height 1.1 
+\i (00:14:20) pse_save_as 
+\i (00:14:29) fillin "smd2x1.pad"
+\i (00:56:15) FORM padedit grid row begin_layer 
+\i (00:56:20) FORM padedit height 1.4000 
+\i (00:56:20) FORM padedit grid row soldermask_top 
+\i (00:57:18) FORM padedit height 1.5000 
+\i (00:57:18) FORM padedit grid row pastemask_bottom 
+\i (00:57:21) pse_save_as 
+\i (00:57:32) fillin "smd2x1_4.pad"
+\i (02:59:53) pse_new 
+\i (03:00:22) fillin "smd0_55x0_4.pad"
+\i (03:00:24) FORM padedit single YES 
+\i (03:00:24) FORM padedit grid row begin_layer 
+\i (03:00:27) FORM padedit geometry Rectangle 
+\i (03:00:30) FORM padedit parameters  
+\i (03:00:31) FORM padedit units Millimeter 
+\i (03:00:32) fillin yes 
+\w (03:00:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (03:00:33) FORM padedit layers  
+\i (03:00:37) FORM padedit width 0.55 
+\i (03:00:39) FORM padedit height 0.4 
+\i (03:01:10) pse_save 
+\i (03:01:17) pse_save 
+\i (03:01:21) fillin yes 
+\i (03:20:03) pse_new 
+\i (03:20:26) fillin "smd1_2x0_8.pad"
+\i (03:20:27) FORM padedit single YES 
+\i (03:20:30) FORM padedit geometry Rectangle 
+\i (03:20:31) FORM padedit parameters  
+\i (03:20:33) FORM padedit units Millimeter 
+\i (03:20:34) fillin yes 
+\w (03:20:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (03:20:34) FORM padedit layers  
+\i (03:20:39) FORM padedit width 1.2 
+\i (03:20:41) FORM padedit height 0.8 
+\i (03:20:41) FORM padedit grid row pastemask_bottom 
+\i (03:20:42) FORM padedit grid row soldermask_top 
+\i (03:20:44) FORM padedit geometry Rectangle 
+\i (03:20:46) FORM padedit width 1.3 
+\i (03:20:48) FORM padedit height 0.9 
+\i (03:20:48) FORM padedit grid row soldermask_bottom 
+\i (03:20:51) pse_save 
+\i (04:18:33) pse_exit
+\t (04:18:33)     Journal end - Mon Dec 03 18:33:06 2018

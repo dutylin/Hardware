@@ -1,0 +1,44 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : QFN28_LEAD.dra                                )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Wed Sep 19 17:07:22 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Sep 19 17:07:22 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'QFN28_LEAD.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/16.6/Cadence/Cadence_SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/16.6/Cadence/Cadence_SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/16.6/Cadence/Cadence_SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  F:/work/ZM/Frogs/Design/FOOTPRINT/candence/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SMD4_8X4_8'  pad stack refresh starting.
+
+     'SMD4_8X4_8'  pad stack refreshed successfully.
+     
+'SMD0_75X0_3'  pad stack refresh starting.
+
+     'SMD0_75X0_3'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

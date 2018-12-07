@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : LED0603.dra                                   )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Thu Oct 18 11:24:54 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/work/ZM/Frogs/Design/FOOTPRINT/candence
+    Name      = led0603.psm
+    User      = Administrator
+    Machine   = ZM-DELL
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

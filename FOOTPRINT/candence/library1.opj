@@ -1,0 +1,69 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\library1.olb"
+      (Type "Schematic Library"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\library1.olb")
+      (Select "Design Resources" ".\library1.olb" "STM32F031G4U"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 666"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1888 25 729")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 0")
+        (Zoom "72"))
+      (Path "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (Package "E32-TTL-100"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1913 50 754")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2607 1425")
+        (Zoom "392"))
+      (Path "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (Package "E32433T20S"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1938 75 779")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1059 243")
+        (Zoom "218"))
+      (Path "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (Package "STM8L151G6U6"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1963 100 804")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "286 299")
+        (Zoom "192"))
+      (Path "F:\WORK\ZM\FROGS\DESIGN\FOOTPRINT\CANDENCE\LIBRARY1.OLB")
+      (Package "STM32F031G4U")))
+  (MPSSessionName "Administrator"))

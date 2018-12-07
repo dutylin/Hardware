@@ -1,0 +1,73 @@
+Tue Dec 04 17:24:01 2018				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Tue Dec 04 17:24:01 2018
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : REMOTER_V1.0_20191203.brd                     )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Tue Dec 04 17:24:02 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Dec 04 17:24:02 2018				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'F:/work/ZM/Frogs/Design/M3/pcb/PARK/REMOTER/REMOTER_V1.0_20191203.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  F:/work/ZM/Frogs/Design/FOOTPRINT/candence/ 
+
+PADPATH =  F:/work/ZM/Frogs/Design/FOOTPRINT/candence/ 
+
+
+------ Symbol Refresh Messages ------
+
+'VBAT_AAA7'  symbol refreshed successfully.
+'SOD-523'  symbol refreshed successfully.
+'ANT_HOLE'  symbol refreshed successfully.
+'KEY_3X6'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'C0603'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'LED0603'  symbol refreshed successfully.
+'SOT23-3'  symbol refreshed successfully.
+'CON4'  symbol refreshed successfully.
+'E32-433T20S'  symbol refreshed successfully.
+'QFN28_NOLEAD'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 12 out 12
+    Design updated.
+

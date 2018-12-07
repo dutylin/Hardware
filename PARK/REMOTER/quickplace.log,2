@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : REMOTER_V1.0_20191203.brd                     )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Tue Dec 04 17:09:07 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U6 / TLV760_SOT23-3_TLV76033DBZT / SOT23-3 at (1.7247 34.1945)
+         Placed symbol:  D5 / DIODE 34/DD_1_SOD-523_BAT54XV2 / SOD-523 at (3.7099 32.2051)
+         Placed symbol:  D4 / DIODE 34/DD_0_SOD-523_BAT54XV2 / SOD-523 at (5.8341 32.2051)
+         Placed symbol:  J4 / CON2_VBAT_AAA7_CON2 / VBAT_AAA7 at (8.2963 34.0191)
+         Placed symbol:  C31 / CAP NP_C0603_10UF / C0603 at (37.5295 32.3981)
+         Placed symbol:  R17 / RESISTOR_R0402_1K / R0402 at (40.4977 33.6141)
+         Placed symbol:  SW5 / SENS59150-SPST_KEY_3X6_SENS5915 / KEY_3X6 at (0.7897 38.2873)
+
+
+Placed 7 of 7 applicable (7 total) symbols.
+
+-----------------------------------------------------------------------
+

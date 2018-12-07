@@ -1,0 +1,270 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Dec-06-2018 at 10:05:57 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='REMOTER_V1';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C25 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS5805@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins5805@discrete.\cap np.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins5805@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP NP_C0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS5821@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins5821@discrete.\cap np.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins5821@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_C0402_47P':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS36070@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins36070@discrete.\cap np.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins36070@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_C0603_10UF/10V':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS37820@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins37820@discrete.\cap np.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins37820@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS41093@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins41093@discrete.\cap np.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins41093@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'F5F1_LED0603_F5F1':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS30704@DISCRETE.F5F1.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins30704@discrete.\f5f1.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins30704@discrete.\f5f1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'DIODE 34/DD_0_SOD-523_BAT54XV2':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS42753@REMOTER_V1.0_2081203.DIODE 34/DD_0.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins42753@\remoter_v1.0_2081203\.\diode 34/dd_0.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins42753@\remoter_v1.0_2081203\.\diode 34/dd_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'DIODE 34/DD_1_SOD-523_BAT54XV2':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS43210@REMOTER_V1.0_2081203.DIODE 34/DD_1.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins43210@\remoter_v1.0_2081203\.\diode 34/dd_1.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins43210@\remoter_v1.0_2081203\.\diode 34/dd_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON4_CON4_CON4':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS30531@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins30531@connector.\con4.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins30531@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON2_ER10280_CON2':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS40278@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins40278@connector.\con2.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins40278@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 '2N6660_SOT23-3_WPM2015-3/TR':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS39014@DISCRETE.2N6660.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins39014@discrete.\2n6660.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins39014@discrete.\2n6660.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_R0402_100K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS38063@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins38063@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins38063@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RESISTOR_R0402_100K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS38089@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins38089@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins38089@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RESISTOR_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS38807@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins38807@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins38807@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RESISTOR_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS38892@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins38892@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins38892@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'RESISTOR_R0402_100K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS39203@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins39203@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins39203@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'RESISTOR_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS43556@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins43556@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins43556@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS30730@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins30730@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins30730@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS35912@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins35912@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins35912@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS36086@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins36086@discrete.\resistor.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins36086@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW4 'SENS59150-SPST_KEY_3X6_SENS5915':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS39344@DISCRETE.SENS59150-SPST.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins39344@discrete.\sens59150-spst.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins39344@discrete.\sens59150-spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW5 'SENS59150-SPST_KEY_3X6_SENS5915':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS43194@DISCRETE.SENS59150-SPST.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins43194@discrete.\sens59150-spst.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins43194@discrete.\sens59150-spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ T7 'TEST_ANT_HOLE_TEST':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS37174@LIBRARY1.TEST.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins37174@library1.\test.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins37174@library1.\test.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'E32433T20S_E32-433T20S_E32433T2':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS35364@LIBRARY1.E32433T20S.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins35364@library1.\e32433t20s.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins35364@library1.\e32433t20s.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'STM32F031G4U_QFN28_NOLEAD_STM32':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS35643@LIBRARY1.STM32F031G4U.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins35643@library1.\stm32f031g4u.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins35643@library1.\stm32f031g4u.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'TLV70130DBVR_SOT23-5_TLV70130DB':;
+
+SECTION_NUMBER 1
+ '@REMOTER_V1.0_2081203.SCHEMATIC1(SCH_1):INS45897@LIBRARY1.TLV70130DBVR.NORMAL(CHIPS)':
+ C_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):ins45897@library1.\tlv70130dbvr.normal\(chips)',
+ P_PATH='@\remoter_v1.0_2081203\.schematic1(sch_1):page1_ins45897@library1.\tlv70130dbvr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

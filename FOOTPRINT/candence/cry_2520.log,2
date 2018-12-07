@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CRY_2520.dra                                  )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Sun Sep 30 10:11:06 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/work/ZM/Frogs/Design/FOOTPRINT/candence
+    Name      = cry_2520.psm
+    User      = Administrator
+    Machine   = ZM-DELL
+
+
+Create symbol started.
+ 
+ WARNING(SPMHA1-301): Create symbol DRC errors exist. 
+
+Create symbol completed.
+

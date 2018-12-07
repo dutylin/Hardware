@@ -1,0 +1,23 @@
+{ Using PSTWRITER 16.6.0 d001Dec-06-2018 at 10:05:54 }
+
+#1 WARNING(ORCAP-36006): Part Name "SENS59150-SPST_KEY_3X6_SENS59150-SPST" is renamed to "SENS59150-SPST_KEY_3X6_SENS5915".
+#2 WARNING(ORCAP-36006): Part Name "E32433T20S_E32-433T20S_E32433T20S" is renamed to "E32433T20S_E32-433T20S_E32433T2".
+#3 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#7" as visible power pin of same name already exists in Package E32433T20S , U4: SCHEMATIC1, LORA&MCU (18.97, 6.88).
+#4 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#8" as visible power pin of same name already exists in Package E32433T20S , U4: SCHEMATIC1, LORA&MCU (18.97, 6.88).
+#5 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#10" as visible power pin of same name already exists in Package E32433T20S , U4: SCHEMATIC1, LORA&MCU (18.97, 6.88).
+#6 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#11" as visible power pin of same name already exists in Package E32433T20S , U4: SCHEMATIC1, LORA&MCU (18.97, 6.88).
+#7 WARNING(ORCAP-36006): Part Name "STM32F031G4U_QFN28_NOLEAD_STM32F031G4U" is renamed to "STM32F031G4U_QFN28_NOLEAD_STM32".
+#8 WARNING(ORCAP-36006): Part Name "TLV70130DBVR_SOT23-5_TLV70130DBVR" is renamed to "TLV70130DBVR_SOT23-5_TLV70130DB".
+#9 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package TLV70130DBVR , U7: SCHEMATIC1, LORA&MCU (8.29, 13.33).
+#10 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package TLV70130DBVR , U7: SCHEMATIC1, LORA&MCU (8.29, 13.33).
+#11 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package TLV70130DBVR , U7: SCHEMATIC1, LORA&MCU (8.29, 13.33).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER\ALLEGRO/pstchip.dat
+
+Loading... F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER\ALLEGRO/pstchip.dat
+
+Loading... F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER\ALLEGRO/pstxprt.dat
+
+Loading... F:\WORK\ZM\FROGS\DESIGN\M3\PCB\PARK\REMOTER\ALLEGRO/pstxnet.dat
+packaging the design view...
