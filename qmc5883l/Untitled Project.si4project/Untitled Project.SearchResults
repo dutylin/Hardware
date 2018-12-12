@@ -1,0 +1,2 @@
+---- CONFIGB Matches (1 in 1 files) ----
+HMC5883L.h (hmc5883\Src\HMC5883L) line 12 : #define CONFIGB         0x09
