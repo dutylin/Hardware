@@ -44,13 +44,14 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "HMC5883L.h"
+#include "filter.h"
 
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 short int manetic_buff[4];
-float manetic_gauss_buff[3];
+float manetic_gauss_buff[4];
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -103,12 +104,25 @@ void gauss_cal(short int *data1,float *data)
 		if(data1[i]<0)
 		{
 			data[i] = data1[i]/(32768.0)*range_tmp;
+			//data[3] = data1[i]/(-100.0)*range_tmp;
 		}
 		else
 		{
 			data[i] = data1[i]/(32768.0)*range_tmp;
+			//data[3] = data1[i]/(100.0)*range_tmp;
 		}					
 	}
+
+		if(data1[3]<0)
+		{
+			//data[i] = data1[i]/(32768.0)*range_tmp;
+			data[3] = data1[i]/(-100.0);
+		}
+		else
+		{
+			//data[i] = data1[i]/(32768.0)*range_tmp;
+			data[3] = data1[i]/(100.0);
+		}	
 }
 /* USER CODE END 0 */
 
@@ -156,17 +170,22 @@ int main(void)
   
     HAL_GPIO_TogglePin(led_GPIO_Port, led_Pin);
 	  hmc_read_XYZ(manetic_buff);
-
-    gauss_cal(manetic_buff,manetic_gauss_buff);
-		HAL_Delay(1000);
-    printf("Manetic= %f     %f     %f ",manetic_gauss_buff[0],manetic_gauss_buff[1],manetic_gauss_buff[2]);		
-//	  printf("Manetic_X= %f",manetic_gauss_buff[0]);
-//	  printf("  ");		
-//	  printf("manetic_Y= %f",manetic_gauss_buff[1]);
-//	  printf("  ");			
-//	  printf("manetic_Z= %f",manetic_gauss_buff[2]);
-//	  printf("  ");			
-	  printf("  temperature= %d\n",manetic_buff[3]);		
+	if(data_refresh_flag==1)
+	{
+	data_refresh_flag=0;
+		gauss_cal(manetic_buff,manetic_gauss_buff);
+		manetic_filter(manetic_gauss_buff);
+		HAL_Delay(200);
+		//printf("Manetic= %f     %f     %f ",manetic_gauss_buff[0],manetic_gauss_buff[1],manetic_gauss_buff[2]);		
+		//	  printf("Manetic_X= %f",manetic_gauss_buff[0]);
+		//	  printf("  ");		
+		//	  printf("manetic_Y= %f",manetic_gauss_buff[1]);
+		//	  printf("  ");			
+		//	  printf("manetic_Z= %f",manetic_gauss_buff[2]);
+		//	  printf("  ");			
+				
+	}
+	
   }
   /* USER CODE END 3 */
 }
@@ -282,8 +301,8 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
-  //HAL_NVIC_SetPriority(EXTI4_15_IRQn, 0, 0);
-  //HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
+  HAL_NVIC_SetPriority(EXTI4_15_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
 
 }
 

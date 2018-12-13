@@ -29,3 +29,4 @@ hmc5883\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h
 hmc5883\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h
 hmc5883\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
 hmc5883\main.o: ..\Src\HMC5883L\HMC5883L.h
+hmc5883\main.o: ..\Src\HMC5883L\filter.h

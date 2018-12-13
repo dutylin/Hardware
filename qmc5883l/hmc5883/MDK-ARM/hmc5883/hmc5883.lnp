@@ -6,6 +6,7 @@
 "hmc5883\main.o"
 "hmc5883\stm32f0xx_it.o"
 "hmc5883\stm32f0xx_hal_msp.o"
+"hmc5883\filer.o"
 "hmc5883\stm32f0xx_hal_tim.o"
 "hmc5883\stm32f0xx_hal_tim_ex.o"
 "hmc5883\stm32f0xx_hal_uart.o"

@@ -38,6 +38,7 @@ void hmc_read_XYZ(short int *data)
 	*data++=((int16_t)hmc_read_reg(DATAX_M)<<8)|hmc_read_reg(DATAX_L);
 	*data++=((int16_t)hmc_read_reg(DATAY_M)<<8)|hmc_read_reg(DATAY_L);
 	*data++=((int16_t)hmc_read_reg(DATAZ_M)<<8)|hmc_read_reg(DATAZ_L);
+	*data++=((int16_t)hmc_read_reg(TEMP_M)<<8)|hmc_read_reg(TEMP_L);	
 }
 u8 temp;
 u8 configa_reg_value;
@@ -48,7 +49,7 @@ void hmc_init(void)
 	hmc_write_reg(0X20,0x40);
 	hmc_write_reg(0X21,0x01);
 	hmc_write_reg(CONFIGA,0x1D);
-  
+ 	hmc_write_reg(CONFIGB,0x00); 
 	delay_ms(10);
 }
 
@@ -56,4 +57,6 @@ u8 get_config_reg()
 {
 	return configa_reg_value=hmc_read_reg(CONFIGA);
 }
+
+
 

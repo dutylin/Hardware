@@ -21,22 +21,20 @@ Target DLL:      Segger\JL2CM3.dll V2.99.29.0
 Dialog DLL:      TARMCM1.DLL V1.14.0.0
  
 <h2>Project:</h2>
-C:\Users\Administrator\Desktop\New Folder\hmc5883\MDK-ARM\hmc5883.uvprojx
-Project File Date:  12/12/2018
+F:\qmc5883l\hmc5883\MDK-ARM\hmc5883.uvprojx
+Project File Date:  12/13/2018
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'hmc5883'
-compiling main.c...
-../Src/main.c(89): warning:  #940-D: missing return statement at end of non-void function "fputc" 
-  }
-../Src/main.c(122): warning:  #177-D: variable "temp"  was declared but never referenced
-    unsigned char temp;
-../Src/main.c: 2 warnings, 0 errors
+compiling filer.c...
+..\Src\HMC5883L\filer.c(79): warning:  #223-D: function "printf" declared implicitly
+  	printf("%f    %f    %f    %f    %f    %f    %f\n",data[0],data[1],data[2],vmanetic_usr.B[0][k],vmanetic_usr.B[1][k],vmanetic_usr.B[2][k],data[3]); 
+..\Src\HMC5883L\filer.c: 1 warning, 0 errors
 linking...
-Program Size: Code=8720 RO-data=244 RW-data=28 ZI-data=1148  
+Program Size: Code=11524 RO-data=244 RW-data=28 ZI-data=3316  
 FromELF: creating hex file...
-"hmc5883\hmc5883.axf" - 0 Error(s), 2 Warning(s).
+"hmc5883\hmc5883.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -59,7 +57,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.1.1
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

@@ -10,8 +10,10 @@ void delay_us(u32 nus)
 
 void delay_ms(u16 nms)
 {	 		  	  
-	u32 temp;		   
-      				
+	u32 temp;	
+	for(;nms>0;nms--)
+	for(temp=0;temp<1000;temp++)
+		;	        				
 }
 void i2c_init(void)
 {
