@@ -1,0 +1,31 @@
+TE940 220:480 SEGGER J-Link V6.30h Log File (0001ms, 26765ms total)
+TE940 220:480 DLL Compiled: Mar 16 2018 18:02:51 (0001ms, 26765ms total)
+TE940 220:480 Logging started @ 2018-12-14 15:47 (0001ms, 26765ms total)
+TE940 220:481 JLINK_SetWarnOutHandler(...) (0000ms, 26765ms total)
+TE940 220:481 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Mar  2 2018 17:07:57
+Hardware: V9.60
+S/N: 63600342
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+TELNET listener socket opened on port 19021Device "STM32F051K6" selected.WEBSRV 
+Starting webserver (0137ms, 26902ms total)
+TE940 220:481 WEBSRV Webserver running on local port 19080 (0137ms, 26902ms total)
+TE940 220:481   returns O.K. (0137ms, 26902ms total)
+TE940 220:619 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 26902ms total)
+TE940 220:619 JLINK_TIF_GetAvailable(...) (0001ms, 26903ms total)
+TE940 220:620 JLINK_SetErrorOutHandler(...) (0000ms, 26903ms total)
+TE940 220:620 JLINK_ExecCommand("ProjectFile = "F:\qmc5883l\hmc5883\MDK-ARM\JLinkSettings.ini"", ...). Device "STM32F051K6" selected.  returns 0x00 (0004ms, 26907ms total)
+TE940 220:624 JLINK_ExecCommand("Device = STM32F051K8Tx", ...). Device "STM32F051K6" selected.  returns 0x00 (0002ms, 26909ms total)
+TE940 220:626 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetDLLVersion()  returns 63008 (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetFirmwareString(...) (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetDLLVersion()  returns 63008 (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetCompileDateTime() (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetFirmwareString(...) (0000ms, 26909ms total)
+TE940 220:626 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 26909ms total)
+TE940 220:626 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0005ms, 26914ms total)
+TE940 220:631 JLINK_SetSpeed(5000) (0001ms, 26915ms total)
+TE940 220:632 JLINK_GetId() >0x10B TIF>Found SW-DP with ID 0x0BB11477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x10B TIF>Found SW-DP with ID 0x0BB11477
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>Scanning AP map to find all available APs >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
