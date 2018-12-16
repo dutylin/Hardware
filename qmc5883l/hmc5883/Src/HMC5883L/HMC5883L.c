@@ -44,12 +44,13 @@ u8 temp;
 u8 configa_reg_value;
 void hmc_init(void)
 {
+	hmc_write_reg(CONFIGB,0x40); 
 	hmc_write_reg(0X0B,0x01);
 	temp=hmc_read_reg(0X0B);
 	hmc_write_reg(0X20,0x40);
 	hmc_write_reg(0X21,0x01);
 	hmc_write_reg(CONFIGA,0x1D);
- 	hmc_write_reg(CONFIGB,0x00); 
+ 
 	delay_ms(10);
 }
 
@@ -57,6 +58,15 @@ u8 get_config_reg()
 {
 	return configa_reg_value=hmc_read_reg(CONFIGA);
 }
-
+ u8 tmp;
+u8 check_rdy_status()
+{
+   
+    tmp = hmc_read_reg(STATUS_REG);
+    if(tmp&0x01)
+	return 1;
+    else
+       return 0;
+}
 
 

@@ -157,7 +157,22 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
    hmc_init();
-
+	 hmc_read_XYZ(manetic_buff);
+		//while( check_rdy_status()==0)
+			//;
+		//hmc_read_XYZ(manetic_buff);
+		data_refresh_flag=0;
+		gauss_cal(manetic_buff,manetic_gauss_buff);
+		
+   while(manetic_filter(1,manetic_gauss_buff)==0)
+	 {
+		// hmc_read_XYZ(manetic_buff);
+		//while( check_rdy_status()==0)
+		//	;
+		hmc_read_XYZ(manetic_buff);
+		data_refresh_flag=0;
+		gauss_cal(manetic_buff,manetic_gauss_buff);	 
+	}
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -169,21 +184,13 @@ int main(void)
     /* USER CODE BEGIN 3 */
   
     HAL_GPIO_TogglePin(led_GPIO_Port, led_Pin);
-	  hmc_read_XYZ(manetic_buff);
-	if(data_refresh_flag==1)
+
+	//if(check_rdy_status()==1)
 	{
-	data_refresh_flag=0;
+		hmc_read_XYZ(manetic_buff);
+	  data_refresh_flag=0;
 		gauss_cal(manetic_buff,manetic_gauss_buff);
-		manetic_filter(manetic_gauss_buff);
-		HAL_Delay(200);
-		//printf("Manetic= %f     %f     %f ",manetic_gauss_buff[0],manetic_gauss_buff[1],manetic_gauss_buff[2]);		
-		//	  printf("Manetic_X= %f",manetic_gauss_buff[0]);
-		//	  printf("  ");		
-		//	  printf("manetic_Y= %f",manetic_gauss_buff[1]);
-		//	  printf("  ");			
-		//	  printf("manetic_Z= %f",manetic_gauss_buff[2]);
-		//	  printf("  ");			
-				
+		manetic_filter(0,manetic_gauss_buff);						
 	}
 	
   }
@@ -289,7 +296,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : DRDY_Pin */
   GPIO_InitStruct.Pin = DRDY_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(DRDY_GPIO_Port, &GPIO_InitStruct);
 

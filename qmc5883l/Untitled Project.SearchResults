@@ -1,0 +1,2 @@
+---- event_update_flag Matches (1 in 1 files) ----
+Filter.h (hmc5883\src\hmc5883l):	unsigned char event_update_flag;
