@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : hmc5883.brd                                   )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Sun Nov 11 12:47:59 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  R12 / RESISTOR_R0603_10K / R0603 at (-24.162 25.678)
+         Placed symbol:  T2 / TEST_TP1_TEST / TP1 at (-21.708 25.453)
+         Placed symbol:  T1 / TEST_TP1_TEST / TP1 at (-21.005 25.453)
+
+
+Placed 3 of 3 applicable (3 total) symbols.
+
+-----------------------------------------------------------------------
+

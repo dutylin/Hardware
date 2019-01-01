@@ -1,0 +1,65 @@
+\t (00:00:04) allegro 16.6-2015 S108 (v16-6-112HV) Windows 32
+\t (00:00:04)     Journal start - Tue Dec 25 15:58:10 2018
+\t (00:00:04)         Host=LAPTOP-U0A85BUA User=zhang Pid=23236 CPUs=8
+\t (00:00:04) CmdLine= C:\Cadence\Cadence\Cadence_SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: F:/projects/18/hmc5883/pcb/hmc5883.brd
+\i (00:00:06) trapsize 42829
+\i (00:00:06) trapsize 41829
+\i (00:00:06) trapsize 43000
+\i (00:00:06) trapsize 43487
+\i (00:00:06) trapsize 56106
+\i (00:00:06) trapsize 56106
+\i (00:00:07) etchedit 
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 4027.665 406.433
+\i (00:00:08) trapsize 112213
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 347.091 -64.860
+\i (00:00:09) trapsize 56106
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 347.091 -64.860
+\i (00:00:09) trapsize 28053
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 1233.571 271.779
+\i (00:00:10) trapsize 56106
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -438.398 305.442
+\i (00:00:29) trapsize 28053
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -393.512 322.274
+\i (00:00:29) trapsize 14027
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -393.512 319.469
+\i (00:00:29) trapsize 7013
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in -393.512 319.470
+\i (00:00:30) trapsize 3507
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in -393.512 319.470
+\i (00:00:30) trapsize 1753
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out -393.512 319.470
+\i (00:00:30) trapsize 3507
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out -393.511 319.470
+\i (00:00:30) trapsize 7013
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out -393.511 319.470
+\i (00:00:31) trapsize 14027
+\i (00:00:32) exit 
+\t (00:00:33)     Journal end - Tue Dec 25 15:58:39 2018

@@ -1,0 +1,193 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\hmc5883.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "F:\PROJECTS\18\HMC5883\")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\DESIGN1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (NoModify)
+    (Board_sim_option "VHDL_flow")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "F:\PROJECTS\18\HMC5883\PCB\HMC5883.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "F:\PROJECTS\18\HMC5883\PCB\HMC5883.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\hmc5883.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (TEST
+      (FullPartName "TEST.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SENS59025-SPST
+      (FullPartName "SENS59025-SPST.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON7
+      (FullPartName "CON7.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SMF05C
+      (FullPartName "SMF05C.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("nano sim"
+      (FullPartName "nano sim.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (NUF2042XV6T1
+      (FullPartName "NUF2042XV6T1.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MICROUSB
+      (FullPartName "MICROUSB.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SY7208B
+      (FullPartName "SY7208B.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SIM868
+      (FullPartName "SIM868.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (X6206P25
+      (FullPartName "X6206P25.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HMC5883
+      (FullPartName "HMC5883.Normal")
+      (LibraryName "F:\FOOTPRINT\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\Cadence\Cadence_SPB_16.6\tools\capture\library")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\hmc5883.dsn")
+      (Path "Design Resources" ".\hmc5883.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\hmc5883.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 283"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 400"))
+      (Path "f:\projects\18\hmc5883\pcb\hmc5883.bom")
+      (Scroll "9")
+      (Select "24 6 24 25"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1382 52 374")
+        (Scroll "918 426")
+        (Zoom "344")
+        (Occurrence "/"))
+      (Path "F:\PROJECTS\18\HMC5883\PCB\HMC5883.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "zhang"))

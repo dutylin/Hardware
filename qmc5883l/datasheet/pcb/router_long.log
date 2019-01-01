@@ -1,0 +1,654 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:38:00 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        25.80        0.00        25.80
+        Number of vias		   165           0          165
+        Vias per Connection          2.26        0.00         2.26
+        Smd pins with attached clines                        83
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.16        0.00        24.16
+        Number of vias		   162           0          162
+        Vias per Connection          2.22        0.00         2.22
+        Smd pins with attached clines                        67
+
+
+
+    Total cpu time - 0:13:37 hours
+    Total elapsed time - -1186:-5:-46 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:38:00 2018
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:38:00 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        24.16        0.00        24.16
+        Number of vias		   162           0          162
+        Vias per Connection          2.22        0.00         2.22
+        Smd pins with attached clines                        67
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.16        0.00        24.16
+        Number of vias		   162           0          162
+        Vias per Connection          2.22        0.00         2.22
+        Smd pins with attached clines                        67
+
+
+
+    Total cpu time - 0:13:37 hours
+    Total elapsed time - -1186:-5:-46 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:38:00 2018
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:38:01 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        23.80        0.00        23.80
+        Number of vias		   162           0          162
+        Vias per Connection          2.22        0.00         2.22
+        Smd pins with attached clines                        67
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        23.80        0.00        23.80
+        Number of vias		   162           0          162
+        Vias per Connection          2.22        0.00         2.22
+        Smd pins with attached clines                        67
+
+
+
+    Total cpu time - 0:13:38 hours
+    Total elapsed time - -1186:-5:-45 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:38:01 2018
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:42:53 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        25.65        0.00        25.65
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        28
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        25.65        0.00        25.65
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        28
+
+
+
+    Total cpu time - 0:14:5 hours
+    Total elapsed time - -1186:0:-53 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:42:53 2018
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:42:53 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        24.13        0.00        24.13
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        12
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.13        0.00        24.13
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        12
+
+
+
+    Total cpu time - 0:14:5 hours
+    Total elapsed time - -1186:0:-53 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:42:53 2018
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:42:53 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        23.80        0.00        23.80
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        12
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 5.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        23.80        0.00        23.80
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        12
+
+
+
+    Total cpu time - 0:14:5 hours
+    Total elapsed time - -1186:0:-53 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:42:53 2018
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:46:56 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        25.61        0.00        25.61
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        27
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 0.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 0.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        25.61        0.00        25.61
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        27
+
+
+
+    Total cpu time - 0:14:34 hours
+    Total elapsed time - -1185:-56:-50 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:46:56 2018

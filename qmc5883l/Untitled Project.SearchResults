@@ -1,2 +1,19 @@
----- event_update_flag Matches (1 in 1 files) ----
-Filter.h (hmc5883\src\hmc5883l):	unsigned char event_update_flag;
+---- vmanetic_usr.Tse Matches (20 in 2 files) ----
+Filer.c (hmc5883\src\hmc5883l):	vmanetic_usr.Tse[0]=vmanetic_usr.Tse[0]+0.1;//systime 
+Filer.c (hmc5883\src\hmc5883l):				vmanetic_usr.Tse[0],
+Filer.c (hmc5883\src\hmc5883l):				vmanetic_usr.Tse[1],
+Filer.c (hmc5883\src\hmc5883l):				vmanetic_usr.Tse[2],
+Filer.c (hmc5883\src\hmc5883l):								vmanetic_usr.TI[i][vmanetic_usr.mpv_index] = vmanetic_usr.Tse[0];
+Filer.c (hmc5883\src\hmc5883l):								vmanetic_usr.TI[i][vmanetic_usr.mpv_index] =  vmanetic_usr.Tse[0];							
+Filer.c (hmc5883\src\hmc5883l):								vmanetic_usr.Tse[1] = vmanetic_usr.Tse[0];	
+Filer.c (hmc5883\src\hmc5883l):							vmanetic_usr.Tse[2] = vmanetic_usr.Tse[0];	
+Filer.c (hmc5883\src\hmc5883l):							vmanetic_usr.Tse[0]=0;//systime 
+Filer.c (hmc5883\src\hmc5883l):				 if((ti_final - ti_first)>(vmanetic_usr.Tse[2]-vmanetic_usr.Tse[1])*0.5)
+Filer.c (hmc5883\src\hmc5883l):				vmanetic_usr.Tse[0],
+Filer.c (hmc5883\src\hmc5883l):				vmanetic_usr.Tse[1],
+Filer.c (hmc5883\src\hmc5883l):				vmanetic_usr.Tse[2],
+Filter.h (hmc5883\src\hmc5883l):	float Tse[3];	//   sample tick time: vmanetic_usr.Tse[0]       mpv start time :vmanetic_usr.Tse[1]	
+Filter.h (hmc5883\src\hmc5883l):	                     //    mpv end time :vmanetic_usr.Tse[2]	
+---- vmanetic_usr.Tse Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+F:\projects\18\git\Hardware\qmc5883l\gauss_201812271.txt : File could not be opened.

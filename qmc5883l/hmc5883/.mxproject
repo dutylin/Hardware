@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Administrator/Desktop/New Folder/hmc5883/Inc
+HeaderPath=F:/projects/18/git/Hardware/qmc5883l/hmc5883/Inc
 HeaderFiles=stm32f0xx_it.h;stm32f0xx_hal_conf.h;main.h;
-SourcePath=C:/Users/Administrator/Desktop/New Folder/hmc5883/Src
+SourcePath=F:/projects/18/git/Hardware/qmc5883l/hmc5883/Src
 SourceFiles=stm32f0xx_it.c;stm32f0xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

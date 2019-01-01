@@ -1,0 +1,35 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\lora_module_sx1278.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\lora_module_sx1278.dsn")
+      (Path "Design Resources" ".\lora_module_sx1278.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\lora_module_sx1278.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 330"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1408 104 473")
+        (Scroll "-226 1")
+        (Zoom "25")
+        (Occurrence "/"))
+      (Path "F:\PROJECTS\18\GIT\HARDWARE\PARK\GETWAY\RF\LORA_MODULE_SX1278.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LORA&MCU"))))
