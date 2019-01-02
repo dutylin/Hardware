@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=GND Pin=A1-2
+Change Component Footprint: Designator=U3 Old Footprint=CC2540_QFN40 New Footprint=QFN50P600X600X80-40N

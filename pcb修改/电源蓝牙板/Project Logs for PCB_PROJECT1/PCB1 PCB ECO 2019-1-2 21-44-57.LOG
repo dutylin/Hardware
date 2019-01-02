@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+3.3V Pin=P1-1
+Removed Pin From Net: NetName=SWIO Pin=P1-2
+Change Component DesignItemId : Designator=P1 Old DesignItemId=Header 4 New DesignItemId=Header 5
+Change Component Footprint: Designator=P1 Old Footprint=HDR1X4 New Footprint=5X1.25MMWS
+Change Component Comment : Designator=P1 Old Comment=MCU_SWD New Comment=Header 5
+Added Pin To Net: NetName=NRST Pin=P1-5
+Added Pin To Net: NetName=SWDIO Pin=P1-2
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=VCC_3.3V Pin=P1-1
+Added Net: Name=VCC_3.3V

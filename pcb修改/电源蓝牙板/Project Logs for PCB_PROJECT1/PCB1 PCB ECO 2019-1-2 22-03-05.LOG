@@ -1,0 +1,5 @@
+Change Component Comment : Designator=C24 Old Comment=0.1uF New Comment=1uF
+Added Component: Designator=C30(0603)
+Added Pin To Net: NetName=+3.3V Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Member To Class: ClassName=SHEET1 Member=Component C30 1uF

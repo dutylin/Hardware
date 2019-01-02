@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=U3-41
+Added Component: Designator=C20(0603)
+Added Component: Designator=C23(0603)
+Added Component: Designator=C24(0603)
+Added Component: Designator=C25(0603)
+Added Component: Designator=C26(0603)
+Added Component: Designator=C27(0603)
+Added Component: Designator=C28(0603)
+Added Component: Designator=C29(0603)
+Added Pin To Net: NetName=+3.3V Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=+3.3V Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=+3.3V Pin=C24-1
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=+3.3V Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=+3.3V Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=+3.3V Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=+3.3V Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=+3.3V Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Class: Name=SHEET1
