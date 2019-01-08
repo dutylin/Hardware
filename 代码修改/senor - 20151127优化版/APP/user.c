@@ -4,7 +4,7 @@
 #include "CC1110.h"
 #include "spi.h"
 #include "infrared.h"
-
+#include "rtc.h"
 RCC_ClocksTypeDef RCC_Clocks;
 static uint8_t  fac_us=0;
 static uint16_t fac_ms=0;
@@ -135,6 +135,7 @@ void EnterLowPower(void)
     RCC->APB2ENR &= ~ RCC_APB2Periph_ADC1;
     RCC->APB1ENR &= ~(RCC_APB1Periph_TIM2|RCC_APB1Periph_TIM3|RCC_APB1Periph_SPI2|RCC_APB1Periph_USART3); //关闭外设时钟
     Wake_Config();	
+    RTC_WakeUp_init(5);
     PWR_ClearFlag(PWR_FLAG_WU);
     PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
 

@@ -39,3 +39,4 @@
 ..\output\user.o: ..\BSP\spi.h
 ..\output\user.o: ..\APP\stdint.h
 ..\output\user.o: ..\BSP\infrared.h
+..\output\user.o: ..\BSP\rtc.h

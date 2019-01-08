@@ -8,6 +8,7 @@
 #include "infrared.h"
 #include "oled.h"
 #include "rtc.h"
+#include "sst25vf016b.h"
 #define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
 /***************************预编译注意*****************************
 在编译选择传感器类型时，在编译器Options For Target里的宏定义里修改
@@ -32,7 +33,7 @@ extern void LCD_P16x16Ch(unsigned char x, unsigned char y, unsigned char N, cons
 /**********************rtc变量相关*********************************/
 extern unsigned char rtc_wakeup_flag;
 RTC_TimeDateTypeDef RTC_TimeDateStructure;
-
+extern u8 WriteAddressPostion[3];
 /**********************传感器数据存取相关**************************/
 uint32_t Flash_Read_Buff[4],Flash_Write_Buff[4];
 uint32_t ID_Read_Buff[4],ID_Write_Buff[4];
@@ -147,6 +148,9 @@ void SendMsg_Int(CC1110Tx_Msg *pMsg,SENOR *pObj)
 }
 int main(void)
 {  
+    RTC_SetTypeDef RTC_SetStructure;
+    unsigned char writebuffer[9];
+    uint32_t tmp;
     CC1110Tx_Msg TxMessage;
 	  PWR_FastWakeUpCmd(ENABLE);//唤醒片内正常工作电源
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);//片内电源管理的时钟---使能 
@@ -164,6 +168,10 @@ int main(void)
     GPIO_ResetBits(GPIOC,GPIO_Pin_7);//拉低 
 
 	  SPI_Configuration();	
+	//RTC_SetStructure.am_pm = 
+
+	 FLASH_SPI_Configuration();
+  	SYS_RTCInit( RTC_SetStructure);
 	  Select_OLED
 	
     ID_Write_Buff[0]=0x01;
@@ -191,7 +199,11 @@ int main(void)
 			  AD_Smapling_Function(&SenMsg);
 			//flash存储		CV_Value	
 			RTC_GetTimeDate(RTC_TimeDateStructure);//获取时间
-       
+			memcpy(writebuffer,&RTC_TimeDateStructure,6);
+			memcpy(&writebuffer[6],CV_Value,3);
+			Read_AddressWrite();
+			tmp = WriteAddressPostion[0]<<16+WriteAddressPostion[1]<<8+WriteAddressPostion[2];
+                      SPI_FLASH_Write(writebuffer, tmp,9);
 		}
 			
         /******************初始读取flash 传感器ID和探头数量*********************/
@@ -324,7 +336,7 @@ void AD_Smapling_Function(SENOR *pObj)
 {
     uint8_t i;
     Power_Control(Power_ON);   //启动传感器供电电源
-    for(i=0; i<4; i++)
+    for(i=0; i<3; i++)
     {
         delay_us(400);
         Get_ADC(i);

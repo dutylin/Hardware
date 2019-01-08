@@ -471,6 +471,16 @@
               <FileType>1</FileType>
               <FilePath>..\BSP\infrared.c</FilePath>
             </File>
+            <File>
+              <FileName>rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>SST25VF016B_Operation.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\SST25VF016B_Operation.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\obj\startup_stm32f10x_hd.o"
+".\obj\stm32f10x_it.o"
+".\obj\main.o"
+".\obj\oled.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_spi.o"
+".\obj\misc.o"
+".\obj\stm32f10x_usart.o"
+".\obj\stm32f10x_can.o"
+".\obj\core_cm3.o"
+".\obj\system_stm32f10x.o"
+--strict --scatter ".\Obj\STM32-FD-Systick.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\STM32-FD-Systick.map" -o .\Obj\STM32-FD-Systick.axf

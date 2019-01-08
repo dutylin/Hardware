@@ -1,0 +1,27 @@
+*** Creating Trace Output File '.\Obj\STM32-FD.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\oled.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--device DARMSTM ".\obj\startup_stm32f10x_md.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" ".\obj\oled.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_spi.o" ".\obj\core_cm3.o" ".\obj\system_stm32f10x.o" --strict --scatter ".\Obj\STM32-FD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\STM32-FD.map" -o ".\Obj\STM32-FD.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\STM32-FD.axf'
+### ADS-LD Command File: '.\Obj\STM32-FD.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\STM32-FD.lnp', Handle=0x00000890
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\STM32-FD.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

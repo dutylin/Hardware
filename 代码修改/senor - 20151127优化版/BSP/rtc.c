@@ -1,12 +1,12 @@
-void SYS_RTCInit(void)
-{
-    static NVIC_InitTypeDef  NVIC_InitStructure;
-    static EXTI_InitTypeDef  EXTI_InitStructure;
-    static RTC_InitTypeDef RTC_InitStructure;
-    static RTC_TimeTypeDef RTC_TimeStructure;
-    static uint32_t AsynchPrediv = 0, SynchPrediv = 0;
+#include "stm32l1xx_rtc.h"
+#include "rtc.h"
 
-    RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);
+ unsigned char rtc_wakeup_flag;
+void RTC_ClkConfig(void)
+{
+    static RTC_InitTypeDef RTC_InitStructure;
+    static uint32_t AsynchPrediv = 0, SynchPrediv = 0;
+ RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);
 
     /*!< Allow access to RTC */
     PWR_RTCAccessCmd(ENABLE);
@@ -35,17 +35,34 @@ void SYS_RTCInit(void)
     RTC_InitStructure.RTC_SynchPrediv = SynchPrediv;
     RTC_InitStructure.RTC_HourFormat = RTC_HourFormat_24;//24小时制
     /* 检查RTC初始化 */
-    if (RTC_Init(&RTC_InitStructure) == ERROR)
-    {
-        printf("\n\r        /!\\***** RTC Prescaler Config failed ********/!\\ \n\r");
-    }
-    //配置时间 9点15分01秒
+  //  if (RTC_Init(&RTC_InitStructure) == ERROR)
+   // {
+      //  printf("\n\r        /!\\***** RTC Prescaler Config failed ********/!\\ \n\r");
+   // }
+}
+void RTC_SetTimeDate(RTC_SetTypeDef RTC_SetStructure)
+{
+
+    static RTC_TimeTypeDef RTC_TimeStructure;
+    static RTC_DateTypeDef RTC_DateStructure;	
+//配置时间 9点15分01秒
     RTC_TimeStructure.RTC_H12     = RTC_H12_AM;
     RTC_TimeStructure.RTC_Hours = 0x09;
     RTC_TimeStructure.RTC_Minutes = 0x15;
     RTC_TimeStructure.RTC_Seconds = 0x01;
     RTC_SetTime(RTC_Format_BCD, &RTC_TimeStructure);
 
+     RTC_DateStructure.RTC_Date  = RTC_SetStructure.date;
+     RTC_DateStructure.RTC_Month = RTC_SetStructure.month;
+     RTC_DateStructure.RTC_WeekDay =  RTC_SetStructure.week;
+     RTC_DateStructure.RTC_Year = RTC_SetStructure.year;	 
+    RTC_SetDate(RTC_Format_BCD, &RTC_DateStructure);	
+
+}
+void RTC_WakeUp_IRQInit(void)
+{
+     static NVIC_InitTypeDef  NVIC_InitStructure;
+    static EXTI_InitTypeDef  EXTI_InitStructure;
     //配置自动定时功能
     /* 中断配置 *******************************************************/
     EXTI_ClearITPendingBit(EXTI_Line20);
@@ -63,16 +80,13 @@ void SYS_RTCInit(void)
     NVIC_Init(&NVIC_InitStructure);
 
     /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
-    RTC_WakeUpClockConfig(RTC_WakeUpClock_RTCCLK_Div16);
-    RTC_SetWakeUpCounter(0x1FFF);//0x1FFF = 8191; 4s = (8191+1)*(1/(32768/16))
+ 
+    /* 使能 the Wakeup Interrupt */
+    RTC_ITConfig(RTC_IT_WUT, ENABLE);    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
+
 
     /* 使能 the Wakeup Interrupt */
-    RTC_ITConfig(RTC_IT_WU    RTC_ITConfig(RTC_IT_WUT, EN    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
-    RTC_WakeUpClockConfig(RTC_WakeUpClock_RTCCLK_Div16);
-    RTC_SetWakeUpCounter(0x1FFF);//0x1FFF = 8191; 4s = (8191+1)*(1/(32768/16))
-
-    /* 使能 the Wakeup Interrupt */
-    RTC_IT    EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
+    EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
     EXTI_InitStructure.EXTI_LineCmd = ENABLE;
     EXTI_Init(&EXTI_InitStructure);
 
@@ -82,47 +96,52 @@ void SYS_RTCInit(void)
     NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
     NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
     NVIC_Init(&NVIC_InitStructure);
-
-    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
-    RTC_WakeUpClockConfig(RTC_WakeUpClock_RTCCLK_Div16);
-    RTC_SetWakeUpCounter(0x1FFF);//0x1FFF = 8191; 4s = (8191+1)*(1/(32768/16))
-
     /* 使能 the Wakeup Interrupt */
-    RTC_ITConfig(RTC_IT_WUT, ENABLE);  
-}
-void RTC_WKUP_IRQn(void)
-{
-	if(RTC_GetITStatus(RTC_IT_WUT))
-	{
-		RTC_ClearFlag(RTC_IT_WUT);
-		EXTI_ClearITPendingBit(EXTI_	if(RTC_GetITStatus(RTC_IT_WUT))
-	{
-		RT    RTC_SetWakeUpCounter(0x1FFF);//0x1FFF = 8191; 4s = (8191+1)*(1/(32768/16))
-
-    /* 使能 the Wakeup Interrupt */
-    RTC_ITConfig(RTC_IT_WUT, ENABLE);
-
+    RTC_ITConfig(RTC_IT_WUT, ENABLE); 
 }
 
-void RTC_WKUP_IRQn(void)
-{
-	if(RTC_GetITStatus(RTC_IT_WUT))
-	{
-		RTC_ClearFlag(RTC_IT_WUT);
-		EXTI_ClearITPendingBit(EXTI_Line20);
 
-	}		EXTI_ClearITPendingBit(		RTC_ClearFlag(RTC_IT_WUT);
-		EXTI_Clea    RTC_Format = RTC_Format_BCD; //与初始化设置保持一致就可
-	RTC_GetDate( RTC_Format,  RTC_DateStruct);
-	RTC_GetTime( RTC_Format,  RTC_TimeStruct);	RTC_TimeDateStructure.date = RTC_DateStruct.RTC_Date;
-	RTC_TimeDateStructure.month = RTC_DateStruct.RTC_Month;
+void RTC_GetTimeDate(RTC_TimeDateTypeDef RTC_TimeDateStructure)
+{
+	RTC_TimeTypeDef  RTC_TimeStruct;
+	RTC_DateTypeDef  RTC_DateStruct;
+	uint32_t RTC_Format;
+	
+	RTC_Format = RTC_Format_BCD;
+	RTC_GetTime( RTC_Format,   &RTC_TimeStruct);
+	RTC_GetDate( RTC_Format,   &RTC_DateStruct);
+
+	RTC_TimeDateStructure.date = RTC_DateStruct.RTC_Date;
+	RTC_TimeDateStructure.month= RTC_DateStruct.RTC_Month;
 	RTC_TimeDateStructure.year = RTC_DateStruct.RTC_Year;
 
-	RTC_TimeDateStructure.hour = RTC_TimeStruct.RTC_Hours;
+	RTC_TimeDateStructure.hour =RTC_TimeStruct.RTC_Hours;
 	RTC_TimeDateStructure.minute = RTC_TimeStruct.RTC_Minutes;
-	RTC_TimeDateStructure.se	RTC_TimeDateStructure.second = RTC_TimeStruct.RTC_Seconds;
+	RTC_TimeDateStructure.second  = RTC_TimeStruct.RTC_Seconds;	
+}
+void RTC_WakeUp_init(uint16_t wakeup_time)
+{
+    RTC_ITConfig(RTC_IT_WUT, DISABLE); 
+    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
+    RTC_WakeUpClockConfig(RTC_WakeUpClock_CK_SPRE_16bits);
+    RTC_SetWakeUpCounter(wakeup_time);//0x1FFF = 8191; 4s = (8191+1)*(1/(32768/16))
+        RTC_ITConfig(RTC_IT_WUT, ENABLE); 
 }
 
+void SYS_RTCInit(RTC_SetTypeDef RTC_SetStructure)
+{
 
-
-
+  RTC_ClkConfig();
+  RTC_SetTimeDate(RTC_SetStructure);//设置rtc时间
+  RTC_WakeUp_init(300);//设置唤醒时间，单位秒
+  RTC_WakeUp_IRQInit();
+}
+void RTC_WKUP_IRQHandler(void)
+{
+	if(RTC_GetITStatus(RTC_IT_WUT))
+	{
+	       rtc_wakeup_flag = 1;
+		RTC_ClearFlag(RTC_IT_WUT);
+		EXTI_ClearITPendingBit(EXTI_Line20);
+	}
+}
