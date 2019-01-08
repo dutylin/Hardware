@@ -66,6 +66,13 @@ Fmt3={W}42:receive_timeout	3	0
 LogEnabled=0
 GraphEnabled=0
 ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Breakpoints]
 Bp0=_ "STD_CODE" "{Z:\OS\others\Hardware}.173.7" 0 0 0 0 "" 0 ""
 Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\App\main.c}.1.1" 0 0 0 0 "" 0 ""
@@ -78,13 +85,6 @@ Bp7=_ "STD_CODE" "{$PROJ_DIR$\..\App\main.c}.707.1" 0 0 0 0 "" 0 ""
 Bp8=_ "STD_CODE" "{$PROJ_DIR$\..\App\main.c}.672.3" 1 0 0 0 "" 0 ""
 Bp9=_ "STD_CODE" "{$PROJ_DIR$\..\App\main.c}.672.3" 1 0 0 0 "" 0 ""
 Count=10
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
 [Aliases]
 A0=_ "E:\E32\Iar_Stm8lSx1278\Library\src\stm8l15x_rtc.c" ""
 Count=1

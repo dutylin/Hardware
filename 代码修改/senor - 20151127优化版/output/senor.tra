@@ -1,0 +1,37 @@
+*** Creating Trace Output File '..\output\senor.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\user.o"'
+### List of Objects: adding '"..\output\stm32l1xx_it.o"'
+### List of Objects: adding '"..\output\startup_stm32l1xx_md.o"'
+### List of Objects: adding '"..\output\system_stm32l1xx.o"'
+### List of Objects: adding '"..\output\adc.o"'
+### List of Objects: adding '"..\output\cc1110.o"'
+### List of Objects: adding '"..\output\other.o"'
+### List of Objects: adding '"..\output\spi.o"'
+### List of Objects: adding '"..\output\stm32l1xx_rtc.o"'
+### List of Objects: adding '"..\output\stm32l1xx_spi.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32l1xx_adc.o"'
+### List of Objects: adding '"..\output\stm32l1xx_exti.o"'
+### List of Objects: adding '"..\output\stm32l1xx_gpio.o"'
+### List of Objects: adding '"..\output\stm32l1xx_rcc.o"'
+### List of Objects: adding '"..\output\stm32l1xx_dma.o"'
+### List of Objects: adding '"..\output\stm32l1xx_pwr.o"'
+### List of Objects: adding '"..\output\stm32l1xx_usart.o"'
+### List of Objects: adding '"..\output\stm32l1xx_tim.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\main.o" "..\output\user.o" "..\output\stm32l1xx_it.o" "..\output\startup_stm32l1xx_md.o" "..\output\system_stm32l1xx.o" "..\output\adc.o" "..\output\cc1110.o" "..\output\other.o" "..\output\spi.o" "..\output\stm32l1xx_rtc.o" "..\output\stm32l1xx_spi.o" "..\output\misc.o" "..\output\stm32l1xx_adc.o" "..\output\stm32l1xx_exti.o" "..\output\stm32l1xx_gpio.o" "..\output\stm32l1xx_rcc.o" "..\output\stm32l1xx_dma.o" "..\output\stm32l1xx_pwr.o" "..\output\stm32l1xx_usart.o" "..\output\stm32l1xx_tim.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\list\senor.map" -o "..\output\senor.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\output\senor.axf'
+### ADS-LD Command File: '..\output\senor.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\output\senor.lnp', Handle=0x000002C8
+### Writing '.lnp' file
+### ADS-LD Command file '..\output\senor.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
