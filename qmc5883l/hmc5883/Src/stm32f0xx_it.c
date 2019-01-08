@@ -42,7 +42,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-
+unsigned int timeout;
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -142,7 +142,18 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-
+  extern unsigned char event_start_count;
+  if(event_start_count)
+  	timeout = timeout + 1;
+	else
+		timeout = 0;
+  if(timeout>=2500)
+  {
+	if(event_start_count<20)
+		event_start_count = 0;
+	timeout = 0;
+  }
+  
   /* USER CODE END SysTick_IRQn 1 */
 }
 

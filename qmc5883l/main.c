@@ -49,7 +49,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-short int manetic_buff[3];
+short int manetic_buff[4];
 
 /* USER CODE END PTD */
 

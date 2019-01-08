@@ -1,0 +1,54 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : hmc5883.brd                                   )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Sat Nov 10 15:51:25 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Nov 10 15:51:25 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'F:/projects/18/hmc5883/hmc5883.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  F:/footprint/allegro/ 
+
+PADPATH =  F:/footprint/allegro/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'S1X0_6'  pad stack refresh starting.
+
+     'S1X0_6'  pad stack refreshed successfully.
+     
+'SMD0_5X0_3'  pad stack refresh starting.
+
+     'SMD0_5X0_3'  pad stack refreshed successfully.
+     
+'SMD1_4X0_5'  pad stack refresh starting.
+
+     'SMD1_4X0_5'  pad stack refreshed successfully.
+     
+'HOLE1_5X0_9'  pad stack refresh starting.
+
+     'HOLE1_5X0_9'  pad stack refreshed successfully.
+     
+'SMD0805'  pad stack refresh starting.
+
+     'SMD0805'  pad stack refreshed successfully.
+     
+'SMD_0603'  pad stack refresh starting.
+
+     'SMD_0603'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

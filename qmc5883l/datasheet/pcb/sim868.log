@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SIM868.dra                                    )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Sat Nov 10 18:08:17 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/projects/18/hmc5883
+    Name      = sim868.psm
+    User      = zhang
+    Machine   = LAPTOP-U0A85BUA
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

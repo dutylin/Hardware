@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=Y1 Old DesignItemId=XTAL New DesignItemId=CRYSTAL-4
+Change Component Footprint: Designator=Y1 Old Footprint=CY_3225 New Footprint=XTAL4TN_3225
+Change Component Comment : Designator=Y1 Old Comment=32M New Comment=8M
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Pin To Net: NetName=GND Pin=Y1-4

@@ -87,6 +87,7 @@ int fputc(int ch, FILE *f)
  uint8_t temp[1];
   temp[0]=ch;	
    HAL_UART_Transmit(&huart2, temp, 1, 2);
+	return 1;
 }
 void gauss_cal(short int *data1,float *data)
 {
@@ -133,7 +134,7 @@ void gauss_cal(short int *data1,float *data)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  unsigned char temp;
+ 
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -190,7 +191,8 @@ int main(void)
 		hmc_read_XYZ(manetic_buff);
 	  data_refresh_flag=0;
 		gauss_cal(manetic_buff,manetic_gauss_buff);
-		manetic_filter(0,manetic_gauss_buff);						
+		manetic_filter(0,manetic_gauss_buff);
+    Decision_Logic();		
 	}
 	
   }
@@ -296,7 +298,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : DRDY_Pin */
   GPIO_InitStruct.Pin = DRDY_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(DRDY_GPIO_Port, &GPIO_InitStruct);
 

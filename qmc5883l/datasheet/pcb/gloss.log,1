@@ -1,0 +1,212 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : hmc5883.brd                                   )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Sun Nov 11 14:46:56 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+**WARNING: Disabling dynamic shapes
+
+
+
+Via Eliminate glossing in progress.
+Started on Sun Nov 11 14:46:56 2018
+ with Parameters: 
+   Jog limit            : -1 
+   Used pin escapes        : YES 
+   Unused pin escapes      : YES 
+   Stand alone vias        : YES 
+   Regular through vias    : YES 
+   HDI Unused stacked vias : NO 
+
+
+Eliminations on net INT0 :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_2.3V :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net N01088 :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PB1 :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PB0 :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PA5 :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PA4 :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net SWCLK :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net N11673 :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+Warning: cline at (-224.252, -224.252) forms loop
+
+Eliminations on net VBAT_ADC :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Sun Nov 11 14:46:56 2018
+
+
+Via Eliminate Total Stats:
+Total Through Via Candidates: 20, Eliminations: 0,  = 0 % Eliminated.
+Vias: Total Candidates = 20,  Total Eliminations = 0,  0 % Eliminatons.
+
+There were 1 warnings reported in logfile
+
+
+
+Line and Via Cleanup glossing in progress.
+Started on Sun Nov 11 14:46:56 2018
+
+ To be cleaned  : lines and vias
+ Number of executions  : 1
+ Retry?  : NO
+ Clean pin escapes?  : NO
+ Slip Slide?  : NO
+ Jog size limit is -0.001.
+
+ Etch length/via is -0.001.
+
+ Net length limit is 10000.000.
+
+ Minimum Via Limit : 1
+ Maximum 45 limit is 0.039.
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on F:/projects/18/hmc5883/hmc5883.brd
+Started on   Sun Nov 11 14:46:56 2018
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 28  Unplaced 0  Total 28
+        Nets:  W/Rats 32  No/Rats 0  Total 37
+        Pins:  W/Rats 110  No/Rats 0  Unused 4  Unplaced 0  Total 114
+        Equivalent ICs (1 pin = 1/14 EIC)  8
+        Router Keepin (in) (-0.9742,-0.9742) by (0.9742,0.9742)
+        Board area (sq in)  3.8
+        Board density (sq in/EIC) 0.466
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      30.48
+        Etch Length (inches)        24.08        0.00        24.08
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        11
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 5.000 0.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V 5.000 0.000 5.000  5.000 5.000  20.000 25.000
+        X grids:     0.039  Offset: 0.000
+        Y grids:     0.039  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.08        0.00        24.08
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        11
+
+
+    Parameters taken from execution 2
+    ----------------------------------
+    PARAMETERS: Layers  1 2 :
+                Window 200.000: Jog-size 150.000: Keep-Away -1: Jog-Limit -1
+                Ripup: OFF
+                Slide OFF: Length-Limit -1: Hug 0: 
+                Vias:  THRU; offset OFF; Limit -1: Via-line-via 0: 
+    INS/CLEANUP:  Start   - lines, vias -  no retry
+    BITMAP: allocate ---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 73           0           73
+        Already Connected           73           0           73
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.08        0.00        24.08
+        Number of vias		   159           0          159
+        Vias per Connection          2.18        0.00         2.18
+        Smd pins with attached clines                        11
+
+
+
+    Total cpu time - 0:0:0 hours
+    Total elapsed time - 0:0:3 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Sun Nov 11 14:46:59 2018
+
+
+Glossing complete.
+ERROR(SPMHA1-289): Unexpected error; first obtain latest ISR if that does not fix problem contact cadence Customer support.

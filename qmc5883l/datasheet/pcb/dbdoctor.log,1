@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : hmc5883.brd                                   )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Mon Nov 12 21:46:28 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (182.402 -462.921) on net SWCLK.
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+
+Regenerating DRC
+  Original DRC errors:   1
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+1 warnings, 0 errors detected, 0 errors  fixed.
