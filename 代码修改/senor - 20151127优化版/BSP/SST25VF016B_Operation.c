@@ -31,18 +31,23 @@ void FLASH_SPI_Configuration(void)
 	  GPIO_InitStructure.GPIO_Speed=GPIO_Speed_40MHz;
 	  GPIO_InitStructure.GPIO_OType=GPIO_OType_PP;
 	  GPIO_Init(GPIOA, &GPIO_InitStructure);
+
+	  
+	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource5,GPIO_AF_SPI1); //PB3¸´ÓÃÎª SPI1
+	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource6,GPIO_AF_SPI1); //PB4¸´ÓÃÎª SPI1
+	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource7,GPIO_AF_SPI1); //PB5¸´ÓÃÎª SPI1
 	  
 	  
 	  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8  ;
 	  //GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 	  //GPIO_InitStructure.GPIO_Speed = GPIO_Speed_40MHz;
-			GPIO_InitStructure.GPIO_Mode=GPIO_Mode_OUT;
+	  GPIO_InitStructure.GPIO_Mode=GPIO_Mode_OUT;
 	  GPIO_InitStructure.GPIO_Speed=GPIO_Speed_40MHz;
 	  GPIO_InitStructure.GPIO_OType=GPIO_OType_PP;
 	  GPIO_Init(GPIOA, &GPIO_InitStructure);
 
 	  /* SPI2 Config -------------------------------------------------------------*/
-	  SPI_InitStructure.SPI_Direction = SPI_Direction_1Line_Tx;   //SPI_Direction_2Lines_FullDuplex;
+	  SPI_InitStructure.SPI_Direction = SPI_Direction_2Lines_FullDuplex;   //SPI_Direction_2Lines_FullDuplex;
 	  SPI_InitStructure.SPI_Mode = SPI_Mode_Master;
 	  SPI_InitStructure.SPI_DataSize = SPI_DataSize_8b;
 	  SPI_InitStructure.SPI_CPOL = SPI_CPOL_High;
@@ -251,7 +256,7 @@ void SST25VF016B_Write(u8* pBuffer,u32 WriteAddr,u16 NumByteToWrite)
    	SST25VF016B_BUF=SST25VF016B_BUFFER;	
 	 	secpos=WriteAddr/4096;//ÉÈÇøµØÖ·  
 		secoff=WriteAddr%4096;//ÔÚÉÈÇøÄÚµÄÆ«ÒÆ
-		secremain=4096-secoff;//ÉÈÇøÊ£Óà¿Õ¼ä´óÐ
+		secremain=4096-secoff;//ÉÈÇøÊ£Óà¿Õ¼ä´ó?
  	//printf("ad:%X,nb:%X\r\n",WriteAddr,NumByteToWrite);//²âÊÔÓÃ
  	if(NumByteToWrite<=secremain)secremain=NumByteToWrite;//²»´óÓÚ4096¸ö×Ö½Ú
 	while(1) 
@@ -295,14 +300,15 @@ void SPI_FLASH_Write(u8* pBuffer,u32 WriteAddr,u16 NumByteToWrite)
    u32 tmp;
     SST25VF016B_Read(WriteAddressPostion,0,3);
    if(WriteAddressPostion[0]==0xff&&WriteAddressPostion[1]==0xff&&
-   	 WriteAddressPostion[2]==0xff)
+   	 WriteAddressPostion[2]==0xff)//ÅÐ¶Ï¸ÃµØÖ·¿Õ¼äÊÇ·ñ±»Ð´¹ý
   	 tmp = 	 NumByteToWrite;
    else
    	tmp = WriteAddressPostion[0]<<16+ WriteAddressPostion[1]<<8+ 
    	     WriteAddressPostion[2] + NumByteToWrite ;
    if(tmp>=0x200000)
    {
-   	tmp = tmp - 0x200000 + 3;
+   
+	tmp = tmp - 0x200000 + 3;
    	WriteAddressPostion[0]=tmp>>16;
    	WriteAddressPostion[1]=tmp>>8;
    	WriteAddressPostion[2]=tmp;  
@@ -327,16 +333,16 @@ void SPI_FLASH_Write(u8* pBuffer,u32 WriteAddr,u16 NumByteToWrite)
 ****************************************************************************/ 
 unsigned char fac_id,dev_id;
 
-void FlashReadID(void)
+void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
 {
-      while(SST25VF016B_IsBusy());
-      SelectDevice;
-  	SPISend(0x90);
+  while(SST25VF016B_IsBusy());
+  SelectDevice;
+  SPISend(0x90);
 	SPISend(0x00);
 	SPISend(0x00);
 	SPISend(0x00);
-  	fac_id= SPISend(0x00);;		          //BFH: ¹¤³ÌÂëSST
-	dev_id= SPISend(0x00);;	              //41H: Æ÷¼þÐÍºÅSST25VF016B     
-	dev_id= SPISend(0x00);;	              //41H: Æ÷¼þÐÍºÅSST25VF016B   	
+  fac_id= SPISend(0x00);;		          //BFH: ¹¤³ÌÂëSST
+	dev_id1= SPISend(0x00);;	              //41H: Æ÷¼þÐÍºÅSST25VF016B     
+	dev_id2= SPISend(0x00);;	              //H: Æ÷¼þÐÍºÅSST25VF016B   	
 	UnselectDevice;
 }
