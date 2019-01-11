@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: μVision V5.25.2.0
 Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: zm Windows, HP Inc., LIC=X1EY8-38C73-IMK9B-2D9Z4-73GTT-HGM3Y
+License Information: z Microsoft, Microsoft, LIC=8MZ9U-ST8TM-JM398-3EHIF-0UQX7-AD4RC
  
 Tool Versions:
 Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
@@ -21,102 +21,24 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TCM.DLL V1.35.1.0
  
 <h2>Project:</h2>
-F:\projects\18\git\Hardware\代码修改\senor - 20151127优化版\project\senor.uvprojx
-Project File Date:  01/08/2019
+\\vmware-host\Shared Folders\桌面\code\代码修改\senor - 20151127优化版\project\senor.uvprojx
+Project File Date:  01/09/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'project'
-compiling main.c...
-..\APP\main.c(12): warning:  #47-D: incompatible redefinition of macro "Select_OLED"  (declared at line 20 of "..\APP\oled.h")
-  #define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
-..\APP\main.c(15): warning:  #9-D: nested comment is not allowed
-  /***************************传感器变量相关****************************/
-..\APP\main.c(78): warning:  #1295-D: Deprecated declaration CC1110_Sendd - give arg types
-  void CC1110_Sendd();
-..\APP\main.c(79): warning:  #1295-D: Deprecated declaration CC1110_Senddata - give arg types
-  void CC1110_Senddata();
-..\APP\main.c(80): warning:  #1295-D: Deprecated declaration CC1110_Sendnum - give arg types
-  void CC1110_Sendnum();
-..\APP\main.c(81): warning:  #1295-D: Deprecated declaration CC1110_Senddd - give arg types
-  void CC1110_Senddd();
-..\APP\main.c(82): warning:  #1295-D: Deprecated declaration CC1110_Sendbianhao - give arg types
-  void CC1110_Sendbianhao();
-..\APP\main.c(83): warning:  #1295-D: Deprecated declaration peizhiwuxian - give arg types
-  void peizhiwuxian();
-..\APP\main.c(166): warning:  #223-D: function "ControlGPIO_Initt" declared implicitly
-  	  ControlGPIO_Initt();
-..\APP\main.c(204): warning:  #223-D: function "Read_AddressWrite" declared implicitly
-  			Read_AddressWrite();
-..\APP\main.c(259): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-             LCD_P8x16Str(86,0,r);
-..\APP\main.c(267): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  					   	LCD_P8x16Str(18,6,CV1);			
-..\APP\main.c(270): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  					    LCD_P8x16Str(39,6,CV11);
-..\APP\main.c(274): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  					    LCD_P8x16Str(21,6,CV1);
-..\APP\main.c(277): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  					    LCD_P8x16Str(34,6,CV11);
-..\APP\main.c(285): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-                LCD_P8x16Str(81,6,CV2);
-..\APP\main.c(288): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  					    LCD_P8x16Str(102,6,CV22);
-..\APP\main.c(292): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  						  LCD_P8x16Str(84,6,CV2);
-..\APP\main.c(295): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-  					    LCD_P8x16Str(97,6,CV22);
-..\APP\main.c(457): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-           LCD_P8x16Str(56,4,r);		
-..\APP\main.c(459): warning:  #174-D: expression has no effect
-  				pObj->Senor_ID+2;
-..\APP\main.c(463): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-           LCD_P8x16Str(56,4,r);		
-..\APP\main.c(486): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-            LCD_P8x16Str(56,4,r);		
-..\APP\main.c(499): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-           LCD_P8x16Str(56,4,r);		
-..\APP\main.c(507): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-           LCD_P8x16Str(56,4,r);		
-..\APP\main.c(514): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-           LCD_P8x16Str(56,4,r);	
-..\APP\main.c(518): warning:  #223-D: function "ControlGPIO_Initt" declared implicitly
-  				ControlGPIO_Initt();	
-..\APP\main.c(625): warning:  #177-D: variable "i"  was declared but never referenced
-      int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(625): warning:  #177-D: variable "p"  was declared but never referenced
-      int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(625): warning:  #177-D: variable "q"  was declared but never referenced
-      int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(625): warning:  #177-D: variable "v"  was declared but never referenced
-      int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(625): warning:  #177-D: variable "f"  was declared but never referenced
-      int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(625): warning:  #177-D: variable "g"  was declared but never referenced
-      int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(756): warning:  #175-D: subscript out of range
-  			CV_Value[4]=Battery_Monitor();
-..\APP\main.c(757): warning:  #175-D: subscript out of range
-  			p = CV_Value[4];
-..\APP\main.c(696): warning:  #177-D: variable "i"  was declared but never referenced
-        int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(696): warning:  #177-D: variable "q"  was declared but never referenced
-        int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(696): warning:  #177-D: variable "f"  was declared but never referenced
-        int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(696): warning:  #177-D: variable "g"  was declared but never referenced
-        int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(696): warning:  #177-D: variable "l"  was declared but never referenced
-        int i,h,m,p,q,v,f,g,l;
-..\APP\main.c(365): warning:  #177-D: function "_cbmenu"  was declared but never referenced
-  static void _cbmenu(SENOR *pObj)
-..\APP\main.c(403): warning:  #177-D: function "_cboption"  was declared but never referenced
-  static void _cboption(SENOR *pObj)
-..\APP\main.c: 42 warnings, 0 errors
+compiling SST25VF016B_Operation.c...
+..\BSP\SST25VF016B_Operation.c(336): warning:  #550-D: parameter "fac_id"  was set but never used
+  void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
+..\BSP\SST25VF016B_Operation.c(336): warning:  #550-D: parameter "dev_id1"  was set but never used
+  void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
+..\BSP\SST25VF016B_Operation.c(336): warning:  #550-D: parameter "dev_id2"  was set but never used
+  void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
+..\BSP\SST25VF016B_Operation.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=10148 RO-data=2668 RW-data=228 ZI-data=5348  
+Program Size: Code=10324 RO-data=2668 RW-data=224 ZI-data=5344  
 FromELF: creating hex file...
-"..\output\senor.axf" - 0 Error(s), 42 Warning(s).
+"..\output\senor.axf" - 0 Error(s), 3 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -130,7 +52,7 @@ Package Vendor: Keil
   C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:08
 </pre>
 </body>
 </html>

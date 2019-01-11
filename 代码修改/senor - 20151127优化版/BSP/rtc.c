@@ -2,6 +2,12 @@
 #include "rtc.h"
 
  unsigned char rtc_wakeup_flag;
+/******************************************************************************
+函数名：RTC_ClkConfig
+函数功能：rtc时钟初始化
+
+******************************************************************************/
+
 void RTC_ClkConfig(void)
 {
     static RTC_InitTypeDef RTC_InitStructure;
@@ -40,6 +46,17 @@ void RTC_ClkConfig(void)
       //  printf("\n\r        /!\\***** RTC Prescaler Config failed ********/!\\ \n\r");
    // }
 }
+
+/******************************************************************************
+函数名：RTC_SetTimeDate
+函数功能：设置rtc时间和日期
+参数：RTC_SetTypeDef RTC_SetStructure
+*	  @arg RTC_Format_BIN:	Binary data format.
+*	  @arg RTC_Format_BCD:	BCD data format.
+*	  @arg RTC_Format_BCD:define RTC_H12_AM：上午
+*	  @arg RTC_Format_BCD:define RTC_H12_PM：下午
+
+******************************************************************************/
 void RTC_SetTimeDate(RTC_SetTypeDef RTC_SetStructure)
 {
 
@@ -47,9 +64,9 @@ void RTC_SetTimeDate(RTC_SetTypeDef RTC_SetStructure)
     static RTC_DateTypeDef RTC_DateStructure;	
 //配置时间 9点15分01秒
     RTC_TimeStructure.RTC_H12     = RTC_H12_AM;
-    RTC_TimeStructure.RTC_Hours = 0x09;
-    RTC_TimeStructure.RTC_Minutes = 0x15;
-    RTC_TimeStructure.RTC_Seconds = 0x01;
+    RTC_TimeStructure.RTC_Hours = RTC_SetStructure.hour;
+    RTC_TimeStructure.RTC_Minutes = RTC_SetStructure.minute;
+    RTC_TimeStructure.RTC_Seconds = RTC_SetStructure.second;
     RTC_SetTime(RTC_Format_BCD, &RTC_TimeStructure);
 
      RTC_DateStructure.RTC_Date  = RTC_SetStructure.date;
@@ -59,6 +76,12 @@ void RTC_SetTimeDate(RTC_SetTypeDef RTC_SetStructure)
     RTC_SetDate(RTC_Format_BCD, &RTC_DateStructure);	
 
 }
+/******************************************************************************
+函数名：RTC_WakeUp_IRQInit
+函数功能：设置rtc中断以及唤醒
+******************************************************************************/
+
+
 void RTC_WakeUp_IRQInit(void)
 {
      static NVIC_InitTypeDef  NVIC_InitStructure;
@@ -79,7 +102,6 @@ void RTC_WakeUp_IRQInit(void)
     NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
     NVIC_Init(&NVIC_InitStructure);
 
-    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
  
     /* 使能 the Wakeup Interrupt */
     RTC_ITConfig(RTC_IT_WUT, ENABLE);    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
@@ -100,6 +122,10 @@ void RTC_WakeUp_IRQInit(void)
     RTC_ITConfig(RTC_IT_WUT, ENABLE); 
 }
 
+/******************************************************************************
+函数名：RTC_GetTimeDate
+函数功能：读取rtc时间和日期
+******************************************************************************/
 
 void RTC_GetTimeDate(RTC_TimeDateTypeDef RTC_TimeDateStructure)
 {
@@ -119,28 +145,43 @@ void RTC_GetTimeDate(RTC_TimeDateTypeDef RTC_TimeDateStructure)
 	RTC_TimeDateStructure.minute = RTC_TimeStruct.RTC_Minutes;
 	RTC_TimeDateStructure.second  = RTC_TimeStruct.RTC_Seconds;	
 }
+
+/******************************************************************************
+函数名：RTC_WakeUp_init
+函数功能：rtc唤醒初始化配置
+******************************************************************************/
+
 void RTC_WakeUp_init(uint16_t wakeup_time)
 {
     RTC_ITConfig(RTC_IT_WUT, DISABLE); 
-    /* RTC 唤醒中端配置: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
+    /* RTC 唤醒中端配置: Clock Source: RTC_WakeUpClock_CK_SPRE_16bits, Wakeup Time Base: 1s */
     RTC_WakeUpClockConfig(RTC_WakeUpClock_CK_SPRE_16bits);
-    RTC_SetWakeUpCounter(wakeup_time);//0x1FFF = 8191; 4s = (8191+1)*(1/(32768/16))
-        RTC_ITConfig(RTC_IT_WUT, ENABLE); 
+    RTC_SetWakeUpCounter(wakeup_time);//
+    RTC_ITConfig(RTC_IT_WUT, ENABLE); 
 }
+/******************************************************************************
+函数名：SYS_RTCInit
+函数功能：rtc系统初始化
+******************************************************************************/
 
 void SYS_RTCInit(RTC_SetTypeDef RTC_SetStructure)
 {
 
   RTC_ClkConfig();
   RTC_SetTimeDate(RTC_SetStructure);//设置rtc时间
-  RTC_WakeUp_init(300);//设置唤醒时间，单位秒
+  RTC_WakeUp_init(5);//设置唤醒时间，单位秒
   RTC_WakeUp_IRQInit();
 }
+/******************************************************************************
+函数名：RTC_WKUP_IRQHandler
+函数功能：rtc唤醒中断处理函数
+******************************************************************************/
+
 void RTC_WKUP_IRQHandler(void)
 {
 	if(RTC_GetITStatus(RTC_IT_WUT))
 	{
-	       rtc_wakeup_flag = 1;
+	    rtc_wakeup_flag = 1;
 		RTC_ClearFlag(RTC_IT_WUT);
 		EXTI_ClearITPendingBit(EXTI_Line20);
 	}
