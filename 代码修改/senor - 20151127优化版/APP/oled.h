@@ -17,8 +17,8 @@
 #define  	OLED_SCK_PIN					GPIO_Pin_13
 #define		OLED_SDA_PIN					GPIO_Pin_15
 
-#define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_0);
-#define NotSelect_OLED    GPIO_SetBits(GPIOB, GPIO_Pin_0);
+#define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
+#define NotSelect_OLED    GPIO_SetBits(GPIOB, GPIO_Pin_2);
    
 /* OLED_WriteByte */
 void OLED_WB(uint8_t data);

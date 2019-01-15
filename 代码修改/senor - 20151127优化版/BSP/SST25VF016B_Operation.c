@@ -33,9 +33,9 @@ void FLASH_SPI_Configuration(void)
 	  GPIO_Init(GPIOA, &GPIO_InitStructure);
 
 	  
-	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource5,GPIO_AF_SPI1); //PB3复用为 SPI1
-	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource6,GPIO_AF_SPI1); //PB4复用为 SPI1
-	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource7,GPIO_AF_SPI1); //PB5复用为 SPI1
+	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource5,GPIO_AF_SPI1); //PB5复用为 SPI1
+	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource6,GPIO_AF_SPI1); //PB6复用为 SPI1
+	  GPIO_PinAFConfig(GPIOA,GPIO_PinSource7,GPIO_AF_SPI1); //PB7复用为 SPI1
 	  
 	  
 	  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8  ;
@@ -331,10 +331,11 @@ void SPI_FLASH_Write(u8* pBuffer,u32 WriteAddr,u16 NumByteToWrite)
 * 说    明：
 * 调用方法：无 
 ****************************************************************************/ 
-unsigned char fac_id,dev_id;
+
 
 void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
 {
+	//unsigned char fac_id,dev_id;
   while(SST25VF016B_IsBusy());
   SelectDevice;
   SPISend(0x90);
@@ -346,3 +347,38 @@ void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id
 	dev_id2= SPISend(0x00);;	              //H: 器件型号SST25VF016B   	
 	UnselectDevice;
 }
+/****************************************************************************
+* 名    称：void Uart_TxHistoryData(void)
+* 功    能：读取历史数据
+* 入口参数：  
+* 出口参数：无
+* 说    明：
+* 调用方法：无 
+****************************************************************************/ 
+
+uint32_t WriteAddressPostionLast,WriteAddressPostionNow;
+
+void Uart_TxHistoryData()
+{
+    unsigned char tmp;
+	SST25VF016B_Read(WriteAddressPostion,0,3);
+	WriteAddressPostionNow = WriteAddressPostion[0]<<16+
+							  WriteAddressPostion[1]<<8+WriteAddressPostion[2];	
+	while(WriteAddressPostionLast!=WriteAddressPostionNow)
+	{
+		if(WriteAddressPostion[0]!=0xff&&WriteAddressPostion[1]!=0xff&&
+			WriteAddressPostion[2]!=0xff)	
+		{
+			SST25VF016B_Read(&tmp,WriteAddressPostionLast,1);
+			WriteAddressPostionLast = WriteAddressPostionLast +1;
+			if(WriteAddressPostionLast>=0x200000)
+				WriteAddressPostionLast = 0;
+			USART3->DR = tmp;		
+			while((USART3->SR & 0x0040) == RESET); //发送完成标志	
+	    }
+
+		else
+			break;
+	 }
+}
+
