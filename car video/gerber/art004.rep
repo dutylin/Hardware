@@ -15,14 +15,14 @@ Position  Width  Hgt/ID  Shape    Qty
    44      43.31       0    RND       6
    50      19.69     19.68    RECT     32
    51      19.68     19.69    RECT     46
-   52        6       0    RND      43
+   52        6       0    RND      44
    53        8       0    RND     656
-   54       10       0    RND    4260
-   56       20       0    RND     624
-   58       40       0    RND      22
+   54       10       0    RND    4298
+   56       20       0    RND     621
+   58       40       0    RND      23
    60       30       0    RND      11
    62       50       0    RND       2
-   63       55       0    RND      35
+   63       55       0    RND      38
    64      57.09     44.88    RECT      4
    65      78.74       0    SQR       4
    66      55.12     62.99    RECT      2
