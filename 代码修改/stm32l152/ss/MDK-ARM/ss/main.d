@@ -30,4 +30,4 @@ ss\main.o: ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rtc_ex.h
 ss\main.o: ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_spi.h
 ss\main.o: ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_spi_ex.h
 ss\main.o: ../Src/rtc.h
-ss\main.o: ../Src/sst25vf016b.h
+ss\main.o: ../Src/m25p64.h

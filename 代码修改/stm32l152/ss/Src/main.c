@@ -44,7 +44,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "rtc.h"
-#include "sst25vf016b.h"
+#include "m25p64.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -83,6 +83,9 @@ static void MX_RTC_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+const u8 TEXT_Buffer[]={"Chen An SST25VF"};       //待写入flash的数据  
+#define SIZE sizeof(TEXT_Buffer)                           //计算待写入数据的长度  
+u8 datatemp[SIZE];  
 
 /* USER CODE END 0 */
 
@@ -117,7 +120,7 @@ int main(void)
   MX_SPI1_Init();
   //MX_RTC_Init();
   /* USER CODE BEGIN 2 */
-		  RTC_SetStructure.date = 0x02;
+		RTC_SetStructure.date = 0x02;
 	  RTC_SetStructure.month = 0x01;
 	  RTC_SetStructure.week = 0x03;
 	  RTC_SetStructure.year =0x19;
@@ -127,6 +130,11 @@ int main(void)
 	  RTC_SetStructure.wakeup_time = 0x05;
 	  SYS_RTCInit(RTC_SetStructure);
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);
+									     
+	  //SPI_Flash_Init();										 //SPI关于flash的硬件接口初始化    
+	  M25PXX_Init();		//检验flash是否存在  
+  
+			  
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -137,7 +145,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	RTC_TimeDateStructure2=RTC_GetTimeDate();
-		 FlashReadID( fac_id2,dev_id2,dev_id3);//验证spi flash通信是否正常
+  M25PXX_Write((u8*)TEXT_Buffer,1000,SIZE);
+	M25PXX_Read(datatemp,1000,SIZE);
+
   }
   /* USER CODE END 3 */
 }
