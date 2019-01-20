@@ -119,7 +119,7 @@ void EnterLowPower(void)
     GPIO_Init(GPIOC, &GPIO_InitStructure);
     GPIO_Init(GPIOD, &GPIO_InitStructure);
     GPIO_Init(GPIOE, &GPIO_InitStructure);
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
+   // GPIO_Init(GPIOA, &GPIO_InitStructure);
 		GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_2| GPIO_Pin_3| GPIO_Pin_4| GPIO_Pin_5| GPIO_Pin_6| GPIO_Pin_7| GPIO_Pin_8| GPIO_Pin_9| GPIO_Pin_10| GPIO_Pin_11| GPIO_Pin_12| GPIO_Pin_13| GPIO_Pin_14| GPIO_Pin_15;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_40MHz;
@@ -135,7 +135,7 @@ void EnterLowPower(void)
     RCC->APB2ENR &= ~ RCC_APB2Periph_ADC1;
     RCC->APB1ENR &= ~(RCC_APB1Periph_TIM2|RCC_APB1Periph_TIM3|RCC_APB1Periph_SPI2|RCC_APB1Periph_USART3); //关闭外设时钟
     Wake_Config();	
-    RTC_WakeUp_init(5);
+    RtcWakeUpConfig();	
     PWR_ClearFlag(PWR_FLAG_WU);
     PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
 
@@ -210,10 +210,7 @@ void Bsp_Config (void)
     Power_Control_GPIO();     //探头供电
     ADC_Config();             //ADC初始化
     Battery_Monitor_Config(); //电池检测
-    delay_init();             //延时    ADC_Config();             //ADC初始化
-    Battery_Monitor_Config(); //电池检测
     delay_init();             //延时
 
 }
-
 

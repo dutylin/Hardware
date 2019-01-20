@@ -3,56 +3,45 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: μVision V5.25.2.0
-Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: z Microsoft, Microsoft, LIC=8MZ9U-ST8TM-JM398-3EHIF-0UQX7-AD4RC
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zm Windows, HP Inc., LIC=X1EY8-38C73-IMK9B-2D9Z4-73GTT-HGM3Y
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain:       MDK-ARM Professional  Version: 5.23
 Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 6 (build 750)
-Assembler:       Armasm.exe V5.06 update 6 (build 750)
-Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
-Library Manager: ArmAr.exe V5.06 update 6 (build 750)
-Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
-CPU DLL:         SARMCM3.DLL V5.25.2.0
-Dialog DLL:      DCM.DLL V1.17.1.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
-Dialog DLL:      TCM.DLL V1.35.1.0
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
  
 <h2>Project:</h2>
-\\vmware-host\Shared Folders\桌面\code\代码修改\senor - 20151127优化版\project\senor.uvprojx
-Project File Date:  01/09/2019
+F:\projects\19\代码修改\senor - 20151127优化版\project\senor.uvprojx
+Project File Date:  01/20/2019
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'project'
-compiling SST25VF016B_Operation.c...
-..\BSP\SST25VF016B_Operation.c(336): warning:  #550-D: parameter "fac_id"  was set but never used
-  void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
-..\BSP\SST25VF016B_Operation.c(336): warning:  #550-D: parameter "dev_id1"  was set but never used
-  void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
-..\BSP\SST25VF016B_Operation.c(336): warning:  #550-D: parameter "dev_id2"  was set but never used
-  void FlashReadID(unsigned char fac_id,unsigned char dev_id1,unsigned char dev_id2)
-..\BSP\SST25VF016B_Operation.c: 3 warnings, 0 errors
+compiling rtc.c...
+..\BSP\rtc.c(105): warning:  #177-D: variable "EXTI_InitStructure"  was declared but never referenced
+  	EXTI_InitTypeDef EXTI_InitStructure;  
+..\BSP\rtc.c: 1 warning, 0 errors
 linking...
-Program Size: Code=10324 RO-data=2668 RW-data=224 ZI-data=5344  
+Program Size: Code=11228 RO-data=4172 RW-data=304 ZI-data=1264  
 FromELF: creating hex file...
-"..\output\senor.axf" - 0 Error(s), 3 Warning(s).
-
-<h2>Software Packages used:</h2>
-
-Package Vendor: Keil
-                http://www.keil.com/pack/Keil.STM32L1xx_DFP.1.2.0.pack
-                Keil.STM32L1xx_DFP.1.2.0
-                STMicroelectronics STM32L1 Series Device Support and Examples
+"..\output\senor.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_project
   C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:08
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

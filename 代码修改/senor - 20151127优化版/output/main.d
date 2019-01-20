@@ -40,6 +40,5 @@
 ..\output\main.o: ..\APP\stdint.h
 ..\output\main.o: ..\BSP\flash.h
 ..\output\main.o: ..\BSP\infrared.h
-..\output\main.o: ..\APP\oled.h
+..\output\main.o: ..\BSP\oled.h
 ..\output\main.o: ..\BSP\rtc.h
-..\output\main.o: ..\BSP\sst25vf016b.h

@@ -10,6 +10,7 @@
       <TargetName>project</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pArmCC>5060750::V5.06 update 6 (build 750)::ARMCC</pArmCC>
       <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
@@ -397,9 +398,9 @@
               <FilePath>..\APP\stm32l1xx_it.c</FilePath>
             </File>
             <File>
-              <FileName>OLED.c</FileName>
+              <FileName>oled.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\1213\sjzj\oled+usart\user\OLED.c</FilePath>
+              <FilePath>..\BSP\oled.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -470,16 +471,6 @@
               <FileName>infrared.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\infrared.c</FilePath>
-            </File>
-            <File>
-              <FileName>rtc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\rtc.c</FilePath>
-            </File>
-            <File>
-              <FileName>SST25VF016B_Operation.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BSP\SST25VF016B_Operation.c</FilePath>
             </File>
           </Files>
         </Group>
