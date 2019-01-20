@@ -101,6 +101,11 @@
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
         <bEvRecOn>1</bEvRecOn>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
+=======
+        <bSchkAxf>0</bSchkAxf>
+        <bTchkAxf>0</bTchkAxf>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
         <nTsel>6</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
@@ -270,6 +275,13 @@
       <pszMrule></pszMrule>
       <pSingCmds></pSingCmds>
       <pMultCmds></pMultCmds>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
+=======
+      <pMisraNamep></pMisraNamep>
+      <pszMrulep></pszMrulep>
+      <pSingCmdsp></pSingCmdsp>
+      <pMultCmdsp></pMultCmdsp>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
     </TargetOption>
   </Target>
 
@@ -286,8 +298,13 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
       <PathWithFileName>..\Src\BSP\user.c</PathWithFileName>
       <FilenameWithoutPath>user.c</FilenameWithoutPath>
+=======
+      <PathWithFileName>../Src/main.c</PathWithFileName>
+      <FilenameWithoutPath>main.c</FilenameWithoutPath>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -298,8 +315,13 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
       <PathWithFileName>..\Src\BSP\oled.c</PathWithFileName>
       <FilenameWithoutPath>oled.c</FilenameWithoutPath>
+=======
+      <PathWithFileName>../Src/stm32l1xx_it.c</PathWithFileName>
+      <FilenameWithoutPath>stm32l1xx_it.c</FilenameWithoutPath>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -318,8 +340,13 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
       <PathWithFileName>..\Src\rtc.c</PathWithFileName>
       <FilenameWithoutPath>rtc.c</FilenameWithoutPath>
+=======
+      <PathWithFileName>../Src/stm32l1xx_hal_msp.c</PathWithFileName>
+      <FilenameWithoutPath>stm32l1xx_hal_msp.c</FilenameWithoutPath>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -330,8 +357,13 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
       <PathWithFileName>..\Src\m25p64.c</PathWithFileName>
       <FilenameWithoutPath>m25p64.c</FilenameWithoutPath>
+=======
+      <PathWithFileName>..\Src\rtc.c</PathWithFileName>
+      <FilenameWithoutPath>rtc.c</FilenameWithoutPath>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -342,6 +374,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvoptx
       <PathWithFileName>..\Src\Flash_BSP.c</PathWithFileName>
       <FilenameWithoutPath>Flash_BSP.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -380,6 +413,10 @@
       <bDave2>0</bDave2>
       <PathWithFileName>../Src/stm32l1xx_hal_msp.c</PathWithFileName>
       <FilenameWithoutPath>stm32l1xx_hal_msp.c</FilenameWithoutPath>
+=======
+      <PathWithFileName>..\Src\m25p64.c</PathWithFileName>
+      <FilenameWithoutPath>m25p64.c</FilenameWithoutPath>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvoptx
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

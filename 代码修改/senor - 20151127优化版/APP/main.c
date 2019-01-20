@@ -8,7 +8,12 @@
 #include "infrared.h"
 #include "oled.h"
 #include "rtc.h"
+<<<<<<< HEAD
 #define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
+=======
+#include "sst25vf016b.h"
+//#define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95
 /***************************预编译注意*****************************
 在编译选择传感器类型时，在编译器Options For Target里的宏定义里修改
 /***************************传感器变量相关****************************/
@@ -72,12 +77,12 @@ uint32_t VVV2;
 uint32_t VVV22;
 uint32_t VVV3;
 uint32_t VVV33;
-void CC1110_Sendd();
-void CC1110_Senddata();
-void CC1110_Sendnum();
-void CC1110_Senddd();
-void CC1110_Sendbianhao();
-void peizhiwuxian();
+void CC1110_Sendd(void);
+void CC1110_Senddata(void);
+void CC1110_Sendnum(void);
+void CC1110_Senddd(void);
+void CC1110_Sendbianhao(void);
+void peizhiwuxian(void);
 extern uint8_t vid1,vid2,vid3,vid4,oldid,newid;
 //数据显示转换部分
 char *itoa(int value, char *string, int radix)
@@ -199,7 +204,54 @@ int main(void)
         Bsp_Config();
 		 //  rtc_wakeup_flag = 1;
 			  //PD_WAKEUP_Flag=Low;
+<<<<<<< HEAD
 			  
+=======
+		
+    
+		 #if DEBUG//调试用，正常工作时，宏定义中DEBUG改为0           
+		     FlashReadID( fac_id,dev_id1,dev_id2);//验证spi flash通信是否正常
+		     
+			 //采集adc数据
+			  Power_Control(Power_ON);	   //探头电源开启
+			  AD_Smapling_Function(&SenMsg);  
+	 
+			 if(rtc_wakeup_flag == 1)//验证rtc中断，5s一次
+			 	 rtc_wakeup_flag=0;
+			 
+			 //flash存储				 
+			 RTC_GetTimeDate(RTC_TimeDateStructure);//获取时间
+			 //数据包拼接：年---月---日---时---分---秒---3通道adc
+			 memcpy(writebuffer,&RTC_TimeDateStructure,6);
+			 memcpy(&writebuffer[6],CV_Value,3);
+			 
+			 //获取spi flash可用空间首地址
+			 Read_AddressWrite();
+			 Uart_TxHistoryData();
+			 tmp = WriteAddressPostion[0]<<16+WriteAddressPostion[1]<<8+WriteAddressPostion[2];
+			 SPI_FLASH_Write(writebuffer, tmp,9);
+			 
+		#else
+	    	if(rtc_wakeup_flag == 1)
+		    {
+				rtc_wakeup_flag = 0;
+				//采集adc数据
+				 Power_Control(Power_ON);     //探头电源开启
+				 AD_Smapling_Function(&SenMsg);
+				//flash存储		
+				RTC_GetTimeDate(RTC_TimeDateStructure);//获取时间
+				//数据包拼接：年---月---日---时---分---秒---3通道adc
+				memcpy(writebuffer,&RTC_TimeDateStructure,6);
+				memcpy(&writebuffer[6],CV_Value,3);
+				//获取spi flash可用空间首地址
+				Read_AddressWrite();
+				tmp = WriteAddressPostion[0]<<16+WriteAddressPostion[1]<<8+WriteAddressPostion[2];
+	            SPI_FLASH_Write(writebuffer, tmp,9);
+			}		
+		 #endif
+
+			
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95
         /******************初始读取flash 传感器ID和探头数量*********************/
         FLASH_Read(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Read_Buff);
 			     
@@ -884,5 +936,5 @@ void CC1110_Sendbianhao(void)
 //			while((USART3->SR & 0x0040) == RESET); //发送完成标志
 
 //			USART3->DR = (0xE7 & (uint16_t)0x01FF);
-//			while((USART3->SR & 0x0040) == RESET); //发送完成标志
+//			while((USART3->SR & 0x0040) //			while((USART3->SR & 0x0040) == RESET); //发送完成标志
 //}

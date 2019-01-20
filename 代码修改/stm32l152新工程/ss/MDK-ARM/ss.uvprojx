@@ -10,8 +10,14 @@
       <TargetName>ss</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvprojx
       <pArmCC>5060422::V5.06 update 4 (build 422)::ARMCC</pArmCC>
       <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
+=======
+      <pArmCC>5060750::V5.06 update 6 (build 750)::ARMCC</pArmCC>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvprojx
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L152RB</Device>
@@ -324,6 +330,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -396,6 +403,7 @@
           <GroupName>Application/User</GroupName>
           <Files>
             <File>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvprojx
               <FileName>rtc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Src\rtc.c</FilePath>
@@ -411,6 +419,8 @@
               <FilePath>..\Src\Flash_BSP.c</FilePath>
             </File>
             <File>
+=======
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvprojx
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Src/main.c</FilePath>
@@ -425,6 +435,19 @@
               <FileType>1</FileType>
               <FilePath>../Src/stm32l1xx_hal_msp.c</FilePath>
             </File>
+<<<<<<< HEAD:代码修改/stm32l152新工程/ss/MDK-ARM/ss.uvprojx
+=======
+            <File>
+              <FileName>rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>m25p64.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\m25p64.c</FilePath>
+            </File>
+>>>>>>> b846ed53b2ad470833f8d7aa37ca92fd3f933c95:代码修改/stm32l152/ss/MDK-ARM/ss.uvprojx
           </Files>
         </Group>
         <Group>
