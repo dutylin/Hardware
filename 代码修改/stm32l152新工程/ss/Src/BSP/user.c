@@ -5,6 +5,7 @@
 #include "spi.h"
 #include "infrared.h"
 #include "rtc.h"
+#include "Sys_delay.h"
 UART_HandleTypeDef huart2;
 extern RTC_HandleTypeDef hrtc;
 extern RTC_SetTypeDef RTC_SetStructure;
