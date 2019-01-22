@@ -42,3 +42,4 @@
 ..\output\main.o: ..\BSP\infrared.h
 ..\output\main.o: ..\BSP\oled.h
 ..\output\main.o: ..\BSP\rtc.h
+..\output\main.o: ..\BSP\M25p64.h

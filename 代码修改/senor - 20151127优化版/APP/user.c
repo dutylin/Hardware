@@ -5,6 +5,7 @@
 #include "spi.h"
 #include "infrared.h"
 #include "rtc.h"
+
 RCC_ClocksTypeDef RCC_Clocks;
 static uint8_t  fac_us=0;
 static uint16_t fac_ms=0;
@@ -35,13 +36,22 @@ void ControlGPIO_Initt(void)
 //	    EXTI_InitTypeDef EXTI_InitStructure;
 		
 	  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC,ENABLE);
-	
+	  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA,ENABLE);	
 	GPIO_InitStructure.GPIO_Pin=GPIO_Pin_7|GPIO_Pin_8;
 	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_OUT;
 	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_40MHz;
 	GPIO_InitStructure.GPIO_OType=GPIO_OType_PP;
 	GPIO_InitStructure.GPIO_PuPd=GPIO_PuPd_UP;
 	GPIO_Init(GPIOC,&GPIO_InitStructure);
+
+	GPIO_InitStructure.GPIO_Pin=GPIO_Pin_8;
+	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_40MHz;
+	GPIO_InitStructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_InitStructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Init(GPIOA,&GPIO_InitStructure);
+
+	
 }
 
 void ControlGPIO_Init(void)
@@ -74,19 +84,36 @@ void ControlGPIO_Init(void)
 **************************************************************/
 void Wake_Config(void)
 {
-	 
 	
+	  NVIC_InitTypeDef  NVIC_InitStructure;
+
     EXTI_InitTypeDef EXTI_InitStructure;
 		GPIO_InitTypeDef GPIO_InitStructure;
-
-
+    EXTI_DeInit();
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
+ //   
+	
+  EXTI_ClearITPendingBit(EXTI_Line20);
+  EXTI_InitStructure.EXTI_Line = EXTI_Line20;
+  EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
+  EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+  EXTI_Init(&EXTI_InitStructure);
+  
+  /* Enable the RTC Wakeup Interrupt */
+  NVIC_InitStructure.NVIC_IRQChannel = RTC_WKUP_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);
+	
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
     GPIO_InitStructure.GPIO_Speed=GPIO_Speed_2MHz;
     GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
     GPIO_Init(GPIOB, &GPIO_InitStructure);
 
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
+
 	
 
     /****************PB0对应的0线********************/
@@ -99,10 +126,11 @@ void Wake_Config(void)
     EXTI_Init(&EXTI_InitStructure);
     /****************PB1对应的1线********************/
     EXTI_InitStructure.EXTI_Line = EXTI_Line1;
-    EXTI_Init(&EXTI_InitStructure);
-		
+    EXTI_Init(&EXTI_InitStructure);	
+		EXTI_ClearITPendingBit(EXTI_Line0);
+		EXTI_ClearITPendingBit(EXTI_Line1);
 		//ControlGPIO_Init();
-	
+
 }
 /**************************************************************
 函数：void EnterLowPower(void)
@@ -135,7 +163,10 @@ void EnterLowPower(void)
     RCC->APB2ENR &= ~ RCC_APB2Periph_ADC1;
     RCC->APB1ENR &= ~(RCC_APB1Periph_TIM2|RCC_APB1Periph_TIM3|RCC_APB1Periph_SPI2|RCC_APB1Periph_USART3); //关闭外设时钟
     Wake_Config();	
-    RtcWakeUpConfig();	
+//		
+//    //RtcWakeUpConfig();
+
+//		
     PWR_ClearFlag(PWR_FLAG_WU);
     PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
 

@@ -159,10 +159,5 @@ void USART3_IRQHandler(void)//接收中继器数据
 //		} 
 	 
 	}
-		////			rx_index=0;
-//			
-//		} 
-	 
-	}
 		//rx_index=0;
 }

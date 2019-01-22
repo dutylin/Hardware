@@ -27,17 +27,26 @@ RTC_TimeDateTypeDef RTC_GetTimeDate()
 	RTC_TimeDateStructure.second  = RTC_TimeStruct.RTC_Seconds;	
 	return RTC_TimeDateStructure;
 }
-void SYS_RTCInit(RTC_SetTypeDef RTC_SetStructure)
+void RTC_Config(RTC_SetTypeDef RTC_SetStructure)
 {
+	
   RTC_TimeTypeDef sTime = {0};
   RTC_DateTypeDef sDate = {0};
+  NVIC_InitTypeDef  NVIC_InitStructure;
+  EXTI_InitTypeDef  EXTI_InitStructure;	
   /* USER CODE BEGIN RTC_Init 0 */
   /* Enable the PWR clock */   
-  RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);    /* Allow access to RTC */    
-  PWR_RTCAccessCmd(ENABLE);   
-  /* Enable the LSE OSC */    
-  RCC_LSICmd(ENABLE)  ; 
-  /* Wait till LSE is ready */     
+RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);
+
+  /*!< Allow access to RTC */
+  PWR_RTCAccessCmd(ENABLE);
+
+  /*!< Reset RTC Domain */
+  RCC_RTCResetCmd(ENABLE);
+  RCC_RTCResetCmd(DISABLE);
+
+  /*!< LSE Enable */
+  RCC_LSICmd(ENABLE);   
     
   while(RCC_GetFlagStatus(RCC_FLAG_LSIRDY) == RESET)   
   {        
@@ -84,42 +93,30 @@ void SYS_RTCInit(RTC_SetTypeDef RTC_SetStructure)
   sDate.RTC_Date= RTC_SetStructure.date;
   sDate.RTC_Year= RTC_SetStructure.year;
   RTC_SetDate(RTC_Format_BCD, &sDate);
- // RTC_ITConfig(RTC_IT_WUT, ENABLE);
-}
-void RtcWakeUpConfig(void)
-{    
-	RTC_WakeUpCmd(DISABLE);    
-	RTC_ClearFlag(RTC_FLAG_WUTF);   
-	RTC_WakeUpClockConfig(RTC_WakeUpClock_CK_SPRE_16bits);     
-	//选择时钟为外部32.768KHz 8分频    
-	RTC_SetWakeUpCounter(20);         //间隔500ms    
-	//RTC_ClearITPendingBit(RTC_IT_WUT);    
-	//RTC_ITConfig(RTC_IT_WUT,ENABLE);    //需要使能中断，不需要中断函数
-	RTC_IRQConfig();
-	RTC_WakeUpCmd(ENABLE);
+ /* EXTI configuration *******************************************************/
+  EXTI_ClearITPendingBit(EXTI_Line20);
+  EXTI_InitStructure.EXTI_Line = EXTI_Line20;
+  EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
+  EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+  EXTI_Init(&EXTI_InitStructure);
+  
+  /* Enable the RTC Wakeup Interrupt */
+  NVIC_InitStructure.NVIC_IRQChannel = RTC_WKUP_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);
+ 
+  /* RTC Wakeup Interrupt Generation: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
+  RTC_WakeUpClockConfig(RTC_WakeUpClock_CK_SPRE_16bits);
+  RTC_SetWakeUpCounter(5);
+
+  /* Enable the Wakeup Interrupt */
+  RTC_ITConfig(RTC_IT_WUT, ENABLE); 
 }
 
-void RTC_IRQConfig(void)
-{    
-	NVIC_InitTypeDef NVIC_InitStructure;     
-	EXTI_InitTypeDef EXTI_InitStructure;  
-	/* EXTI configuration *******************************************************/    
-	EXTI_ClearITPendingBit(EXTI_Line20);   
-	EXTI_InitStructure.EXTI_Line = EXTI_Line20;    
-	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;    
-	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;   
-	EXTI_InitStructure.EXTI_LineCmd = ENABLE;    
-	EXTI_Init(&EXTI_InitStructure);    
-	/* Enable the RTC Wakeup Interrupt */    
-	NVIC_InitStructure.NVIC_IRQChannel = RTC_WKUP_IRQn;    
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;   
-	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;   
-	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;    
-	NVIC_Init(&NVIC_InitStructure);
-       RTC_ClearITPendingBit(RTC_IT_WUT);    
-	RTC_ITConfig(RTC_IT_WUT,ENABLE);    //需要使能中断，不需要中断函数
-		
-}
+
 
 void RTC_WKUP_IRQHandler(void)
 {
@@ -129,11 +126,18 @@ void RTC_WKUP_IRQHandler(void)
     if(RTC_GetITStatus(RTC_IT_WUT) != RESET) 
     {
 			  rtc_wakeup_flag=1;
+
+	       PWR_ClearFlag(PWR_FLAG_WU);		  
         EXTI_ClearITPendingBit(EXTI_Line20); 
-       // PWR_RTCAccessCmd(ENABLE);//如果之前禁止了，要重新打开
-        RTC_ClearITPendingBit(RTC_IT_WUT);
+      //  PWR_RTCAccessCmd(ENABLE);//如果之前禁止了，要重新打开
+       // RTC_ClearITPendingBit(RTC_IT_WUT);
         //PWR_RTCAccessCmd(DISABLE);//可以再关上
-       // RTC_ClearITPendingBit(RTC_IT_WUT);   //清除中断标志
+        RTC_ClearITPendingBit(RTC_IT_WUT);   //清除中断标志
     }
+
+}
+void IWDG_INIT()
+{
+  /* Get the LSI frequency:  TIM10 is used to measure the LSI frequency */
 
 }

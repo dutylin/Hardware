@@ -12,6 +12,8 @@
 "..\output\flash.o"
 "..\output\infrared.o"
 "..\output\rtc.o"
+"..\output\m25p64.o"
+"..\output\flash_bsp.o"
 "..\output\stm32l1xx_rtc.o"
 "..\output\stm32l1xx_spi.o"
 "..\output\misc.o"

@@ -10,9 +10,8 @@
       <TargetName>project</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pArmCC>5060750::V5.06 update 6 (build 750)::ARMCC</pArmCC>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
-      <uAC6>0</uAC6>
+      <pArmCC>5060422::V5.06 update 4 (build 422)::ARMCC</pArmCC>
+      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L152RB</Device>
@@ -312,7 +311,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>4</Optim>
+            <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -325,7 +324,6 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>0</uC99>
-            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -471,6 +469,21 @@
               <FileName>infrared.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BSP\infrared.c</FilePath>
+            </File>
+            <File>
+              <FileName>rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>m25p64.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\m25p64.c</FilePath>
+            </File>
+            <File>
+              <FileName>Flash_BSP.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\Flash_BSP.c</FilePath>
             </File>
           </Files>
         </Group>

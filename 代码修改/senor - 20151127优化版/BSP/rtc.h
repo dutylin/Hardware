@@ -27,7 +27,7 @@ typedef struct
 }RTC_TimeDateTypeDef;
 
 void RTC_ClkConfig(void);
-void SYS_RTCInit(RTC_SetTypeDef RTC_SetStructure);
+void RTC_Config(RTC_SetTypeDef RTC_SetStructure);
 void RTC_WakeUp_IRQInit(void);
 void RTC_SetTimeDate(RTC_SetTypeDef RTC_SetStructure);
 void RTC_ClkConfig(void);
