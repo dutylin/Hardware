@@ -1,0 +1,69 @@
+
+T31FC 003:195 SEGGER J-Link V4.91b (beta) Log File (0001ms, 0015ms total)
+T31FC 003:195 DLL Compiled: Sep 15 2014 09:17:56 (0001ms, 0015ms total)
+T31FC 003:195 Logging started @ 2016-12-21 15:17 (0001ms, 0015ms total)
+T31FC 003:196 JLINK_SetWarnOutHandler(...) (0000ms, 0015ms total)
+T31FC 003:196 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0000ms, 0015ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 003:196 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0015ms total)
+T31FC 005:010 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0000ms, 0015ms total)
+T31FC 005:010 JLINK_EnableLog(...) (0000ms, 0015ms total)
+T31FC 005:010 JLINK_SetWarnOutHandler(...) (0000ms, 0015ms total)
+T31FC 005:010 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0000ms, 0015ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 005:011 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0015ms total)
+T31FC 006:361 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0000ms, 0015ms total)
+T31FC 006:361 JLINK_EnableLog(...) (0000ms, 0015ms total)
+T31FC 006:361 JLINK_SetWarnOutHandler(...) (0000ms, 0015ms total)
+T31FC 006:361 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0001ms, 0016ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 006:362 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0016ms total)
+T31FC 012:994 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0000ms, 0016ms total)
+T31FC 012:994 JLINK_EnableLog(...) (0000ms, 0016ms total)
+T31FC 012:994 JLINK_SetWarnOutHandler(...) (0000ms, 0016ms total)
+T31FC 012:994 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0000ms, 0016ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 012:995 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0016ms total)
+T31FC 014:523 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0000ms, 0016ms total)
+T31FC 014:523 JLINK_EnableLog(...) (0000ms, 0016ms total)
+T31FC 014:523 JLINK_SetWarnOutHandler(...) (0000ms, 0016ms total)
+T31FC 014:523 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0000ms, 0016ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 014:523 
+  ***** Error: Can not connect to J-Link via USB.JLINK_GetDeviceFamily()  returns 0 (0000ms, 0016ms total)
+
+  ***** API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T31FC 015:337 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T31FC 015:337 
+  ***** Error: Can not connect to J-Link via USB.
+  ***** API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T31FC 015:337 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0017ms total)
+T31FC 017:351 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0000ms, 0017ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 017:351 
+  ***** Error: Can not connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0017ms total)
+T31FC 021:073 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000004)   returns 0x00 (0000ms, 0017ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T31FC 021:073 
+  ***** Error: Can not connect to J-Link via USB.JLINK_Close() (0001ms, 0019ms total)
+T31FC 024:453  (0001ms, 0019ms total)
+T31FC 024:453 Closed (0001ms, 0019ms total)

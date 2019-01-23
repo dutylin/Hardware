@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Project.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>BUIL_ALL</name>
+      <member>
+        <project>Project</project>
+        <configuration>STM32L1XX_HD(STM32L1xxxDxx)</configuration>
+      </member>
+      <member>
+        <project>Project</project>
+        <configuration>STM32L1XX_MD(STM32L1xxxBxx)</configuration>
+      </member>
+      <member>
+        <project>Project</project>
+        <configuration>STM32L1XX_MDP(STM32L1xxxCxx)</configuration>
+      </member>
+      <member>
+        <project>Project</project>
+        <configuration>STM32L1XX_XL(STM32L1xxxExx)</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
