@@ -1,14 +1,12 @@
 #ifndef __M25P64_H
 #define __M25P64_H
 #include "stm32l1xx.h"
-
+#define WRITEADDR	0x08080100
 
 typedef unsigned char u8;
 typedef unsigned int u16;
 typedef uint32_t u32;
 
-
-#define WRITEADDR	0x08080100
 //#define M25P32			1
 #define M25XX_DEVICE         M25P32
 

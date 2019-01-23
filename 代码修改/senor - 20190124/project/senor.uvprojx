@@ -560,6 +560,11 @@
               <FileType>1</FileType>
               <FilePath>..\source\src\stm32l1xx_dbgmcu.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32l1xx_iwdg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\source\src\stm32l1xx_iwdg.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

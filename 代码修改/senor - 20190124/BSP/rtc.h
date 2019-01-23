@@ -37,6 +37,5 @@ void SYS_RTCInit2(void);
 void RtcWakeUpConfig(void);
 void RTC_IRQConfig(void);
 void IWDG_INIT(void);
-
 #endif 
 

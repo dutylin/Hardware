@@ -152,18 +152,18 @@ void SendMsg_Int(CC1110Tx_Msg *pMsg,SENOR *pObj)
 extern unsigned char rtc_wakeup_flag;
 int main(void)
 {  
-	unsigned char i;
-	CC1110Tx_Msg TxMessage;
-	PWR_FastWakeUpCmd(ENABLE);//唤醒片内正常工作电源
-	RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);//片内电源管理的时钟---使能 
-	PWR_UltraLowPowerCmd(ENABLE);//配置低电源使能
-	CC1100_WAKEUP_Flag=Low;
-	PD_WAKEUP_Flag=Low;
-
-	NVIC_Config();
-	RCC_DeInit();
+ unsigned char i;
+    CC1110Tx_Msg TxMessage;
+	  PWR_FastWakeUpCmd(ENABLE);//唤醒片内正常工作电源
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);//片内电源管理的时钟---使能 
+    PWR_UltraLowPowerCmd(ENABLE);//配置低电源使能
+    CC1100_WAKEUP_Flag=Low;
+    PD_WAKEUP_Flag=Low;
+	
+    NVIC_Config();
+	  RCC_DeInit();
 	/********************rtc日期时间设置2019年1月12日上午11时23分4秒************************/
-	RTC_SetStructure.am_pm = RTC_H12_AM;
+	  RTC_SetStructure.am_pm = RTC_H12_AM;
 	RTC_SetStructure.year = 0x19;
 	RTC_SetStructure.month = 0x01;
 	RTC_SetStructure.date = 0x12;
@@ -171,45 +171,57 @@ int main(void)
 	RTC_SetStructure.hour = 0x11;
 	RTC_SetStructure.minute = 0x23;
 	RTC_SetStructure.second = 0x04;
-	RTC_SetStructure.wakeup_time = 0x0a; //10s
-	RTC_Config(RTC_SetStructure);	
+	RTC_SetStructure.wakeup_time = 0x0a; //唤醒时间10s
+  RTC_Config(RTC_SetStructure);	
+	
+	  //EnterLowPower();
+    SenMsg.Senor_ID=1;
+    SenMsg.Senor_Num=4;
+	  ControlGPIO_Initt();
+		GPIO_SetBits(GPIOC,GPIO_Pin_8);//拉高
+    GPIO_ResetBits(GPIOC,GPIO_Pin_7);//拉低 
 
-	//EnterLowPower();
-	SenMsg.Senor_ID=1;
-	SenMsg.Senor_Num=4;
-	ControlGPIO_Initt();
-	GPIO_SetBits(GPIOC,GPIO_Pin_8);//拉高
-	GPIO_ResetBits(GPIOC,GPIO_Pin_7);//拉低 
+	  SPI_Configuration();	
+	  Select_OLED
+		for(i=1;i<17;i++)
+	  txbuffer[i-1]=i;	
+	  M25PXX_Init();	//add by zm
+    ID_Write_Buff[0]=0x01;
+    ID_Write_Buff[1]=0x00;
+    ID_Write_Buff[2]=0x40;
+    ID_Write_Buff[3]=0x0B;
+    FLASH_Write(((uint32_t)0x08080040),((uint32_t)0x08080050),ID_Write_Buff);
+		
+		Flash_Write_Buff[0]=0x000000AA;
+		Flash_Write_Buff[1]=0x0B;
+		Flash_Write_Buff[2]=pObj->Senor_Num;
+		Flash_Write_Buff[3]=0x00000055;
+		FLASH_Write(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Write_Buff);
+//	IWDG_INIT();
 
-	SPI_Configuration();	
-	Select_OLED
-	for(i=1;i<17;i++)
-		txbuffer[i-1]=i;	
-	M25PXX_Init();//add by zm
-	ID_Write_Buff[0]=0x01;
-	ID_Write_Buff[1]=0x00;
-	ID_Write_Buff[2]=0x40;
-	ID_Write_Buff[3]=0x0B;
-	FLASH_Write(((uint32_t)0x08080040),((uint32_t)0x08080050),ID_Write_Buff);
-
-	Flash_Write_Buff[0]=0x000000AA;
-	Flash_Write_Buff[1]=0x0B;
-	Flash_Write_Buff[2]=pObj->Senor_Num;
-	Flash_Write_Buff[3]=0x00000055;
-	FLASH_Write(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Write_Buff);
-	//IWDG_INIT();
+		#if DEBUG
+			RTC_WakeUpCmd(ENABLE);	//休眠唤醒打开rtc中断,add by zm
+		#endif
     while(1)
     {		
 
     
-		// IWDG_ReloadCounter();//喂狗,add by zm
+
+			 //IWDG_ReloadCounter();//喂狗,add by zm
+	     
+		
+#if DEBUG
+	  Bsp_Config();
+		M25PXX_Erase_Sector(0);	
+#else
 		RTC_WakeUpCmd(ENABLE);	//休眠唤醒打开rtc中断,add by zm
-		EnterLowPower();
+		EnterLowPower();	
 		RTC_WakeUpCmd(DISABLE);	//休眠唤醒关闭rtc中断	,add by zm
+#endif
 		Bsp_Config();
 		M25PXX_Init();//休眠唤醒重新初始化spi flash,add by zm
 		//IWDG_INIT();//休眠唤醒重新初始化看门狗,add by zm
-			
+		
 		if(rtc_wakeup_flag)//rtc唤醒后存储数据到spi flash,add by zm
 		{ 
 			// rtc_wakeup_flag = 0;
@@ -239,7 +251,7 @@ int main(void)
 			txbuffer[i++] = (unsigned char)CV_Value[2]>>24;
 			txbuffer[i++] = (unsigned char)CV_Value[2]>>16;
 			txbuffer[i++] = (unsigned char)CV_Value[2]>>8;
-			txbuffer[i] = (unsigned char)CV_Value[2];
+			txbuffer[i++] = (unsigned char)CV_Value[2];
 
 			//memcpy(&txbuffer[6],CV_Value,3);	//拷贝adc数据到buffer中	
 
@@ -247,19 +259,24 @@ int main(void)
 			if( Read_AddressWrite()>=0x400000)//flash存满，采取整片擦除操作
 			{
 				M25PXX_Erase_Chip();	
-				WriteAddressPostion	= 0;
+				WriteAddressPostion	= 1;
 				//增加内部flash写函数保存WriteAddressPostion
 				/***********cpu flash存储说明*********************
 				WRITEADDR：存储当前spi flash剩余空间的首地址，
 				目前WRITEADDR为0x08080100，如需要修改请自行调整
 				WriteAddressPostion：当前spi flash剩余空间的首地址
-
+        
 				*************************************************/
 				FLASH_Write((WRITEADDR),(WRITEADDR),&WriteAddressPostion);	
 			}
 			//读spi flash数据测试使用，正常使用中请自行指定要读取数据的首地址和数据数量
 			//读取的数据会按顺序存储到M25PXX_BUFFER缓冲区中
-			SPI_FLASH_READ(M25PXX_BUFFER,0,i);//测试用，读spi flash数据缓存在M25PXX_BUFFER中
+			//WriteAddressPostion	= 18;
+			
+		#if DEBUG
+			WriteAddressPostion	= i;
+		#endif			
+			SPI_FLASH_READ(M25PXX_BUFFER,0,WriteAddressPostion);//测试用，读spi flash数据缓存在M25PXX_BUFFER中
 			    						
 		}
 	  
@@ -274,117 +291,117 @@ int main(void)
         /*********如果是无光则发送 发送后无线模块进入待机，主板开始采集存储后待机*******/
         if((PD_WAKEUP_Flag<<1|CC1100_WAKEUP_Flag)==1)
         { 
-			PD_WAKEUP_Int();	
-			CC1110_Config((uint32_t)115200);	
-			SendMsg_Int(&TxMessage,&SenMsg);
-			CC1110_Send_Flag=1;				 
-			if(CC1110_Send_Flag!=Low)
-			{
-				if(xinxi==1)
-				{ 
-					//CC1110_Sendd();
-					xinxi=0;
-				}
-			CC1110_Send_Flag=Low;
-			}
+				  PD_WAKEUP_Int();	
+          CC1110_Config((uint32_t)115200);	
+					SendMsg_Int(&TxMessage,&SenMsg);
+          CC1110_Send_Flag=1;				 
+          if(CC1110_Send_Flag!=Low)
+          {
+					   if(xinxi==1)
+							{ 
+								//CC1110_Sendd();
+								xinxi=0;
+							}
+						 CC1110_Send_Flag=Low;
+          }
 
-			AD_Smapling_Function(&SenMsg);
-			CC1100_WAKEUP_Flag=Low;
-			PD_WAKEUP_Flag=Low;
-			//ControlGPIO_Init();
-			GPIO_SetBits(GPIOC,GPIO_Pin_8);
-			//delay_ms(200);delay_ms(200);
+            AD_Smapling_Function(&SenMsg);
+            CC1100_WAKEUP_Flag=Low;
+            PD_WAKEUP_Flag=Low;
+						//ControlGPIO_Init();
+						GPIO_SetBits(GPIOC,GPIO_Pin_8);
+						//delay_ms(200);delay_ms(200);
         }
-        else if((PD_WAKEUP_Flag<<1|CC1100_WAKEUP_Flag)==2||rtc_wakeup_flag)//测试用，正常使用请删除||rtc_wakeup_flag,add by zm
+        else if((PD_WAKEUP_Flag<<1|CC1100_WAKEUP_Flag)==2||rtc_wakeup_flag)
         {
 					
 
 					
-			rtc_wakeup_flag = 0;//add by zm
-			PD_WAKEUP_Int();
-			Timer=0;
-			SPI_Configuration();	
-			Select_OLED
+				  	rtc_wakeup_flag = 0;
+           PD_WAKEUP_Int();
+           Timer=0;
+					 SPI_Configuration();	
+	         Select_OLED
+            
+					 LCD_Init();
+					 LCD_CLS();
+					 LCD_P16x16Ch(36,0,2,fd0); 
+					 FLASH_Read(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Read_Buff);
+					 FLASH_Read(((uint32_t)0x08080020),((uint32_t)0x08080030),CV_Value);
+          
+					 AD_Smapling_Function(&SenMsg);
+					 SenMsg.Senor_ID=Flash_Read_Buff[1];
+					 pObj->Senor_ID=SenMsg.Senor_ID;
+					 Senor_IDNUM_Temp=pObj->Senor_ID;
+          *itoa(Senor_IDNUM_Temp,r,10);//			
+           LCD_P8x16Str(86,0,r);
+		       LCD_P16x16Ch(0,3,8,fd1); 
 
-			LCD_Init();
-			LCD_CLS();
-			LCD_P16x16Ch(36,0,2,fd0); 
-			FLASH_Read(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Read_Buff);
-			FLASH_Read(((uint32_t)0x08080020),((uint32_t)0x08080030),CV_Value);
-
-			AD_Smapling_Function(&SenMsg);
-			SenMsg.Senor_ID=Flash_Read_Buff[1];
-			pObj->Senor_ID=SenMsg.Senor_ID;
-			Senor_IDNUM_Temp=pObj->Senor_ID;
-			*itoa(Senor_IDNUM_Temp,r,10);//			
-			LCD_P8x16Str(86,0,r);
-			LCD_P16x16Ch(0,3,8,fd1); 
-
-			VVV1=CV_Value[0]/10;
-			VVV11=CV_Value[0]%10;
-			*itoa(VVV1,CV1,10);	
-			if(VVV1>9)
-			{
-				LCD_P8x16Str(18,6,CV1);			
-				LCD_P6x8Str(34,7,".");
-				*itoa(VVV11,CV11,10);	
-				LCD_P8x16Str(39,6,CV11);
-			}
-			else
-			{
-				LCD_P8x16Str(21,6,CV1);
-				LCD_P6x8Str(29,7,".");
-				*itoa(VVV11,CV11,10);	
-				LCD_P8x16Str(34,6,CV11);
-			}
-
-			VVV2=CV_Value[1]/10;
-			VVV22=CV_Value[1]%10;					
-			*itoa(VVV2,CV2,10);//	
-			if(VVV2>9)
-			{		
-				LCD_P8x16Str(81,6,CV2);
-				LCD_P6x8Str(97,7,".");
-				*itoa(VVV22,CV22,10);	
-				LCD_P8x16Str(102,6,CV22);
-			}
-			else
-			{
-				LCD_P8x16Str(84,6,CV2);
-				LCD_P6x8Str(92,7,".");
-				*itoa(VVV22,CV22,10);	
-				LCD_P8x16Str(97,6,CV22);
-			}
-
-			//           VVV3=CV_Value[2]/10;
-			//					 VVV33=CV_Value[2]%10;						
-			//           *itoa(VVV3,CV3,10);//	
-			//    			 if(VVV3>9)
-			//						{						
-			//              LCD_P8x16Str(99,6,CV3);	
-			//					    LCD_P6x8Str(115,7,".");
-			//					    *itoa(VVV33,CV33,10);	
-			//					    LCD_P8x16Str(120,6,CV33);
-			//						}
-			//					else
-			//					  {
-			//						  LCD_P8x16Str(102,6,CV3);	
-			//					    LCD_P6x8Str(110,7,".");
-			//					    *itoa(VVV33,CV33,10);	
-			//					    LCD_P8x16Str(115,6,CV33);
-			//						}
-
-			delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);
-			delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);
+					 VVV1=CV_Value[0]/10;
+					 VVV11=CV_Value[0]%10;
+					 *itoa(VVV1,CV1,10);	
+				   if(VVV1>9)
+					 {
+					   	LCD_P8x16Str(18,6,CV1);			
+					    LCD_P6x8Str(34,7,".");
+					    *itoa(VVV11,CV11,10);	
+					    LCD_P8x16Str(39,6,CV11);
+					 }
+				   else
+					 {
+					    LCD_P8x16Str(21,6,CV1);
+					    LCD_P6x8Str(29,7,".");
+					    *itoa(VVV11,CV11,10);	
+					    LCD_P8x16Str(34,6,CV11);
+				   }
+        	
+	         VVV2=CV_Value[1]/10;
+					 VVV22=CV_Value[1]%10;					
+           *itoa(VVV2,CV2,10);//	
+     			 if(VVV2>9)
+					 {		
+              LCD_P8x16Str(81,6,CV2);
+					    LCD_P6x8Str(97,7,".");
+					    *itoa(VVV22,CV22,10);	
+					    LCD_P8x16Str(102,6,CV22);
+					 }
+					else
+					 {
+						  LCD_P8x16Str(84,6,CV2);
+					    LCD_P6x8Str(92,7,".");
+					    *itoa(VVV22,CV22,10);	
+					    LCD_P8x16Str(97,6,CV22);
+					 }
+					
+//           VVV3=CV_Value[2]/10;
+//					 VVV33=CV_Value[2]%10;						
+//           *itoa(VVV3,CV3,10);//	
+//    			 if(VVV3>9)
+//						{						
+//              LCD_P8x16Str(99,6,CV3);	
+//					    LCD_P6x8Str(115,7,".");
+//					    *itoa(VVV33,CV33,10);	
+//					    LCD_P8x16Str(120,6,CV33);
+//						}
+//					else
+//					  {
+//						  LCD_P8x16Str(102,6,CV3);	
+//					    LCD_P6x8Str(110,7,".");
+//					    *itoa(VVV33,CV33,10);	
+//					    LCD_P8x16Str(115,6,CV33);
+//						}
+								
+			    delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);
+			    delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);delay_ms(200);
 
 
-			//AD_Display_Function(&SenMsg); 
-			PD_WAKEUP_Flag=Low;
-			CC1100_WAKEUP_Flag=Low;
-			LCD_CLS();
-			Power_Control(Power_OFF);        //关闭传感器电源
-			//LED_Display_Clear();             //清屏
-			LED_Control(Power_OFF);          //关闭数码管电源
+          //AD_Display_Function(&SenMsg); 
+					PD_WAKEUP_Flag=Low;
+          CC1100_WAKEUP_Flag=Low;
+					LCD_CLS();
+					Power_Control(Power_OFF);        //关闭传感器电源
+           //LED_Display_Clear();             //清屏
+          LED_Control(Power_OFF);          //关闭数码管电源
 					
         }		
     }

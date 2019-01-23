@@ -480,7 +480,7 @@ uint32_t Read_AddressWrite()
 {
 	uint32_t addr_tmp;
 	//增加内部flash读取函数
-	FLASH_Read((WRITEADDR,(WRITEADDR),&addr_tmp);
+	FLASH_Read(((uint32_t)0x08080000),((uint32_t)0x08080000),&addr_tmp);
 	if(addr_tmp<=0x400000)
 		WriteAddressPostion = addr_tmp;
 	
@@ -490,7 +490,7 @@ uint32_t Read_AddressWrite()
 }
 void SPI_FLASH_READ(u8* pBuffer,u32 ReadAddr,u16 NumByteToRead)
 {
-    Read_AddressWrite();  
+    
     M25PXX_Read( M25PXX_BUFFER,ReadAddr,NumByteToRead);
 	  pBuffer = M25PXX_BUFFER;
 }
@@ -499,13 +499,17 @@ void SPI_FLASH_Write(u8* pBuffer,u32 WriteAddr,u16 NumByteToWrite)
 {
 	u32 tmp;
    Read_AddressWrite();
-  if(WriteAddressPostion >= 0x400000)	
+  if(WriteAddressPostion == 0xffffffff)	
 		WriteAddressPostion = NumByteToWrite;
   else 
-		WriteAddressPostion = WriteAddressPostion + NumByteToWrite;		
+		WriteAddressPostion = WriteAddressPostion + NumByteToWrite;	
+
+		#if DEBUG
+			WriteAddressPostion=0;
+		#endif		
 
 		//增加内部flash写函数，保存WriteAddressPostion到内部flash中
-    FLASH_Write((WRITEADDR),(WRITEADDR),&WriteAddressPostion);	
+    FLASH_Write(((uint32_t)WRITEADDR),((uint32_t)WRITEADDR),&WriteAddressPostion);	
 	
 	M25PXX_Write_NoCheck(pBuffer,WriteAddressPostion,NumByteToWrite); 	//WriteAddr地址范围0x000003---0x1ffffff
     

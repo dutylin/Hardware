@@ -85,50 +85,51 @@ void ControlGPIO_Init(void)
 void Wake_Config(void)
 {
 	
-	NVIC_InitTypeDef  NVIC_InitStructure;
-	EXTI_InitTypeDef EXTI_InitStructure;
-	GPIO_InitTypeDef GPIO_InitStructure;
-	EXTI_DeInit();
+	  NVIC_InitTypeDef  NVIC_InitStructure;
+
+    EXTI_InitTypeDef EXTI_InitStructure;
+		GPIO_InitTypeDef GPIO_InitStructure;
+    EXTI_DeInit();
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
-	//   
-
-	EXTI_ClearITPendingBit(EXTI_Line20);
-	EXTI_InitStructure.EXTI_Line = EXTI_Line20;
-	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
-	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
-	EXTI_Init(&EXTI_InitStructure);
-
-	/* Enable the RTC Wakeup Interrupt */
-	NVIC_InitStructure.NVIC_IRQChannel = RTC_WKUP_IRQn;
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
-	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-	NVIC_Init(&NVIC_InitStructure);
-
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
-	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_2MHz;
-	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
-	GPIO_Init(GPIOB, &GPIO_InitStructure);
-
-
+ //   
+	
+  EXTI_ClearITPendingBit(EXTI_Line20);
+  EXTI_InitStructure.EXTI_Line = EXTI_Line20;
+  EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
+  EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+  EXTI_Init(&EXTI_InitStructure);
+  
+  /* Enable the RTC Wakeup Interrupt */
+  NVIC_InitStructure.NVIC_IRQChannel = RTC_WKUP_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);
+	
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
+    GPIO_InitStructure.GPIO_Speed=GPIO_Speed_2MHz;
+    GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+    GPIO_Init(GPIOB, &GPIO_InitStructure);
 
 
-	/****************PB0对应的0线********************/
-	SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOB, EXTI_PinSource0);
-	SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOB, EXTI_PinSource1);
-	EXTI_InitStructure.EXTI_Line = EXTI_Line0;
-	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
-	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
-	EXTI_Init(&EXTI_InitStructure);
-	/****************PB1对应的1线********************/
-	EXTI_InitStructure.EXTI_Line = EXTI_Line1;
-	EXTI_Init(&EXTI_InitStructure);	
-	EXTI_ClearITPendingBit(EXTI_Line0);
-	EXTI_ClearITPendingBit(EXTI_Line1);
-	//ControlGPIO_Init();
+	
+
+    /****************PB0对应的0线********************/
+    SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOB, EXTI_PinSource0);
+    SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOB, EXTI_PinSource1);
+    EXTI_InitStructure.EXTI_Line = EXTI_Line0;
+    EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
+    EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
+    EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+    EXTI_Init(&EXTI_InitStructure);
+    /****************PB1对应的1线********************/
+    EXTI_InitStructure.EXTI_Line = EXTI_Line1;
+    EXTI_Init(&EXTI_InitStructure);	
+		EXTI_ClearITPendingBit(EXTI_Line0);
+		EXTI_ClearITPendingBit(EXTI_Line1);
+		//ControlGPIO_Init();
 
 }
 /**************************************************************
@@ -146,7 +147,7 @@ void EnterLowPower(void)
     GPIO_Init(GPIOC, &GPIO_InitStructure);
     GPIO_Init(GPIOD, &GPIO_InitStructure);
     GPIO_Init(GPIOE, &GPIO_InitStructure);
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
+   // GPIO_Init(GPIOA, &GPIO_InitStructure);
 		GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_2| GPIO_Pin_3| GPIO_Pin_4| GPIO_Pin_5| GPIO_Pin_6| GPIO_Pin_7| GPIO_Pin_8| GPIO_Pin_9| GPIO_Pin_10| GPIO_Pin_11| GPIO_Pin_12| GPIO_Pin_13| GPIO_Pin_14| GPIO_Pin_15;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_40MHz;
@@ -157,12 +158,15 @@ void EnterLowPower(void)
     TIM2->CR1 &= (uint16_t)(~((uint16_t)TIM_CR1_CEN));     //关闭定时器计数
     TIM3->CR1 &= (uint16_t)(~((uint16_t)TIM_CR1_CEN));     //关闭定时器计数
     SPI2->CR1 &= (uint16_t)~((uint16_t)SPI_CR1_SPE);       //关闭SPI
-    SPI1->CR1 &= (uint16_t)~((uint16_t)SPI_CR1_SPE);       //关闭SPI,add by zm
     USART3->CR1 &= (uint16_t)~((uint16_t)USART_CR1_UE);    //关闭USART
     ADC1->CR2 &= (uint32_t)(~ADC_CR2_ADON);                //关闭ADC外设
     RCC->APB2ENR &= ~ RCC_APB2Periph_ADC1;
     RCC->APB1ENR &= ~(RCC_APB1Periph_TIM2|RCC_APB1Periph_TIM3|RCC_APB1Periph_SPI2|RCC_APB1Periph_USART3); //关闭外设时钟
-    Wake_Config();			
+    Wake_Config();	
+//		
+//    //RtcWakeUpConfig();
+
+//		
     PWR_ClearFlag(PWR_FLAG_WU);
     PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
 

@@ -9,7 +9,7 @@ extern "C" {
 #else
 #define EXT extern
 #endif
-
+#define DEBUG  0
 #include <string.h>
 #include <stdio.h>
 #include <stddef.h>

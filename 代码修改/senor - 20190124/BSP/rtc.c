@@ -110,7 +110,7 @@ RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);
  
   /* RTC Wakeup Interrupt Generation: Clock Source: RTCDiv_16, Wakeup Time Base: 4s */
   RTC_WakeUpClockConfig(RTC_WakeUpClock_CK_SPRE_16bits);
-  RTC_SetWakeUpCounter(RTC_SetStructure.wakeup_time);
+  RTC_SetWakeUpCounter(5);
 
   /* Enable the Wakeup Interrupt */
   RTC_ITConfig(RTC_IT_WUT, ENABLE); 
@@ -170,15 +170,15 @@ void IWDG_INIT()
 	 RCC_GetClocksFreq(&RCC_ClockFreq);
 	
 	 /* Get PCLK1 prescaler */
-	 if ((RCC->CFGR & RCC_CFGR_PPRE1) == 0)
-	 { 
-	   /* PCLK1 prescaler equal to 1 => TIMCLK = PCLK1 */
-	   return ((RCC_ClockFreq.PCLK1_Frequency / PeriodValue) * 8);
-	 }
-	 else
-	 { /* PCLK1 prescaler different from 1 => TIMCLK = 2 * PCLK1 */
-	   return (((2 * RCC_ClockFreq.PCLK1_Frequency) / PeriodValue) * 8) ;
-	 }
+//	 if ((RCC->CFGR & RCC_CFGR_PPRE1) == 0)
+//	 { 
+//	   /* PCLK1 prescaler equal to 1 => TIMCLK = PCLK1 */
+//	   return ((RCC_ClockFreq.PCLK1_Frequency / PeriodValue) * 8);
+//	 }
+//	 else
+//	 { /* PCLK1 prescaler different from 1 => TIMCLK = 2 * PCLK1 */
+//	   return (((2 * RCC_ClockFreq.PCLK1_Frequency) / PeriodValue) * 8) ;
+//	 }
 
 
 	 /* IWDG timeout equal to 250 ms (the timeout may varies due to LSI frequency
@@ -205,3 +205,4 @@ void IWDG_INIT()
 	  IWDG_Enable();
 
 }
+
