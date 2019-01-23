@@ -1,4 +1,4 @@
-..\output\oled.o: ..\..\1213\sjzj\oled+usart\user\OLED.c
+..\output\oled.o: ..\BSP\oled.c
 ..\output\oled.o: ..\APP\stm32l1xx.h
 ..\output\oled.o: ..\CMSIS\Include\core_cm3.h
 ..\output\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -28,4 +28,4 @@
 ..\output\oled.o: ..\source\inc\stm32l1xx_usart.h
 ..\output\oled.o: ..\source\inc\stm32l1xx_wwdg.h
 ..\output\oled.o: ..\source\inc\misc.h
-..\output\oled.o: ..\..\1213\sjzj\oled+usart\user\codetab.h
+..\output\oled.o: ..\BSP\codetab.h

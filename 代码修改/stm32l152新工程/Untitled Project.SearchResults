@@ -1,0 +1,4 @@
+---- Infrared_Config Matches (3 in 3 files) ----
+Infrared.c (ss\src\bsp):void Infrared_Config(uint32_t arr,uint16_t psc)
+Infrared.h (ss\src\bsp):void Infrared_Config(uint32_t arr,uint16_t psc);
+Main.c (ss\src\bsp):    Infrared_Config(2000,1599);  //ºìÍâ¿ªÆô

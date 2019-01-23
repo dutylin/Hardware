@@ -12,7 +12,8 @@
 "..\output\flash.o"
 "..\output\infrared.o"
 "..\output\rtc.o"
-"..\output\sst25vf016b_operation.o"
+"..\output\m25p64.o"
+"..\output\flash_bsp.o"
 "..\output\stm32l1xx_rtc.o"
 "..\output\stm32l1xx_spi.o"
 "..\output\misc.o"
@@ -27,6 +28,6 @@
 "..\output\stm32l1xx_flash.o"
 "..\output\stm32l1xx_syscfg.o"
 "..\output\stm32l1xx_dbgmcu.o"
---library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\list\senor.map" -o ..\output\senor.axf

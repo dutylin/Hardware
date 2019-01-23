@@ -1,5 +1,4 @@
 ..\output\rtc.o: ..\BSP\rtc.c
-..\output\rtc.o: ..\source\inc\stm32l1xx_rtc.h
 ..\output\rtc.o: ..\APP\stm32l1xx.h
 ..\output\rtc.o: ..\CMSIS\Include\core_cm3.h
 ..\output\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -30,3 +29,4 @@
 ..\output\rtc.o: ..\source\inc\stm32l1xx_wwdg.h
 ..\output\rtc.o: ..\source\inc\misc.h
 ..\output\rtc.o: ..\BSP\rtc.h
+..\output\rtc.o: ..\BSP\oled.h

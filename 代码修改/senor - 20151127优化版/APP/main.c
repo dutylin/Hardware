@@ -8,8 +8,8 @@
 #include "infrared.h"
 #include "oled.h"
 #include "rtc.h"
-#include "sst25vf016b.h"
-//#define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
+#include "M25p64.h"
+#define Select_OLED       GPIO_ResetBits(GPIOB, GPIO_Pin_2);
 /***************************预编译注意*****************************
 在编译选择传感器类型时，在编译器Options For Target里的宏定义里修改
 /***************************传感器变量相关****************************/
@@ -29,12 +29,14 @@ uint8_t Senor_Type=0xE5;
 extern void LCD_P6x8Str(unsigned char x, unsigned char y,unsigned char ch[]);
 extern void LCD_P8x16Str(unsigned char x, unsigned char y,unsigned char ch[]);
 extern void LCD_P16x16Ch(unsigned char x, unsigned char y, unsigned char N, const unsigned char * ch);
-
-/**********************rtc变量相关*********************************/
-#define DEBUG 1
-extern unsigned char rtc_wakeup_flag;
+/*******************************************************************/
+ RTC_SetTypeDef RTC_SetStructure;
 RTC_TimeDateTypeDef RTC_TimeDateStructure;
-extern u8 WriteAddressPostion[3];
+unsigned char txbuffer[16];
+unsigned char rxbuffer[16];
+u8 *SpiFlashReadBuffer;
+extern unsigned char M25PXX_BUFFER[1024];
+extern uint32_t WriteAddressPostion;
 /**********************传感器数据存取相关**************************/
 uint32_t Flash_Read_Buff[4],Flash_Write_Buff[4];
 uint32_t ID_Read_Buff[4],ID_Write_Buff[4];
@@ -76,12 +78,12 @@ uint32_t VVV2;
 uint32_t VVV22;
 uint32_t VVV3;
 uint32_t VVV33;
-void CC1110_Sendd(void);
-void CC1110_Senddata(void);
-void CC1110_Sendnum(void);
-void CC1110_Senddd(void);
-void CC1110_Sendbianhao(void);
-void peizhiwuxian(void);
+void CC1110_Sendd();
+void CC1110_Senddata();
+void CC1110_Sendnum();
+void CC1110_Senddd();
+void CC1110_Sendbianhao();
+void peizhiwuxian();
 extern uint8_t vid1,vid2,vid3,vid4,oldid,newid;
 //数据显示转换部分
 char *itoa(int value, char *string, int radix)
@@ -147,14 +149,10 @@ void SendMsg_Int(CC1110Tx_Msg *pMsg,SENOR *pObj)
 			pMsg->T_Data_L[j]=0x04;//99
     }
 }
+extern unsigned char rtc_wakeup_flag;
 int main(void)
 {  
-	  #if DEBUG
-			unsigned char fac_id,dev_id1,dev_id2; 
-	  #endif
-    RTC_SetTypeDef RTC_SetStructure;
-    unsigned char writebuffer[9];
-    uint32_t tmp;
+ unsigned char i;
     CC1110Tx_Msg TxMessage;
 	  PWR_FastWakeUpCmd(ENABLE);//唤醒片内正常工作电源
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR, ENABLE);//片内电源管理的时钟---使能 
@@ -164,6 +162,18 @@ int main(void)
 	
     NVIC_Config();
 	  RCC_DeInit();
+	/********************rtc日期时间设置2019年1月12日上午11时23分4秒************************/
+	  RTC_SetStructure.am_pm = RTC_H12_AM;
+	RTC_SetStructure.year = 0x19;
+	RTC_SetStructure.month = 0x01;
+	RTC_SetStructure.date = 0x12;
+	RTC_SetStructure.date_format = 0;
+	RTC_SetStructure.hour = 0x11;
+	RTC_SetStructure.minute = 0x23;
+	RTC_SetStructure.second = 0x04;
+	RTC_SetStructure.wakeup_time = 0x0a; //5s
+       RTC_Config(RTC_SetStructure);	
+	
 	  //EnterLowPower();
     SenMsg.Senor_ID=1;
     SenMsg.Senor_Num=4;
@@ -171,21 +181,11 @@ int main(void)
 		GPIO_SetBits(GPIOC,GPIO_Pin_8);//拉高
     GPIO_ResetBits(GPIOC,GPIO_Pin_7);//拉低 
 
-	  SPI_Configuration();
-	  FLASH_SPI_Configuration();//spi flash初始化
-	  //2019年1月2日第3周10点12分04秒
-	  RTC_SetStructure.am_pm = RTC_H12_AM;
-	  RTC_SetStructure.date = 0x02;
-	  RTC_SetStructure.month = 0x01;
-	  RTC_SetStructure.week = 0x03;
-	  RTC_SetStructure.year =0x19;
-	  RTC_SetStructure.hour = 0x10;
-	  RTC_SetStructure.minute =0x12;
-	  RTC_SetStructure.second =0x04;		 
-    SYS_RTCInit( RTC_SetStructure);
-	  
-		Select_OLED
-	
+	  SPI_Configuration();	
+	  Select_OLED
+		for(i=1;i<17;i++)
+	txbuffer[i-1]=i;	
+	 M25PXX_Init();
     ID_Write_Buff[0]=0x01;
     ID_Write_Buff[1]=0x00;
     ID_Write_Buff[2]=0x40;
@@ -197,56 +197,47 @@ int main(void)
 		Flash_Write_Buff[2]=pObj->Senor_Num;
 		Flash_Write_Buff[3]=0x00000055;
 		FLASH_Write(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Write_Buff);
-    while(1)
-    {			
-        EnterLowPower();
-			  //Wake_Config();
-        Bsp_Config();
-			  //PD_WAKEUP_Flag=Low;
+		// RtcWakeUpConfig();
+		//M25PXX_Erase_Chip();
+		//delay_init();   
+		//M25PXX_Erase_Sector(0);
+		Wake_Config();
 		
-    
-		 #if DEBUG//调试用，正常工作时，宏定义中DEBUG改为0           
-		     FlashReadID( fac_id,dev_id1,dev_id2);//验证spi flash通信是否正常
-		     
-			 //采集adc数据
-			  Power_Control(Power_ON);	   //探头电源开启
-			  AD_Smapling_Function(&SenMsg);  
-	 
-			 if(rtc_wakeup_flag == 1)//验证rtc中断，5s一次
-			 	 rtc_wakeup_flag=0;
-			 
-			 //flash存储				 
-			 RTC_GetTimeDate(RTC_TimeDateStructure);//获取时间
-			 //数据包拼接：年---月---日---时---分---秒---3通道adc
-			 memcpy(writebuffer,&RTC_TimeDateStructure,6);
-			 memcpy(&writebuffer[6],CV_Value,3);
-			 
-			 //获取spi flash可用空间首地址
-			 Read_AddressWrite();
-			 Uart_TxHistoryData();
-			 tmp = WriteAddressPostion[0]<<16+WriteAddressPostion[1]<<8+WriteAddressPostion[2];
-			 SPI_FLASH_Write(writebuffer, tmp,9);
-			 
-		#else
-	    	if(rtc_wakeup_flag == 1)
-		    {
-				rtc_wakeup_flag = 0;
-				//采集adc数据
-				 Power_Control(Power_ON);     //探头电源开启
-				 AD_Smapling_Function(&SenMsg);
-				//flash存储		
-				RTC_GetTimeDate(RTC_TimeDateStructure);//获取时间
-				//数据包拼接：年---月---日---时---分---秒---3通道adc
-				memcpy(writebuffer,&RTC_TimeDateStructure,6);
-				memcpy(&writebuffer[6],CV_Value,3);
-				//获取spi flash可用空间首地址
-				Read_AddressWrite();
-				tmp = WriteAddressPostion[0]<<16+WriteAddressPostion[1]<<8+WriteAddressPostion[2];
-	            SPI_FLASH_Write(writebuffer, tmp,9);
-			}		
-		 #endif
+		//RTC_WakeUpCmd(ENABLE);
+    while(1)
+    {		
 
+    
+
+			RTC_WakeUpCmd(ENABLE);
+			EnterLowPower();
+			RTC_WakeUpCmd(DISABLE);		
+			Bsp_Config();
+			M25PXX_Init();
+		if(rtc_wakeup_flag)
+		{
+      AD_Smapling_Function(&SenMsg);			
+      RTC_TimeDateStructure= RTC_GetTimeDate();	
+		txbuffer[0] = RTC_TimeDateStructure.year;
+		txbuffer[1] = RTC_TimeDateStructure.month;
+		txbuffer[2] = RTC_TimeDateStructure.date;
+		txbuffer[3] = RTC_TimeDateStructure.hour;
+		txbuffer[4] = RTC_TimeDateStructure.minute;
+		txbuffer[5] = RTC_TimeDateStructure.second;	
+    memcpy(&txbuffer[6],CV_Value,3);	//拷贝adc数据到buffer中	
 			
+			SPI_FLASH_Write(txbuffer,0,9);//地址可以不指定，驱动中地址自动递增
+			if( Read_AddressWrite()>=0x400000)//flash存满，采取整片擦除操作
+			{
+				M25PXX_Erase_Chip();	
+				WriteAddressPostion	= 0;
+				//增加内部flash写函数保存WriteAddressPostion			
+			}
+			//FLASH_Write(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Write_Buff);
+			SPI_FLASH_READ(SpiFlashReadBuffer,WriteAddressPostion,9);//读spi flash数据缓存在M25PXX_BUFFER中
+			    						
+		}
+	  
         /******************初始读取flash 传感器ID和探头数量*********************/
         FLASH_Read(((uint32_t)0x08080000),((uint32_t)0x08080010),Flash_Read_Buff);
 			     
@@ -279,8 +270,12 @@ int main(void)
 						GPIO_SetBits(GPIOC,GPIO_Pin_8);
 						//delay_ms(200);delay_ms(200);
         }
-        else if((PD_WAKEUP_Flag<<1|CC1100_WAKEUP_Flag)==2)
+        else if((PD_WAKEUP_Flag<<1|CC1100_WAKEUP_Flag)==2||rtc_wakeup_flag)
         {
+					
+
+					
+				  	rtc_wakeup_flag = 0;
            PD_WAKEUP_Int();
            Timer=0;
 					 SPI_Configuration();	
@@ -365,6 +360,7 @@ int main(void)
 					Power_Control(Power_OFF);        //关闭传感器电源
            //LED_Display_Clear();             //清屏
           LED_Control(Power_OFF);          //关闭数码管电源
+					
         }		
     }
 }
@@ -377,7 +373,7 @@ void AD_Smapling_Function(SENOR *pObj)
 {
     uint8_t i;
     Power_Control(Power_ON);   //启动传感器供电电源
-    for(i=0; i<3; i++)
+    for(i=0; i<4; i++)
     {
         delay_us(400);
         Get_ADC(i);
@@ -930,5 +926,5 @@ void CC1110_Sendbianhao(void)
 //			while((USART3->SR & 0x0040) == RESET); //发送完成标志
 
 //			USART3->DR = (0xE7 & (uint16_t)0x01FF);
-//			while((USART3->SR & 0x0040) //			while((USART3->SR & 0x0040) == RESET); //发送完成标志
+//			while((USART3->SR & 0x0040) == RESET); //发送完成标志
 //}
