@@ -1,0 +1,460 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V1.40.1.50106 for STM8                 23/Aug/2017  18:44:54 #
+# Copyright 2010-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW3000 #
+#                     demo code_433Mhz (STM8S105  IAR)(                       #
+#                    C版本)\TX\Debug\Exe\HW3000.out                           #
+#    Map file     =  G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW3000 #
+#                     demo code_433Mhz (STM8S105  IAR)(                       #
+#                    C版本)\TX\Debug\List\HW3000.map                          #
+#    Command line =  "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\delay.o"                             #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\gpio.o"                              #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\hw3000.o"                            #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\main.o"                              #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_adc1.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_awu.o"                         #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_beep.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_clk.o"                         #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_exti.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_flash.o"                       #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_gpio.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_i2c.o"                         #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_it.o"                          #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_itc.o"                         #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_iwdg.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_rst.o"                         #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_spi.o"                         #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_tim1.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_tim2.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_tim3.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_tim4.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_uart2.o"                       #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\stm8s_wwdg.o"                        #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Obj\user.o" --redirect                   #
+#                    _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o    #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\Exe\HW3000.out" --map                    #
+#                    "G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW300 #
+#                    0 demo code_433Mhz (STM8S105  IAR)(                      #
+#                    C版本)\TX\Debug\List\HW3000.map" --config "C:\Program    #
+#                    Files (x86)\IAR Systems\Embedded Workbench               #
+#                    6.5\stm8\config\lnkstm8s105s6.icf" --config_def          #
+#                    _CSTACK_SIZE=0x100 --config_def _HEAP_SIZE=0x100         #
+#                    --entry __iar_program_start --debug_lib                  #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A2":  place at end of [0x000000-0x0007ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0007ff] {
+          block HEAP, rw section .far.bss, rw section .far.data,
+          rw section .far.noinit, rw section .far_func.textrw,
+          rw section .huge.bss, rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A3":  place at start of [0x008000-0x00ffff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00ffff] {
+          ro section .far.data_init, ro section .far_func.textrw_init,
+          ro section .huge.data_init, ro section .huge_func.textrw_init,
+          ro section .iar.init_table, ro section .init_array,
+          ro section .near.data_init, ro section .near.rodata,
+          ro section .near_func.text, ro section .near_func.textrw_init,
+          ro section .tiny.data_init, ro section .tiny.rodata_init };
+
+  Section          Kind      Address    Size  Object
+  -------          ----      -------    ----  ------
+"A1":                                   0x10
+  .vregs           uninit   0x000000    0x10  vregs.o [4]
+                          - 0x000010    0x10
+
+"P2":                                   0x51
+  .near.bss        zero     0x000010    0x44  hw3000.o [1]
+  .near.bss        zero     0x000054     0xa  hw3000.o [1]
+  .near.bss        zero     0x00005e     0x1  hw3000.o [1]
+  .near.bss        zero     0x00005f     0x1  hw3000.o [1]
+  .near.bss        zero     0x000060     0x1  hw3000.o [1]
+                          - 0x000061    0x51
+
+"A2":                                  0x100
+  CSTACK                    0x000700   0x100  <Block>
+    CSTACK         uninit   0x000700   0x100  <Block tail>
+                          - 0x000800   0x100
+
+"A3":                                   0x80
+  INTVEC                    0x008000    0x80  <Block>
+    .intvec        const    0x008000    0x80  interrupt.o [4]
+                          - 0x008080    0x80
+
+"P3":                                 0x16b0
+  .near_func.text  ro code  0x008080   0x8f2  hw3000.o [1]
+  .near_func.text  ro code  0x008972   0x265  hw3000.o [1]
+  .near.rodata     const    0x008bd7   0x200  hw3000.o [1]
+  .near_func.text  ro code  0x008dd7   0x114  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x008eeb    0xfd  main.o [1]
+  .near_func.text  ro code  0x008fe8    0xd1  stm8s_exti.o [1]
+  .near_func.text  ro code  0x0090b9    0xca  hw3000.o [1]
+  .near_func.text  ro code  0x009183    0xaf  hw3000.o [1]
+  .near.rodata     const    0x009232    0xa8  stm8s_exti.o [1]
+  .near.rodata     const    0x0092da    0xa8  stm8s_gpio.o [1]
+  .near.rodata     const    0x009382    0xa7  stm8s_clk.o [1]
+  .near_func.text  ro code  0x009429    0x9c  gpio.o [1]
+  .near_func.text  ro code  0x0094c5    0x77  vreg_util.o [4]
+  .near_func.text  ro code  0x00953c    0x43  hw3000.o [1]
+  .near_func.text  ro code  0x00957f    0x3d  stm8s_clk.o [1]
+  .near_func.text  ro code  0x0095bc    0x2d  stm8s_exti.o [1]
+  .near_func.text  const    0x0095e9    0x21  hw3000.o [1]
+  .iar.init_table  const    0x00960a     0x8  - Linker created -
+  .near.rodata     const    0x009612    0x20  hw3000.o [1]
+  .near_func.text  ro code  0x009632    0x1f  move.o [4]
+  .near_func.text  ro code  0x009651    0x1e  short.o [4]
+  .near_func.text  ro code  0x00966f    0x1e  init_small.o [4]
+  .near_func.text  ro code  0x00968d    0x17  init.o [4]
+  .near_func.text  ro code  0x0096a4    0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x0096b8    0x13  delay.o [1]
+  .near_func.text  ro code  0x0096cb    0x13  cstartup.o [4]
+  .near_func.text  ro code  0x0096de     0xc  switch.o [4]
+  .near_func.text  ro code  0x0096ea     0xb  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x0096f5     0x6  char.o [4]
+  .near_func.text  ro code  0x0096fb     0x5  stm8s_it.o [1]
+  .near_func.text  ro code  0x009700     0x5  cexit.o [4]
+  .near_func.text  ro code  0x009705     0x4  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x009709     0x3  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x00970c     0x3  interrupt.o [4]
+  .near_func.text  ro code  0x00970f     0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x009712     0x3  exit.o [4]
+  .near_func.text  ro code  0x009715     0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x009718     0x2  stm8s_it.o [1]
+  .near_func.text  ro code  0x00971a     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00971b     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00971c     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00971d     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00971e     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00971f     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009720     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009721     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009722     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009723     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009724     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009725     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009726     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009727     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009728     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x009729     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00972a     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00972b     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00972c     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00972d     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00972e     0x1  stm8s_it.o [1]
+  .near_func.text  ro code  0x00972f     0x1  __dbg_break.o [3]
+                          - 0x009730  0x16b0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x51:
+          0x000010  0x51
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW3000 demo code_433Mhz (STM8S105  IAR)( C版本)\TX\Debug\Obj: [1]
+    delay.o                     19
+    gpio.o                     156
+    hw3000.o                 3 347      577       81
+    main.o                     253
+    stm8s_clk.o                 61      167
+    stm8s_exti.o               254      168
+    stm8s_gpio.o               294      168
+    stm8s_it.o                  28
+    ------------------------------------------------
+    Total:                   4 412    1 080       81
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    char.o                       6
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      23
+    init_small.o                30
+    interrupt.o                  3      128
+    low_level_init.o             3
+    move.o                      31
+    short.o                     30
+    switch.o                    12
+    unhandled_exception.o        3
+    vreg_util.o                119
+    vregs.o                                       16
+    ------------------------------------------------
+    Total:                     287      128       16
+
+    Linker created                        8      256
+----------------------------------------------------
+    Grand Total:             4 720    1 216      353
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b12                    0x00000c         Data  Gb  vregs.o [4]
+?b13                    0x00000d         Data  Gb  vregs.o [4]
+?b14                    0x00000e         Data  Gb  vregs.o [4]
+?b15                    0x00000f         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?e3                     0x00000d         Data  Gb  vregs.o [4]
+?epilogue_l2            0x009534         Code  Gb  vreg_util.o [4]
+?epilogue_l2_l3         0x009531         Code  Gb  vreg_util.o [4]
+?epilogue_w4            0x009538         Code  Gb  vreg_util.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?l3                     0x00000c         Data  Gb  vregs.o [4]
+?longfarg16_v_w0_a      0x00963f         Code  Gb  move.o [4]
+?longfarg16_v_w0_x      0x009641         Code  Gb  move.o [4]
+?move1616_v_x_y_a       0x009632         Code  Gb  move.o [4]
+?mul16_x_x_w0           0x009651         Code  Gb  short.o [4]
+?pop_l2                 0x009513         Code  Gb  vreg_util.o [4]
+?pop_l3                 0x00951e         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x0094dd         Code  Gb  vreg_util.o [4]
+?push_l2                0x0094ec         Code  Gb  vreg_util.o [4]
+?push_l3                0x0094f1         Code  Gb  vreg_util.o [4]
+?push_w4                0x0094c5         Code  Gb  vreg_util.o [4]
+?sll8_a_a_5             0x0096f6         Code  Gb  char.o [4]
+?sll8_a_a_6             0x0096f5         Code  Gb  char.o [4]
+?switch8vlt_0x_a_0x     0x0096de         Code  Gb  switch.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+?w6                     0x00000c         Data  Gb  vregs.o [4]
+?w7                     0x00000e         Data  Gb  vregs.o [4]
+ADC1_IRQHandler         0x00972c    0x1  Code  Gb  stm8s_it.o [1]
+AWU_IRQHandler          0x00971c    0x1  Code  Gb  stm8s_it.o [1]
+CLK_HSIPrescalerConfig  0x00957f   0x3d  Code  Gb  stm8s_clk.o [1]
+CLK_IRQHandler          0x00971d    0x1  Code  Gb  stm8s_it.o [1]
+CRC16_CCITT_Table       0x008bd7  0x200  Data  Gb  hw3000.o [1]
+CSTACK$$Base            0x000700          --   Gb  - Linker created -
+CSTACK$$Limit           0x000800          --   Gb  - Linker created -
+EEPROM_EEC_IRQHandler   0x00972e    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTA_IRQHandler   0x00971e    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTB_IRQHandler   0x0096fb    0x5  Code  Gb  stm8s_it.o [1]
+EXTI_PORTC_IRQHandler   0x00971f    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTD_IRQHandler   0x009720    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTE_IRQHandler   0x009721    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_SetExtIntSensitivity
+                        0x008fe8   0xd1  Code  Gb  stm8s_exti.o [1]
+EXTI_SetTLISensitivity  0x0095bc   0x2d  Code  Gb  stm8s_exti.o [1]
+GPIO_Init               0x008dd7  0x114  Code  Gb  stm8s_gpio.o [1]
+GPIO_ReadInputPin       0x0096ea    0xb  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteHigh          0x009709    0x3  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteLow           0x009705    0x4  Code  Gb  stm8s_gpio.o [1]
+I2C_IRQHandler          0x009729    0x1  Code  Gb  stm8s_it.o [1]
+INTVEC$$Base            0x008000          --   Gb  - Linker created -
+INTVEC$$Limit           0x008080          --   Gb  - Linker created -
+MCU_gpio_init           0x009429   0x9c  Code  Gb  gpio.o [1]
+Region$$Table$$Base     0x00960a          --   Gb  - Linker created -
+Region$$Table$$Limit    0x009612          --   Gb  - Linker created -
+SPI_IRQHandler          0x009722    0x1  Code  Gb  stm8s_it.o [1]
+TIM1_CAP_COM_IRQHandler
+                        0x009724    0x1  Code  Gb  stm8s_it.o [1]
+TIM1_UPD_OVF_TRG_BRK_IRQHandler
+                        0x009723    0x1  Code  Gb  stm8s_it.o [1]
+TIM2_CAP_COM_IRQHandler
+                        0x009726    0x1  Code  Gb  stm8s_it.o [1]
+TIM2_UPD_OVF_BRK_IRQHandler
+                        0x009725    0x1  Code  Gb  stm8s_it.o [1]
+TIM3_CAP_COM_IRQHandler
+                        0x009728    0x1  Code  Gb  stm8s_it.o [1]
+TIM3_UPD_OVF_BRK_IRQHandler
+                        0x009727    0x1  Code  Gb  stm8s_it.o [1]
+TIM4_UPD_OVF_IRQHandler
+                        0x00972d    0x1  Code  Gb  stm8s_it.o [1]
+TLI_IRQHandler          0x00971b    0x1  Code  Gb  stm8s_it.o [1]
+TRAP_IRQHandler         0x00971a    0x1  Code  Gb  stm8s_it.o [1]
+UART2_RX_IRQHandler     0x00972b    0x1  Code  Gb  stm8s_it.o [1]
+UART2_TX_IRQHandler     0x00972a    0x1  Code  Gb  stm8s_it.o [1]
+__DebugBreak            0x00972f    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x0096a4   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x00968d   0x17  Code  Gb  init.o [4]
+__iar_program_start     0x0096cb         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x009715         Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x00966f         Code  Gb  init_small.o [4]
+__intvec                0x008000         Data  Gb  interrupt.o [4]
+__low_level_init        0x00970f    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x009700         Code  Gb  cexit.o [4]
+_hw3000_data_buf        0x000010   0x44  Data  Gb  hw3000.o [1]
+_hw3000_gpio2_request   0x000060    0x1  Data  Gb  hw3000.o [1]
+_hw3000_irq_request     0x00005f    0x1  Data  Gb  hw3000.o [1]
+_hw3000_mode            0x000054    0xa  Data  Gb  hw3000.o [1]
+_hw3000_state           0x00005e    0x1  Data  Gb  hw3000.o [1]
+_interrupt_1            0x00971a         Code  Gb  stm8s_it.o [1]
+_interrupt_10           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_11           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_12           0x009722         Code  Gb  stm8s_it.o [1]
+_interrupt_13           0x009723         Code  Gb  stm8s_it.o [1]
+_interrupt_14           0x009724         Code  Gb  stm8s_it.o [1]
+_interrupt_15           0x009725         Code  Gb  stm8s_it.o [1]
+_interrupt_16           0x009726         Code  Gb  stm8s_it.o [1]
+_interrupt_17           0x009727         Code  Gb  stm8s_it.o [1]
+_interrupt_18           0x009728         Code  Gb  stm8s_it.o [1]
+_interrupt_19           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_2            0x00971b         Code  Gb  stm8s_it.o [1]
+_interrupt_20           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_21           0x009729         Code  Gb  stm8s_it.o [1]
+_interrupt_22           0x00972a         Code  Gb  stm8s_it.o [1]
+_interrupt_23           0x00972b         Code  Gb  stm8s_it.o [1]
+_interrupt_24           0x00972c         Code  Gb  stm8s_it.o [1]
+_interrupt_25           0x00972d         Code  Gb  stm8s_it.o [1]
+_interrupt_26           0x00972e         Code  Gb  stm8s_it.o [1]
+_interrupt_27           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_28           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_29           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_3            0x00971c         Code  Gb  stm8s_it.o [1]
+_interrupt_30           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_31           0x00970c         Code  Wk  interrupt.o [4]
+_interrupt_4            0x00971d         Code  Gb  stm8s_it.o [1]
+_interrupt_5            0x00971e         Code  Gb  stm8s_it.o [1]
+_interrupt_6            0x0096fb         Code  Gb  stm8s_it.o [1]
+_interrupt_7            0x00971f         Code  Gb  stm8s_it.o [1]
+_interrupt_8            0x009720         Code  Gb  stm8s_it.o [1]
+_interrupt_9            0x009721         Code  Gb  stm8s_it.o [1]
+assert_failed           0x009718    0x2  Code  Gb  stm8s_it.o [1]
+cal_crc_ccitt           0x00953c   0x43  Code  Gb  hw3000.o [1]
+exit                    0x009712    0x3  Code  Gb  exit.o [4]
+hw3000_fifo_tx          0x008163  0x155  Code  Gb  hw3000.o [1]
+hw3000_frame_set        0x008358   0x94  Code  Gb  hw3000.o [1]
+hw3000_frame_tx         0x0082b8   0xa0  Code  Gb  hw3000.o [1]
+hw3000_freq_set         0x00882b  0x147  Code  Gb  hw3000.o [1]
+hw3000_init             0x008972  0x265  Code  Gb  hw3000.o [1]
+hw3000_power_down       0x00812d    0x8  Code  Gb  hw3000.o [1]
+hw3000_power_set        0x0083ec   0x5a  Code  Gb  hw3000.o [1]
+hw3000_power_up         0x008125    0x8  Code  Gb  hw3000.o [1]
+hw3000_rate_set         0x008446  0x3e5  Code  Gb  hw3000.o [1]
+hw3000_read_reg         0x009183   0xaf  Code  Gb  hw3000.o [1]
+hw3000_tx_data          0x008135   0x2e  Code  Gb  hw3000.o [1]
+hw3000_write_fifo       0x0090b9   0xca  Code  Gb  hw3000.o [1]
+hw3000_write_reg        0x008080   0xa5  Code  Gb  hw3000.o [1]
+m928_delay              0x0096b8   0x13  Code  Gb  delay.o [1]
+main                    0x008eeb   0xfd  Code  Gb  main.o [1]
+
+
+[1] = G:\RF模块演示板程序\硅传最牛模块测试板程序\hw3000\HW3000 demo code_433Mhz (STM8S105  IAR)( C版本)\TX\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  4 720 bytes of readonly  code memory
+  1 216 bytes of readonly  data memory
+    353 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

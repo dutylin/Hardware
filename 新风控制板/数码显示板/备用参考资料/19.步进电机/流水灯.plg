@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+E:\Boards\M3\okstm32v100\示例程序\1.GPIO_流水灯\流水灯.uv2
+Project File Date:  08/27/2010
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+compiling main.c...
+assembling STM32F10x.s...
+linking...
+Program Size: Code=1860 RO-data=268 RW-data=32 ZI-data=512  
+FromELF: creating hex file...
+"流水灯.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Boards\\M3\\okstm32v100\\示例程序\\1.GPIO_流水灯\\流水灯.AXF" 
+VTarget = 3.345V
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+DLL version V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V7 compiled Aug  5 2010 15:43:36
+Hardware: V7.00
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 2 JTAG devices, Total IRLen = 9:
+ Id of device #0: 0x3BA00477
+ Id of device #1: 0x16410041
+Cortex-M3 identified.
+JTAG speed: 5 kHz
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+JTAG speed: 1000 kHz
+No Algorithm found for: 08000000H - 0800086FH
+Erase skipped!
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+compiling main.c...
+assembling STM32F10x.s...
+linking...
+Program Size: Code=1860 RO-data=268 RW-data=32 ZI-data=512  
+FromELF: creating hex file...
+"流水灯.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Boards\\M3\\okstm32v100\\示例程序\\1.GPIO_流水灯\\流水灯.AXF" 
+VTarget = 3.345V
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+DLL version V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V7 compiled Aug  5 2010 15:43:36
+Hardware: V7.00
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 2 JTAG devices, Total IRLen = 9:
+ Id of device #0: 0x3BA00477
+ Id of device #1: 0x16410041
+Cortex-M3 identified.
+JTAG speed: 5 kHz
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3 r1p1, Little endian.
+Info: TPIU fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+JTAG speed: 1000 kHz
+No Algorithm found for: 08000000H - 0800086FH
+Erase skipped!

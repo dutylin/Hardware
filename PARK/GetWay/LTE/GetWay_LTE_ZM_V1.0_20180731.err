@@ -1,0 +1,144 @@
+PCB Net List Errors Report - GetWay_LTE_ZM_V1.0_20180731.sch - Sat Dec 08 10:23:28 2018
+----------------------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type ANT not found in Library - not able to check following parts:
+ U3.
+Part Type R not found in Library - not able to check following parts:
+ R179 R176 R180 R181.
+PCB Decal ESD0402 not found in Library - not able to check following parts of Part Type DIODE_BI_DIR_TRIG:
+ D1.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net FLIGHT_MODE has less than two pins in PCB net list file.
+Net USIM_DET has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+LTE_TXD
+LTE          X10280 Y9490 
+
+NET_LED
+LTE          X19730 Y10000
+
+Dangling Connections with a Net Name
+
+FLIGHT_MODE
+LTE          X7240  Y9490 
+
+LTE_RST
+LTE          X13040 Y11200
+LTE          X7220  Y9690 
+
+LTE_RXD
+LTE          X16890 Y13190
+LTE          X10280 Y9290 
+
+LTE_TXD
+LTE          X16290 Y13190
+
+LTE_USB_N
+LTE          X13220 Y9600 
+LTE          X7360  Y11090
+
+LTE_USB_P
+LTE          X13230 Y9400 
+LTE          X7370  Y11290
+
+LTE_USB_VBUS
+LTE          X13220 Y9800 
+LTE          X6860  Y12290
+
+NET_LED
+LTE          X6880  Y11690
+
+USIM_CLK
+LTE          X13210 Y8200 
+LTE          X7060  Y8490 
+
+USIM_DATA
+LTE          X13190 Y8600 
+LTE          X7070  Y8290 
+
+USIM_DET
+LTE          X7040  Y8890 
+
+USIM_RST
+LTE          X13200 Y8400 
+LTE          X7050  Y8690 
+
+USIM_VDD
+LTE          X13210 Y8000 
+LTE          X7080  Y8090 
+
+Power or Ground Symbols used with wrong Net Name
+
+VBAT
+LTE          X18090 Y6790  - Power  Symbol used for net: +5V
+LTE          X17890 Y12820 - Power  Symbol used for net: +5V
+LTE          X16650 Y5880  - Power  Symbol used for net: +5V
+LTE          X18290 Y5880  - Power  Symbol used for net: +5V
+LTE          X15880 Y6000  - Power  Symbol used for net: +5V
+POWER        X13100 Y10780 - Power  Symbol used for net: +5V
+
+VCC_1.8V
+LTE          X13010 Y9000  - Power  Symbol used for net: +5V
+LTE          X11770 Y8810  - Power  Symbol used for net: +5V
+LTE          X7230  Y10290 - Power  Symbol used for net: +5V
+
+VCC_5V
+LTE          X7370  Y12690 - Power  Symbol used for net: +5V
+LTE          X7240  Y9890  - Power  Symbol used for net: +5V
+LTE          X7150  Y7490  - Power  Symbol used for net: +5V
+LTE          X10220 Y11490 - Power  Symbol used for net: +5V
+POWER        X6790  Y10910 - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+LTE_RST
+LTE          X13790 Y11200 - Pin: U1.4
+LTE          X7860  Y9690  - Pin: U2.22
+
+LTE_RXD
+LTE          X16890 Y12600 - Pin: U1.68
+LTE          X9560  Y9290  - Pin: U2.17
+
+LTE_TXD
+LTE          X16290 Y12600 - Pin: U1.71
+LTE          X9560  Y9490  - Pin: U2.19
+
+LTE_USB_N
+LTE          X13790 Y9600  - Pin: U1.12
+LTE          X7860  Y11090 - Pin: U2.36
+
+LTE_USB_P
+LTE          X13790 Y9400  - Pin: U1.13
+LTE          X7860  Y11290 - Pin: U2.38
+
+LTE_USB_VBUS
+LTE          X13790 Y9800  - Pin: U1.11
+LTE          X7860  Y12290 - Pin: U2.48
+
+NET_LED
+LTE          X19090 Y10000 - Pin: U1.51
+LTE          X7860  Y11690 - Pin: U2.42
+
+USIM_CLK
+LTE          X13790 Y8200  - Pin: U1.19
+LTE          X7860  Y8490  - Pin: U2.12
+
+USIM_DATA
+LTE          X13790 Y8600  - Pin: U1.17
+LTE          X7860  Y8290  - Pin: U2.10
+
+USIM_RST
+LTE          X13790 Y8400  - Pin: U1.18
+LTE          X7860  Y8690  - Pin: U2.14
+
+USIM_VDD
+LTE          X13790 Y8000  - Pin: U1.20
+LTE          X7860  Y8090  - Pin: U2.8

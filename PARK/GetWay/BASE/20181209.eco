@@ -1,0 +1,42 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: F:\projects\18\Lora\git\Hardware\PARK\GetWay\BASE\GETWAY_Base_ZM_V1.2_20180828.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2018/12/8 10:08:57
+*NET*
+*SIGNAL*  $$$26132
+U6.14
+*SIGNAL*  $$$26134
+U6.12
+*SIGNAL*  $$$26136
+U6.10
+*SIGNAL*  $$$26139
+U6.8
+*SIGNAL*  $$$26143
+U6.20
+*SIGNAL*  $$$26145
+U6.22
+*SIGNAL*  $$$26661
+U7.20
+*SIGNAL*  $$$26662
+U7.8
+*SIGNAL*  $$$26663
+U7.10
+*SIGNAL*  $$$26664
+U7.12
+*SIGNAL*  $$$27042
+U7.48
+*SIGNAL*  BATTERY
+U5.6
+*SIGNAL*  IO2
+U7.31
+*SIGNAL*  LED_K2
+U5.16
+*SIGNAL*  LED_K3
+U5.24
+*SIGNAL*  RF_IRQ2
+U7.25
+*SIGNAL*  USIM_DET
+U2.16
+
+*REMARK*  Deleted pins: 0,  Added pins: 17
+*END*

@@ -1,0 +1,405 @@
+PCB Net List Errors Report - GETWAY_Base_ZM_V1.2_20180828.sch - Sat Dec 08 10:08:16 2018
+-----------------------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type MINIPCIE has the following pins not found in PCB Decal TE_17595031:
+55 56 
+Non matching PCB Decal TE_17595031 affects the following parts:
+ U2.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net BATTERY has less than two pins in PCB net list file.
+Net USIM_DET has less than two pins in PCB net list file.
+Net $$$26132 has less than two pins in PCB net list file.
+Net $$$26134 has less than two pins in PCB net list file.
+Net $$$26136 has less than two pins in PCB net list file.
+Net $$$26139 has less than two pins in PCB net list file.
+Net $$$26143 has less than two pins in PCB net list file.
+Net $$$26145 has less than two pins in PCB net list file.
+Net $$$26661 has less than two pins in PCB net list file.
+Net $$$26662 has less than two pins in PCB net list file.
+Net $$$26663 has less than two pins in PCB net list file.
+Net $$$26664 has less than two pins in PCB net list file.
+Net $$$27042 has less than two pins in PCB net list file.
+Net RF_IRQ2 has less than two pins in PCB net list file.
+Net IO2 has less than two pins in PCB net list file.
+Net LED_K3 has less than two pins in PCB net list file.
+Net LED_K2 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+$$$26132
+INTERFACE    X8160  Y7030 
+
+$$$26134
+INTERFACE    X8170  Y6830 
+
+$$$26136
+INTERFACE    X8180  Y6630 
+
+$$$26139
+INTERFACE    X8190  Y6430 
+
+$$$26143
+INTERFACE    X8350  Y7830 
+
+$$$26145
+INTERFACE    X8340  Y8030 
+
+$$$26661
+INTERFACE    X15820 Y7870 
+
+$$$26662
+INTERFACE    X15660 Y6470 
+
+$$$26663
+INTERFACE    X15650 Y6670 
+
+$$$26664
+INTERFACE    X15640 Y6870 
+
+$$$27042
+INTERFACE    X15780 Y10670
+
+EN
+SOC          X16922 Y9006 
+
+GND
+SOC          X7500  Y10000
+
+IO2
+INTERFACE    X18860 Y9070 
+
+LED_CTRL
+SOC          X10340 Y5340 
+
+LTE_TXD
+LTE          X10680 Y9680 
+
+MCU_RXD
+INTERFACE    X18860 Y7670 
+SOC          X15500 Y11600
+
+MCU_TXD
+INTERFACE    X18860 Y7870 
+SOC          X15500 Y11780
+
+RF_IRQ
+INTERFACE    X11400 Y8230 
+INTERFACE    X18870 Y8270 
+
+RF_IRQ2
+INTERFACE    X18880 Y8470 
+
+RF_RST
+INTERFACE    X18860 Y9270 
+
+RF_RXD
+INTERFACE    X11390 Y7830 
+
+RF_TXD
+INTERFACE    X11390 Y7630 
+
+SCS/CMD
+SOC          X15520 Y10160
+
+SDI/SD1
+SOC          X19060 Y10700
+
+SDO/SD0
+SOC          X19060 Y10460
+
+SHD/SD2
+SOC          X15520 Y9920 
+
+SWP/SD3
+SOC          X15520 Y10040
+SOC          X19060 Y10220
+
+Dangling Connections with a Net Name
+
+BATTERY
+SOC          X10740 Y9960 
+
+DTR
+INTERFACE    X3858  Y10480
+SOC          X14482 Y8806 
+
+FLASH_DL
+SOC          X13460 Y8280 
+SOC          X16832 Y7706 
+SOC          X15740 Y5240 
+
+FLIGHT_MODE
+LTE          X7640  Y9680 
+
+GND
+INTERFACE    X3858  Y10680
+
+LED_CTRL
+SOC          X13340 Y8280 
+
+LED_K2
+SOC          X13580 Y8300 
+
+LED_K3
+SOC          X15560 Y10720
+
+LTE_RXD
+LTE          X11380 Y2110 
+LTE          X10680 Y9480 
+
+LTE_TXD
+LTE          X15600 Y2020 
+
+MCU_FLIGHT_LTE
+LTE          X5700  Y2760 
+INTERFACE    X15670 Y6270 
+SOC          X12840 Y8280 
+
+MCU_RST_LET
+LTE          X2330  Y2790 
+INTERFACE    X15810 Y8070 
+SOC          X12680 Y8280 
+
+MCU_RTS
+INTERFACE    X3860  Y10280
+
+MCU_RXD
+INTERFACE    X3858  Y10780
+
+MCU_TXD
+INTERFACE    X3858  Y10880
+
+RF_RST
+INTERFACE    X8150  Y7230 
+
+RF_RXD
+INTERFACE    X15630 Y7070 
+
+RF_TXD
+INTERFACE    X15620 Y7270 
+
+RST
+SOC          X15020 Y11960
+SOC          X12180 Y5240 
+SOC          X9780  Y9720 
+
+RTS
+INTERFACE    X3858  Y10580
+SOC          X13100 Y8280 
+SOC          X14482 Y8026 
+
+SCK/CLK
+SOC          X15520 Y10300
+SOC          X17080 Y10460
+
+SCS/CMD
+SOC          X17080 Y10700
+
+SDI/SD1
+SOC          X15540 Y10580
+
+SDO/SD0
+SOC          X15540 Y10440
+
+SHD/SD2
+SOC          X17080 Y10220
+
+USIM_CLK
+LTE          X7460  Y8680 
+
+USIM_DATA
+LTE          X7470  Y8480 
+
+USIM_DET
+LTE          X7440  Y9080 
+
+USIM_RST
+LTE          X7450  Y8880 
+
+USIM_VDD
+LTE          X7480  Y8280 
+
+VCC_5V
+INTERFACE    X3858  Y10380
+
+Power or Ground Symbols used with wrong Net Name
+
+USIM_VDD
+LTE          X15840 Y11610 - Power  Symbol used for net: +5V
+
+VCC_1.8V
+LTE          X9460  Y2640  - Power  Symbol used for net: +5V
+LTE          X13680 Y2550  - Power  Symbol used for net: +5V
+LTE          X7630  Y10480 - Power  Symbol used for net: +5V
+
+VCC_3.3V
+LTE          X10570 Y4400  - Power  Symbol used for net: +5V
+LTE          X14790 Y4200  - Power  Symbol used for net: +5V
+LTE          X5740  Y11880 - Power  Symbol used for net: +5V
+INTERFACE    X8480  Y11030 - Power  Symbol used for net: +5V
+INTERFACE    X8350  Y8230  - Power  Symbol used for net: +5V
+INTERFACE    X8260  Y5830  - Power  Symbol used for net: +5V
+INTERFACE    X11330 Y9830  - Power  Symbol used for net: +5V
+INTERFACE    X6430  Y10030 - Power  Symbol used for net: +5V
+INTERFACE    X15950 Y11070 - Power  Symbol used for net: +5V
+INTERFACE    X15820 Y8270  - Power  Symbol used for net: +5V
+INTERFACE    X15730 Y5870  - Power  Symbol used for net: +5V
+INTERFACE    X18800 Y9870  - Power  Symbol used for net: +5V
+INTERFACE    X13900 Y10070 - Power  Symbol used for net: +5V
+POWER        X13250 Y9610  - Power  Symbol used for net: +5V
+SOC          X8900  Y12000 - Power  Symbol used for net: +5V
+SOC          X8920  Y12920 - Power  Symbol used for net: +5V
+SOC          X12980 Y8300  - Power  Symbol used for net: +5V
+SOC          X14660 Y9800  - Power  Symbol used for net: +5V
+SOC          X18160 Y11080 - Power  Symbol used for net: +5V
+SOC          X10560 Y9840  - Power  Symbol used for net: +5V
+SOC          X19760 Y10800 - Power  Symbol used for net: +5V
+SOC          X11040 Y5900  - Power  Symbol used for net: +5V
+SOC          X7980  Y5340  - Power  Symbol used for net: +5V
+SOC          X14600 Y5900  - Power  Symbol used for net: +5V
+
+VCC_5V
+LTE          X7770  Y12880 - Power  Symbol used for net: +5V
+LTE          X7640  Y10080 - Power  Symbol used for net: +5V
+LTE          X7550  Y7680  - Power  Symbol used for net: +5V
+LTE          X10620 Y11680 - Power  Symbol used for net: +5V
+INTERFACE    X3420  Y7700  - Power  Symbol used for net: +5V
+INTERFACE    X2760  Y7840  - Power  Symbol used for net: +5V
+INTERFACE    X1690  Y7760  - Power  Symbol used for net: +5V
+POWER        X9650  Y9500  - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+DTR
+INTERFACE    X4500  Y10480 - Pin: J6.5
+SOC          X16142 Y8226  - Pin: Q8.2
+
+EN
+SOC          X11620 Y9840  - Pin: U5.7
+SOC          X16242 Y9006  - Pin: Q7.3
+
+FLASH_DL
+SOC          X13460 Y8840  - Pin: U5.15
+SOC          X16142 Y7826  - Pin: Q8.3
+SOC          X14600 Y5360  - Pin: R1.2
+
+FLIGHT_MODE
+LTE          X7540  Y2770  - Pin: C6.1
+LTE          X8260  Y9680  - Pin: U2.20
+
+GND
+INTERFACE    X4500  Y10680 - Pin: J6.3
+
+LED_CTRL
+SOC          X13340 Y8840  - Pin: U5.14
+SOC          X9780  Y5340  - Pin: D2.2
+
+LTE_RST
+LTE          X4170  Y2800  - Pin: C5.1
+LTE          X6040  Y9880  - Pin: S2.1
+
+LTE_RXD
+LTE          X10540 Y2110  - Pin: R7.2
+LTE          X9960  Y9480  - Pin: U2.17
+
+LTE_TXD
+LTE          X14760 Y2020  - Pin: R9.2
+LTE          X9960  Y9680  - Pin: U2.19
+
+MCU_FLIGHT_LTE
+LTE          X6430  Y2760  - Pin: Q3.1
+INTERFACE    X16440 Y6270  - Pin: U7.6
+SOC          X12840 Y8840  - Pin: U5.10
+
+MCU_RST_LET
+LTE          X3060  Y2790  - Pin: Q1.1
+INTERFACE    X16440 Y8070  - Pin: U7.22
+SOC          X12680 Y8840  - Pin: U5.9
+
+MCU_RTS
+INTERFACE    X4500  Y10280 - Pin: J6.7
+SOC          X13220 Y8840  - Pin: U5.13
+
+MCU_RXD
+INTERFACE    X18140 Y7670  - Pin: U7.17
+INTERFACE    X4500  Y10780 - Pin: J6.2
+SOC          X14360 Y11600 - Pin: R38.2
+
+MCU_TXD
+INTERFACE    X18140 Y7870  - Pin: U7.19
+INTERFACE    X4500  Y10880 - Pin: J6.1
+SOC          X15140 Y11780 - Pin: R39.2
+
+RF_IRQ
+INTERFACE    X10670 Y8230  - Pin: U6.23
+INTERFACE    X18140 Y8270  - Pin: U7.23
+
+RF_RST
+INTERFACE    X8970  Y7230  - Pin: U6.16
+INTERFACE    X18140 Y9270  - Pin: U7.33
+
+RF_RXD
+INTERFACE    X10670 Y7830  - Pin: U6.19
+INTERFACE    X16440 Y7070  - Pin: U7.14
+
+RF_TXD
+INTERFACE    X10670 Y7630  - Pin: U6.17
+INTERFACE    X16440 Y7270  - Pin: U7.16
+
+RST
+SOC          X12660 Y11500 - Pin: U5.32
+SOC          X11040 Y5080  - Pin: C21.1
+SOC          X10200 Y9720  - Pin: R2.1
+
+RTS
+INTERFACE    X4500  Y10580 - Pin: J6.4
+SOC          X13100 Y8840  - Pin: U5.12
+SOC          X15242 Y8026  - Pin: R37.2
+
+SCK/CLK
+SOC          X14920 Y10300 - Pin: R23.2
+SOC          X17640 Y10460 - Pin: U11.6
+
+SCS/CMD
+SOC          X14420 Y10160 - Pin: U5.20
+SOC          X17640 Y10700 - Pin: U11.1
+
+SDI/SD1
+SOC          X14420 Y10580 - Pin: U5.23
+SOC          X18660 Y10700 - Pin: U11.5
+
+SDO/SD0
+SOC          X18660 Y10460 - Pin: U11.2
+SOC          X14420 Y10440 - Pin: U5.22
+
+SHD/SD2
+SOC          X14420 Y9920  - Pin: U5.18
+SOC          X17640 Y10220 - Pin: U11.7
+
+SWP/SD3
+SOC          X14420 Y10040 - Pin: U5.19
+SOC          X18660 Y10220 - Pin: U11.3
+
+USIM_CLK
+LTE          X8260  Y8680  - Pin: U2.12
+LTE          X14310 Y10990 - Pin: C11.1
+
+USIM_DATA
+LTE          X8260  Y8480  - Pin: U2.10
+LTE          X14600 Y10710 - Pin: C12.1
+
+USIM_RST
+LTE          X8260  Y8880  - Pin: U2.14
+LTE          X13980 Y10990 - Pin: C10.1
+
+USIM_VDD
+LTE          X8260  Y8280  - Pin: U2.8
+
+VCC_5V
+INTERFACE    X4500  Y10380 - Pin: J6.6

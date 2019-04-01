@@ -1,0 +1,22 @@
+*** Creating Trace Output File '.\output\debug.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\stm32f10x.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\common\STM32F10xR.lib"'
+### ADS-LD Command completed:
+".\output\stm32f10x.o" ".\output\main.o" ".\output\stm32f10x_it.o" "..\common\STM32F10xR.lib" --device DARMSTM --strict --scatter ".\output\debug.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\output\debug.map" -o ".\output\debug.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\debug.axf'
+### ADS-LD Command File: '.\output\debug.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\debug.lnp', Handle=0x00000260
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\debug.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

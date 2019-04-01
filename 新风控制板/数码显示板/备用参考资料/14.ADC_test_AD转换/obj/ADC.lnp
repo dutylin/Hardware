@@ -1,0 +1,4 @@
+--device DARMSTM ".\obj\stm32f10x.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" "E:\Boards\M3\okstm32v100\Ê¾Àý³ÌÐò\common\STM32F10xR.LIB" --library_type=microlib --strict --scatter ".\obj\ADC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\listing\ADC.map" -o ".\obj\ADC.axf"

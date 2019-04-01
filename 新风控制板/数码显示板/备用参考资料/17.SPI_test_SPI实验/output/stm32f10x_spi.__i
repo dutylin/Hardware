@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I.\ -I "C:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\stm32f10x_spi.o" --omf_browse ".\output\stm32f10x_spi.crf" --depend ".\output\stm32f10x_spi.d" "..\..\..\..\..\RV31\LIB\ST\STM32F10x\stm32f10x_spi.c"

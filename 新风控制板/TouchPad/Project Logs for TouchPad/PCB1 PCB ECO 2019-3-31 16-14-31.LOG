@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PWM_50HZ Pin=U3-11
+Removed Pin From Net: NetName=PWM_10KHZ1 Pin=U3-12
+Added Pin To Net: NetName=PWM_10KHZ1 Pin=U3-11
+Added Pin To Net: NetName=PWM_50HZ Pin=U3-12

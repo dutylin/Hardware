@@ -1,0 +1,7 @@
+Dependencies for Project '数码管', Target 'GPIO': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x4F2B4398)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\STM32F10x.o" --depend ".\output\STM32F10x.d")
+F (.\main.c)(0x4F2B4398)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+F (.\stm32f10x_it.c)(0x4F2B4398)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\stm32f10x_it.o" --omf_browse ".\output\stm32f10x_it.crf" --depend ".\output\stm32f10x_it.d")
+I (stm32f10x_it.h)(0x4F2B4398)
+F (E:\Boards\M3\okstm32v100\示例程序\common\STM32F10xR.lib)(0x00000000)()
+F (.\readme.txt)(0x4F2B4398)()

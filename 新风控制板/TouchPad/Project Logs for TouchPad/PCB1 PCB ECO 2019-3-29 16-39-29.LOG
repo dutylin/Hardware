@@ -1,0 +1,35 @@
+Change Component Footprint: Designator=J1 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Change Component Footprint: Designator=J2 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Change Component Footprint: Designator=J3 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Change Component Footprint: Designator=J4 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Change Component Footprint: Designator=J5 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Change Component Footprint: Designator=J6 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Change Component Footprint: Designator=J7 Old Footprint=TEST_P New Footprint=TOUCHU_PAD
+Added Component: Designator=S1(DISPLAY_0.36INCH_4)
+Added Component: Designator=S2(DISPLAY_0.36INCH_4)
+Added Pin To Net: NetName=SEG5 Pin=S1-1
+Added Pin To Net: NetName=SEG4 Pin=S1-2
+Added Pin To Net: NetName=SEG8 Pin=S1-3
+Added Pin To Net: NetName=SEG3 Pin=S1-4
+Added Pin To Net: NetName=SEG7 Pin=S1-5
+Added Pin To Net: NetName=DIG1 Pin=S1-6
+Added Pin To Net: NetName=SEG2 Pin=S1-7
+Added Pin To Net: NetName=DIG2 Pin=S1-8
+Added Pin To Net: NetName=DIG3 Pin=S1-9
+Added Pin To Net: NetName=SEG6 Pin=S1-10
+Added Pin To Net: NetName=SEG1 Pin=S1-11
+Added Pin To Net: NetName=DIG4 Pin=S1-12
+Added Pin To Net: NetName=SEG5 Pin=S2-1
+Added Pin To Net: NetName=SEG4 Pin=S2-2
+Added Pin To Net: NetName=SEG8 Pin=S2-3
+Added Pin To Net: NetName=SEG3 Pin=S2-4
+Added Pin To Net: NetName=SEG7 Pin=S2-5
+Added Pin To Net: NetName=DIG5 Pin=S2-6
+Added Pin To Net: NetName=SEG2 Pin=S2-7
+Added Pin To Net: NetName=DIG6 Pin=S2-8
+Added Pin To Net: NetName=DIG7 Pin=S2-9
+Added Pin To Net: NetName=SEG6 Pin=S2-10
+Added Pin To Net: NetName=SEG1 Pin=S2-11
+Added Pin To Net: NetName=DIG8 Pin=S2-12
+Added Member To Class: ClassName=TouchPad Member=Component S1 SEG_4_0.36
+Added Member To Class: ClassName=TouchPad Member=Component S2 SEG_4_0.36

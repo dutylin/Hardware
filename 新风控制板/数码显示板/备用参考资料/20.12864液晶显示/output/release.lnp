@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\output\stm32f10x.o" ".\output\main.o" ".\output\stm32f10x_it.o" "..\..\..\okstm32v100\Ê¾Àý³ÌÐò\COMMON\STM32F10xR.lib" --library_type=microlib --strict --scatter ".\output\release.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\listing\release.map" -o ".\output\release.axf"

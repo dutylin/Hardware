@@ -1,0 +1,11 @@
+L 1 "main.c"
+N/*******************************************************************************
+N* File Name          : main.c
+N* Author             : Wuhan R&D Center, Embest
+N* Date First Issued  : 08/08/2008
+N* Description        : Main program body
+N********************************************************************************/
+N
+N/* Includes ------------------------------------------------------------------*/
+C "main.c" 9 27 cannot open source input file "stm32f10x_lib.h": No such file or directory
+N#include "stm32f10x_lib.h"

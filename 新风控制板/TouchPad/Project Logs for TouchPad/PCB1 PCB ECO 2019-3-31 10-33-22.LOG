@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=PWM_50HZ Pin=U3-2
+Removed Pin From Net: NetName=MCU_SDA Pin=U3-3
+Removed Pin From Net: NetName=MCU_SCL Pin=U3-7
+Removed Pin From Net: NetName=SENSOR_SCK Pin=U3-8
+Removed Pin From Net: NetName=SENSOR_SDA Pin=U3-9
+Added Pin To Net: NetName=MCU_SDA Pin=U3-2
+Added Pin To Net: NetName=MCU_SCL Pin=U3-3
+Added Pin To Net: NetName=SENSOR_SCK Pin=U3-7
+Added Pin To Net: NetName=SENSOR_SDA Pin=U3-8
+Added Pin To Net: NetName=PWM_50HZ Pin=U3-9

@@ -1,0 +1,25 @@
+** ECO In Report **
+
+Sat Dec 08 10:07:42 2018
+
+Input  File : F:\projects\18\Lora\git\Hardware\PARK\GetWay\BASE\20181209.eco
+Current Job : GETWAY_Base_ZM_V1.2_20180828.pcb
+
+
+* Warning: deleting single-pin signal $$$26132
+* Warning: deleting single-pin signal $$$26134
+* Warning: deleting single-pin signal $$$26136
+* Warning: deleting single-pin signal $$$26139
+* Warning: deleting single-pin signal $$$26143
+* Warning: deleting single-pin signal $$$26145
+* Warning: deleting single-pin signal $$$26661
+* Warning: deleting single-pin signal $$$26662
+* Warning: deleting single-pin signal $$$26663
+* Warning: deleting single-pin signal $$$26664
+* Warning: deleting single-pin signal $$$27042
+* Warning: deleting single-pin signal BATTERY
+* Warning: deleting single-pin signal IO2
+* Warning: deleting single-pin signal LED_K2
+* Warning: deleting single-pin signal LED_K3
+* Warning: deleting single-pin signal RF_IRQ2
+* Warning: deleting single-pin signal USIM_DET

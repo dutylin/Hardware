@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=ANT1 Old Footprint=ANT_TH New Footprint=TP
+Change Net Name : Old Net Name=NetANT1 New Net Name=NetANT1_1

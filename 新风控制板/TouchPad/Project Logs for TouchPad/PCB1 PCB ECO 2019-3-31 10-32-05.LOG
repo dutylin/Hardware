@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=PWM_10KHZ1 Pin=U3-3
+Removed Pin From Net: NetName=PWM_10KHZ Pin=U3-7
+Removed Pin From Net: NetName=MCU_SDA Pin=U3-11
+Removed Pin From Net: NetName=MCU_SCL Pin=U3-12
+Added Pin To Net: NetName=MCU_SDA Pin=U3-3
+Added Pin To Net: NetName=MCU_SCL Pin=U3-7
+Added Pin To Net: NetName=PWM_10KHZ Pin=U3-11
+Added Pin To Net: NetName=PWM_10KHZ1 Pin=U3-12

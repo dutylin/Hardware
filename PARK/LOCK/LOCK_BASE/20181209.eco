@@ -1,0 +1,24 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: F:\projects\18\Lora\git\Hardware\PARK\LOCK\LOCK_BASE\LOCK_BASE_ZM_V1.4_20180910.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2018/12/8 9:09:24
+*DELPIN*
+Q3.1  SENSOR_PWR_EN
+Q3.2  VCC_IN
+Q3.3  VCC_SENSOR
+U1.26  SENSOR_PWR_EN
+*DELPART*
+Q3  MOSFET_P
+*PART*
+M3  M2
+Q6  MOSFET_N
+*NET*
+*SIGNAL*  SENSOR_PWR_EN
+Q6.1  U1.26
+*SIGNAL*  VCC_3.3V
+Q6.3
+*SIGNAL*  VCC_SENSOR
+Q6.2
+
+*REMARK*  Deleted pins: 4,  Added pins: 4
+*END*

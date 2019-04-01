@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I..\..\library\inc -I..\..\library\src -I..\uvsion -I "D:\Keil\ARM\INC\ST\STM32F10x" -o "..\obj\stm32f10x_lib.o" --omf_browse "..\obj\stm32f10x_lib.crf" --depend "..\obj\stm32f10x_lib.d" "..\..\library\src\stm32f10x_lib.c"

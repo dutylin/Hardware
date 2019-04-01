@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GRID6 Pin=D6-2
+Removed Pin From Net: NetName=GRID7 Pin=D7-2
+Removed Pin From Net: NetName=GRID8 Pin=D8-2
+Removed Pin From Net: NetName=SEG2 Pin=R14-2
+Removed Pin From Net: NetName=SEG2 Pin=R16-2
+Removed Pin From Net: NetName=SEG2 Pin=R17-2
+Removed Pin From Net: NetName=SEG3 Pin=R18-2
+Removed Pin From Net: NetName=SEG3 Pin=R20-2
+Removed Pin From Net: NetName=SEG3 Pin=R21-2
+Removed Pin From Net: NetName=SEG3 Pin=R25-2
+Removed Pin From Net: NetName=SEG4 Pin=R27-2
+Removed Pin From Net: NetName=SEG4 Pin=R28-2
+Removed Pin From Net: NetName=SEG4 Pin=R29-2
+Removed Pin From Net: NetName=SEG4 Pin=R30-2
+Removed Pin From Net: NetName=SEG4 Pin=R31-2
+Removed Pin From Net: NetName=SEG4 Pin=R32-2
+Removed Pin From Net: NetName=SEG4 Pin=R35-2
+Removed Pin From Net: NetName=SEG4 Pin=R36-2
+Removed Pin From Net: NetName=SEG5 Pin=R37-2
+Added Component: Designator=D9(LED_DIP_257mm)
+Added Component: Designator=D10(LED_DIP_257mm)
+Added Component: Designator=R45(0603R)
+Added Component: Designator=R46(0603R)
+Added Pin To Net: NetName=GRID1 Pin=D6-2
+Added Pin To Net: NetName=GRID2 Pin=D7-2
+Added Pin To Net: NetName=GRID3 Pin=D8-2
+Added Pin To Net: NetName=GRID4 Pin=D9-2
+Added Pin To Net: NetName=GRID5 Pin=D10-2
+Added Pin To Net: NetName=SEG3 Pin=R14-2
+Added Pin To Net: NetName=SEG3 Pin=R16-2
+Added Pin To Net: NetName=SEG3 Pin=R17-2
+Added Pin To Net: NetName=SEG4 Pin=R18-2
+Added Pin To Net: NetName=SEG4 Pin=R20-2
+Added Pin To Net: NetName=SEG4 Pin=R21-2
+Added Pin To Net: NetName=SEG4 Pin=R25-2
+Added Pin To Net: NetName=SEG5 Pin=R27-2
+Added Pin To Net: NetName=SEG5 Pin=R28-2
+Added Pin To Net: NetName=SEG5 Pin=R29-2
+Added Pin To Net: NetName=SEG5 Pin=R30-2
+Added Pin To Net: NetName=SEG5 Pin=R31-2
+Added Pin To Net: NetName=SEG5 Pin=R32-2
+Added Pin To Net: NetName=SEG5 Pin=R35-2
+Added Pin To Net: NetName=SEG5 Pin=R36-2
+Added Pin To Net: NetName=SEG6 Pin=R37-2
+Added Pin To Net: NetName=SEG3 Pin=R45-2
+Added Pin To Net: NetName=SEG3 Pin=R46-2
+Added Pin To Net: NetName=NetD9_1 Pin=D9-1
+Added Pin To Net: NetName=NetD9_1 Pin=R45-1
+Added Net: Name=NetD9_1
+Added Pin To Net: NetName=NetD10_1 Pin=D10-1
+Added Pin To Net: NetName=NetD10_1 Pin=R46-1
+Added Net: Name=NetD10_1
+Added Member To Class: ClassName=LED Member=Component D9 LED0
+Added Member To Class: ClassName=LED Member=Component D10 LED0
+Added Member To Class: ClassName=LED Member=Component R45 1.5K
+Added Member To Class: ClassName=LED Member=Component R46 1.5K

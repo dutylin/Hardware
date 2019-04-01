@@ -1,0 +1,12 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: F:\projects\18\Lora\git\Hardware\PARK\GetWay\LTE\GetWay_LTE_ZM_V1.0_20180731.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2018/12/8 10:24:08
+*NET*
+*SIGNAL*  FLIGHT_MODE
+U2.20
+*SIGNAL*  USIM_DET
+U2.16
+
+*REMARK*  Deleted pins: 0,  Added pins: 2
+*END*

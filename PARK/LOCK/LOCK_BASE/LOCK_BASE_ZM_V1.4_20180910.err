@@ -1,0 +1,319 @@
+PCB Net List Errors Report - LOCK_BASE_ZM_V1.4_20180910.sch - Sat Dec 08 09:02:38 2018
+---------------------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type M1 not found in Library - not able to check following parts:
+ M5 M6.
+Part Type STM32F030C8T6 not found in Library - not able to check following parts:
+ U1.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+AUX
+MCU          X11560 Y9320 
+
+BZ-
+POWER        X10790 Y10290
+
+M0
+MCU          X11560 Y9600 
+
+M1
+MCU          X11560 Y9460 
+
+MCU_RXD
+MCU          X11580 Y9880 
+
+MCU_TXD
+MCU          X11580 Y9740 
+
+MOT_DN
+MCU          X9680  Y11640
+
+MOT_DP
+MCU          X9840  Y11640
+
+MOTOR_N
+INTERFACE    X6050  Y13830
+
+MOTOR_P
+INTERFACE    X6050  Y13730
+
+SENSOR_PWR_EN
+MCU          X11560 Y9180 
+
+SWCLK
+MCU          X10320 Y11640
+
+SWDIO
+MCU          X11580 Y10300
+
+Dangling Connections with a Net Name
+
+AUX
+INTERFACE    X8800  Y11880
+
+BATTERY
+MCU          X7460  Y9160 
+MCU          X10580 Y5660 
+
+BZ-
+INTERFACE    X6050  Y13530
+
+GND
+INTERFACE    X8430  Y13730
+INTERFACE    X8800  Y11680
+MCU          X12900 Y9840 
+
+LED_CTRL
+INTERFACE    X9800  Y13770
+MCU          X10040 Y7940 
+
+LED_K1
+MCU          X8920  Y7940 
+MCU          X6600  Y5720 
+
+LED_K2
+MCU          X9060  Y7940 
+MCU          X6580  Y5300 
+
+LED_K3
+INTERFACE    X7470  Y13830
+MCU          X9200  Y7940 
+
+M0
+INTERFACE    X8780  Y12280
+
+M1
+INTERFACE    X8780  Y12180
+
+MCU_RXD
+INTERFACE    X8800  Y11980
+MCU          X6600  Y4920 
+
+MCU_TXD
+INTERFACE    X8800  Y12080
+
+MOT_DN
+MOTOR_DRIVER X8200  Y11700
+
+MOT_DP
+MOTOR_DRIVER X8200  Y11500
+
+MOTOR_N
+MOTOR_DRIVER X11300 Y11300
+
+MOTOR_P
+MOTOR_DRIVER X11300 Y11700
+
+PWM
+INTERFACE    X13560 Y12020
+
+PWM_3.3V
+INTERFACE    X13260 Y7680 
+MCU          X9340  Y7940 
+
+SENSOR_PWR_EN
+INTERFACE    X13200 Y13280
+
+SPEAKER
+POWER        X8970  Y9880 
+MCU          X9900  Y7940 
+
+SWCLK
+MCU          X12900 Y9940 
+
+SWDIO
+MCU          X12900 Y9740 
+
+U2_RX
+INTERFACE    X13460 Y11600
+
+U2_RX_3.3V
+INTERFACE    X17840 Y7400 
+MCU          X8780  Y7940 
+
+U2_TX
+INTERFACE    X13460 Y11820
+
+U2_TX_3.3V
+INTERFACE    X21120 Y7460 
+MCU          X7460  Y9020 
+
+VCC_3.3V
+INTERFACE    X8800  Y11780
+MCU          X12900 Y10040
+
+WAKE_UP
+MCU          X7460  Y9300 
+MCU          X8520  Y5720 
+
+Power or Ground Symbols used with wrong Net Name
+
+AGND
+MOTOR_DRIVER X9600  Y11300 - Ground Symbol used for net: GND
+MOTOR_DRIVER X9100  Y9000  - Ground Symbol used for net: GND
+MOTOR_DRIVER X10950 Y10200 - Ground Symbol used for net: GND
+MOTOR_DRIVER X10900 Y12600 - Ground Symbol used for net: GND
+MOTOR_DRIVER X11400 Y9700  - Ground Symbol used for net: GND
+
+VCC
+POWER        X7960  Y12660 - Power  Symbol used for net: +5V
+INTERFACE    X5960  Y13430 - Power  Symbol used for net: +5V
+INTERFACE    X6440  Y12430 - Power  Symbol used for net: +5V
+MOTOR_DRIVER X9600  Y11100 - Power  Symbol used for net: +5V
+MOTOR_DRIVER X9100  Y10300 - Power  Symbol used for net: +5V
+
+VCC_3.3V
+POWER        X11994 Y12784 - Power  Symbol used for net: +5V
+INTERFACE    X10830 Y13650 - Power  Symbol used for net: +5V
+INTERFACE    X7400  Y13530 - Power  Symbol used for net: +5V
+INTERFACE    X12200 Y12140 - Power  Symbol used for net: +5V
+INTERFACE    X11340 Y8210  - Power  Symbol used for net: +5V
+INTERFACE    X15920 Y7930  - Power  Symbol used for net: +5V
+INTERFACE    X19200 Y7990  - Power  Symbol used for net: +5V
+INTERFACE    X14440 Y13740 - Power  Symbol used for net: +5V
+MCU          X11720 Y6080  - Power  Symbol used for net: +5V
+MCU          X7600  Y10560 - Power  Symbol used for net: +5V
+MCU          X8700  Y11420 - Power  Symbol used for net: +5V
+MCU          X6720  Y10380 - Power  Symbol used for net: +5V
+MCU          X7800  Y9440  - Power  Symbol used for net: +5V
+MCU          X10320 Y8320  - Power  Symbol used for net: +5V
+MCU          X12980 Y6060  - Power  Symbol used for net: +5V
+MCU          X8000  Y6440  - Power  Symbol used for net: +5V
+MCU          X13320 Y9040  - Power  Symbol used for net: +5V
+
+VCC_IN
+POWER        X8860  Y12840 - Power  Symbol used for net: +5V
+INTERFACE    X5930  Y13630 - Power  Symbol used for net: +5V
+MCU          X9760  Y6570  - Power  Symbol used for net: +5V
+
+VCC_SENSOR
+INTERFACE    X12450 Y9970  - Power  Symbol used for net: +5V
+INTERFACE    X17030 Y9690  - Power  Symbol used for net: +5V
+INTERFACE    X20310 Y9750  - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+AUX
+INTERFACE    X9420  Y11880 - Pin: J7.5
+MCU          X10920 Y9320  - Pin: U1.27
+
+BATTERY
+MCU          X8140  Y9160  - Pin: U1.11
+MCU          X9760  Y5520  - Pin: R20.1
+
+BZ-
+POWER        X10790 Y10080 - Pin: Q1.3
+INTERFACE    X6460  Y13530 - Pin: J2.4
+
+GND
+INTERFACE    X8840  Y13730 - Pin: J1.2
+INTERFACE    X9420  Y11680 - Pin: J7.7
+MCU          X13360 Y9840  - Pin: J4.3
+
+LED_CTRL
+INTERFACE    X10340 Y13770 - Pin: R10.1
+MCU          X10040 Y8480  - Pin: U1.22
+
+LED_K1
+INTERFACE    X8220  Y13530 - Pin: R16.2
+MCU          X8920  Y8480  - Pin: U1.14
+MCU          X7060  Y5720  - Pin: D3.1
+
+LED_K2
+INTERFACE    X8200  Y13630 - Pin: R15.2
+MCU          X9060  Y8480  - Pin: U1.15
+MCU          X7060  Y5300  - Pin: D6.1
+
+LED_K3
+INTERFACE    X7870  Y13830 - Pin: R9.1
+MCU          X9200  Y8480  - Pin: U1.16
+
+M0
+INTERFACE    X9420  Y12280 - Pin: J7.1
+MCU          X10920 Y9600  - Pin: U1.29
+
+M1
+INTERFACE    X9420  Y12180 - Pin: J7.2
+MCU          X10920 Y9460  - Pin: U1.28
+
+MCU_RXD
+INTERFACE    X9420  Y11980 - Pin: J7.4
+MCU          X10920 Y9880  - Pin: U1.31
+MCU          X7060  Y4920  - Pin: D2.1
+
+MCU_TXD
+INTERFACE    X9420  Y12080 - Pin: J7.3
+MCU          X10920 Y9740  - Pin: U1.30
+
+MOT_DN
+MOTOR_DRIVER X8800  Y11700 - Pin: R6.1
+MCU          X9680  Y11120 - Pin: U1.41
+
+MOT_DP
+MOTOR_DRIVER X8800  Y11500 - Pin: R7.1
+MCU          X9840  Y11120 - Pin: U1.40
+
+MOTOR_N
+INTERFACE    X6460  Y13830 - Pin: J2.1
+MOTOR_DRIVER X10950 Y10960 - Pin: C4.1
+
+MOTOR_P
+INTERFACE    X6460  Y13730 - Pin: J2.2
+MOTOR_DRIVER X10900 Y11990 - Pin: C6.2
+
+PWM
+INTERFACE    X14460 Y11820 - Pin: R3.2
+
+PWM_3.3V
+INTERFACE    X12420 Y7680  - Pin: R17.2
+MCU          X9340  Y8480  - Pin: U1.17
+
+SENSOR_PWR_EN
+INTERFACE    X14040 Y13280 - Pin: Q6.1
+MCU          X10920 Y9180  - Pin: U1.26
+
+SPEAKER
+POWER        X9180  Y9540  - Pin: R12.2
+MCU          X9900  Y8480  - Pin: U1.21
+
+SWCLK
+MCU          X10320 Y11120 - Pin: U1.37
+MCU          X13360 Y9940  - Pin: J4.2
+
+SWDIO
+MCU          X10920 Y10300 - Pin: U1.34
+MCU          X13360 Y9740  - Pin: J4.4
+
+U2_RX
+INTERFACE    X14990 Y11920 - Pin: J6.4
+
+U2_RX_3.3V
+INTERFACE    X17000 Y7400  - Pin: R21.2
+MCU          X8780  Y8480  - Pin: U1.13
+
+U2_TX
+INTERFACE    X13960 Y11820 - Pin: R3.1
+
+U2_TX_3.3V
+INTERFACE    X20280 Y7460  - Pin: R22.2
+MCU          X8140  Y9020  - Pin: U1.12
+
+VCC_3.3V
+INTERFACE    X9420  Y11780 - Pin: J7.6
+MCU          X13360 Y10040 - Pin: J4.1
+
+VCC_SENSOR
+INTERFACE    X14440 Y13080 - Pin: Q6.2
+
+WAKE_UP
+MCU          X8140  Y9300  - Pin: U1.10
+MCU          X7560  Y4920  - Pin: D2.2

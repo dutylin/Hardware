@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCU_SDA Pin=U3-2
+Removed Pin From Net: NetName=DIO Pin=U3-7
+Added Pin To Net: NetName=DIO Pin=U3-2
+Added Pin To Net: NetName=MCU_SDA Pin=U3-7

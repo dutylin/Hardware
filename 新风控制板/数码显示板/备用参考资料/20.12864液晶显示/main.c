@@ -1,0 +1,625 @@
+/*******************************************************************************
+* File Name          : main.c
+* Author             : Wuhan R&D Center, Embest
+* Date First Issued  : 08/08/2008
+* Description        : Main program body
+********************************************************************************/
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f10x_lib.h"
+
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+#define ADC1_DR_Address    ((u32)0x4001244C)
+
+unsigned short int ADC_ConvertedValue;
+GPIO_InitTypeDef GPIO_InitStructure;
+ADC_InitTypeDef   ADC_InitStructure;
+DMA_InitTypeDef   DMA_InitStructure;
+EXTI_InitTypeDef EXTI_InitStructure;
+ErrorStatus HSEStartUpStatus;
+extern vu32 TimingDelay;
+
+
+
+
+
+/******************************************************************************/
+uc8 Photo[] =
+{
+//海豚戏水
+
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x7F,0x00,0x00,0x00,0x03,0xFE,0x00,0x00,0x00,0x00,0x02,0x00,0x76,0x00,0x00,
+0x00,0xC3,0xFF,0x00,0x00,0x3F,0xE7,0xE0,0x00,0x00,0x00,0x03,0x00,0xFF,0x80,0x00,
+0x00,0x81,0xFF,0xFE,0x00,0x7C,0x03,0xF0,0x00,0x00,0x00,0x01,0xF7,0xCB,0xF8,0x00,
+0x01,0x83,0xF8,0x7B,0x00,0x40,0x00,0x30,0x00,0x00,0x00,0x00,0x3F,0xC0,0xF8,0x00,
+0x03,0x1E,0x3C,0x01,0x80,0x60,0x00,0x30,0x00,0x00,0x00,0x00,0x01,0x40,0x18,0x00,
+0x03,0x30,0x0C,0x01,0xE0,0x6C,0x00,0x70,0x00,0x00,0x00,0x00,0x01,0x7C,0xCC,0x00,
+0x03,0x24,0x6F,0x31,0x20,0x7C,0x40,0x60,0x00,0x00,0x00,0x00,0x01,0x97,0xFC,0x00,
+0x01,0xBF,0xFB,0xF3,0xE0,0x3F,0xE7,0xC0,0x00,0x00,0x00,0x00,0x01,0xFB,0x1C,0x00,
+0x00,0x9B,0xC2,0x1F,0x00,0x00,0x7F,0x80,0x00,0x00,0x00,0x00,0x00,0x0C,0xFE,0x00,
+0x00,0xCC,0x36,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0xB8,0x00,
+0x00,0x7E,0x7E,0x00,0x00,0x00,0x00,0x00,0x1F,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x07,0xE0,0x00,0x00,0x00,0x00,0x00,0x3F,0xFF,0xFF,0x80,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x00,0xE0,0x03,0xFF,0xE0,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x1F,0x00,0x00,0x78,0x01,0xC0,0x00,0x00,0x70,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x20,0x80,0x00,0xF8,0x01,0x80,0x00,0x00,0x30,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x2E,0x80,0x00,0xD8,0x03,0x60,0x00,0x01,0xF8,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x2A,0x80,0x00,0x98,0x02,0x60,0x00,0x00,0xC0,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x2E,0x80,0x01,0x98,0x03,0xE0,0xC0,0x00,0x60,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x20,0x83,0xFF,0x8C,0x07,0xE1,0xC8,0x00,0x30,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x1F,0x7F,0x07,0x8C,0x0F,0xFF,0x8C,0x00,0x18,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x00,0xB8,0x0F,0xCC,0x1F,0x83,0x8F,0x00,0x18,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x39,0xC0,0x38,0xFE,0x1E,0x00,0x8F,0xC0,0x0C,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x3B,0x80,0x70,0x1E,0x00,0x00,0xCC,0xF0,0x0C,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x76,0x00,0xC0,0x00,0x00,0x00,0x6E,0x3C,0x06,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x7E,0x01,0x80,0x00,0x00,0x00,0x3F,0x0E,0x06,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0xDC,0x03,0x00,0x00,0x00,0x00,0x1F,0x03,0x82,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0xD8,0x06,0x00,0x00,0x00,0x00,0x00,0x01,0xC2,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0xC0,0x0E,0x00,0x00,0x00,0x00,0x00,0x00,0xC2,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x80,0x0C,0x00,0x00,0x00,0x00,0x00,0x00,0x62,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0xC0,0x18,0x00,0x00,0x00,0x00,0x00,0x00,0x66,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0xC0,0x18,0x00,0x00,0x00,0x00,0x00,0x00,0x26,0x00,0x00,0x00,0x00,
+0x00,0x00,0x00,0x80,0x30,0x00,0x00,0x00,0x00,0x00,0x00,0x6C,0x00,0x00,0x00,0x00,
+0xFF,0xFF,0xFF,0x80,0x3F,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xEF,0xFF,0xFF,0xFE,0x00,
+0x00,0x00,0x01,0x80,0x30,0x00,0x00,0x00,0x00,0x00,0x3F,0xD8,0x00,0x00,0x00,0x00,
+0x3E,0x00,0x01,0x80,0x60,0x00,0x00,0x00,0x07,0xE0,0x3D,0xF0,0x01,0xF0,0x0C,0x00,
+0xFF,0x80,0x01,0x80,0x6C,0x00,0x00,0x00,0x3E,0xF0,0x2C,0x60,0x07,0xFF,0xFC,0x00,
+0x81,0xF8,0x71,0x01,0xDC,0x03,0xFC,0x00,0xF3,0xFF,0x87,0xE0,0x06,0x07,0xE0,0x00,
+0x00,0x3F,0xE1,0x03,0xFC,0x0F,0x1F,0x87,0xC2,0x00,0x04,0xE0,0x00,0x00,0x00,0x00,
+0x00,0x00,0x03,0x00,0x0C,0x1C,0x03,0xFF,0x00,0x00,0x01,0xE0,0x7F,0x03,0xF0,0x00,
+0x00,0x00,0x03,0x00,0x18,0x10,0x00,0x00,0x00,0x00,0x01,0xC1,0xF3,0xF7,0x3C,0x00,
+0xFF,0xC0,0x0F,0x02,0x38,0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0x80,0x7E,0x0E,0x00,
+0xE1,0xFF,0xFF,0x03,0xF0,0x00,0x00,0x00,0x00,0x03,0xF8,0x7C,0x00,0x00,0x02,0x00,
+0x00,0x01,0xE3,0x03,0xC0,0x00,0x03,0xFF,0x00,0x0F,0x1F,0xE0,0x00,0x00,0x00,0x00,
+0x00,0x00,0x03,0x01,0x00,0x00,0x0F,0x03,0xF0,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,
+0x03,0xFC,0x03,0x01,0x0F,0x00,0x0C,0x00,0x7F,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,
+0x0F,0x0F,0x8D,0x01,0x3F,0xE0,0x00,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x1C,0x01,0xFD,0x81,0x30,0x7C,0x03,0xC0,0xFE,0x00,0x00,0x00,0x04,0x00,0x00,0x00,
+0x18,0x00,0x01,0xBF,0x00,0x0F,0xFF,0x07,0xC7,0xE0,0x00,0x00,0x1C,0x00,0x00,0x00,
+0x00,0x00,0x00,0xFF,0x80,0x01,0xF8,0x3E,0x00,0x78,0x0F,0xF0,0x78,0x00,0x00,0x00,
+0x00,0x0F,0x00,0x7F,0x83,0x80,0x3F,0xF1,0xF8,0x1E,0x1C,0x7F,0xE0,0x07,0xE0,0x00,
+0x00,0x1F,0xE0,0x3F,0xDF,0xFE,0x00,0x07,0x9F,0x83,0xF0,0x00,0x00,0x1C,0x7C,0x00,
+0x00,0x78,0x70,0x1F,0xD0,0x07,0xC0,0x3C,0x01,0xF8,0x03,0xC0,0x00,0x18,0x00,0x00,
+0xFF,0xE0,0x1F,0x73,0xE0,0x00,0xFF,0xE0,0x00,0x1F,0xFF,0x00,0x00,0x00,0x00,0x00,
+0x00,0x00,0x07,0xE1,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x0F,0x80,0x00,0xE1,0xF8,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+0x00,0x7F,0xE0,0x00,0x07,0x9E,0x00,0x7F,0xC0,0x60,0x0F,0xC0,0x0F,0x00,0x00,0x00,
+0x00,0xE0,0x7C,0x00,0x03,0xF7,0xC7,0xE0,0xFF,0xE0,0x3F,0xFF,0xFC,0x00,0x00,0x00,
+0x01,0xC0,0x0F,0x00,0x03,0xBD,0xFE,0xFC,0x00,0x00,0xF0,0x1F,0xF0,0x00,0xC6,0x00,
+};
+
+
+
+/*	  自定义变量															 */
+u8  DIS1[] = {"  奥科单片机网  "};
+u8  DIS2[] = {"    OKBOARD-I   "};
+u8  DIS3[] = {" WWW.OKMCU.NET  "};
+u8  DIS4[] = {"TEL:13280882908 "};
+
+/* Private functions ---------------------------------------------------------*/
+
+
+
+/* Private function prototypes -----------------------------------------------*/
+void RCC_Configuration(void);
+void NVIC_Configuration(void);
+void GPIO_Configuration(void);
+void Delay(vu32 nTime);
+void SysTick_Configuration(void);
+void SetupLED (void) ;	
+extern void SetupADC    (void);
+	
+/* Private functions ---------------------------------------------------------*/
+
+/*******************************************************************/
+/*                                                                 */
+/*                                                   				*/
+/*忙等待延时      													*/
+/*                                                                 */
+/*******************************************************************/
+
+lcd_busy()
+ {	/*
+ 	unsigned int check;                          
+	GPIOC->ODR &= ~(1<<12) ;
+	GPIOB->ODR |= (1<<6) ;
+	GPIOB->ODR |=(1<<9) ;
+	GPIOD->CRH =  0x44444444; //设置为数据输入
+	Delay(5);
+	check= GPIOD->IDR;
+	GPIOD->CRH =  0x33333333; //设置为数据输出
+    while(check & 0x0080);  
+    GPIOB->ODR &= ~(1<<9) ;
+	//GPIOD->CRH =  0x33333333; //设置为数据输出
+	//GPIOB->ODR &= ~(1<<6) ;
+	 */
+	Delay(1);
+}
+
+/*******************************************************************/
+/*                                                                 */
+/*写指令数据到LCD                                                  */
+/*RS=L，RW=L，E=高脉冲，D0-D7=指令码。                             */
+/*                                                                 */
+/*******************************************************************/
+
+void lcd_wcmd(u8 cmd)
+{                          
+    lcd_busy();
+    GPIOB->ODR &= ~(1<<9) ;
+	GPIOC->ODR &= ~(1<<12) ;
+	GPIOB->ODR &= ~(1<<6) ;
+	GPIOD->ODR = (GPIOD->ODR&0xff00)|cmd ;
+	Delay(1);
+    GPIOB->ODR |=(1<<9) ;
+	GPIOB->ODR &= ~(1<<9) ;  
+}
+ /*******************************************************************/
+/*                                                                 */
+/*写显示数据到LCD                                                  */
+/*RS=H，RW=L，E=高脉冲，D0-D7=数据。                               */
+/*                                                                 */
+/*******************************************************************/
+
+void lcd_wdat(u8 dat)
+{                          
+    lcd_busy();
+    GPIOB->ODR &= ~(1<<9) ;
+	GPIOC->ODR |= (1<<12) ;
+	GPIOB->ODR &= ~(1<<6) ;
+	GPIOD->ODR = (GPIOD->ODR&0xff00)|dat ;
+	Delay(1);
+    GPIOB->ODR |= (1<<9) ;
+	GPIOB->ODR &= ~(1<<9) ;  
+}
+ /*******************************************************************/
+/*                                                                 */
+/*  LCD初始化设定                                                  */
+/*                                                                 */
+/*******************************************************************/
+void lcd_init()
+{ 
+	GPIOB->CRL =  0x33333333; 
+    GPIOB->CRH =  0x33333333; 
+	GPIOC->CRL =  0x33333333; 
+    GPIOC->CRH =  0x33333333; 
+	GPIOD->CRL =  0x33333333; 
+    GPIOD->CRH =  0x33333333;
+
+	//GPIOB->ODR |=(1<<13) ;	  //并口方式
+	GPIOB->ODR &=~(1<<6) ;        //写液晶
+
+//	GPIOB->ODR &=~(1<<8) ;		  //关蜂鸣器
+
+    lcd_wcmd(0x30);      //基本指令操作
+    Delay(50); 
+    lcd_wcmd(0x0C);      //显示开，关光标
+    Delay(50); 
+    lcd_wcmd(0x01);      //清除LCD的显示内容
+    Delay(50); 
+	lcd_wcmd(0x06);      //进入设定点
+    Delay(50); 
+}
+
+/*********************************************************/
+/*                                                       */
+/* 设定显示位置                                          */
+/*                                                       */
+/*********************************************************/
+void lcd_pos(u8 X,u8 Y)
+{                          
+   u8  pos;
+   if (X==1)
+     {X=0x80;}
+   else if (X==2)
+     {X=0x90;}
+   else if (X==3)
+     {X=0x88;}
+   else if (X==4)
+     {X=0x98;}
+   pos = X+Y ; 
+ 
+   lcd_wcmd(pos);     //显示地址
+}
+/*********************************************************
+*                                                        *
+* 闪烁函数                                               *
+*                                                        *
+*********************************************************/
+void lcdflag() 
+{
+   lcd_wcmd(0x08);   
+   Delay(400);
+   lcd_wcmd(0x0c);   
+   Delay(400);
+   lcd_wcmd(0x08);   
+   Delay(400);
+   lcd_wcmd(0x0c);   
+   Delay(400);
+   lcd_wcmd(0x08);   
+   Delay(200); 
+   lcd_wcmd(0x0c);   
+   Delay(5);
+   lcd_wcmd(0x01);   
+   Delay(5);
+}
+/*********************************************************
+*                                                        *
+* 图形显示                                               *
+*                                                        *
+*********************************************************/
+void photodisplay(uc8 *bmp)	
+{ 
+  u8 i,j;
+
+  lcd_wcmd(0x34);        //写数据时,关闭图形显示
+
+  for(i=0;i<32;i++)
+  {
+    lcd_wcmd(0x80+i);    //先写入水平坐标值
+    lcd_wcmd(0x80);      //写入垂直坐标值
+    for(j=0;j<16;j++)   //再写入两个8位元的数据   
+	{ 
+    lcd_wdat(*bmp++);      
+	}
+//	Delay(1); 
+  }
+
+  for(i=0;i<32;i++)
+  { 
+    lcd_wcmd(0x80+i);
+    lcd_wcmd(0x88);
+    for(j=0;j<16;j++)         
+	{ 
+    lcd_wdat(*bmp++);     
+  	}
+//	Delay(1); 
+  }
+  lcd_wcmd(0x36);       //写完数据,开图形显示 
+}
+
+/*********************************************************
+*                                                        *
+* 清屏函数                                               *
+*                                                        *
+*********************************************************/
+void  clr_screen()
+{
+   lcd_wcmd(0x34);      //扩充指令操作
+   Delay(5);    
+   lcd_wcmd(0x30);      //基本指令操作
+   Delay(5);
+   lcd_wcmd(0x01);      //清屏 
+   Delay(5);     
+}
+
+/**********************************************************
+
+; 显示字符表代码
+
+**********************************************************/
+void  bytecode()
+{
+   u8  s;
+
+   clr_screen();          //清屏
+    
+   lcd_wcmd(0x80);        //设置显示位置为第一行  
+   for(s=0;s<16;s++)
+   {
+     lcd_wdat(0x30+s); 
+	 Delay(20);
+   }
+
+   lcd_wcmd(0x90);        //设置显示位置为第二行 
+   for(s=0;s<16;s++)
+   {
+     lcd_wdat(0x40+s); 
+	 Delay(20);
+   }
+
+   lcd_wcmd(0x88);        //设置显示位置为第三行  
+   for(s=0;s<16;s++)
+   {
+     lcd_wdat(0x50+s); 
+	 Delay(20);
+   }
+
+   lcd_wcmd(0x98);       //设置显示位置为第四行   
+   for(s=0;s<16;s++)
+   {
+     lcd_wdat(0x60+s); 
+	 Delay(20);
+   }
+}
+/*******************************************************************************
+* Function Name  : main
+* Description    : Main program.
+* Input          : None
+* Output         : None
+* Return         : None
+*******************************************************************************/
+int main(void)
+{
+u8 i;
+#ifdef DEBUG
+  debug();
+#endif
+   
+  /* Configure the system clocks */
+  RCC_Configuration();
+  SysTick_Configuration();
+    
+  /* NVIC Configuration */
+  NVIC_Configuration();
+
+  /* Configure the GPIO ports */
+  GPIO_Configuration();
+  
+
+
+ lcd_init();                 //初始化LCD
+
+
+
+   while(1)
+   { 
+     	bytecode();               //显示字符表代码
+     	Delay(500);
+	 	clr_screen();             //清屏
+
+     	lcd_pos(1,0);             //设置显示位置为第一行
+     	for(i=0;i<16;i++)
+     	{
+       		lcd_wdat(DIS1[i]);
+       		Delay(30);
+     	}  
+     	lcd_pos(2,0);             //设置显示位置为第二行
+     	for(i=0;i<16;i++)
+     	{
+       		lcd_wdat(DIS2[i]);
+       		Delay(30);	  
+     	}	 
+     	lcd_pos(3,0);             //设置显示位置为第三行
+     	for(i=0;i<16;i++)
+     	{
+       		lcd_wdat(DIS3[i]);
+            Delay(30);
+     	}
+
+     	lcd_pos(4,0);             //设置显示位置为第四行
+     	for(i=0;i<16;i++)
+     	{
+       		lcd_wdat(DIS4[i]);
+            Delay(30);
+     	}
+     	Delay(2000);   
+		
+  		clr_screen();             //清屏
+    	photodisplay(Photo);     //显示图片2
+     	Delay(4000);  
+
+	 
+	}
+	
+   
+
+}
+
+/*******************************************************************************
+* Function Name  : SysTick_Configuration
+* Description    : Configures the SysTick to generate an interrupt each 1 millisecond.
+* Input          : None
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void SysTick_Configuration(void)
+{
+  /* Select AHB clock(HCLK) as SysTick clock source */
+  SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
+
+  /* Set SysTick Priority to 3 */
+  NVIC_SystemHandlerPriorityConfig(SystemHandler_SysTick, 3, 0);
+   
+  /* SysTick interrupt each 1ms with HCLK equal to 72MHz */
+  SysTick_SetReload(72000);
+
+  /* Enable the SysTick Interrupt */
+  SysTick_ITConfig(ENABLE);
+}
+
+
+
+/*******************************************************************************
+* Function Name  : RCC_Configuration
+* Description    : Configures the different system clocks.
+* Input          : None
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void RCC_Configuration(void)
+{
+  /* RCC system reset(for debug purpose) */
+  RCC_DeInit();
+
+  /* Enable HSE */
+  RCC_HSEConfig(RCC_HSE_ON);
+
+  /* Wait till HSE is ready */
+  HSEStartUpStatus = RCC_WaitForHSEStartUp();
+
+  if(HSEStartUpStatus == SUCCESS)
+  {
+    /* HCLK = SYSCLK */
+    RCC_HCLKConfig(RCC_SYSCLK_Div1); 
+  
+    /* PCLK2 = HCLK */
+    RCC_PCLK2Config(RCC_HCLK_Div1); 
+
+    /* PCLK1 = HCLK/2 */
+    RCC_PCLK1Config(RCC_HCLK_Div2);
+
+    /* Flash 2 wait state */
+    FLASH_SetLatency(FLASH_Latency_2);
+    /* Enable Prefetch Buffer */
+    FLASH_PrefetchBufferCmd(FLASH_PrefetchBuffer_Enable);
+
+    /* PLLCLK = 8MHz * 9 = 72 MHz */
+    RCC_PLLConfig(RCC_PLLSource_HSE_Div1, RCC_PLLMul_9);
+
+    /* Enable PLL */ 
+    RCC_PLLCmd(ENABLE);
+
+    /* Wait till PLL is ready */
+    while(RCC_GetFlagStatus(RCC_FLAG_PLLRDY) == RESET)
+    {
+    }
+
+    /* Select PLL as system clock source */
+    RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
+
+    /* Wait till PLL is used as system clock source */
+    while(RCC_GetSYSCLKSource() != 0x08)
+    {
+    }
+  }
+   
+  /* Enable GPIOB, GPIOC and AFIO clocks */
+  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB | RCC_APB2Periph_GPIOC | 
+                         RCC_APB2Periph_AFIO | RCC_APB2Periph_GPIOD | RCC_APB2Periph_GPIOE , ENABLE);
+}
+
+/*******************************************************************************
+* Function Name  : NVIC_Configuration
+* Description    : Configures Vector Table base location.
+* Input          : None
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void NVIC_Configuration(void)
+{
+  
+#ifdef  VECT_TAB_RAM  
+  /* Set the Vector Table base location at 0x20000000 */ 
+  NVIC_SetVectorTable(NVIC_VectTab_RAM, 0x0); 
+#else  /* VECT_TAB_FLASH  */
+  /* Set the Vector Table base location at 0x08000000 */ 
+  NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x0);   
+#endif
+
+  /* Configure one bit for preemption priority */
+  NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
+  
+ 
+}
+
+
+/*******************************************************************************
+* Function Name  : GPIO_Configuration
+* Description    : Configures the different GPIO ports.
+* Input          : None
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void GPIO_Configuration(void)
+{
+  GPIO_InitTypeDef GPIO_InitStructure;
+ 
+  /* Configure PB. as Output push-pull */
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8|GPIO_Pin_9|GPIO_Pin_10|GPIO_Pin_11|GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+  GPIO_Init(GPIOB, &GPIO_InitStructure);
+  /* Configure PC. as Output push-pull */
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+  GPIO_Init(GPIOC, &GPIO_InitStructure);
+  /* Configure PD. as Output push-pull */
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_2|GPIO_Pin_3|GPIO_Pin_4|GPIO_Pin_5|GPIO_Pin_6|GPIO_Pin_7;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+  GPIO_Init(GPIOD, &GPIO_InitStructure);
+  /* Configure PE. as Output push-pull */
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8|GPIO_Pin_9|GPIO_Pin_10|GPIO_Pin_11|GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+  GPIO_Init(GPIOE, &GPIO_InitStructure);
+
+}
+
+
+/*******************************************************************************
+* Function Name  : Delay
+* Description    : Inserts a delay time.
+* Input          : nTime: specifies the delay time length, in milliseconds.
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void Delay(u32 nTime)
+{
+  /* Enable the SysTick Counter */
+  SysTick_CounterCmd(SysTick_Counter_Enable);
+  
+  TimingDelay = nTime;
+
+  while(TimingDelay != 0);
+
+  /* Disable the SysTick Counter */
+  SysTick_CounterCmd(SysTick_Counter_Disable);
+  /* Clear the SysTick Counter */
+  SysTick_CounterCmd(SysTick_Counter_Clear);
+}
+
+/*******************************************************************************
+* Function Name  : shotdly
+* Description    : Inserts a delay time.
+* Input          : nCount: specifies the delay time length.
+* Output         : None
+* Return         : None
+*******************************************************************************/
+/*
+void shotdly(vu32 nCount)
+{
+  for(; nCount != 0; nCount--);
+}
+*/
+
+
+
+
+
+
+#ifdef  DEBUG
+/*******************************************************************************
+* Function Name  : assert_failed
+* Description    : Reports the name of the source file and the source line number
+*                  where the assert error has occurred.
+* Input          : - file: pointer to the source file name
+*                  - line: assert error line source number
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void assert_failed(u8* file, u32 line)
+{ 
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+
+  /* Infinite loop */
+  while (1)
+  {
+  }
+}
+#endif
+
+/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

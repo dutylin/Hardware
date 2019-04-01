@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CLK Pin=U3-25
+Removed Pin From Net: NetName=MCU_RF_GPIO0 Pin=U3-29
+Added Pin To Net: NetName=MCU_RF_GPIO0 Pin=U3-25
+Added Pin To Net: NetName=CLK Pin=U3-29

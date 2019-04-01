@@ -1,0 +1,199 @@
+C51 COMPILER V9.01   MAIN                                                                  04/21/2012 23:20:13 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN Main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE Main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          /*
+   2           * DS18B20²âÊÔ³ÌÐò
+   3           * 
+   4           * ÓÃÍ¾£ºÊýÂë¹ÜÄ£¿é²âÊÔ³ÌÐò
+   5           * 
+   6           * ×÷Õß                                 ÈÕÆÚ                            ±¸×¢
+   7           * Huafeng Lin                  2012/04/21                      ÐÂÔö
+   8           * Huafeng Lin                  2012/04/21                      ÐÞ¸Ä
+   9           * 
+  10           */
+  11          
+  12          #include <reg51.h>
+  13          
+  14          #define uchar unsigned char
+  15          
+  16          code unsigned char seg7code[]={0xc0,0xf9,0xa4,0xb0,0x99,0x92,0x82,0xf8,0x80,0x90,0xff};         //²»´øÐ¡ÊýµãµÄ¹²Ñ
+             -ôÊýÂë¹Ü¶ÎÂë
+  17          code unsigned char seg7codeB[]={0x40,0x79,0x24,0x30,0x19,0x12,0x02,0x78,0x00,0x10,0xff};        //´øÐ¡ÊýµãµÄ¹²Ñô
+             -ÊýÂë¹Ü¶ÎÂë
+  18          
+  19          sbit DQ=P3^6;                           //Êý¾Ý´«ÊäÏß½Óµ¥Æ¬»úµÄÏàÓ¦µÄÒý½Å 
+  20          unsigned char tempL=0;          //ÉèÈ«¾Ö±äÁ¿
+  21          unsigned char tempH=0; 
+  22          unsigned int sdata;                     //²âÁ¿µ½µÄÎÂ¶ÈµÄÕûÊý²¿·Ö
+  23          unsigned char xiaoshu1;         //Ð¡ÊýµÚÒ»Î»
+  24          unsigned char xiaoshu2;         //Ð¡ÊýµÚ¶þÎ»
+  25          unsigned char xiaoshu;          //Á½Î»Ð¡Êý
+  26          bit fg=1;                               //ÎÂ¶ÈÕý¸º±êÖ¾
+  27          
+  28          void delay(unsigned char i)
+  29          {
+  30   1              for(i;i>0;i--);
+  31   1      }
+  32          
+  33          void delay1(uchar i)
+  34          {
+  35   1              uchar j,k; 
+  36   1              for(j=i;j>0;j--)
+  37   1                      for(k=125;k>0;k--);
+  38   1      }
+  39          
+  40          void Init_DS18B20(void) 
+  41          {
+  42   1              unsigned char x=0;
+  43   1              DQ=1;                                   //DQÏÈÖÃ¸ß 
+  44   1              delay(8);                               //ÉÔÑÓÊ±
+  45   1              DQ=0;                                   //·¢ËÍ¸´Î»Âö³å 
+  46   1              delay(80);                              //ÑÓÊ±£¨>480us) 
+  47   1              DQ=1;                                   //À­¸ßÊý¾ÝÏß 
+  48   1              delay(5);                               //µÈ´ý£¨15~60us) 
+  49   1              x=DQ;                                   //ÓÃXµÄÖµÀ´ÅÐ¶Ï³õÊ¼»¯ÓÐÃ»ÓÐ³É¹¦£¬18B20´æÔÚµÄ»°X=0£¬·ñÔòX=1 
+  50   1              delay(20); 
+  51   1      }
+  52          
+  53          //¶ÁÒ»¸ö×Ö½Ú
+C51 COMPILER V9.01   MAIN                                                                  04/21/2012 23:20:13 PAGE 2   
+
+  54          ReadOneChar(void)                       //Ö÷»úÊý¾ÝÏßÏÈ´Ó¸ßÀ­ÖÁµÍµçÆ½1usÒÔÉÏ£¬ÔÙÊ¹Êý¾ÝÏßÉýÎª¸ßµçÆ½£¬´Ó¶ø²úÉú¶ÁÐÅºÅ
+  55          {
+  56   1              unsigned char i=0;              //Ã¿¸ö¶ÁÖÜÆÚ×î¶ÌµÄ³ÖÐøÊ±¼äÎª60us£¬¸÷¸ö¶ÁÖÜÆÚÖ®¼ä±ØÐëÓÐ1usÒÔÉÏµÄ¸ßµçÆ½»Ö¸´ÆÚ
+  57   1              unsigned char dat=0; 
+  58   1              for (i=8;i>0;i--)               //Ò»¸ö×Ö½ÚÓÐ8Î» 
+  59   1              {
+  60   2                      DQ=1; 
+  61   2                      delay(1); 
+  62   2                      DQ=0;
+  63   2                      dat>>=1; 
+  64   2                      DQ=1; 
+  65   2                      if(DQ) 
+  66   2                      dat|=0x80; 
+  67   2                      delay(4);
+  68   2              } 
+  69   1              return(dat);
+  70   1      }
+  71          
+  72          //Ð´Ò»¸ö×Ö½Ú
+  73          void WriteOneChar(unsigned char dat) 
+  74          { 
+  75   1              unsigned char i=0;              //Êý¾ÝÏß´Ó¸ßµçÆ½À­ÖÁµÍµçÆ½£¬²úÉúÐ´ÆðÊ¼ÐÅºÅ¡£15usÖ®ÄÚ½«ËùÐèÐ´µÄÎ»ËÍµ½Êý¾ÝÏßÉÏ£¬
+  76   1              for(i=8;i>0;i--)                //ÔÚ15~60usÖ®¼ä¶ÔÊý¾ÝÏß½øÐÐ²ÉÑù£¬Èç¹ûÊÇ¸ßµçÆ½¾ÍÐ´1£¬µÍÐ´0·¢Éú¡£ 
+  77   1              {
+  78   2                      DQ=0;                           //ÔÚ¿ªÊ¼ÁíÒ»¸öÐ´ÖÜÆÚÇ°±ØÐëÓÐ1usÒÔÉÏµÄ¸ßµçÆ½»Ö¸´ÆÚ¡£ 
+  79   2                      DQ=dat&0x01; 
+  80   2                      delay(5); 
+  81   2                      DQ=1; 
+  82   2                      dat>>=1;
+  83   2              } 
+  84   1              delay(4);
+  85   1      }
+  86          
+  87          //¶ÁÎÂ¶ÈÖµ£¨µÍÎ»·ÅtempL;¸ßÎ»·ÅtempH;£©
+  88          void ReadTemperature(void) 
+  89          { 
+  90   1              Init_DS18B20();                                         //³õÊ¼»¯
+  91   1              WriteOneChar(0xcc);                             //Ìø¹ý¶ÁÐòÁÐºÅµÄ²Ù×÷
+  92   1              WriteOneChar(0x44);                             //Æô¶¯ÎÂ¶È×ª»»
+  93   1              delay(125);                                             //×ª»»ÐèÒªÒ»µãÊ±¼ä£¬ÑÓÊ± 
+  94   1              Init_DS18B20();                                         //³õÊ¼»¯
+  95   1              WriteOneChar(0xcc);                             //Ìø¹ý¶ÁÐòÁÐºÅµÄ²Ù×÷ 
+  96   1              WriteOneChar(0xbe);                             //¶ÁÎÂ¶È¼Ä´æÆ÷£¨Í·Á½¸öÖµ·Ö±ðÎªÎÂ¶ÈµÄµÍÎ»ºÍ¸ßÎ»£© 
+  97   1              tempL=ReadOneChar();                            //¶Á³öÎÂ¶ÈµÄµÍÎ»LSB
+  98   1              tempH=ReadOneChar();                            //¶Á³öÎÂ¶ÈµÄ¸ßÎ»MSB     
+  99   1              if(tempH>0x7f)                                  //×î¸ßÎ»Îª1Ê±ÎÂ¶ÈÊÇ¸º
+ 100   1              {
+ 101   2                      tempL=~tempL;                                   //²¹Âë×ª»»£¬È¡·´¼ÓÒ»
+ 102   2                      tempH=~tempH+1;       
+ 103   2                      fg=0;                                                   //¶ÁÈ¡ÎÂ¶ÈÎª¸ºÊ±fg=0
+ 104   2              }
+ 105   1              sdata = tempL/16+tempH*16;              //ÕûÊý²¿·Ö
+ 106   1              xiaoshu1 = (tempL&0x0f)*10/16;          //Ð¡ÊýµÚÒ»Î»
+ 107   1              xiaoshu2 = (tempL&0x0f)*100/16%10;      //Ð¡ÊýµÚ¶þÎ»
+ 108   1              xiaoshu=xiaoshu1*10+xiaoshu2;           //Ð¡ÊýÁ½Î»
+ 109   1      }
+ 110          
+ 111          //ÏÔÊ¾º¯Êý
+ 112          void Led(unsigned int date)
+ 113          { 
+ 114   1              if(fg==1)
+ 115   1              {
+C51 COMPILER V9.01   MAIN                                                                  04/21/2012 23:20:13 PAGE 3   
+
+ 116   2                      P2=0xfe;                        //P1.0=0£¬Ñ¡Í¨µÚÒ»Î»
+ 117   2                      P0=seg7code[date/10];   //Ê®Î»Êý£¬²é±í£¬Êä³ö
+ 118   2                      delay1(5);
+ 119   2                      P0=0xff;                        //ÏûÒþ
+ 120   2                      
+ 121   2                      P2=0xfd;                        //P1.1=0,Ñ¡Í¨µÚ¶þÎ»£¬¸öÎ»Êý
+ 122   2                      P0=seg7codeB[date%10];
+ 123   2                      delay1(5);
+ 124   2                      P0=0xff;                        //ÏûÒþ
+ 125   2                      
+ 126   2                      P2=0xfb;                        //P1.3=0,Ñ¡Í¨µÚÈýÎ»£¬Ð¡ÊýµãµÚÒ»Î»
+ 127   2                      P0=seg7code[xiaoshu1];
+ 128   2                      delay1(5);
+ 129   2                      P0=0xff;                        //ÏûÒþ
+ 130   2                      
+ 131   2                      P2=0xf7;                        //P1.3=0,Ñ¡Í¨µÚËÄÎ»£¬Ð¡ÊýµãµÚ¶þÎ»
+ 132   2                      P0=seg7code[xiaoshu2];
+ 133   2                      delay1(5);
+ 134   2                      P0=0xff;                        //ÏûÒþ
+ 135   2              }
+ 136   1                      
+ 137   1              if(fg==0)                                       //ÎÂ¶ÈÎª¸ºÊ±ÏÔÊ¾µÄÊý¾Ý
+ 138   1              {
+ 139   2                      P2=0xfe;                        //P1.0=0£¬Ñ¡Í¨µÚÒ»Î»
+ 140   2                      P0=seg7code[11];                //ÏÔÊ¾¸ººÅ
+ 141   2                      delay1(5);
+ 142   2                      P0=0xff;                        //ÏûÒþ
+ 143   2                      
+ 144   2                      P2=0xfd;                        //P1.1=0,Ñ¡Í¨µÚ¶þÎ»£¬Ê®Î»Êý
+ 145   2                      P0=seg7code[date/10];
+ 146   2                      delay1(5);
+ 147   2                      P0=0xff;                        //ÏûÒþ
+ 148   2                      
+ 149   2                      P2=0xfb;                        //P1.3=0,Ñ¡Í¨µÚÈýÎ»£¬¸öÎ»Êý
+ 150   2                      P0=seg7codeB[date%10];
+ 151   2                      delay1(5);
+ 152   2                      P0=0xff;                        //ÏûÒþ
+ 153   2                      
+ 154   2                      P2=0xf7;                        //P1.3=0,Ñ¡Í¨µÚËÄÎ»£¬Ð¡ÊýµãµÚÒ»Î»
+ 155   2                      P0=seg7code[xiaoshu1];
+ 156   2                      delay1(5);
+ 157   2                      P0=0xff;                        //ÏûÒþ
+ 158   2              }
+ 159   1      }
+ 160          
+ 161          main()
+ 162          {
+ 163   1              while(1)
+ 164   1              {
+ 165   2                      ReadTemperature();
+ 166   2                      Led(sdata);
+ 167   2              }
+ 168   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    439    ----
+   CONSTANT SIZE    =     22    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      7    ----
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.01   MAIN                                                                  04/21/2012 23:20:13 PAGE 4   
+
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

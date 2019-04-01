@@ -1,0 +1,77 @@
+Removed Pin From Net: NetName=GRID6 Pin=K6-2
+Removed Pin From Net: NetName=GRID7 Pin=K7-2
+Removed Pin From Net: NetName=GRID6 Pin=L10-2
+Removed Pin From Net: NetName=GRID7 Pin=L11-2
+Removed Pin From Net: NetName=GRID8 Pin=L12-2
+Removed Pin From Net: NetName=SEG6 Pin=R37-2
+Removed Pin From Net: NetName=SEG5 Pin=S1-1
+Removed Pin From Net: NetName=SEG4 Pin=S1-2
+Removed Pin From Net: NetName=SEG3 Pin=S1-4
+Removed Pin From Net: NetName=SEG2 Pin=S1-7
+Removed Pin From Net: NetName=SEG1 Pin=S1-11
+Removed Pin From Net: NetName=SEG5 Pin=S2-1
+Removed Pin From Net: NetName=SEG4 Pin=S2-2
+Removed Pin From Net: NetName=SEG3 Pin=S2-4
+Removed Pin From Net: NetName=SEG2 Pin=S2-7
+Removed Pin From Net: NetName=SEG1 Pin=S2-11
+Removed Pin From Net: NetName=GRID4 Pin=U1-1
+Removed Pin From Net: NetName=GRID3 Pin=U1-2
+Removed Pin From Net: NetName=GRID2 Pin=U1-4
+Removed Pin From Net: NetName=GRID1 Pin=U1-5
+Removed Pin From Net: NetName=SEG6 Pin=U1-16
+Removed Pin From Net: NetName=GRID5 Pin=U1-32
+Removed Pin From Net: NetName=SEG5 Pin=U2-2
+Removed Pin From Net: NetName=SEG4 Pin=U2-3
+Removed Pin From Net: NetName=SEG3 Pin=U2-4
+Removed Pin From Net: NetName=SEG2 Pin=U2-6
+Removed Pin From Net: NetName=SEG1 Pin=U2-7
+Change Net Name : Old Net Name=GRID1 New Net Name=LGRID1
+Change Net Name : Old Net Name=GRID2 New Net Name=LGRID2
+Change Net Name : Old Net Name=GRID3 New Net Name=LGRID3
+Change Net Name : Old Net Name=GRID4 New Net Name=LGRID4
+Change Net Name : Old Net Name=GRID5 New Net Name=LGRID5
+Change Net Name : Old Net Name=SEG1 New Net Name=LSEG1
+Change Net Name : Old Net Name=SEG2 New Net Name=LSEG2
+Change Net Name : Old Net Name=SEG3 New Net Name=LSEG3
+Change Net Name : Old Net Name=SEG4 New Net Name=LSEG4
+Change Net Name : Old Net Name=SEG5 New Net Name=LSEG5
+Added Pin To Net: NetName=GRID1 Pin=U1-5
+Added Net: Name=GRID1
+Added Pin To Net: NetName=GRID2 Pin=U1-4
+Added Net: Name=GRID2
+Added Pin To Net: NetName=GRID3 Pin=U1-2
+Added Net: Name=GRID3
+Added Pin To Net: NetName=GRID4 Pin=U1-1
+Added Net: Name=GRID4
+Added Pin To Net: NetName=GRID5 Pin=U1-32
+Added Net: Name=GRID5
+Added Pin To Net: NetName=LGRID6 Pin=K6-2
+Added Pin To Net: NetName=LGRID6 Pin=L10-2
+Added Net: Name=LGRID6
+Added Pin To Net: NetName=LGRID7 Pin=K7-2
+Added Pin To Net: NetName=LGRID7 Pin=L11-2
+Added Net: Name=LGRID7
+Added Pin To Net: NetName=LGRID8 Pin=L12-2
+Added Net: Name=LGRID8
+Added Pin To Net: NetName=LSEG6 Pin=U1-16
+Added Net: Name=LSEG6
+Added Pin To Net: NetName=SEG1 Pin=S1-11
+Added Pin To Net: NetName=SEG1 Pin=S2-11
+Added Pin To Net: NetName=SEG1 Pin=U2-7
+Added Net: Name=SEG1
+Added Pin To Net: NetName=SEG2 Pin=S1-7
+Added Pin To Net: NetName=SEG2 Pin=S2-7
+Added Pin To Net: NetName=SEG2 Pin=U2-6
+Added Net: Name=SEG2
+Added Pin To Net: NetName=SEG3 Pin=S1-4
+Added Pin To Net: NetName=SEG3 Pin=S2-4
+Added Pin To Net: NetName=SEG3 Pin=U2-4
+Added Net: Name=SEG3
+Added Pin To Net: NetName=SEG4 Pin=S1-2
+Added Pin To Net: NetName=SEG4 Pin=S2-2
+Added Pin To Net: NetName=SEG4 Pin=U2-3
+Added Net: Name=SEG4
+Added Pin To Net: NetName=SEG5 Pin=S1-1
+Added Pin To Net: NetName=SEG5 Pin=S2-1
+Added Pin To Net: NetName=SEG5 Pin=U2-2
+Added Net: Name=SEG5

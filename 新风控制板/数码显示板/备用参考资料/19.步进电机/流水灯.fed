@@ -1,0 +1,100 @@
+;#<FEEDBACK># ARM Linker, RVCT4.0 [Build 524]: Last Updated: Fri Sep 03 13:57:57 2010
+;VERSION 0.2
+;FILE main.o
+;FILE stm32f10x.o
+;FILE stm32f10x_exti.o
+EXTI_ClearFlag <= USED 0
+EXTI_DeInit <= USED 0
+EXTI_GenerateSWInterrupt <= USED 0
+EXTI_GetFlagStatus <= USED 0
+EXTI_StructInit <= USED 0
+;FILE stm32f10x_flash.o
+FLASH_ClearFlag <= USED 0
+FLASH_EnableWriteProtection <= USED 0
+FLASH_EraseAllPages <= USED 0
+FLASH_EraseOptionBytes <= USED 0
+FLASH_ErasePage <= USED 0
+FLASH_GetFlagStatus <= USED 0
+FLASH_GetPrefetchBufferStatus <= USED 0
+FLASH_GetReadOutProtectionStatus <= USED 0
+FLASH_GetStatus <= USED 0
+FLASH_GetUserOptionByte <= USED 0
+FLASH_GetWriteProtectionOptionByte <= USED 0
+FLASH_HalfCycleAccessCmd <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_Lock <= USED 0
+FLASH_ProgramHalfWord <= USED 0
+FLASH_ProgramOptionByteData <= USED 0
+FLASH_ProgramWord <= USED 0
+FLASH_ReadOutProtection <= USED 0
+FLASH_Unlock <= USED 0
+FLASH_UserOptionByteConfig <= USED 0
+FLASH_WaitForLastOperation <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_ResetBits <= USED 0
+GPIO_SetBits <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_it.o
+;FILE stm32f10x_nvic.o
+NVIC_BASEPRICONFIG <= USED 0
+NVIC_ClearIRQChannelPendingBit <= USED 0
+NVIC_ClearSystemHandlerPendingBit <= USED 0
+NVIC_DeInit <= USED 0
+NVIC_GenerateCoreReset <= USED 0
+NVIC_GenerateSystemReset <= USED 0
+NVIC_GetBASEPRI <= USED 0
+NVIC_GetCPUID <= USED 0
+NVIC_GetCurrentActiveHandler <= USED 0
+NVIC_GetCurrentPendingIRQChannel <= USED 0
+NVIC_GetFaultAddress <= USED 0
+NVIC_GetFaultHandlerSources <= USED 0
+NVIC_GetIRQChannelActiveBitStatus <= USED 0
+NVIC_GetIRQChannelPendingBitStatus <= USED 0
+NVIC_GetSystemHandlerActiveBitStatus <= USED 0
+NVIC_GetSystemHandlerPendingBitStatus <= USED 0
+NVIC_RESETFAULTMASK <= USED 0
+NVIC_RESETPRIMASK <= USED 0
+NVIC_SCBDeInit <= USED 0
+NVIC_SETFAULTMASK <= USED 0
+NVIC_SETPRIMASK <= USED 0
+NVIC_SetIRQChannelPendingBit <= USED 0
+NVIC_SetSystemHandlerPendingBit <= USED 0
+NVIC_StructInit <= USED 0
+NVIC_SystemHandlerConfig <= USED 0
+NVIC_SystemLPConfig <= USED 0
+;FILE stm32f10x_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_AHBPeriphClockCmd <= USED 0
+RCC_APB1PeriphClockCmd <= USED 0
+RCC_APB1PeriphResetCmd <= USED 0
+RCC_APB2PeriphResetCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_GetClocksFreq <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+;FILE stm32f10x_systick.o
+SysTick_GetCounter <= USED 0
+SysTick_GetFlagStatus <= USED 0

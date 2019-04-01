@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O3 --apcs=interwork --split_sections --asm --interleave -I.\ -I "d:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d" "main.c"

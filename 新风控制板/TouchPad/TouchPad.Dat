@@ -1,0 +1,38 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~TouchPad.PrjPCB|ReportField=ProjectFullPath~F:\projects\19\新风控制板\TouchPad\TouchPad.PrjPCB|ReportField=Title~Bill of Materials For Project [TouchPad.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~142|ReportField=ReportTime~21:17:45|ReportField=ReportDate~2019/4/1|ReportField=ReportDateTime~2019/4/1 21:17:45|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2019/4/1|ReportField=CurrentTime~21:17:40|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\projects\19\新风控制板\TouchPad\INTERFACE.SchDoc|ReportField=DocumentName~INTERFACE.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2019/3/31|ReportField=Organization~|ReportField=ProjectName~TouchPad.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~TouchPad.PrjPCB|ReportField=DataSourceFullPath~F:\projects\19\新风控制板\TouchPad\TouchPad.PrjPCB
+TP||ANT1|ANT_TH|TP|1
+0.1uF/16V|Capacitor|C1, C3, C4, C14, C16, C17, C19, C22, C23|0603C|Cap|9
+2.2uF/6.3V|Capacitor|C2|0603C|Cap|1
+0.01uF/16V|Capacitor|C5|0603C|Cap|1
+22uF/16V|Capacitor|C6, C20, C21, C34|0805C|Cap, Cap2|4
+10PF/16V|Capacitor|C7, C8, C9, C10, C11, C12, C13|0603C|Cap|7
+10uF/16V|Capacitor|C15, C18, C25|0603C|Cap|3
+0.10uF/16V|Capacitor|C24|0603C|Cap|1
+0.1uF/10V|Capacitor|C54, C55|0603C|Cap|2
+10uF/10V|Capacitor|C56, C57|0603C|Cap|2
+LED0|Typical INFRARED GaAs LED|D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, L5, L6, L7, L8, L9, L10, L11, L12, L13|LED_DIP_257mm|LED0|19
+SMA6.5CA|Schottky Diode|D11|SMA|D Schottky|1
+500mA|Fuse|F1|0805R|Fuse 1|1
+TP|TEST_3P|J1, J2, J3, J4, J5, J6, J7|TOUCHU_PAD|TOUCH_PAD|7
+LED0|Typical INFRARED GaAs LED|K1, K2, K3, K4, K5, K6, K7, L1, L2, L3, L4|LED_DIP_5mm|LED0|11
+Buzzer|Magnetic Transducer Buzzer|LS1|BUFFER_0905|Buzzer|1
+Header 4|Header, 4-Pin|P1|HDR1X4|Header 4|1
+Header 4|Header, 4-Pin|P2, P4|4-2.5MM-W|Header 4|2
+Header 2|Header, 2-Pin|P3, P5|2-2.5MM-W|Header 2|2
+Header 3|Header, 3-Pin|P6|3-2.5MM-W|Header 3|1
+Header 5|Header, 5-Pin|P7|5-2.5MM-W|Header 5|1
+VS1838B|Header, 3-Pin|P8|VS1838B|Header 3|1
+SI2306.|BUK92150-55A|Q1, Q4, Q6, Q7, Q8|SOT23-3|BUK92150-55A|5
+SI2306|BUK92150-55A|Q2, Q3|SOT23-3|BUK92150-55A|2
+S8050|NPN Bipolar Transistor|Q5|sot23-3|NPN|1
+1.5K|Resistor|R1, R2, R4, R5, R6, R7, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R20, R21, R25, R27, R28, R29, R30, R31, R32, R35, R36, R37, R45, R46|0603R|Res1|30
+10K|R, Resistor|R3, R19, R22, R26, R33|0603R|R, Res1, Res2|5
+100K|Resistor|R8, R40, R42, R44|0603R|Res1|4
+1K|Resistor|R23|0603R|Res1|1
+4.7K|Resistor|R24, R38, R47, R48|0603R|Res1|4
+100|R, Resistor|R34, R39, R41, R43|0603R|R, Res1|4
+SEG_4_0.36||S1, S2|DISPLAY_0.36INCH_4|SEG_4_0.36|2
+TM1629A||U1|SOP127P1040X265-32N|TM1629A|1
+TM1648A||U2|SOP127P1040X265-32N|TM1648A|1
+STM8S003K3T6C||U3|QFP80P900X900X245-32N|STM8S003K3T6C|1
+HW3000||U4|HW3000|HW3000|1
+TLV70433DBVT||U31|SOT23-5(DBV)|TPS76318|1

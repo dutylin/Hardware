@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=SENSOR_SCK Pin=P4-3
+Removed Pin From Net: NetName=SENSOR_SDA Pin=P4-4
+Removed Pin From Net: NetName=BUZZER Pin=U2-18
+Added Component: Designator=Q7(SOT23-3)
+Added Component: Designator=Q8(SOT23-3)
+Added Component: Designator=R47(0603R)
+Added Component: Designator=R48(0603R)
+Added Pin To Net: NetName=VCC_3.3V Pin=Q7-1
+Added Pin To Net: NetName=SENSOR_SCK Pin=Q7-2
+Added Pin To Net: NetName=VCC_3.3V Pin=Q8-1
+Added Pin To Net: NetName=SENSOR_SDA Pin=Q8-2
+Added Pin To Net: NetName=LSEG6 Pin=R37-2
+Added Pin To Net: NetName=VCC_5V Pin=R47-2
+Added Pin To Net: NetName=VCC_5V Pin=R48-2
+Added Pin To Net: NetName=DIO Pin=U3-11
+Added Pin To Net: NetName=BUZZER Pin=U3-15
+Added Pin To Net: NetName=CLK Pin=U3-25
+Added Pin To Net: NetName=STB Pin=U3-27
+Added Pin To Net: NetName=NetP4_3 Pin=P4-3
+Added Pin To Net: NetName=NetP4_3 Pin=Q7-3
+Added Pin To Net: NetName=NetP4_3 Pin=R47-1
+Added Net: Name=NetP4_3
+Added Pin To Net: NetName=NetP4_4 Pin=P4-4
+Added Pin To Net: NetName=NetP4_4 Pin=Q8-3
+Added Pin To Net: NetName=NetP4_4 Pin=R48-1
+Added Net: Name=NetP4_4
+Added Member To Class: ClassName=INTERFACE Member=Component Q7 SI2306.
+Added Member To Class: ClassName=INTERFACE Member=Component Q8 SI2306.
+Added Member To Class: ClassName=INTERFACE Member=Component R47 4.7K
+Added Member To Class: ClassName=INTERFACE Member=Component R48 4.7K

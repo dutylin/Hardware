@@ -1,0 +1,11 @@
+Removed Member From Class: ClassName=INTERFACE Member=U1
+Added Component: Designator=Q2(SOT23-3)
+Added Component: Designator=Q3(SOT23-3)
+Added Pin To Net: NetName=VCC_3.3V Pin=Q2-1
+Added Pin To Net: NetName=CLK Pin=Q2-2
+Added Pin To Net: NetName=NetQ2_3 Pin=Q2-3
+Added Pin To Net: NetName=VCC_3.3V Pin=Q3-1
+Added Pin To Net: NetName=STB Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Member To Class: ClassName=LED Member=Component Q2 HY0320
+Added Member To Class: ClassName=LED Member=Component Q3 HY0320

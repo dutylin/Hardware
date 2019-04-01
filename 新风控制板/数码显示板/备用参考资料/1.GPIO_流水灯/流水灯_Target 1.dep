@@ -1,0 +1,6 @@
+Dependencies for Project 'Á÷Ë®µÆ', Target 'Target 1': (DO NOT MODIFY !)
+F (.\stm32f10x_it.c)(0x4F2B43B4)(--feedback ".\output\release.fed" -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\stm32f10x_it.o" --omf_browse ".\output\stm32f10x_it.crf" --depend ".\output\stm32f10x_it.d")
+I (stm32f10x_it.h)(0x48E9C1B8)
+F (.\main.c)(0x4F2B43B4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+F (.\STM32F10x.s)(0x4F2B43B4)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list "STM32F10x.lst" --xref -o ".\output\STM32F10x.o" --depend ".\output\STM32F10x.d")
+F (..\common\STM32F10xR.LIB)(0x4F2B4424)()

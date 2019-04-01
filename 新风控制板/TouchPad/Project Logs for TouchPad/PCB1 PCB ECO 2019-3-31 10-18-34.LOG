@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STB Pin=U3-27
+Removed Pin From Net: NetName=IRLED Pin=U3-32
+Added Pin To Net: NetName=IRLED Pin=U3-27
+Added Pin To Net: NetName=STB Pin=U3-32

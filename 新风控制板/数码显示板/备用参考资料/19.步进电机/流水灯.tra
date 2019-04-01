@@ -1,0 +1,23 @@
+*** Creating Trace Output File '流水灯.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x.o"'
+### List of Objects: adding '"..\common\STM32F10xR.LIB"'
+### ADS-LD Command completed:
+--device DARMSTM "stm32f10x_it.o" "main.o" "stm32f10x.o" "..\common\STM32F10xR.LIB" --library_type=microlib --feedback "流水灯.fed" 
+--strict --scatter "流水灯.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\流水灯.map" -o "流水灯.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '流水灯.axf'
+### ADS-LD Command File: '流水灯.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '流水灯.lnp', Handle=0x00000268
+### Writing '.lnp' file
+### ADS-LD Command file '流水灯.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

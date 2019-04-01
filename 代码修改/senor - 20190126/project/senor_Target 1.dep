@@ -1,0 +1,2 @@
+Dependencies for Project 'senor', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32l1xx_md.s)(0x508759AC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32L1xx --list "startup_stm32l1xx_md.lst" --xref -o "startup_stm32l1xx_md.o" --depend "startup_stm32l1xx_md.d")

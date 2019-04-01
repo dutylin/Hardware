@@ -1,0 +1,9 @@
+---- delay_init Matches (8 in 3 files) ----
+Global.h (app):void delay_init(void);      //ÑÓÊ±
+Senor.htm (output):<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
+Senor.htm (output):<BR><BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
+Senor.htm (output):<P><STRONG><a name="[55]"></a>delay_init</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, user.o(i.delay_init))
+Senor.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = delay_init
+User.c (app):º¯Êý£ºvoid delay_init(void)
+User.c (app):void delay_init(void)
+User.c (app):    delay_init();             //ÑÓÊ±

@@ -1,0 +1,10 @@
+Added Component: Designator=Q4(SOT23-3)
+Added Component: Designator=Q6(SOT23-3)
+Added Pin To Net: NetName=VCC_3.3V Pin=Q4-1
+Added Pin To Net: NetName=MCU_SDA Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_3 Pin=Q4-3
+Added Pin To Net: NetName=VCC_3.3V Pin=Q6-1
+Added Pin To Net: NetName=MCU_SCL Pin=Q6-2
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Member To Class: ClassName=TouchPad Member=Component Q4 SI2306.
+Added Member To Class: ClassName=TouchPad Member=Component Q6 SI2306.

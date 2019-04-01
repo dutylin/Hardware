@@ -1,0 +1,7 @@
+Dependencies for Project 'I2C', Target 'STM32F10x Release': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x463A8537)(--device DARMSTM -g --apcs=interwork -I "D:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\STM32F10x.o")
+F (.\stm32f10x_it.c)(0x463A8537)(-c --device DARMSTM -g -O0 --apcs=interwork -I.\ -I "D:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\stm32f10x_it.o" --omf_browse ".\output\stm32f10x_it.crf" --depend ".\output\stm32f10x_it.d")
+F (..\common\STM32F10xD.LIB)(0x463A853B)()
+F (..\common\STM32F10xR.LIB)(0x463A853B)()
+F (.\main.c)(0x4861B4F6)(-c --device DARMSTM -g -O0 --apcs=interwork -I.\ -I "D:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+F (.\readme.txt)(0x463A8537)()

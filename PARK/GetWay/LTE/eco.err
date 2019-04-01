@@ -1,0 +1,10 @@
+** ECO In Report **
+
+Sat Dec 08 10:24:31 2018
+
+Input  File : F:\projects\18\Lora\git\Hardware\PARK\GetWay\LTE\20181209.eco
+Current Job : GETWAY_LTE_ZM_V1.0_20180803.pcb
+
+
+* Warning: deleting single-pin signal FLIGHT_MODE
+* Warning: deleting single-pin signal USIM_DET

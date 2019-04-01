@@ -1,0 +1,22 @@
+*** Creating Trace Output File '.\obj\ADC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\stm32f10x.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '"E:\Boards\M3\okstm32v100\示例程序\common\STM32F10xR.LIB"'
+### ADS-LD Command completed:
+--device DARMSTM ".\obj\stm32f10x.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" "E:\Boards\M3\okstm32v100\示例程序\common\STM32F10xR.LIB" --library_type=microlib --strict --scatter ".\obj\ADC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\listing\ADC.map" -o ".\obj\ADC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\ADC.axf'
+### ADS-LD Command File: '.\obj\ADC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\ADC.lnp', Handle=0x000002E4
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\ADC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

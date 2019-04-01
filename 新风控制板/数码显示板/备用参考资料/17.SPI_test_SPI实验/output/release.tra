@@ -1,0 +1,22 @@
+*** Creating Trace Output File '.\output\release.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\stm32f10x.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\common\STM32F10xR.lib"'
+### List of Objects: adding '".\output\main.o"'
+### ADS-LD Command completed:
+--device DARMSTM ".\output\stm32f10x.o" ".\output\stm32f10x_it.o" "..\common\STM32F10xR.lib" ".\output\main.o" --strict --scatter ".\output\release.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\listing\release.map" -o ".\output\release.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\release.axf'
+### ADS-LD Command File: '.\output\release.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\release.lnp', Handle=0x00000294
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\release.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
