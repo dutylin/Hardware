@@ -12,4 +12,7 @@
 /Obj
 /Project/Debug/
 *.DS_Store
+/History
+*.PcbDocPreview
+*.SchDocPreview
 
