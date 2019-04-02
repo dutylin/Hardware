@@ -1,0 +1,15 @@
+*/.DS_Store
+*.swp
+*.IAB
+*.IAD
+*.IMB
+*.IMD
+*.PFI
+*.PO
+*.PS
+*.WK3
+*.o
+/Obj
+/Project/Debug/
+*.DS_Store
+
