@@ -15,4 +15,5 @@
 /History
 *.PcbDocPreview
 *.SchDocPreview
-
+._
+~
