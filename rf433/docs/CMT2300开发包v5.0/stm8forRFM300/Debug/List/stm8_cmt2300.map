@@ -1,0 +1,483 @@
+###############################################################################
+#
+# IAR ELF Linker V2.20.1.176 for STM8                     03/May/2019  14:57:01
+# Copyright 2010-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Exe\stm8_cmt2300.out
+#    Map file     =  
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\List\stm8_cmt2300.map
+#    Command line =  
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\CMT2300drive.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\delay.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\main.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\spi.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\stm8s_clk.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\stm8s_gpio.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\stm8s_it.o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj\stm8s_tim4.o
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Exe\stm8_cmt2300.out
+#        --map
+#        D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\List\stm8_cmt2300.map
+#        --config "E:\IAR Systems\Embedded Workbench
+#        7.3\stm8\config\lnkstm8s105k4.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A2":  place at end of [0x000000-0x0007ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0007ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
+"A3":  place at start of [0x008000-0x00bfff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x00bfff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+
+  Section            Kind      Address    Size  Object
+  -------            ----      -------    ----  ------
+"A1":                                     0x10
+  .vregs             uninit   0x000000    0x10  vregs.o [4]
+                            - 0x000010    0x10
+
+"P2":                                     0xf2
+  P2-1                        0x000010    0xf2  <Init block>
+    .near.data       inited   0x000010     0x1  main.o [1]
+    .near.data       inited   0x000011    0x15  main.o [1]
+    .near.data       inited   0x000026    0x18  main.o [1]
+    .near.data       inited   0x00003e    0x18  main.o [1]
+    .near.data       inited   0x000056    0x10  main.o [1]
+    .near.data       inited   0x000066    0x30  main.o [1]
+    .near.data       inited   0x000096    0x3a  main.o [1]
+    .near.data       inited   0x0000d0    0x16  main.o [1]
+    .near.bss        inited   0x0000e6    0x16  main.o [1]
+    .near.bss        inited   0x0000fc     0x6  main.o [1]
+                            - 0x000102    0xf2
+
+"A2":                                    0x100
+  CSTACK                      0x000700   0x100  <Block>
+    CSTACK           uninit   0x000700   0x100  <Block tail>
+                            - 0x000800   0x100
+
+"A3":                                     0x80
+  INTVEC                      0x008000    0x80  <Block>
+    .intvec          const    0x008000    0x80  interrupt.o [4]
+                            - 0x008080    0x80
+
+"P3":                                   0x107b
+  .near_func.text    ro code  0x008080   0x11c  CMT2300drive.o [1]
+  .near_func.text    ro code  0x00819c   0x114  stm8s_gpio.o [1]
+  Initializer bytes  const    0x0082b0    0xf2  <for P2-1>
+  .near_func.text    ro code  0x0083a2    0xab  spi.o [1]
+  .near_func.text    ro code  0x00844d    0xa7  spi.o [1]
+  .near_func.text    ro code  0x0084f4    0x9b  spi.o [1]
+  .near_func.text    ro code  0x00858f    0x9b  spi.o [1]
+  .near_func.text    ro code  0x00862a    0x81  delay.o [1]
+  .near_func.text    ro code  0x0086ab    0x77  vreg_util.o [4]
+  .near.rodata       const    0x008722    0x6d  stm8s_gpio.o [1]
+  .near.rodata       const    0x00878f    0x6d  stm8s_tim4.o [1]
+  .near.rodata       const    0x0087fc    0x6c  stm8s_clk.o [1]
+  .near_func.text    ro code  0x008868    0x64  main.o [1]
+  .near_func.text    ro code  0x0088cc    0x5e  CMT2300drive.o [1]
+  .near_func.text    ro code  0x00892a    0x59  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008983    0x56  CMT2300drive.o [1]
+  .near_func.text    ro code  0x0089d9    0x52  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008a2b    0x52  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008a7d    0x51  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008ace    0x51  stm8s_tim4.o [1]
+  .near_func.text    ro code  0x008b1f    0x4f  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008b6e    0x4c  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008bba    0x3d  delay.o [1]
+  .near_func.text    ro code  0x008bf7    0x3d  stm8s_clk.o [1]
+  .near_func.text    ro code  0x008c34    0x3c  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008c70    0x3b  main.o [1]
+  .near_func.text    ro code  0x008cab    0x3a  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008ce5    0x37  main.o [1]
+  .near_func.text    ro code  0x008d1c    0x36  spi.o [1]
+  .near_func.text    ro code  0x008d52    0x36  stm8s_clk.o [1]
+  .near_func.text    ro code  0x008d88    0x35  main.o [1]
+  .near_func.text    ro code  0x008dbd    0x32  spi.o [1]
+  .near_func.text    ro code  0x008def    0x30  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008e1f    0x2f  stm8s_tim4.o [1]
+  .near_func.text    ro code  0x008e4e    0x2c  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008e7a    0x2c  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008ea6    0x2c  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008ed2    0x2c  spi.o [1]
+  .near_func.text    ro code  0x008efe    0x2a  main.o [1]
+  .near_func.text    ro code  0x008f28    0x28  CMT2300drive.o [1]
+  .near_func.text    ro code  0x008f50    0x28  init_small.o [4]
+  .near_func.text    ro code  0x008f78    0x24  stm8s_tim4.o [1]
+  .near_func.text    ro code  0x008f9c    0x23  spi.o [1]
+  .near_func.text    ro code  0x008fbf    0x22  stm8s_tim4.o [1]
+  .iar.init_table    const    0x008fe1     0xa  - Linker created -
+  .near_func.text    ro code  0x008feb    0x1c  main.o [1]
+  .near_func.text    ro code  0x009007    0x19  stm8s_tim4.o [1]
+  .near_func.text    ro code  0x009020    0x18  spi.o [1]
+  .near_func.text    ro code  0x009038    0x17  init.o [4]
+  .near_func.text    ro code  0x00904f    0x14  __dbg_xxexit.o [3]
+  .near_func.text    ro code  0x009063    0x13  cstartup.o [4]
+  .near_func.text    ro code  0x009076    0x10  CMT2300drive.o [1]
+  .near_func.text    ro code  0x009086    0x10  delay.o [1]
+  .near_func.text    ro code  0x009096     0xe  CMT2300drive.o [1]
+  .near_func.text    ro code  0x0090a4     0xe  CMT2300drive.o [1]
+  .near_func.text    ro code  0x0090b2     0x9  stm8s_gpio.o [1]
+  .near_func.text    ro code  0x0090bb     0x7  main.o [1]
+  .near_func.text    ro code  0x0090c2     0x7  stm8s_gpio.o [1]
+  .near_func.text    ro code  0x0090c9     0x5  cexit.o [4]
+  .near_func.text    ro code  0x0090ce     0x4  stm8s_gpio.o [1]
+  .near_func.text    ro code  0x0090d2     0x4  stm8s_tim4.o [1]
+  .near_func.text    ro code  0x0090d6     0x3  interrupt.o [4]
+  .near_func.text    ro code  0x0090d9     0x3  low_level_init.o [4]
+  .near_func.text    ro code  0x0090dc     0x3  exit.o [4]
+  .near_func.text    ro code  0x0090df     0x3  unhandled_exception.o [4]
+  .near_func.text    ro code  0x0090e2     0x2  main.o [1]
+  .near_func.text    ro code  0x0090e4     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090e5     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090e6     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090e7     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090e8     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090e9     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090ea     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090eb     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090ec     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090ed     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090ee     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090ef     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f0     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f1     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f2     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f3     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f4     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f5     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f6     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f7     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f8     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090f9     0x1  stm8s_it.o [1]
+  .near_func.text    ro code  0x0090fa     0x1  __dbg_break.o [3]
+                            - 0x0090fb  0x107b
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Copy (__iar_copy_init2)
+    1 source range, total size 0xf2:
+          0x0082b0  0xf2
+    1 destination range, total size 0xf2:
+          0x000010  0xf2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj: [1]
+    CMT2300drive.o           1 335
+    delay.o                    206
+    main.o                     346      242      242
+    spi.o                      855
+    stm8s_clk.o                115      108
+    stm8s_gpio.o               296      109
+    stm8s_it.o                  22
+    stm8s_tim4.o               227      109
+    ------------------------------------------------
+    Total:                   3 402      568      242
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    cstartup.o                  19
+    exit.o                       3
+    init.o                      23
+    init_small.o                40
+    interrupt.o                  3      128
+    low_level_init.o             3
+    unhandled_exception.o        3
+    vreg_util.o                119
+    vregs.o                                       16
+    ------------------------------------------------
+    Total:                     218      128       16
+
+    Linker created                       10      256
+----------------------------------------------------
+    Grand Total:             3 641      706      514
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+.iar.init_table$$Base   0x008fe1          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x008feb          --   Gb  - Linker created -
+?b0                     0x000000         Data  Gb  vregs.o [4]
+?b1                     0x000001         Data  Gb  vregs.o [4]
+?b10                    0x00000a         Data  Gb  vregs.o [4]
+?b11                    0x00000b         Data  Gb  vregs.o [4]
+?b12                    0x00000c         Data  Gb  vregs.o [4]
+?b13                    0x00000d         Data  Gb  vregs.o [4]
+?b14                    0x00000e         Data  Gb  vregs.o [4]
+?b15                    0x00000f         Data  Gb  vregs.o [4]
+?b2                     0x000002         Data  Gb  vregs.o [4]
+?b3                     0x000003         Data  Gb  vregs.o [4]
+?b4                     0x000004         Data  Gb  vregs.o [4]
+?b5                     0x000005         Data  Gb  vregs.o [4]
+?b6                     0x000006         Data  Gb  vregs.o [4]
+?b7                     0x000007         Data  Gb  vregs.o [4]
+?b8                     0x000008         Data  Gb  vregs.o [4]
+?b9                     0x000009         Data  Gb  vregs.o [4]
+?e0                     0x000001         Data  Gb  vregs.o [4]
+?e1                     0x000005         Data  Gb  vregs.o [4]
+?e2                     0x000009         Data  Gb  vregs.o [4]
+?e3                     0x00000d         Data  Gb  vregs.o [4]
+?epilogue_l2            0x008713         Code  Gb  vreg_util.o [4]
+?epilogue_l2_w6         0x008717         Code  Gb  vreg_util.o [4]
+?epilogue_w4            0x00871e         Code  Gb  vreg_util.o [4]
+?l0                     0x000000         Data  Gb  vregs.o [4]
+?l1                     0x000004         Data  Gb  vregs.o [4]
+?l2                     0x000008         Data  Gb  vregs.o [4]
+?l3                     0x00000c         Data  Gb  vregs.o [4]
+?pop_l2                 0x008700         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x0086c8         Code  Gb  vreg_util.o [4]
+?pop_w6                 0x0086cf         Code  Gb  vreg_util.o [4]
+?push_l2                0x0086de         Code  Gb  vreg_util.o [4]
+?push_w4                0x0086ab         Code  Gb  vreg_util.o [4]
+?push_w6                0x0086b0         Code  Gb  vreg_util.o [4]
+?w0                     0x000000         Data  Gb  vregs.o [4]
+?w1                     0x000002         Data  Gb  vregs.o [4]
+?w2                     0x000004         Data  Gb  vregs.o [4]
+?w3                     0x000006         Data  Gb  vregs.o [4]
+?w4                     0x000008         Data  Gb  vregs.o [4]
+?w5                     0x00000a         Data  Gb  vregs.o [4]
+?w6                     0x00000c         Data  Gb  vregs.o [4]
+?w7                     0x00000e         Data  Gb  vregs.o [4]
+ADC1_IRQHandler()       0x0090f7    0x1  Code  Gb  stm8s_it.o [1]
+AWU_IRQHandler()        0x0090e6    0x1  Code  Gb  stm8s_it.o [1]
+BasebandBank            0x000096   0x3a  Data  Gb  main.o [1]
+CLK_DeInit()            0x008d52   0x36  Code  Gb  stm8s_clk.o [1]
+CLK_HSIPrescalerConfig(CLK_Prescaler_TypeDef)
+                        0x008bf7   0x3d  Code  Gb  stm8s_clk.o [1]
+CLK_IRQHandler()        0x0090e7    0x1  Code  Gb  stm8s_it.o [1]
+CLK_Init()              0x0090bb    0x7  Code  Gb  main.o [1]
+CMT2300_Init()          0x008868   0x64  Code  Gb  main.o [1]
+CMTBank                 0x000026   0x18  Data  Gb  main.o [1]
+CSTACK$$Base            0x000700          --   Gb  - Linker created -
+CSTACK$$Limit           0x000800          --   Gb  - Linker created -
+DataRateBank            0x000066   0x30  Data  Gb  main.o [1]
+Delay_ms(unsigned short)
+                        0x008bba   0x3d  Code  Gb  delay.o [1]
+Delay_us(unsigned short)
+                        0x00862a   0x81  Code  Gb  delay.o [1]
+EEPROM_EEC_IRQHandler()
+                        0x0090f9    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTA_IRQHandler()
+                        0x0090e8    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTB_IRQHandler()
+                        0x0090e9    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTC_IRQHandler()
+                        0x0090ea    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTD_IRQHandler()
+                        0x0090eb    0x1  Code  Gb  stm8s_it.o [1]
+EXTI_PORTE_IRQHandler()
+                        0x0090ec    0x1  Code  Gb  stm8s_it.o [1]
+FrequencyBank           0x000056   0x10  Data  Gb  main.o [1]
+GPIO_Init(GPIO_struct __near *, GPIO_Pin_TypeDef, GPIO_Mode_TypeDef)
+                        0x00819c  0x114  Code  Gb  stm8s_gpio.o [1]
+GPIO_ReadInputPin(GPIO_struct __near *, GPIO_Pin_TypeDef)
+                        0x0090b2    0x9  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteHigh(GPIO_struct __near *, GPIO_Pin_TypeDef)
+                        0x0090c2    0x7  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteLow(GPIO_struct __near *, GPIO_Pin_TypeDef)
+                        0x0090ce    0x4  Code  Gb  stm8s_gpio.o [1]
+I2C_IRQHandler()        0x0090f4    0x1  Code  Gb  stm8s_it.o [1]
+INTVEC$$Base            0x008000          --   Gb  - Linker created -
+INTVEC$$Limit           0x008080          --   Gb  - Linker created -
+Region$$Table$$Base     0x008fe1          --   Gb  - Linker created -
+Region$$Table$$Limit    0x008feb          --   Gb  - Linker created -
+SPI_IRQHandler()        0x0090ed    0x1  Code  Gb  stm8s_it.o [1]
+SystemBank              0x00003e   0x18  Data  Gb  main.o [1]
+TIM1_CAP_COM_IRQHandler()
+                        0x0090ef    0x1  Code  Gb  stm8s_it.o [1]
+TIM1_UPD_OVF_TRG_BRK_IRQHandler()
+                        0x0090ee    0x1  Code  Gb  stm8s_it.o [1]
+TIM2_CAP_COM_IRQHandler()
+                        0x0090f1    0x1  Code  Gb  stm8s_it.o [1]
+TIM2_UPD_OVF_BRK_IRQHandler()
+                        0x0090f0    0x1  Code  Gb  stm8s_it.o [1]
+TIM3_CAP_COM_IRQHandler()
+                        0x0090f3    0x1  Code  Gb  stm8s_it.o [1]
+TIM3_UPD_OVF_BRK_IRQHandler()
+                        0x0090f2    0x1  Code  Gb  stm8s_it.o [1]
+TIM4_ClearFlag(TIM4_FLAG_TypeDef)
+                        0x008f78   0x24  Code  Gb  stm8s_tim4.o [1]
+TIM4_Cmd(FunctionalState)
+                        0x008e1f   0x2f  Code  Gb  stm8s_tim4.o [1]
+TIM4_DeInit()           0x009007   0x19  Code  Gb  stm8s_tim4.o [1]
+TIM4_GenerateEvent(TIM4_EventSource_TypeDef)
+                        0x008fbf   0x22  Code  Gb  stm8s_tim4.o [1]
+TIM4_SetCounter(unsigned char)
+                        0x0090d2    0x4  Code  Gb  stm8s_tim4.o [1]
+TIM4_TimeBaseInit(TIM4_Prescaler_TypeDef, unsigned char)
+                        0x008ace   0x51  Code  Gb  stm8s_tim4.o [1]
+TIM4_UPD_OVF_IRQHandler()
+                        0x0090f8    0x1  Code  Gb  stm8s_it.o [1]
+TLI_IRQHandler()        0x0090e5    0x1  Code  Gb  stm8s_it.o [1]
+TRAP_IRQHandler()       0x0090e4    0x1  Code  Gb  stm8s_it.o [1]
+TXBank                  0x0000d0   0x16  Data  Gb  main.o [1]
+Tim4_init()             0x009086   0x10  Code  Gb  delay.o [1]
+UART2_RX_IRQHandler()   0x0090f6    0x1  Code  Gb  stm8s_it.o [1]
+UART2_TX_IRQHandler()   0x0090f5    0x1  Code  Gb  stm8s_it.o [1]
+__DebugBreak            0x0090fa    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x00904f   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_copy_init2        0x008f50         Code  Gb  init_small.o [4]
+__iar_data_init2        0x009038   0x17  Code  Gb  init.o [4]
+__iar_program_start     0x009063         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                        0x0090df         Code  Gb  unhandled_exception.o [4]
+__intvec                0x008000         Data  Gb  interrupt.o [4]
+__low_level_init        0x0090d9    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0090c9         Code  Gb  cexit.o [4]
+_interrupt_1            0x0090e4         Code  Gb  stm8s_it.o [1]
+_interrupt_12           0x0090ed         Code  Gb  stm8s_it.o [1]
+_interrupt_13           0x0090ee         Code  Gb  stm8s_it.o [1]
+_interrupt_14           0x0090ef         Code  Gb  stm8s_it.o [1]
+_interrupt_15           0x0090f0         Code  Gb  stm8s_it.o [1]
+_interrupt_16           0x0090f1         Code  Gb  stm8s_it.o [1]
+_interrupt_17           0x0090f2         Code  Gb  stm8s_it.o [1]
+_interrupt_18           0x0090f3         Code  Gb  stm8s_it.o [1]
+_interrupt_2            0x0090e5         Code  Gb  stm8s_it.o [1]
+_interrupt_21           0x0090f4         Code  Gb  stm8s_it.o [1]
+_interrupt_22           0x0090f5         Code  Gb  stm8s_it.o [1]
+_interrupt_23           0x0090f6         Code  Gb  stm8s_it.o [1]
+_interrupt_24           0x0090f7         Code  Gb  stm8s_it.o [1]
+_interrupt_25           0x0090f8         Code  Gb  stm8s_it.o [1]
+_interrupt_26           0x0090f9         Code  Gb  stm8s_it.o [1]
+_interrupt_3            0x0090e6         Code  Gb  stm8s_it.o [1]
+_interrupt_4            0x0090e7         Code  Gb  stm8s_it.o [1]
+_interrupt_5            0x0090e8         Code  Gb  stm8s_it.o [1]
+_interrupt_6            0x0090e9         Code  Gb  stm8s_it.o [1]
+_interrupt_7            0x0090ea         Code  Gb  stm8s_it.o [1]
+_interrupt_8            0x0090eb         Code  Gb  stm8s_it.o [1]
+_interrupt_9            0x0090ec         Code  Gb  stm8s_it.o [1]
+assert_failed(unsigned char __near *, unsigned long)
+                        0x0090e2    0x2  Code  Gb  main.o [1]
+cmt2300aEasy::bGetMessage(unsigned char __near *)
+                        0x008a2b   0x52  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::bGoRx()   0x008983   0x56  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::bGoSleep()
+                        0x008def   0x30  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::bGoStandby()
+                        0x0089d9   0x52  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::bGoTx()   0x008b1f   0x4f  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::bIntSrcFlagClr()
+                        0x008080  0x11c  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::bSendMessage(unsigned char __near *, unsigned char)
+                        0x008c34   0x3c  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vCfgBank(unsigned int __near *, unsigned char)
+                        0x008cab   0x3a  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vClearFIFO()
+                        0x008f28   0x28  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vEnableAntSwitch(unsigned char)
+                        0x008b6e   0x4c  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vEnablePLLcheck()
+                        0x008e4e   0x2c  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vEnableRdFifo()
+                        0x008ea6   0x2c  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vEnableWrFifo()
+                        0x008e7a   0x2c  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vGpioFuncCfg(unsigned char)
+                        0x009096    0xe  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vInit()   0x0088cc   0x5e  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vIntSrcCfg(unsigned char, unsigned char)
+                        0x008a7d   0x51  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vIntSrcEnable(unsigned char)
+                        0x0090a4    0xe  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vSetTxPayloadLength(unsigned int)
+                        0x00892a   0x59  Code  Gb  CMT2300drive.o [1]
+cmt2300aEasy::vSoftReset()
+                        0x009076   0x10  Code  Gb  CMT2300drive.o [1]
+exit                    0x0090dc    0x3  Code  Gb  exit.o [4]
+getstr                  0x0000e6   0x16  Data  Gb  main.o [1]
+loop_Rx()               0x008ce5   0x37  Code  Gb  main.o [1]
+loop_Tx()               0x008efe   0x2a  Code  Gb  main.o [1]
+main                    0x008feb   0x1c  Code  Gb  main.o [1]
+radio                   0x0000fc    0x6  Data  Gb  main.o [1]
+setup_Rx()              0x008c70   0x3b  Code  Gb  main.o [1]
+setup_Tx()              0x008d88   0x35  Code  Gb  main.o [1]
+spi3Class::bSpi3Read(unsigned char)
+                        0x009020   0x18  Code  Gb  spi.o [1]
+spi3Class::bSpi3ReadByte()
+                        0x00858f   0x9b  Code  Gb  spi.o [1]
+spi3Class::bSpi3ReadFIFO()
+                        0x0083a2   0xab  Code  Gb  spi.o [1]
+spi3Class::vSpi3BurstReadFIFO(unsigned char __near *, unsigned char)
+                        0x008d1c   0x36  Code  Gb  spi.o [1]
+spi3Class::vSpi3BurstWriteFIFO(unsigned char __near *, unsigned char)
+                        0x008dbd   0x32  Code  Gb  spi.o [1]
+spi3Class::vSpi3Init()  0x008ed2   0x2c  Code  Gb  spi.o [1]
+spi3Class::vSpi3Write(unsigned int)
+                        0x008f9c   0x23  Code  Gb  spi.o [1]
+spi3Class::vSpi3WriteByte(unsigned char)
+                        0x0084f4   0x9b  Code  Gb  spi.o [1]
+spi3Class::vSpi3WriteFIFO(unsigned char)
+                        0x00844d   0xa7  Code  Gb  spi.o [1]
+statetx                 0x000010    0x1  Data  Lc  main.o [1]
+str                     0x000011   0x15  Data  Gb  main.o [1]
+
+
+[1] = D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  3 641 bytes of readonly  code memory
+    706 bytes of readonly  data memory
+    514 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

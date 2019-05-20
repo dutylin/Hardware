@@ -1,0 +1,15 @@
+---- PayloadLength Matches (14 in 5 files) ----
+CMT2300A_433920KHz_18KHz_40Kbps.cpp: radio.PayloadLength     = LEN;	
+CMT2300A_EasyDriver.cpp:  	Spi3.vSpi3BurstReadFIFO(msg, PayloadLength);
+CMT2300A_EasyDriver.cpp:	i = PayloadLength;
+CMT2300A_EasyDriver.cpp:  			Spi3.vSpi3BurstReadFIFO(msg, PayloadLength);
+CMT2300A_EasyDriver.cpp:			rev = PayloadLength;
+CMT2300A_EasyDriver.cpp:  			Spi3.vSpi3BurstReadFIFO(msg, PayloadLength);
+CMT2300A_EasyDriver.cpp:			rev = PayloadLength;
+CMT2300A_EasyDriver.cpp: //vSetTxPayloadLength(length);
+CMT2300A_EasyDriver.cpp: vSetTxPayloadLength(length);
+CMT2300A_EasyDriver.cpp:void cmt2300aEasy::vSetTxPayloadLength(word length)
+CMT2300A_EasyDriver.h:/**/	word  PayloadLength;						//unit: byte  range: 1-2047                                      
+CMT2300A_EasyDriver.h:		void vSetTxPayloadLength(word length);
+Main_cmt2300_easy_rx.cpp:	radio.PayloadLength	 = LEN;    
+Main_cmt2300_easy_tx.cpp:	radio.PayloadLength	 = LEN;    

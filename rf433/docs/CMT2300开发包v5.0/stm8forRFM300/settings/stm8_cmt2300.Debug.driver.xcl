@@ -1,0 +1,17 @@
+"-p" 
+
+"E:\IAR Systems\Embedded Workbench 7.3\stm8\config\ddf\iostm8s105k4.ddf" 
+
+"-d" 
+
+"stlink" 
+
+"--mcuname" 
+
+"STM8S105K4" 
+
+"--verify_download" 
+
+
+
+
