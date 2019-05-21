@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\settings\stm8_cmt2300.Debug.general.xcl" --backend -f "D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\settings\stm8_cmt2300.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\settings\stm8_cmt2300.Debug.general.xcl" --backend -f "F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\settings\stm8_cmt2300.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\settings\stm8_cmt2300.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\我的文档\Desktop\惠贻华普\CMT2300\CMT2300开发包v4.0\stm8forRFM300\settings\stm8_cmt2300.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\settings\stm8_cmt2300.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\settings\stm8_cmt2300.Debug.driver.xcl" 
 
 @echo off 
 :end
