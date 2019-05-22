@@ -12,8 +12,13 @@
 /Obj
 /Project/Debug/
 *.DS_Store
-/History/
+History/
 *.PcbDocPreview
 *.SchDocPreview
 ._
+.dep
+.ewd
+.edp
+.ewt
+/settings/
 ~
