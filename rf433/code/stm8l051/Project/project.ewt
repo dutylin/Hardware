@@ -1942,6 +1942,12 @@
   </configuration>
   <group>
     <name>HAL</name>
+    <file>
+      <name>$PROJ_DIR$\..\driver\radio\cmt2300a_hal.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\periph\cmt_spi3.c</name>
+    </file>
   </group>
   <group>
     <name>Hardware</name>
@@ -1959,6 +1965,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\driver\uart.c</name>
+    </file>
+  </group>
+  <group>
+    <name>RF</name>
+    <file>
+      <name>$PROJ_DIR$\..\driver\radio\cmt2300a.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\radio\radio.c</name>
     </file>
   </group>
   <group>
@@ -2046,6 +2061,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_wwdg.c</name>
+    </file>
+  </group>
+  <group>
+    <name>SYSTEM</name>
+    <file>
+      <name>$PROJ_DIR$\..\driver\platform\common.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\services\time_server.c</name>
     </file>
   </group>
   <group>

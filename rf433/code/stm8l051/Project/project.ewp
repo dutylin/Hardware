@@ -821,7 +821,7 @@
         <option>
           <name>GenCodeModel</name>
           <version>0</version>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>GenDataModel</name>
@@ -860,7 +860,7 @@
         </option>
         <option>
           <name>GenRTConfigPath</name>
-          <state>$TOOLKIT_DIR$\LIB\dlstm8mmn.h</state>
+          <state>$TOOLKIT_DIR$\LIB\dlstm8msn.h</state>
         </option>
         <option>
           <name>GenLibInFormatter</name>
@@ -1061,6 +1061,10 @@
           <state>$PROJ_DIR$\..\Libraries\inc</state>
           <state>$PROJ_DIR$\</state>
           <state>$PROJ_DIR$\..\driver</state>
+          <state>$PROJ_DIR$\..\driver\radio</state>
+          <state>$PROJ_DIR$\..\driver\periph</state>
+          <state>$PROJ_DIR$\..\driver\platform</state>
+          <state>$PROJ_DIR$\..\driver\services</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1600,6 +1604,12 @@
   </configuration>
   <group>
     <name>HAL</name>
+    <file>
+      <name>$PROJ_DIR$\..\driver\radio\cmt2300a_hal.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\periph\cmt_spi3.c</name>
+    </file>
   </group>
   <group>
     <name>Hardware</name>
@@ -1617,6 +1627,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\driver\uart.c</name>
+    </file>
+  </group>
+  <group>
+    <name>RF</name>
+    <file>
+      <name>$PROJ_DIR$\..\driver\radio\cmt2300a.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\radio\radio.c</name>
     </file>
   </group>
   <group>
@@ -1704,6 +1723,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_wwdg.c</name>
+    </file>
+  </group>
+  <group>
+    <name>SYSTEM</name>
+    <file>
+      <name>$PROJ_DIR$\..\driver\platform\common.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\services\time_server.c</name>
     </file>
   </group>
   <group>

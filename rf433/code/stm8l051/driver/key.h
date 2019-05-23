@@ -2,6 +2,8 @@
 #define KEY_H
 #include "stm8l15x.h"
 #include "stm8l15x_gpio.h"
+
+//key gpio port
 #define KEY_UP_PORT          GPIOB
 #define KEY_DOWN_PORT        GPIOB
 #define KEY_EAST_PORT        GPIOB
@@ -11,7 +13,7 @@
 #define KEY_START_PORT       GPIOA
 #define KEY_STOP_PORT        GPIOB
 #define KEY_BREAK_PORT       GPIOD
-
+//key gpio pin
 #define KEY_UP_PIN          GPIO_Pin_3
 #define KEY_DOWN_PIN        GPIO_Pin_2
 #define KEY_EAST_PIN        GPIO_Pin_1
