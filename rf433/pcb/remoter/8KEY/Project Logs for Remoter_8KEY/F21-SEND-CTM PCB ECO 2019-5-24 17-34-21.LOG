@@ -1,0 +1,199 @@
+Removed Member From Class: ClassName=手板8按键20150914 Member=L6
+Change Component DesignItemId : Designator=C1 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C3 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C4 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C6 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C7 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C10 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C12 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C13 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C14 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C15 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C16 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=C19 Old DesignItemId= New DesignItemId=Cap
+Change Component DesignItemId : Designator=L1 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L2 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L3 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L4 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L5 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L6 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L7 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=L8 Old DesignItemId= New DesignItemId=Inductor
+Change Component DesignItemId : Designator=P1 Old DesignItemId= New DesignItemId=MHDR1X4
+Change Component DesignItemId : Designator=R2 Old DesignItemId= New DesignItemId=Res2
+Change Component DesignItemId : Designator=R3 Old DesignItemId= New DesignItemId=Res2
+Change Component DesignItemId : Designator=R8 Old DesignItemId= New DesignItemId=Res2
+Change Component Description : Designator=C1 Old Description= New Description=Capacitor
+Change Component Description : Designator=C3 Old Description= New Description=Capacitor
+Change Component Description : Designator=C4 Old Description= New Description=Capacitor
+Change Component Description : Designator=C6 Old Description= New Description=Capacitor
+Change Component Description : Designator=C7 Old Description= New Description=Capacitor
+Change Component Description : Designator=C10 Old Description= New Description=Capacitor
+Change Component Description : Designator=C12 Old Description= New Description=Capacitor
+Change Component Description : Designator=C13 Old Description= New Description=Capacitor
+Change Component Description : Designator=C14 Old Description= New Description=Capacitor
+Change Component Description : Designator=C15 Old Description= New Description=Capacitor
+Change Component Description : Designator=C16 Old Description= New Description=Capacitor
+Change Component Description : Designator=C19 Old Description= New Description=Capacitor
+Change Component Description : Designator=P1 Old Description= New Description=Header, 4-Pin
+Change Component Description : Designator=L1 Old Description= New Description=Inductor
+Change Component Description : Designator=L2 Old Description= New Description=Inductor
+Change Component Description : Designator=L3 Old Description= New Description=Inductor
+Change Component Description : Designator=L4 Old Description= New Description=Inductor
+Change Component Description : Designator=L5 Old Description= New Description=Inductor
+Change Component Description : Designator=L6 Old Description= New Description=Inductor
+Change Component Description : Designator=L7 Old Description= New Description=Inductor
+Change Component Description : Designator=L8 Old Description= New Description=Inductor
+Change Component Description : Designator=R2 Old Description= New Description=Resistor
+Change Component Description : Designator=R3 Old Description= New Description=Resistor
+Change Component Description : Designator=R8 Old Description= New Description=Resistor
+Change Component Library : Designator=C1 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C3 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C4 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C6 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C7 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C10 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C12 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C13 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C14 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C15 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C16 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C19 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L1 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L2 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L3 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L4 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L5 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L6 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L7 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=L8 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=R2 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=R3 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=R8 Old Library=Miscellane New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=P1 Old Library=Miscellaneous Connectors. New Library=Miscellaneous Connectors.IntLib
+Added Component: Designator=C11(0603C)
+Added Component: Designator=C20(0603C)
+Added Component: Designator=C21(0603C)
+Added Component: Designator=C22(0603C)
+Added Component: Designator=C24(0603C)
+Added Component: Designator=C25(0603C)
+Added Component: Designator=C52(0603C)
+Added Component: Designator=R1(0603R)
+Added Component: Designator=R4(0603R)
+Added Component: Designator=R6(0603R)
+Added Component: Designator=Y1(BCY-W2/D3.1)
+Added Pin To Net: NetName=3V3 Pin=C10-1
+Added Pin To Net: NetName=3V3 Pin=C11-1
+Added Pin To Net: NetName=3V3 Pin=C12-1
+Added Pin To Net: NetName=3V3 Pin=C13-1
+Added Pin To Net: NetName=3V3 Pin=C14-1
+Added Pin To Net: NetName=3V3 Pin=C24-1
+Added Pin To Net: NetName=3V3 Pin=C25-1
+Added Pin To Net: NetName=3V3 Pin=L1-1
+Added Pin To Net: NetName=3V3 Pin=P1-1
+Added Pin To Net: NetName=3V3 Pin=R2-2
+Added Pin To Net: NetName=3V3 Pin=R3-2
+Added Pin To Net: NetName=3V3 Pin=R4-1
+Added Net: Name=3V3
+Added Pin To Net: NetName=CSB Pin=C21-1
+Added Net: Name=CSB
+Added Pin To Net: NetName=EMERGENCE Pin=R4-2
+Added Net: Name=EMERGENCE
+Added Pin To Net: NetName=FCSB Pin=C22-1
+Added Net: Name=FCSB
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C52-2
+Added Pin To Net: NetName=GND Pin=L6-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Net: Name=GND
+Added Net: Name=GPIO1
+Added Net: Name=GPIO2
+Added Net: Name=GPIO3
+Added Net: Name=KEY1
+Added Net: Name=KEY2
+Added Net: Name=KEY3
+Added Net: Name=KEY4
+Added Pin To Net: NetName=KEY5 Pin=R6-1
+Added Net: Name=KEY5
+Added Pin To Net: NetName=KEY6 Pin=R3-1
+Added Net: Name=KEY6
+Added Pin To Net: NetName=KEY7 Pin=P1-2
+Added Net: Name=KEY7
+Added Pin To Net: NetName=KEY8 Pin=C19-1
+Added Net: Name=KEY8
+Added Net: Name=LED1
+Added Net: Name=LED2
+Added Pin To Net: NetName=NetANT_1 Pin=L5-1
+Added Net: Name=NetANT_1
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=L2-2
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=L1-2
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=L2-1
+Added Pin To Net: NetName=NetC3_1 Pin=L3-2
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=L4-1
+Added Pin To Net: NetName=NetC4_1 Pin=L5-2
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=L7-2
+Added Pin To Net: NetName=NetC6_1 Pin=L8-1
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=L3-1
+Added Pin To Net: NetName=NetC7_1 Pin=L4-2
+Added Pin To Net: NetName=NetC7_1 Pin=L7-1
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=L6-2
+Added Pin To Net: NetName=NetC7_2 Pin=L8-2
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=NetC15_2 Pin=Y1-2
+Added Net: Name=NetC15_2
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=Y1-1
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetD15_2 Pin=R8-2
+Added Net: Name=NetD15_2
+Added Pin To Net: NetName=NetP2_4 Pin=R6-2
+Added Net: Name=NetP2_4
+Added Pin To Net: NetName=NetP2_6 Pin=R1-2
+Added Net: Name=NetP2_6
+Added Pin To Net: NetName=NRST Pin=C52-1
+Added Pin To Net: NetName=NRST Pin=R2-1
+Added Net: Name=NRST
+Added Pin To Net: NetName=SDIO Pin=C20-1
+Added Net: Name=SDIO
+Added Pin To Net: NetName=TXD Pin=R1-1
+Added Net: Name=TXD
+Change Class Name : Old Net Name=手板8按键20150914 New Net Name=mcu
+Added Class: Name=RF
+Added Member To Class: ClassName=mcu Member=Component C24 0.01uF/10V
+Added Member To Class: ClassName=mcu Member=Component C25 0.1uF/10V
+Added Member To Class: ClassName=mcu Member=Component C52 0.01uF/10V
+Added Member To Class: ClassName=mcu Member=Component R1 1K
+Added Member To Class: ClassName=mcu Member=Component R2 Cap
+Added Member To Class: ClassName=mcu Member=Component R3 Cap
+Added Member To Class: ClassName=mcu Member=Component R4 100K
+Added Member To Class: ClassName=mcu Member=Component R6 1K
+Added Member To Class: ClassName=mcu Member=Component R8 Cap
