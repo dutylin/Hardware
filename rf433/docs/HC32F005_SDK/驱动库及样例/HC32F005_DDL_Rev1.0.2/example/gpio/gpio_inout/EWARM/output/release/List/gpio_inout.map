@@ -1,0 +1,263 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                26/May/2019  14:10:54
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Exe\gpio_inout.out
+#    Map file     =  
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\List\gpio_inout.map
+#    Command line =  
+#        -f C:\Users\zhang\AppData\Local\Temp\EWC8FF.tmp
+#        (F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\clk.o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\ddl.o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\gpio.o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\interrupts_hc32f005.o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\main.o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\startup_hc32f005.o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj\system_hc32f005.o
+#        --misrac2004=all,~1.1,~2.2,~5.1,~6.3-6.4,~8.1,~8.10,~10.1,~10.3,~11.3-11.4,~12.4,~12.6,~12.13,~14.3,~14.5-14.7,~16.1,~17.4,~18.4-19.1,~20.2,~20.12
+#        -o
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Exe\gpio_inout.out
+#        --map
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\List\gpio_inout.map
+#        --config
+#        F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\HC32F005.icf
+#        --semihosting --entry __iar_program_start --redirect
+#        __write=__write_buffered --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x00007fff] { ro };
+define block CSTACK with size = 512, alignment = 8 { };
+define block HEAP with size = 0M, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20000fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A0":                                      0xc0
+  .intvec            ro code  0x00000000   0xc0  startup_hc32f005.o [1]
+                            - 0x000000c0   0xc0
+
+"P1":                                     0xa90
+  .text              ro code  0x000000c0  0x3a0  clk.o [1]
+  .text              ro code  0x00000460  0x354  gpio.o [1]
+  .text              ro code  0x000007b4   0xea  interrupts_hc32f005.o [1]
+  .text              ro code  0x0000089e   0xae  I32DivModFast.o [4]
+  .text              ro code  0x0000094c    0x2  IntDivZer.o [4]
+  .text              ro code  0x0000094e   0x56  main.o [1]
+  .text              ro code  0x000009a4   0x54  ddl.o [1]
+  .text              ro code  0x000009f8   0x44  system_hc32f005.o [1]
+  .text              ro code  0x00000a3c   0x30  copy_init3.o [4]
+  .text              ro code  0x00000a6c   0x28  startup_hc32f005.o [1]
+  .text              ro code  0x00000a94   0x28  data_init.o [4]
+  .iar.init_table    const    0x00000abc   0x14  - Linker created -
+  .text              ro code  0x00000ad0   0x1e  cmain.o [4]
+  .text              ro code  0x00000aee    0x4  low_level_init.o [3]
+  .text              ro code  0x00000af2    0x8  exit.o [3]
+  .text              ro code  0x00000afa    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000afc    0xa  cexit.o [4]
+  .text              ro code  0x00000b06    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b08   0x14  exit.o [5]
+  .text              ro code  0x00000b1c    0xc  cstartup_M.o [4]
+  .rodata            const    0x00000b28    0x8  clk.o [1]
+  .rodata            const    0x00000b30    0x4  clk.o [1]
+  Initializer bytes  const    0x00000b34    0x4  <for P2-1>
+  .text              ro code  0x00000b38    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b3a    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b3c    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b3e    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b40    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b42    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b44    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b46    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b48    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b4a    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b4c    0x2  startup_hc32f005.o [1]
+  .text              ro code  0x00000b4e    0x2  startup_hc32f005.o [1]
+  .rodata            const    0x00000b50    0x0  copy_init3.o [4]
+                            - 0x00000b50  0xa90
+
+"P2", part 1 of 2:                          0x4
+  P2-1                        0x20000000    0x4  <Init block>
+    .data            inited   0x20000000    0x4  system_hc32f005.o [1]
+                            - 0x20000004    0x4
+
+"P2", part 2 of 2:                        0x200
+  CSTACK                      0x20000008  0x200  <Block>
+    CSTACK           uninit   0x20000008  0x200  <Block tail>
+                            - 0x20000208  0x200
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x00000b34   0x4
+    1 destination range, total size 0x4:
+          0x20000000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj: [1]
+    clk.o                      928       12
+    ddl.o                       84
+    gpio.o                     852
+    interrupts_hc32f005.o      234
+    main.o                      86
+    startup_hc32f005.o         260
+    system_hc32f005.o           68        4        4
+    ------------------------------------------------
+    Total:                   2 512       16        4
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                       8
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                      12
+
+rt6M_tl.a: [4]
+    I32DivModFast.o            174
+    IntDivZer.o                  2
+    cexit.o                     10
+    cmain.o                     30
+    copy_init3.o                48
+    cstartup_M.o                12
+    data_init.o                 40
+    ------------------------------------------------
+    Total:                     316
+
+shb_l.a: [5]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Linker created                       20      512
+----------------------------------------------------
+    Grand Total:             2 860       36      516
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00000abc          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00000ad0          --   Gb  - Linker created -
+?main                   0x00000ad1         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000208          --   Gb  - Linker created -
+ClkUnlock               0x00000145    0xe  Code  Lc  clk.o [1]
+ClkWriteDummy           0x00000153    0xe  Code  Lc  clk.o [1]
+Clk_Enable              0x000002e1   0xb4  Code  Gb  clk.o [1]
+Clk_GetHClkFreq         0x00000161   0x8c  Code  Gb  clk.o [1]
+Clk_SetRCHFreq          0x00000209   0xa6  Code  Gb  clk.o [1]
+Clk_SysTickConfig       0x00000399   0x9e  Code  Gb  clk.o [1]
+Gpio_GetIO              0x00000777   0x16  Code  Gb  gpio.o [1]
+Gpio_InitIO             0x000004ad   0xdc  Code  Gb  gpio.o [1]
+Gpio_InitIOExt          0x00000589  0x19a  Code  Gb  gpio.o [1]
+Gpio_SetAnalog          0x00000461   0x4c  Code  Gb  gpio.o [1]
+Gpio_SetIO              0x00000723   0x54  Code  Gb  gpio.o [1]
+HardFault_Handler       0x000007b5    0xe  Code  Gb  interrupts_hc32f005.o [1]
+IRQ000_Handler          0x000007c3    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ001_Handler          0x000007cd    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ002_Handler          0x000007d7    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ003_Handler          0x000007e1    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ006_Handler          0x000007eb    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ007_Handler          0x000007f5    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ010_Handler          0x000007ff    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ012_Handler          0x00000809    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ014_Handler          0x00000813    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ015_Handler          0x0000081d    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ016_Handler          0x00000827    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ018_Handler          0x00000831    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ019_Handler          0x0000083b    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ020_Handler          0x00000845    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ021_Handler          0x0000084f    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ022_Handler          0x00000859    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ024_Handler          0x00000863    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ026_Handler          0x0000086d    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ027_Handler          0x00000877    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ028_Handler          0x00000881    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ030_Handler          0x0000088b    0xa  Code  Gb  interrupts_hc32f005.o [1]
+IRQ031_Handler          0x00000895    0xa  Code  Gb  interrupts_hc32f005.o [1]
+NVIC_SetPriority        0x000000c1   0x84  Code  Lc  clk.o [1]
+Region$$Table$$Base     0x00000abc          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00000ad0          --   Gb  - Linker created -
+SystemCoreClock         0x20000000    0x4  Data  Gb  system_hc32f005.o [1]
+SystemCoreClockUpdate   0x000009f9    0xc  Code  Gb  system_hc32f005.o [1]
+SystemInit              0x00000a05   0x2e  Code  Gb  system_hc32f005.o [1]
+__aeabi_idiv0           0x0000094d         Code  Gb  IntDivZer.o [4]
+__aeabi_uidiv           0x0000089f         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x0000089f         Code  Gb  I32DivModFast.o [4]
+__cmain                 0x00000ad1         Code  Gb  cmain.o [4]
+__exit                  0x00000b09   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x00000a3d   0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x00000a95   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x00000b1d         Code  Gb  cstartup_M.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__low_level_init        0x00000aef    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  startup_hc32f005.o [1]
+_call_main              0x00000add         Code  Gb  cmain.o [4]
+_exit                   0x00000afd         Code  Gb  cexit.o [4]
+_main                   0x00000aeb         Code  Gb  cmain.o [4]
+ddl_memclr              0x000009a5   0x1a  Code  Gb  ddl.o [1]
+delay1ms                0x000009bf   0x32  Code  Gb  ddl.o [1]
+exit                    0x00000af3    0x8  Code  Gb  exit.o [3]
+main                    0x0000094f   0x56  Code  Gb  main.o [1]
+
+
+[1] = F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\gpio\gpio_inout\EWARM\output\release\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  2 860 bytes of readonly  code memory
+     36 bytes of readonly  data memory
+    516 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

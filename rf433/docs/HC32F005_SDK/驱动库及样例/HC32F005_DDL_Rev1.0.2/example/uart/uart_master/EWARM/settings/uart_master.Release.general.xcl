@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\uart\uart_master\EWARM\output\release\Exe\uart_master.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--flash_loader "F:\projects\git\Hardware\rf433\docs\HC32F005_SDK\驱动库及样例\HC32F005_DDL_Rev1.0.2\example\uart\uart_master\EWARM\flashloader\HC32F005.board" 
+
+
+
+
