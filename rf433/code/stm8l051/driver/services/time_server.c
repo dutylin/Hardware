@@ -4,14 +4,14 @@
 #include "gpio_defs.h"
 #include "stm8l15x.h"
 
-volatile delay_run_task g_delayRunTasks[DELAY_RUN_TASK_SIZE];
+//volatile delay_run_task g_delayRunTasks[DELAY_RUN_TASK_SIZE];
 volatile u32 g_nSysTickCount = 0;
 
-volatile u32 g_nUserTimeout = 0;
-volatile u32 g_nUserTimeCnt = 0;
+//volatile u32 g_nUserTimeout = 0;
+// u32 g_nUserTimeCnt = 0;
 
-p_time_server_proc_run g_time_server_proc_run5;
-p_time_server_proc_run g_time_server_proc_run6;
+//p_time_server_proc_run g_time_server_proc_run5;
+//p_time_server_proc_run g_time_server_proc_run6;
 
 //void time_server_init(void)
 //{

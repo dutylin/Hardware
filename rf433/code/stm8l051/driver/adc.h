@@ -4,5 +4,5 @@
 
  #define ADC_VBAT_CHANNEL     ADC_Channel_4
 
- void ADC_Config(void);
+uint16_t ADC_Config(void);
 #endif

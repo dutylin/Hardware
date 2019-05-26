@@ -1942,12 +1942,6 @@
   </configuration>
   <group>
     <name>HAL</name>
-    <file>
-      <name>$PROJ_DIR$\..\driver\radio\cmt2300a_hal.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driver\periph\cmt_spi3.c</name>
-    </file>
   </group>
   <group>
     <name>Hardware</name>
@@ -1970,10 +1964,13 @@
   <group>
     <name>RF</name>
     <file>
-      <name>$PROJ_DIR$\..\driver\radio\cmt2300a.c</name>
+      <name>$PROJ_DIR$\..\driver\src\CMT2300drive.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\driver\radio\radio.c</name>
+      <name>$PROJ_DIR$\..\driver\src\delay.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\src\spi.c</name>
     </file>
   </group>
   <group>
@@ -1985,16 +1982,7 @@
       <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_aes.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_beep.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_clk.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_comp.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_dac.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\Libraries\src\stm8l15x_dma.c</name>
@@ -2067,6 +2055,15 @@
     <name>SYSTEM</name>
     <file>
       <name>$PROJ_DIR$\..\driver\platform\common.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\eeprom.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\src\rtc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\src\sysclk.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\driver\services\time_server.c</name>

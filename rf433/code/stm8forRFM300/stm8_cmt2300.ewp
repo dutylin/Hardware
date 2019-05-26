@@ -17,7 +17,7 @@
         <debug>1</debug>
         <option>
           <name>GenDeviceSelectMenu</name>
-          <state>STM8S105K4	STM8S105K4</state>
+          <state>STM8L051F3	STM8L051F3</state>
         </option>
         <option>
           <name>GenCodeModel</name>
@@ -259,6 +259,7 @@
           <name>CCIncludePath2</name>
           <state>$PROJ_DIR$\STM8S_StdPeriph_Driver\inc</state>
           <state>$PROJ_DIR$\</state>
+          <state>$PROJ_DIR$\Libraries\src</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>

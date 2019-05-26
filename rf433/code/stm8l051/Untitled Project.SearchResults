@@ -1,0 +1,5 @@
+---- GPIO_ReadInputPin Matches (4 in 3 files) ----
+CMT2300drive.h (driver\inc):#define GPO3_H() 	(GPIO_ReadInputPin(SPI_PORT,INT1) ? 1 : 0)
+CMT2300drive.h (driver\inc):#define GPO3_L()    (GPIO_ReadInputPin(SPI_PORT,INT1) ? 0 : 1 )
+Stm8s_gpio.c (driver\src):BitStatus GPIO_ReadInputPin(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+Stm8s_gpio.h (driver\inc):BitStatus GPIO_ReadInputPin(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin);

@@ -1,10 +1,12 @@
-"F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\STM8S_StdPeriph_Driver\src\CMT2300drive.c"
+"F:\projects\git\Hardware\rf433\code\stm8forRFM300\STM8S_StdPeriph_Driver\src\CMT2300drive.c"
 -std=c++98
 -ferror-limit=100
 -I
-F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\STM8S_StdPeriph_Driver\inc
+F:\projects\git\Hardware\rf433\code\stm8forRFM300\STM8S_StdPeriph_Driver\inc
 -I
-F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300
+F:\projects\git\Hardware\rf433\code\stm8forRFM300
+-I
+F:\projects\git\Hardware\rf433\code\stm8forRFM300\Libraries\src
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc
 -I
@@ -12,9 +14,11 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\c
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\ecpp
 -I
-F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300\STM8S_StdPeriph_Driver\inc
+F:\projects\git\Hardware\rf433\code\stm8forRFM300\STM8S_StdPeriph_Driver\inc
 -I
-F:\projects\git\Hardware\rf433\docs\CMT2300开发包v5.0\stm8forRFM300
+F:\projects\git\Hardware\rf433\code\stm8forRFM300
+-I
+F:\projects\git\Hardware\rf433\code\stm8forRFM300\Libraries\src
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

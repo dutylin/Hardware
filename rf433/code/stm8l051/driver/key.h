@@ -24,5 +24,11 @@
 #define KEY_STOP_PIN        GPIO_Pin_5
 #define KEY_BREAK_PIN       GPIO_Pin_0
 
+
+
+#define INCH					0X01   //点动
+#define SELFLOCK				0X02 //自锁
+#define INHIBITION			0X03//相互拟制
+#define NOINHIBITION		0X04//非拟制
  void KEY_Init(void);
 #endif

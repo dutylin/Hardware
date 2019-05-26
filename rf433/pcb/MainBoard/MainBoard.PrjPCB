@@ -75,6 +75,10 @@ DItemRevisionGUID=
 DocumentPath=..\..\..\..\..\19\rf433\2017MAIN - BOM.PcbDoc.htm
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=F21-MAIN-CTM.PcbDoc.htm
+DItemRevisionGUID=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
