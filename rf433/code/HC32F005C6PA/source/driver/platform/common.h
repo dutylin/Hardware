@@ -2,9 +2,9 @@
 #define __COMMON_H
 
 #include "typedefs.h"
-#include "gpio_defs.h"
+//#include "gpio_defs.h"
 
-#include "time_server.h"
+//#include "time_server.h"
 
 void no_optimize(const void* p_param);
 void Common_Init(void);

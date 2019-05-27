@@ -1,8 +1,8 @@
 #include "common.h"
 #include <string.h>
 
-#include "gpio_defs.h"
-#include "stm8l15x.h"
+//#include "gpio_defs.h"
+//#include "stm8l15x.h"
 
 
 //void set_u16_to_buf(u8 buf[], u16 dat16)
@@ -39,14 +39,14 @@
 
 void views_print_line(u8 nLine, const char* str)
 {
-    //static u8 buf[32];
-    
-   // memset(buf, ' ', sizeof(buf));
-   // memcpy(buf, str, strlen(str));
+  //static u8 buf[32];
+  
+  // memset(buf, ' ', sizeof(buf));
+  // memcpy(buf, str, strlen(str));
   //  buf[21] = 0;
-
-    //lcd12864_update_data(0);
-    //lcd12864_display_string_6x8(nLine, 0, buf);
-    //lcd12864_update_data(1);
+  
+  //lcd12864_update_data(0);
+  //lcd12864_display_string_6x8(nLine, 0, buf);
+  //lcd12864_update_data(1);
 }
 

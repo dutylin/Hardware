@@ -5,7 +5,7 @@
 * Date               : 2010/5/29
 * Description        : System control program
 **************************************************************************************************/
-#include "misc.h"
+//#include "misc.h"
 
 #include "typedefs.h"
 #include "system.h"
